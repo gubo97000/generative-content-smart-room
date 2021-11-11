@@ -3,8 +3,6 @@ using System.Collections;
 
 public class Chase : MonoBehaviour
 {
-    public Rigidbody rb;
-
     public int speed;
     public GameObject player;
 
@@ -12,6 +10,8 @@ public class Chase : MonoBehaviour
     {
         Vector3 localPosition = player.transform.position - transform.position;
         localPosition = localPosition.normalized; // The normalized direction in LOCAL space
+        //I think there's the need to unpack it:
+        // localPosition * Time.deltaTime * speed; //Should do the work
         transform.Translate(localPosition.x * Time.deltaTime * speed, localPosition.y * Time.deltaTime * speed, localPosition.z * Time.deltaTime * speed);
     }
 }

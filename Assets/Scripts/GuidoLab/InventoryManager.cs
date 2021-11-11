@@ -1,20 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class InventoryManager : MonoBehaviour
 {
     //Create an event
-    public delegate int OnItemAdded(int num);
-    public static OnItemAdded onItemAdded;
+    public UnityEvent<int> onItemAdded;
 
     // Start is called before the first frame update
     void Start()
     {
-        // Collectable.onItemCollected += AddItem;
         EventManager.StartListening("ItemCollected", AddItem);
-        onItemAdded += (num) => { return num; };
-        onItemAdded += (num) => { return num + 1; };
     }
 
     // Update is called once per frame
@@ -23,8 +20,18 @@ public class InventoryManager : MonoBehaviour
         // print(onItemAdded(5));
     }
 
-    void AddItem(int num)
+    void OnDestroy()
     {
-        print("Item "  + " added to inventory");
+        EventManager.StopListening("ItemCollected", AddItem);
     }
+
+    //All the functions that subscribe to an event have this mandatory argument
+    private void AddItem(object data)
+    {
+        var dict = (Dictionary<string, object>)data; //You need to cast the object to a dictionary
+        //You need to cast the value of the dictionary to the corresponding type
+        GameObject sender = (GameObject)dict["sender"];
+        print("Item " + sender.GetInstanceID() + " added to inventory");
+    }
+
 }

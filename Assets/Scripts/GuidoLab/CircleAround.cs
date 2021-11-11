@@ -13,6 +13,8 @@ public class CircleAround : MonoBehaviour
 
     public float ElevationOffset = 0;
 
+    public Transform[] circleSlots;
+
     [Range(0, 360)]
     public float StartAngle = 0;
 
@@ -20,34 +22,40 @@ public class CircleAround : MonoBehaviour
 
     public bool LookAtTarget = false;
 
-    private float angle;
+    public float angle = 0;
 
     public int objectsAround = 4;
 
     private void Awake()
     {
-        angle = StartAngle;
+        // angle = StartAngle;
     }
 
     private void LateUpdate()
     {
         Target = this.transform;
-        
+
         // Define the position the object must rotate around
         Vector3 position = Target != null ? Target.position : Vector3.zero;
+        for (int i = 0; i <= objectsAround; i++)
+        {
 
-        Vector3 positionOffset = ComputePositionOffset(angle);
+            Vector3 positionOffset = ComputePositionOffset(angle);
 
-        // Assign new position
-        transform.position = position + positionOffset;
+            // Assign new position
+            transform.position = position + positionOffset;
 
-        // Rotate object so as to look at the target
-        if (LookAtTarget)
-            transform.rotation = Quaternion.LookRotation(position - transform.position, Target == null ? Vector3.up : Target.up);
+            // Rotate object so as to look at the target
+            if (LookAtTarget)
+                transform.rotation = Quaternion.LookRotation(position - transform.position, Target == null ? Vector3.up : Target.up);
+
+            
+        }
 
         angle += Time.deltaTime * RotationSpeed;
+
     }
-    
+
     private Vector3 ComputePositionOffset(float a)
     {
         Target = this.transform;
