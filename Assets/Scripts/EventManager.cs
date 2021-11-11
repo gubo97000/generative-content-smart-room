@@ -6,7 +6,11 @@ using System.Collections.Generic;
 
 public class EventManager : MonoBehaviour
 {
-    private Dictionary<string, UnityEvent<int>> eventDictionary;
+    [System.Serializable]
+    public class Event : UnityEvent<System.Object> { }
+    // public class EventData : Dictionary<string, System.Object> {} //I wish to add this for less text
+
+    private Dictionary<string, Event> eventDictionary;
 
     private static EventManager eventManager;
 
@@ -36,41 +40,55 @@ public class EventManager : MonoBehaviour
     {
         if (eventDictionary == null)
         {
-            eventDictionary = new Dictionary<string, UnityEvent<int>>();
+            eventDictionary = new Dictionary<string, Event>();
         }
     }
 
-    public static void StartListening(string eventName, UnityAction<int> listener)
+    public static void StartListening(string eventName, UnityAction<System.Object> listener)
     {
-        UnityEvent<int> thisEvent = null;
+        Event thisEvent = null;
         if (instance.eventDictionary.TryGetValue(eventName, out thisEvent))
         {
             thisEvent.AddListener(listener);
         }
         else
         {
-            thisEvent = new UnityEvent<int>();
+            thisEvent = new Event();
             thisEvent.AddListener(listener);
             instance.eventDictionary.Add(eventName, thisEvent);
         }
     }
 
-    public static void StopListening(string eventName, UnityAction<int> listener)
+    public static void StopListening(string eventName, UnityAction<object> listener)
     {
         if (eventManager == null) return;
-        UnityEvent<int> thisEvent = null;
+        Event thisEvent = null;
         if (instance.eventDictionary.TryGetValue(eventName, out thisEvent))
         {
             thisEvent.RemoveListener(listener);
         }
     }
 
-    public static void TriggerEvent(string eventName, int id=0)
+
+    /// <summary>
+    /// Emit an event, you need to also add the gameObject as a parameter, and also for some Events is necessary adding more data,
+    /// check documentation for more info 
+    /// </summary>
+    /// <param name="eventName"></param>
+    /// <param name="sender"></param>
+    /// <param name="additionalDataDict"></param>
+    public static void TriggerEvent(string eventName, GameObject sender, Dictionary<string, object> additionalDataDict = null)
     {
-        UnityEvent<int> thisEvent = null;
+        Event thisEvent = null;
+        Dictionary<string, object> data = new Dictionary<string, object>() { ["sender"] = sender };
+        foreach (var item in additionalDataDict)
+        {
+            data[item.Key] = item.Value;
+        }
+
         if (instance.eventDictionary.TryGetValue(eventName, out thisEvent))
         {
-            thisEvent.Invoke(id);
+            thisEvent.Invoke(data);
         }
     }
 }
