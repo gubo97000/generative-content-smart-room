@@ -4754,6 +4754,54 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &695366960 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8668590516993104003, guid: 4d321fd3eaf568143bab571a44e0c763, type: 3}
+  m_PrefabInstance: {fileID: 8668590517165259896}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &695366961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 695366960}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf83a539533e25c4f9fa22550df7790f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onCrouch: 0
+  onStep: 1
+  onJump: 0
+  isCollectable: 1
+--- !u!64 &695366962
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 695366960}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &695366963
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 695366960}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df36a860817b5b24e8b62ea8b06c46e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 2
 --- !u!1001 &722307928
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13267,5 +13315,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8668590516993104251, guid: 4d321fd3eaf568143bab571a44e0c763, type: 3}
+    - {fileID: 8668590516993104004, guid: 4d321fd3eaf568143bab571a44e0c763, type: 3}
+    - {fileID: 6737028604598838184, guid: 4d321fd3eaf568143bab571a44e0c763, type: 3}
+    - {fileID: 5951770543153315905, guid: 4d321fd3eaf568143bab571a44e0c763, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 4d321fd3eaf568143bab571a44e0c763, type: 3}
