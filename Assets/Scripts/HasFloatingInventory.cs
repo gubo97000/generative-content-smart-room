@@ -42,26 +42,24 @@ public class HasFloatingInventory : MonoBehaviour
     }
 
 
-    private void addSlot(object data)
+    private void addSlot(EventDict data)
     {
-        var dict = (Dictionary<string, object>)data;
-        if (((GameObject)dict["receiver"]) == gameObject)
+        if (((GameObject)data["receiver"]) == gameObject)
         {
-            GameObject item = (GameObject)dict["item"];
+            GameObject item = (GameObject)data["item"];
             var slot = Instantiate(slotObject);
             slots.Add(slot.transform);
-             EventManager.TriggerEvent("FollowMe", slot, new Dictionary<string, object>() { { "receiver", item } });
+             EventManager.TriggerEvent("FollowMe", slot, new EventDict() { { "receiver", item } });
         }
     }
-    private void removeSlot(object data)
+    private void removeSlot(EventDict data)
     {
-        var dict = (Dictionary<string, object>)data;
-        if (((GameObject)dict["receiver"]) == gameObject)
+        if (((GameObject)data["receiver"]) == gameObject)
         {
-            GameObject item = (GameObject)dict["item"];
+            GameObject item = (GameObject)data["item"];
             var slot = Instantiate(slotObject);
             slots.Remove(slot.transform);
-            EventManager.TriggerEvent("UnfollowMe", slot, new Dictionary<string, object>() { { "receiver", item } });
+            EventManager.TriggerEvent("UnfollowMe", slot, new EventDict() { { "receiver", item } });
             
         }
     }

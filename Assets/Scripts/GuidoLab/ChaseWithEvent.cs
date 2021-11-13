@@ -9,9 +9,8 @@ public class ChaseWithEvent : MonoBehaviour
 void Start(){
     EventManager.StartListening("FollowMe", onFollowMe);
 }
-void onFollowMe(object data)
+void onFollowMe(EventDict dict)
     {
-        var dict = (Dictionary<string, object>)data;
         if (((GameObject)dict["receiver"]) == gameObject)
         {
             target = (GameObject)dict["sender"];

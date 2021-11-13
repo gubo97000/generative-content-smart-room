@@ -48,9 +48,8 @@ public class InventoryManager : MonoBehaviour
     }
 
     //All the functions that subscribe to an event have this mandatory argument
-    public void AddItem(object data)
+    public void AddItem(EventDict dict)
     {
-        var dict = (Dictionary<string, object>)data; //You need to cast the object to a dictionary
         //You need to cast the value of the dictionary to the corresponding type
         GameObject sender = (GameObject)dict["sender"];
         GameObject player = (GameObject)dict["player"];
@@ -61,13 +60,12 @@ public class InventoryManager : MonoBehaviour
 
             print("Item " + sender.name + " added to " + player.name + " inventory");
             Debug.Log(prettyPrintToSring(inventory));
-            EventManager.TriggerEvent("InventoryAddEvent", gameObject, new Dictionary<string, object>() { { "item", sender }, { "receiver", player } });
+            EventManager.TriggerEvent("InventoryAddEvent", gameObject, new EventDict() { { "item", sender }, { "receiver", player } });
         }
     }
 
-    public void RemoveItem(object data)
+    public void RemoveItem(EventDict dict)
     {
-        var dict = (Dictionary<string, object>)data;
 
         GameObject sender = (GameObject)dict["sender"];
         GameObject player = (GameObject)dict["player"];
@@ -77,14 +75,13 @@ public class InventoryManager : MonoBehaviour
 
             print("Item " + sender.name + " removed from " + player.name + " inventory");
             Debug.Log(prettyPrintToSring(inventory));
-            EventManager.TriggerEvent("InventoryRemoveEvent", gameObject, new Dictionary<string, object>() { { "item", sender }, { "receiver", player } });
+            EventManager.TriggerEvent("InventoryRemoveEvent", gameObject, new EventDict() { { "item", sender }, { "receiver", player } });
         }
     }
 
     //Deprecated
-    public void PassItem(object data)
+    public void PassItem(EventDict dict)
     {
-        var dict = (Dictionary<string, object>)data;
 
         GameObject sender = (GameObject)dict["sender"];
         GameObject receiver = (GameObject)dict["receiver"];
@@ -93,7 +90,7 @@ public class InventoryManager : MonoBehaviour
         inventory[receiver].Add(item);
 
         print("Item " + item.name + " passed from " + sender.name + " to " + receiver.name);
-        EventManager.TriggerEvent("InventoryPassEvent", gameObject, new Dictionary<string, object>() { { "item", item }, { "from", sender }, { "to", receiver } });
+        EventManager.TriggerEvent("InventoryPassEvent", gameObject, new EventDict() { { "item", item }, { "from", sender }, { "to", receiver } });
     }
 
     public static string prettyPrintToSring(Dictionary<GameObject, HashSet<GameObject>> inventory)

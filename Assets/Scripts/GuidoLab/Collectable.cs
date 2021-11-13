@@ -24,29 +24,27 @@ public class Collectable : MonoBehaviour
         EventManager.StopListening("OnJump", OnJumpHandler);
     }
 
-    void OnCrouchHandler(object data)
+    void OnCrouchHandler(EventDict data)
     {
-        var dict = (Dictionary<string, object>)data;
-        GameObject sender = (GameObject)dict["sender"];
+        GameObject sender = (GameObject)data["sender"];
 
         if (playerAllowed.Contains(sender) && onCrouch)
         {
             Debug.Log(gameObject + " collected");
-            EventManager.TriggerEvent("ItemCollected", gameObject, new Dictionary<string, object>() { ["player"] = sender });
+            EventManager.TriggerEvent("ItemCollected", gameObject, new EventDict() { ["player"] = sender });
             isCollectable = false;
             playerAllowed.RemoveAll(item => item);
 
         }
     }
-    void OnJumpHandler(object data)
+    void OnJumpHandler(EventDict data)
     {
-        var dict = (Dictionary<string, object>)data;
-        GameObject sender = (GameObject)dict["sender"];
+        GameObject sender = (GameObject)data["sender"];
 
         if (playerAllowed.Contains(sender) && onJump)
         {
             Debug.Log(gameObject + " collected");
-            EventManager.TriggerEvent("ItemCollected", gameObject, new Dictionary<string, object>() { ["player"] = sender });
+            EventManager.TriggerEvent("ItemCollected", gameObject, new EventDict() { ["player"] = sender });
             isCollectable = false;
             playerAllowed.RemoveAll(item => item);
         }
@@ -68,7 +66,7 @@ public class Collectable : MonoBehaviour
                 if (onStep)
                 {
                     Debug.Log(gameObject + " collected");
-                    EventManager.TriggerEvent("ItemCollected", gameObject, new Dictionary<string, object>() { ["player"] = other.gameObject });
+                    EventManager.TriggerEvent("ItemCollected", gameObject, new EventDict() { ["player"] = other.gameObject });
                     isCollectable = false;
                 }
 

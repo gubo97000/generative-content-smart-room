@@ -21,16 +21,16 @@ public class BoxScript : MonoBehaviour
         if (other.gameObject.tag == "Player")
         {
             Debug.Log("Player has entered the box");
-            EventManager.TriggerEvent("ItemCollected", gameObject, new Dictionary<string, object>() { ["player"] = other.gameObject });
+            EventManager.TriggerEvent("ItemCollected", gameObject, new EventDict() { ["player"] = other.gameObject });
         }
     }
 
     // public void setTargetToFollow(object data)
     // {
-    //     if ((int)((Dictionary<string, object>)data)["to"] == gameObject.GetInstanceID())
+    //     if ((int)((EventDict)data)["to"] == gameObject.GetInstanceID())
     //     {
-    //         GameObject sender = (GameObject)((Dictionary<string, object>)data)["sender"];
-    //         // GameObject targe = (GameObject)((Dictionary<string, object>)data)["sender"];
+    //         GameObject sender = (GameObject)((EventDict)data)["sender"];
+    //         // GameObject targe = (GameObject)((EventDict)data)["sender"];
     //         // targetToFollow = sender;
             
     //     }

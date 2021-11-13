@@ -7,8 +7,8 @@ using System.Collections.Generic;
 public class EventManager : MonoBehaviour
 {
     [System.Serializable]
-    public class Event : UnityEvent<System.Object> { }
-    // public class EventData : Dictionary<string, System.Object> {} //I wish to add this for less text
+    public class Event : UnityEvent<EventDict> { }
+    // public class EventData : Dictionary<string, EventDict> {} //I wish to add this for less text
 
     private Dictionary<string, Event> eventDictionary;
 
@@ -44,7 +44,7 @@ public class EventManager : MonoBehaviour
         }
     }
 
-    public static void StartListening(string eventName, UnityAction<System.Object> listener)
+    public static void StartListening(string eventName, UnityAction<EventDict> listener)
     {
         Event thisEvent = null;
         if (instance.eventDictionary.TryGetValue(eventName, out thisEvent))
@@ -59,7 +59,7 @@ public class EventManager : MonoBehaviour
         }
     }
 
-    public static void StopListening(string eventName, UnityAction<object> listener)
+    public static void StopListening(string eventName, UnityAction<EventDict> listener)
     {
         if (eventManager == null) return;
         Event thisEvent = null;
@@ -77,10 +77,10 @@ public class EventManager : MonoBehaviour
     /// <param name="eventName"></param>
     /// <param name="sender"></param>
     /// <param name="additionalDataDict"></param>
-    public static void TriggerEvent(string eventName, GameObject sender, Dictionary<string, object> additionalDataDict = null)
+    public static void TriggerEvent(string eventName, GameObject sender, EventDict additionalDataDict = null)
     {
         Event thisEvent = null;
-        Dictionary<string, object> data = new Dictionary<string, object>() { ["sender"] = sender };
+        EventDict data = new EventDict() { ["sender"] = sender };
         foreach (var item in additionalDataDict)
         {
             data[item.Key] = item.Value;
