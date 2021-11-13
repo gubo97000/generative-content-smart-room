@@ -4,7 +4,7 @@ using System.Collections.Generic;
 public class ChaseWithEvent : MonoBehaviour
 {
     public int speed = 2;
-    public GameObject target;
+    private GameObject target;
 
 void Start(){
     EventManager.StartListening("FollowMe", onFollowMe);

@@ -93,3 +93,6 @@ public class EventManager : MonoBehaviour
         }
     }
 }
+public class EventDict : Dictionary<string, object>
+{
+}
