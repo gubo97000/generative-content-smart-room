@@ -14,8 +14,9 @@ GameObject:
   - component: {fileID: 8668590516993104006}
   - component: {fileID: 8668590516993104005}
   - component: {fileID: 8668590516993104004}
-  - component: {fileID: 8668590516993104251}
   - component: {fileID: 8668590516993104250}
+  - component: {fileID: 6737028604598838184}
+  - component: {fileID: 5951770543153315905}
   m_Layer: 0
   m_Name: Insect
   m_TagString: Untagged
@@ -113,7 +114,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 0
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -131,20 +132,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 3
   player: {fileID: 0}
---- !u!114 &8668590516993104251
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8668590516993104003}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6edac3b8d1eb9ce4e880560bfc9f40c6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 2
-  target: {fileID: 0}
 --- !u!114 &8668590516993104250
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -157,3 +144,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02351a9df35408e489b365f6731031b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &6737028604598838184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8668590516993104003}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df36a860817b5b24e8b62ea8b06c46e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 2
+--- !u!114 &5951770543153315905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8668590516993104003}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf83a539533e25c4f9fa22550df7790f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onCrouch: 0
+  onStep: 1
+  onJump: 0
+  isCollectable: 1
