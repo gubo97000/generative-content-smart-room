@@ -6,6 +6,7 @@ EditorUserSettings:
   serializedVersion: 4
   m_ConfigSettings:
     RecentlyUsedSceneGuid-0:
+<<<<<<< HEAD
       value: 5654030703010b5f545b0d2145705e4415154f7278297f35282d1b6be4b63261
       flags: 0
     RecentlyUsedSceneGuid-1:
@@ -25,12 +26,48 @@ EditorUserSettings:
       flags: 0
     RecentlyUsedSceneGuid-6:
       value: 5006565455065f0a090f5d7512770c4440161a2f7a2e24692f7b1b37bab8303c
+=======
+<<<<<<< HEAD
+      value: 005204055d575a5a5c0a097147730b44424e4d7a2a7a77617f7f1963e4b46d3b
       flags: 0
-    RecentlyUsedSceneGuid-7:
+    RecentlyUsedSceneGuid-1:
+      value: 0608045752515c5d54580e7b167306444e4e1a7e2e7b71357c2d4b36e0b9656c
+=======
+      value: 0109055e5c01585f545d5f70462106444f164b7278782761297e4436e3b86c3e
+      flags: 0
+    RecentlyUsedSceneGuid-1:
+      value: 5654030703010b5f545b0d2145705e4415154f7278297f35282d1b6be4b63261
+>>>>>>> 3113b73469b37f84fec337baf514b289a7126c7a
+      flags: 0
+    RecentlyUsedSceneGuid-2:
+      value: 0109055e5c01585f545d5f70462106444f164b7278782761297e4436e3b86c3e
+      flags: 0
+    RecentlyUsedSceneGuid-3:
+      value: 5654030703010b5f545b0d2145705e4415154f7278297f35282d1b6be4b63261
+      flags: 0
+    RecentlyUsedSceneGuid-4:
       value: 5400505550045a030c5b0a20137609444f4f197b742971352f7e4d31b5e2646a
       flags: 0
-    RecentlyUsedSceneGuid-8:
+    RecentlyUsedSceneGuid-5:
       value: 06570d5100510d5a0c575b2411200c44414f4e792e7c20352e781835e7e56d61
+>>>>>>> f79613e58e4b634bc202147aee3e31739e8affc4
+      flags: 0
+    RecentlyUsedSceneGuid-6:
+      value: 5202025206055a5a5a5f5a7149730f44104e4b7b2d7025312b2d1c64e0b66c3e
+      flags: 0
+    RecentlyUsedSceneGuid-7:
+<<<<<<< HEAD
+      value: 5400505550045a030c5b0a20137609444f4f197b742971352f7e4d31b5e2646a
+=======
+      value: 5006565455065f0a090f5d7512770c4440161a2f7a2e24692f7b1b37bab8303c
+>>>>>>> f79613e58e4b634bc202147aee3e31739e8affc4
+      flags: 0
+    RecentlyUsedSceneGuid-8:
+<<<<<<< HEAD
+      value: 5b530703060c5e5d08585b7b44225e4442154c2b2f7b24647a7b4431b4b56269
+=======
+      value: 06570d5100510d5a0c575b2411200c44414f4e792e7c20352e781835e7e56d61
+>>>>>>> 3113b73469b37f84fec337baf514b289a7126c7a
       flags: 0
     RecentlyUsedSceneGuid-9:
       value: 0603555e07060b0d54080a72437a5b441715482b7c7d27337a7a1c30b3b96468
