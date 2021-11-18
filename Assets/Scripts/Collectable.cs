@@ -11,7 +11,7 @@ public class Collectable : MonoBehaviour
     public bool onStep = true;
     public bool onJump;
     public bool isCollectable = true;
-    private List<GameObject> playerAllowed = new List<GameObject>();
+    private List<GameObject> playerInsideTrigger = new List<GameObject>();
 
     void Start()
     {
@@ -28,12 +28,12 @@ public class Collectable : MonoBehaviour
     {
         GameObject sender = (GameObject)data["sender"];
 
-        if (playerAllowed.Contains(sender) && onCrouch)
+        if (playerInsideTrigger.Contains(sender) && onCrouch)
         {
             Debug.Log(gameObject + " collected");
             EventManager.TriggerEvent("ItemCollected", gameObject, new EventDict() { ["player"] = sender });
             isCollectable = false;
-            playerAllowed.RemoveAll(item => item);
+            playerInsideTrigger.RemoveAll(item => item);
 
         }
     }
@@ -41,12 +41,12 @@ public class Collectable : MonoBehaviour
     {
         GameObject sender = (GameObject)data["sender"];
 
-        if (playerAllowed.Contains(sender) && onJump)
+        if (playerInsideTrigger.Contains(sender) && onJump)
         {
             Debug.Log(gameObject + " collected");
             EventManager.TriggerEvent("ItemCollected", gameObject, new EventDict() { ["player"] = sender });
             isCollectable = false;
-            playerAllowed.RemoveAll(item => item);
+            playerInsideTrigger.RemoveAll(item => item);
         }
     }
 
@@ -61,7 +61,7 @@ public class Collectable : MonoBehaviour
         {
             if (other.gameObject.tag == "Player")
             {
-                playerAllowed.Add(other.gameObject);
+                playerInsideTrigger.Add(other.gameObject);
 
                 if (onStep)
                 {
@@ -80,7 +80,7 @@ public class Collectable : MonoBehaviour
         {
             if (other.gameObject.tag == "Player")
             {
-                playerAllowed.Remove(other.gameObject);
+                playerInsideTrigger.Remove(other.gameObject);
             }
         }
     }

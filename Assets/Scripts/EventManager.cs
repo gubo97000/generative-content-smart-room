@@ -10,7 +10,7 @@ public class EventManager : MonoBehaviour
     public class Event : UnityEvent<EventDict> { }
     // public class EventData : Dictionary<string, EventDict> {} //I wish to add this for less text
 
-    private Dictionary<string, Event> eventDictionary;
+    public Dictionary<string, Event> eventDictionary;
 
     private static EventManager eventManager;
 
@@ -81,9 +81,12 @@ public class EventManager : MonoBehaviour
     {
         Event thisEvent = null;
         EventDict data = new EventDict() { ["sender"] = sender };
-        foreach (var item in additionalDataDict)
+        if (additionalDataDict != null)
         {
-            data[item.Key] = item.Value;
+            foreach (var item in additionalDataDict)
+            {
+                data[item.Key] = item.Value;
+            }
         }
 
         if (instance.eventDictionary.TryGetValue(eventName, out thisEvent))
