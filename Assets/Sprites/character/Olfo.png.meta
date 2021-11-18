@@ -1,0 +1,2310 @@
+fileFormatVersion: 2
+guid: 4f3d01efbb186a14ba93eba9a7cca300
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7452740770858364193
+    second: Olfo_0
+  - first:
+      213: -3821429944137063373
+    second: Olfo_1
+  - first:
+      213: 5146798554918219535
+    second: Olfo_2
+  - first:
+      213: 7318579646357647761
+    second: Olfo_3
+  - first:
+      213: 6510503954739328038
+    second: Olfo_4
+  - first:
+      213: 8552099525638812512
+    second: Olfo_5
+  - first:
+      213: -8632777140905070555
+    second: Olfo_6
+  - first:
+      213: 8753498036629705748
+    second: Olfo_7
+  - first:
+      213: 3096049527343317909
+    second: Olfo_8
+  - first:
+      213: -3450561853847413434
+    second: Olfo_9
+  - first:
+      213: -7555973498248552655
+    second: Olfo_10
+  - first:
+      213: 7646592260232965583
+    second: Olfo_11
+  - first:
+      213: 4946585480168819567
+    second: Olfo_12
+  - first:
+      213: -1026169295224488490
+    second: Olfo_13
+  - first:
+      213: -9059892578352625015
+    second: Olfo_14
+  - first:
+      213: -2666670493759069310
+    second: Olfo_15
+  - first:
+      213: 4372115395424514641
+    second: Olfo_16
+  - first:
+      213: -7689963962292191477
+    second: Olfo_17
+  - first:
+      213: 8711001577775102289
+    second: Olfo_18
+  - first:
+      213: -3173971253514026758
+    second: Olfo_19
+  - first:
+      213: -5539333737669985849
+    second: Olfo_20
+  - first:
+      213: 4753486870021494265
+    second: Olfo_21
+  - first:
+      213: 7889551882070000306
+    second: Olfo_22
+  - first:
+      213: -3212599956439236708
+    second: Olfo_23
+  - first:
+      213: -8869586147288332737
+    second: Olfo_24
+  - first:
+      213: -8079387823377534984
+    second: Olfo_25
+  - first:
+      213: 8288370513365906035
+    second: Olfo_26
+  - first:
+      213: 460337911821982120
+    second: Olfo_27
+  - first:
+      213: 4645439780131991424
+    second: Olfo_28
+  - first:
+      213: 8056252959903342328
+    second: Olfo_29
+  - first:
+      213: 1019284777754516827
+    second: Olfo_30
+  - first:
+      213: 7150135457419291570
+    second: Olfo_31
+  - first:
+      213: -2651893777236457766
+    second: Olfo_32
+  - first:
+      213: 8691444739624621943
+    second: Olfo_33
+  - first:
+      213: -3293574603879017031
+    second: Olfo_34
+  - first:
+      213: -4173090883593062715
+    second: Olfo_35
+  - first:
+      213: 9137976152338179342
+    second: Olfo_36
+  - first:
+      213: -8869298062997941216
+    second: Olfo_37
+  - first:
+      213: 4495151757535982110
+    second: Olfo_38
+  - first:
+      213: -7039299490511853773
+    second: Olfo_39
+  - first:
+      213: -7811024964864117684
+    second: Olfo_40
+  - first:
+      213: -943924375847902639
+    second: Olfo_41
+  - first:
+      213: -1473383471143359719
+    second: Olfo_42
+  - first:
+      213: 6324709974752416863
+    second: Olfo_43
+  - first:
+      213: 2112332634784971223
+    second: Olfo_44
+  - first:
+      213: 8382402629470595831
+    second: Olfo_45
+  - first:
+      213: -3083742512429396210
+    second: Olfo_46
+  - first:
+      213: -8507831589526011300
+    second: Olfo_47
+  - first:
+      213: -261143721272099946
+    second: Olfo_48
+  - first:
+      213: 4660497629343433151
+    second: Olfo_49
+  - first:
+      213: 4603507894714387102
+    second: Olfo_50
+  - first:
+      213: -811980865319613741
+    second: Olfo_51
+  - first:
+      213: -1081095835925166469
+    second: Olfo_52
+  - first:
+      213: -4459728597968437183
+    second: Olfo_53
+  - first:
+      213: -7766626416834819811
+    second: Olfo_54
+  - first:
+      213: 2996390219471318654
+    second: Olfo_55
+  - first:
+      213: 3546641964851247359
+    second: Olfo_56
+  - first:
+      213: 1732061661035112472
+    second: Olfo_57
+  - first:
+      213: -7941998639682041156
+    second: Olfo_58
+  - first:
+      213: -5167768804762813594
+    second: Olfo_59
+  - first:
+      213: -2741622674530360937
+    second: Olfo_60
+  - first:
+      213: -3656256956156325819
+    second: Olfo_61
+  - first:
+      213: -1683918858968256634
+    second: Olfo_62
+  - first:
+      213: -6632657184485590057
+    second: Olfo_63
+  - first:
+      213: 1100944293571114191
+    second: Olfo_64
+  - first:
+      213: 7200631347286700808
+    second: Olfo_65
+  - first:
+      213: -2924568087213951516
+    second: Olfo_66
+  - first:
+      213: -7238682559989937729
+    second: Olfo_67
+  - first:
+      213: 4606522489327014783
+    second: Olfo_68
+  - first:
+      213: 2047197088493982442
+    second: Olfo_69
+  - first:
+      213: 811227752824897739
+    second: Olfo_70
+  - first:
+      213: -8974687071287811859
+    second: Olfo_71
+  - first:
+      213: -306729420013040411
+    second: Olfo_72
+  - first:
+      213: 8481940129786361574
+    second: Olfo_73
+  - first:
+      213: -1334814102083428636
+    second: Olfo_74
+  - first:
+      213: 6865230940682175670
+    second: Olfo_75
+  - first:
+      213: -1685125159013796790
+    second: Olfo_76
+  - first:
+      213: -959332591851636402
+    second: Olfo_77
+  - first:
+      213: -3763743340985448726
+    second: Olfo_78
+  - first:
+      213: -2061293017632652831
+    second: Olfo_79
+  - first:
+      213: -4794136982923558068
+    second: Olfo_80
+  - first:
+      213: -6902273254641791296
+    second: Olfo_81
+  - first:
+      213: 610131277584685924
+    second: Olfo_82
+  - first:
+      213: -1409160250217054413
+    second: Olfo_83
+  - first:
+      213: -8383376411220922486
+    second: Olfo_84
+  - first:
+      213: 3429938297770333963
+    second: Olfo_85
+  - first:
+      213: -7691794276728138728
+    second: Olfo_86
+  - first:
+      213: 269089435728559210
+    second: Olfo_87
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Olfo_0
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 691
+        width: 144
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd29ae551cb829890800000000000000
+      internalID: -7452740770858364193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Olfo_1
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 691
+        width: 148
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3346bad66bd87fac0800000000000000
+      internalID: -3821429944137063373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Olfo_2
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 694
+        width: 148
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0fe46c440a1d6740800000000000000
+      internalID: 5146798554918219535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Olfo_3
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 694
+        width: 147
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1913d81b961d09560800000000000000
+      internalID: 7318579646357647761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Olfo_4
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 694
+        width: 148
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 624730b4ad4f95a50800000000000000
+      internalID: 6510503954739328038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Olfo_5
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 694
+        width: 148
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 063fc7525392fa670800000000000000
+      internalID: 8552099525638812512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Olfo_6
+      rect:
+        serializedVersion: 2
+        x: 1753
+        y: 694
+        width: 146
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 520bd33cde6323880800000000000000
+      internalID: -8632777140905070555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Olfo_7
+      rect:
+        serializedVersion: 2
+        x: 2035
+        y: 694
+        width: 147
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4149467161caa7970800000000000000
+      internalID: 8753498036629705748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Olfo_8
+      rect:
+        serializedVersion: 2
+        x: 2314
+        y: 688
+        width: 149
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 593805c34a067fa20800000000000000
+      internalID: 3096049527343317909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Olfo_9
+      rect:
+        serializedVersion: 2
+        x: 2594
+        y: 688
+        width: 150
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64d59e996442d10d0800000000000000
+      internalID: -3450561853847413434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Olfo_10
+      rect:
+        serializedVersion: 2
+        x: 2874
+        y: 688
+        width: 150
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13f11a8f22ac32790800000000000000
+      internalID: -7555973498248552655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Olfo_11
+      rect:
+        serializedVersion: 2
+        x: 3153
+        y: 689
+        width: 151
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcdef65b5272e1a60800000000000000
+      internalID: 7646592260232965583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Olfo_12
+      rect:
+        serializedVersion: 2
+        x: 3433
+        y: 691
+        width: 147
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6b419c394dc5a440800000000000000
+      internalID: 4946585480168819567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Olfo_13
+      rect:
+        serializedVersion: 2
+        x: 3712
+        y: 694
+        width: 148
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dd3bbe767052c1f0800000000000000
+      internalID: -1026169295224488490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Olfo_14
+      rect:
+        serializedVersion: 2
+        x: 3992
+        y: 694
+        width: 148
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98a081c83bbc44280800000000000000
+      internalID: -9059892578352625015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Olfo_15
+      rect:
+        serializedVersion: 2
+        x: 4272
+        y: 694
+        width: 147
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 283a97680551efad0800000000000000
+      internalID: -2666670493759069310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Olfo_16
+      rect:
+        serializedVersion: 2
+        x: 4551
+        y: 691
+        width: 148
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1527b45a9cfdcac30800000000000000
+      internalID: 4372115395424514641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Olfo_17
+      rect:
+        serializedVersion: 2
+        x: 4831
+        y: 691
+        width: 148
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0fb40cf482c74590800000000000000
+      internalID: -7689963962292191477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Olfo_18
+      rect:
+        serializedVersion: 2
+        x: 5111
+        y: 691
+        width: 150
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 159f62938c1b3e870800000000000000
+      internalID: 8711001577775102289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Olfo_19
+      rect:
+        serializedVersion: 2
+        x: 5393
+        y: 691
+        width: 148
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af0cefa16f9c3f3d0800000000000000
+      internalID: -3173971253514026758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Olfo_20
+      rect:
+        serializedVersion: 2
+        x: 5673
+        y: 691
+        width: 148
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c9f7d170555023b0800000000000000
+      internalID: -5539333737669985849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Olfo_21
+      rect:
+        serializedVersion: 2
+        x: 5953
+        y: 694
+        width: 147
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f55d1c8f17c7f140800000000000000
+      internalID: 4753486870021494265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Olfo_22
+      rect:
+        serializedVersion: 2
+        x: 6232
+        y: 694
+        width: 148
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b20cc7d2a15d7d60800000000000000
+      internalID: 7889551882070000306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Olfo_23
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 470
+        width: 147
+        height: 183
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9ff0075c5d8a63d0800000000000000
+      internalID: -3212599956439236708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Olfo_24
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 470
+        width: 148
+        height: 183
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3647226466e8e480800000000000000
+      internalID: -8869586147288332737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Olfo_25
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 467
+        width: 147
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ff27f0c49f30ef80800000000000000
+      internalID: -8079387823377534984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Olfo_26
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 467
+        width: 145
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3723ff77115360370800000000000000
+      internalID: 8288370513365906035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Olfo_27
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 464
+        width: 148
+        height: 189
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a95bce44e2736600800000000000000
+      internalID: 460337911821982120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Olfo_28
+      rect:
+        serializedVersion: 2
+        x: 1460
+        y: 464
+        width: 147
+        height: 189
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08f6c301edae77040800000000000000
+      internalID: 4645439780131991424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Olfo_29
+      rect:
+        serializedVersion: 2
+        x: 1739
+        y: 464
+        width: 148
+        height: 189
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fe5ab7126f8dcf60800000000000000
+      internalID: 8056252959903342328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Olfo_30
+      rect:
+        serializedVersion: 2
+        x: 2022
+        y: 467
+        width: 144
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5d550fda1a352e00800000000000000
+      internalID: 1019284777754516827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Olfo_31
+      rect:
+        serializedVersion: 2
+        x: 2302
+        y: 470
+        width: 147
+        height: 183
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bbe663c0526a3360800000000000000
+      internalID: 7150135457419291570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Olfo_32
+      rect:
+        serializedVersion: 2
+        x: 2584
+        y: 470
+        width: 148
+        height: 183
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad680c1f8a4923bd0800000000000000
+      internalID: -2651893777236457766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Olfo_33
+      rect:
+        serializedVersion: 2
+        x: 2864
+        y: 470
+        width: 148
+        height: 183
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 777534201f63e9870800000000000000
+      internalID: 8691444739624621943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Olfo_34
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 464
+        width: 148
+        height: 189
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b51b8e095fda42d0800000000000000
+      internalID: -3293574603879017031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Olfo_35
+      rect:
+        serializedVersion: 2
+        x: 3430
+        y: 464
+        width: 147
+        height: 189
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c6b30c83f33616c0800000000000000
+      internalID: -4173090883593062715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Olfo_36
+      rect:
+        serializedVersion: 2
+        x: 3709
+        y: 461
+        width: 151
+        height: 189
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e05ab1e35ec90de70800000000000000
+      internalID: 9137976152338179342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Olfo_37
+      rect:
+        serializedVersion: 2
+        x: 3989
+        y: 461
+        width: 151
+        height: 189
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02492fb376ce9e480800000000000000
+      internalID: -8869298062997941216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Olfo_38
+      rect:
+        serializedVersion: 2
+        x: 4272
+        y: 461
+        width: 150
+        height: 189
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e12b76705bcf16e30800000000000000
+      internalID: 4495151757535982110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Olfo_39
+      rect:
+        serializedVersion: 2
+        x: 4551
+        y: 461
+        width: 151
+        height: 189
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 337e370c8626f4e90800000000000000
+      internalID: -7039299490511853773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Olfo_40
+      rect:
+        serializedVersion: 2
+        x: 4831
+        y: 461
+        width: 151
+        height: 189
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c44f095dd2aa99390800000000000000
+      internalID: -7811024964864117684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Olfo_41
+      rect:
+        serializedVersion: 2
+        x: 5114
+        y: 464
+        width: 147
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 152e0c208c186e2f0800000000000000
+      internalID: -943924375847902639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Olfo_42
+      rect:
+        serializedVersion: 2
+        x: 5393
+        y: 467
+        width: 148
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91b61901a8d7d8be0800000000000000
+      internalID: -1473383471143359719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Olfo_43
+      rect:
+        serializedVersion: 2
+        x: 5670
+        y: 470
+        width: 148
+        height: 183
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f54dc785632e5c750800000000000000
+      internalID: 6324709974752416863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Olfo_44
+      rect:
+        serializedVersion: 2
+        x: 5947
+        y: 474
+        width: 147
+        height: 179
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d9b2d7f653805d10800000000000000
+      internalID: 2112332634784971223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Olfo_45
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 244
+        width: 144
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fa25e597c6445470800000000000000
+      internalID: 8382402629470595831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Olfo_46
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 241
+        width: 145
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0f00e7f5885435d0800000000000000
+      internalID: -3083742512429396210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Olfo_47
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 238
+        width: 144
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c528479ee3c1ee980800000000000000
+      internalID: -8507831589526011300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Olfo_48
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 238
+        width: 145
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69bb04a4b2b306cf0800000000000000
+      internalID: -261143721272099946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Olfo_49
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 238
+        width: 144
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb1c099c6e96da040800000000000000
+      internalID: 4660497629343433151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Olfo_50
+      rect:
+        serializedVersion: 2
+        x: 1463
+        y: 241
+        width: 144
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9a48213a02f2ef30800000000000000
+      internalID: 4603507894714387102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Olfo_51
+      rect:
+        serializedVersion: 2
+        x: 1742
+        y: 241
+        width: 145
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dac53e74b34bb4f0800000000000000
+      internalID: -811980865319613741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Olfo_52
+      rect:
+        serializedVersion: 2
+        x: 2025
+        y: 241
+        width: 145
+        height: 189
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b76c68ba01d2ff0f0800000000000000
+      internalID: -1081095835925166469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Olfo_53
+      rect:
+        serializedVersion: 2
+        x: 2305
+        y: 244
+        width: 147
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 140c073087cdb12c0800000000000000
+      internalID: -4459728597968437183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Olfo_54
+      rect:
+        serializedVersion: 2
+        x: 2588
+        y: 247
+        width: 147
+        height: 183
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1945695c66673490800000000000000
+      internalID: -7766626416834819811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Olfo_55
+      rect:
+        serializedVersion: 2
+        x: 2870
+        y: 247
+        width: 148
+        height: 183
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7eea007701559920800000000000000
+      internalID: 2996390219471318654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Olfo_56
+      rect:
+        serializedVersion: 2
+        x: 3153
+        y: 244
+        width: 145
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff8b37c7314383130800000000000000
+      internalID: 3546641964851247359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Olfo_57
+      rect:
+        serializedVersion: 2
+        x: 3433
+        y: 244
+        width: 147
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 818221367e4890810800000000000000
+      internalID: 1732061661035112472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Olfo_58
+      rect:
+        serializedVersion: 2
+        x: 3716
+        y: 244
+        width: 144
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbacd13d05a58c190800000000000000
+      internalID: -7941998639682041156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Olfo_59
+      rect:
+        serializedVersion: 2
+        x: 3995
+        y: 244
+        width: 145
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66b74cee6a56848b0800000000000000
+      internalID: -5167768804762813594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Olfo_60
+      rect:
+        serializedVersion: 2
+        x: 4275
+        y: 244
+        width: 147
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 791267804bcc3f9d0800000000000000
+      internalID: -2741622674530360937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Olfo_61
+      rect:
+        serializedVersion: 2
+        x: 4555
+        y: 244
+        width: 147
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54050c88bad524dc0800000000000000
+      internalID: -3656256956156325819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Olfo_62
+      rect:
+        serializedVersion: 2
+        x: 4834
+        y: 247
+        width: 148
+        height: 183
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68fad9438b481a8e0800000000000000
+      internalID: -1683918858968256634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Olfo_63
+      rect:
+        serializedVersion: 2
+        x: 5114
+        y: 247
+        width: 147
+        height: 183
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7db3bc99e6114f3a0800000000000000
+      internalID: -6632657184485590057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Olfo_64
+      rect:
+        serializedVersion: 2
+        x: 5393
+        y: 248
+        width: 145
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc4bccf7007574f00800000000000000
+      internalID: 1100944293571114191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Olfo_65
+      rect:
+        serializedVersion: 2
+        x: 5670
+        y: 247
+        width: 147
+        height: 183
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 803f09d4f08cde360800000000000000
+      internalID: 7200631347286700808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Olfo_66
+      rect:
+        serializedVersion: 2
+        x: 5950
+        y: 247
+        width: 147
+        height: 183
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e53b28d1d8d967d0800000000000000
+      internalID: -2924568087213951516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Olfo_67
+      rect:
+        serializedVersion: 2
+        x: 6229
+        y: 244
+        width: 145
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb90cf950980b8b90800000000000000
+      internalID: -7238682559989937729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Olfo_68
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 14
+        width: 145
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f735f223cc7adef30800000000000000
+      internalID: 4606522489327014783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Olfo_69
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 14
+        width: 145
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae2d5ecc7ea196c10800000000000000
+      internalID: 2047197088493982442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Olfo_70
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 14
+        width: 144
+        height: 189
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc00117d75f024b00800000000000000
+      internalID: 811227752824897739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Olfo_71
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 14
+        width: 147
+        height: 189
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de0699998a1837380800000000000000
+      internalID: -8974687071287811859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Olfo_72
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 14
+        width: 144
+        height: 189
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ec06f5b7374ebbf0800000000000000
+      internalID: -306729420013040411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Olfo_73
+      rect:
+        serializedVersion: 2
+        x: 1463
+        y: 17
+        width: 147
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e6fb0adb97e5b570800000000000000
+      internalID: 8481940129786361574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Olfo_74
+      rect:
+        serializedVersion: 2
+        x: 1745
+        y: 18
+        width: 148
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ee922475a9c97de0800000000000000
+      internalID: -1334814102083428636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Olfo_75
+      rect:
+        serializedVersion: 2
+        x: 2025
+        y: 20
+        width: 148
+        height: 183
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b4c160ca23364f50800000000000000
+      internalID: 6865230940682175670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Olfo_76
+      rect:
+        serializedVersion: 2
+        x: 2308
+        y: 17
+        width: 147
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a44b8e6989b3d98e0800000000000000
+      internalID: -1685125159013796790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Olfo_77
+      rect:
+        serializedVersion: 2
+        x: 2588
+        y: 17
+        width: 147
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e497a392714cfa2f0800000000000000
+      internalID: -959332591851636402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Olfo_78
+      rect:
+        serializedVersion: 2
+        x: 2870
+        y: 17
+        width: 147
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae602de5f5f74cbc0800000000000000
+      internalID: -3763743340985448726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Olfo_79
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 18
+        width: 148
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e14302fbe0d463e0800000000000000
+      internalID: -2061293017632652831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Olfo_80
+      rect:
+        serializedVersion: 2
+        x: 3430
+        y: 20
+        width: 147
+        height: 183
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c43474080ddc77db0800000000000000
+      internalID: -4794136982923558068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Olfo_81
+      rect:
+        serializedVersion: 2
+        x: 3709
+        y: 20
+        width: 145
+        height: 183
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ce85627b033630a0800000000000000
+      internalID: -6902273254641791296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Olfo_82
+      rect:
+        serializedVersion: 2
+        x: 3986
+        y: 18
+        width: 147
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46b5ac21a2f977800800000000000000
+      internalID: 610131277584685924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Olfo_83
+      rect:
+        serializedVersion: 2
+        x: 4266
+        y: 17
+        width: 147
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33f363ee738a17ce0800000000000000
+      internalID: -1409160250217054413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Olfo_84
+      rect:
+        serializedVersion: 2
+        x: 4546
+        y: 17
+        width: 147
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8fa9ce229348ab80800000000000000
+      internalID: -8383376411220922486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Olfo_85
+      rect:
+        serializedVersion: 2
+        x: 4825
+        y: 17
+        width: 147
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b07db1095b6999f20800000000000000
+      internalID: 3429938297770333963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Olfo_86
+      rect:
+        serializedVersion: 2
+        x: 5104
+        y: 14
+        width: 145
+        height: 189
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8149c32bbd1414590800000000000000
+      internalID: -7691794276728138728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Olfo_87
+      rect:
+        serializedVersion: 2
+        x: 5384
+        y: 14
+        width: 147
+        height: 189
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6c39658a6ffbb300800000000000000
+      internalID: 269089435728559210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 204be610a2606674d8383adf2d2634df
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Olfo_15: -2666670493759069310
+      Olfo_34: -3293574603879017031
+      Olfo_9: -3450561853847413434
+      Olfo_47: -8507831589526011300
+      Olfo_41: -943924375847902639
+      Olfo_14: -9059892578352625015
+      Olfo_83: -1409160250217054413
+      Olfo_64: 1100944293571114191
+      Olfo_44: 2112332634784971223
+      Olfo_28: 4645439780131991424
+      Olfo_36: 9137976152338179342
+      Olfo_49: 4660497629343433151
+      Olfo_40: -7811024964864117684
+      Olfo_18: 8711001577775102289
+      Olfo_68: 4606522489327014783
+      Olfo_7: 8753498036629705748
+      Olfo_74: -1334814102083428636
+      Olfo_26: 8288370513365906035
+      Olfo_75: 6865230940682175670
+      Olfo_43: 6324709974752416863
+      Olfo_76: -1685125159013796790
+      Olfo_62: -1683918858968256634
+      Olfo_50: 4603507894714387102
+      Olfo_70: 811227752824897739
+      Olfo_19: -3173971253514026758
+      Olfo_87: 269089435728559210
+      Olfo_24: -8869586147288332737
+      Olfo_8: 3096049527343317909
+      Olfo_42: -1473383471143359719
+      Olfo_11: 7646592260232965583
+      Olfo_80: -4794136982923558068
+      Olfo_29: 8056252959903342328
+      Olfo_63: -6632657184485590057
+      Olfo_35: -4173090883593062715
+      Olfo_53: -4459728597968437183
+      Olfo_30: 1019284777754516827
+      Olfo_16: 4372115395424514641
+      Olfo_6: -8632777140905070555
+      Olfo_58: -7941998639682041156
+      Olfo_78: -3763743340985448726
+      Olfo_57: 1732061661035112472
+      Olfo_48: -261143721272099946
+      Olfo_86: -7691794276728138728
+      Olfo_81: -6902273254641791296
+      Olfo_5: 8552099525638812512
+      Olfo_59: -5167768804762813594
+      Olfo_66: -2924568087213951516
+      Olfo_72: -306729420013040411
+      Olfo_1: -3821429944137063373
+      Olfo_73: 8481940129786361574
+      Olfo_0: -7452740770858364193
+      Olfo_23: -3212599956439236708
+      Olfo_85: 3429938297770333963
+      Olfo_55: 2996390219471318654
+      Olfo_3: 7318579646357647761
+      Olfo_84: -8383376411220922486
+      Olfo_33: 8691444739624621943
+      Olfo_65: 7200631347286700808
+      Olfo_25: -8079387823377534984
+      Olfo_39: -7039299490511853773
+      Olfo_10: -7555973498248552655
+      Olfo_27: 460337911821982120
+      Olfo_38: 4495151757535982110
+      Olfo_2: 5146798554918219535
+      Olfo_54: -7766626416834819811
+      Olfo_71: -8974687071287811859
+      Olfo_82: 610131277584685924
+      Olfo_69: 2047197088493982442
+      Olfo_77: -959332591851636402
+      Olfo_37: -8869298062997941216
+      Olfo_45: 8382402629470595831
+      Olfo_21: 4753486870021494265
+      Olfo_56: 3546641964851247359
+      Olfo_60: -2741622674530360937
+      Olfo_13: -1026169295224488490
+      Olfo_52: -1081095835925166469
+      Olfo_32: -2651893777236457766
+      Olfo_4: 6510503954739328038
+      Olfo_17: -7689963962292191477
+      Olfo_22: 7889551882070000306
+      Olfo_31: 7150135457419291570
+      Olfo_79: -2061293017632652831
+      Olfo_46: -3083742512429396210
+      Olfo_51: -811980865319613741
+      Olfo_67: -7238682559989937729
+      Olfo_12: 4946585480168819567
+      Olfo_20: -5539333737669985849
+      Olfo_61: -3656256956156325819
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

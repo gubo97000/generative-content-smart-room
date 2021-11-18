@@ -1,0 +1,2435 @@
+fileFormatVersion: 2
+guid: f51f9bd1a7e92794abc64a1c66b766d2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1821255840495765416
+    second: Emi Idle_0
+  - first:
+      213: 8995537061770375724
+    second: Emi Idle_1
+  - first:
+      213: 8311936737184923840
+    second: Emi Idle_2
+  - first:
+      213: -3555384940472837376
+    second: Emi Idle_3
+  - first:
+      213: -647312194507702524
+    second: Emi Idle_4
+  - first:
+      213: 8953703337646606073
+    second: Emi Idle_5
+  - first:
+      213: -1912177793260801630
+    second: Emi Idle_6
+  - first:
+      213: -2147830306812750369
+    second: Emi Idle_7
+  - first:
+      213: -5167660015902358081
+    second: Emi Idle_8
+  - first:
+      213: 8029113728021581714
+    second: Emi Idle_9
+  - first:
+      213: -9218113595937716087
+    second: Emi Idle_10
+  - first:
+      213: -1804564080658037776
+    second: Emi Idle_11
+  - first:
+      213: -4853692871934917358
+    second: Emi Idle_12
+  - first:
+      213: -1705141932584544008
+    second: Emi Idle_13
+  - first:
+      213: -2244769168595457518
+    second: Emi Idle_14
+  - first:
+      213: 3440188339135434819
+    second: Emi Idle_15
+  - first:
+      213: 3788263383968044895
+    second: Emi Idle_16
+  - first:
+      213: 3622548422588163679
+    second: Emi Idle_17
+  - first:
+      213: -3847519735493219156
+    second: Emi Idle_18
+  - first:
+      213: -4061387084054072427
+    second: Emi Idle_19
+  - first:
+      213: 1209430132197804098
+    second: Emi Idle_20
+  - first:
+      213: -833104657607649773
+    second: Emi Idle_21
+  - first:
+      213: -4227527256229465966
+    second: Emi Idle_22
+  - first:
+      213: 4856077623735849879
+    second: Emi Idle_23
+  - first:
+      213: -8075156133645000171
+    second: Emi Idle_24
+  - first:
+      213: 6221429642098731429
+    second: Emi Idle_25
+  - first:
+      213: -2920893929480571795
+    second: Emi Idle_26
+  - first:
+      213: 7081972765982838686
+    second: Emi Idle_27
+  - first:
+      213: 1646429545754162397
+    second: Emi Idle_28
+  - first:
+      213: -3350251775159800517
+    second: Emi Idle_29
+  - first:
+      213: -7222200767703346316
+    second: Emi Idle_30
+  - first:
+      213: -410999996656372091
+    second: Emi Idle_31
+  - first:
+      213: 5171656295736027254
+    second: Emi Idle_32
+  - first:
+      213: 5625060597759112152
+    second: Emi Idle_33
+  - first:
+      213: -8068672135075661691
+    second: Emi Idle_34
+  - first:
+      213: -8198543889819131260
+    second: Emi Idle_35
+  - first:
+      213: -7799365287610740990
+    second: Emi Idle_36
+  - first:
+      213: -1359508012293744659
+    second: Emi Idle_37
+  - first:
+      213: -3665505635493499265
+    second: Emi Idle_38
+  - first:
+      213: -6589391448410260513
+    second: Emi Idle_39
+  - first:
+      213: 654046479925194889
+    second: Emi Idle_40
+  - first:
+      213: 7694193585128332312
+    second: Emi Idle_41
+  - first:
+      213: -7058153647565484586
+    second: Emi Idle_42
+  - first:
+      213: 3230873014289123571
+    second: Emi Idle_43
+  - first:
+      213: 7852852632025786125
+    second: Emi Idle_44
+  - first:
+      213: 1580295462474964425
+    second: Emi Idle_45
+  - first:
+      213: -8177352185839476143
+    second: Emi Idle_46
+  - first:
+      213: 1061051176835228509
+    second: Emi Idle_47
+  - first:
+      213: -2157799539045284679
+    second: Emi Idle_48
+  - first:
+      213: -6618259171285118641
+    second: Emi Idle_49
+  - first:
+      213: -3071638001314306092
+    second: Emi Idle_50
+  - first:
+      213: -2911250499715747063
+    second: Emi Idle_51
+  - first:
+      213: -1516178358006657709
+    second: Emi Idle_52
+  - first:
+      213: -6462294196608926795
+    second: Emi Idle_53
+  - first:
+      213: 1777832658164615679
+    second: Emi Idle_54
+  - first:
+      213: -1018974677820666130
+    second: Emi Idle_55
+  - first:
+      213: 453583548845148144
+    second: Emi Idle_56
+  - first:
+      213: 660044049872869898
+    second: Emi Idle_57
+  - first:
+      213: -9043431492812997025
+    second: Emi Idle_58
+  - first:
+      213: 4858169020946239029
+    second: Emi Idle_59
+  - first:
+      213: -17764811063834943
+    second: Emi Idle_60
+  - first:
+      213: 6381692398448731004
+    second: Emi Idle_61
+  - first:
+      213: -7956989184739777120
+    second: Emi Idle_62
+  - first:
+      213: 5238363840028486816
+    second: Emi Idle_63
+  - first:
+      213: 2786623249744378911
+    second: Emi Idle_64
+  - first:
+      213: -779499022498052609
+    second: Emi Idle_65
+  - first:
+      213: -5813376304994160573
+    second: Emi Idle_66
+  - first:
+      213: 7955287658228306724
+    second: Emi Idle_67
+  - first:
+      213: -5956270104229440609
+    second: Emi Idle_68
+  - first:
+      213: -7263381487488966448
+    second: Emi Idle_69
+  - first:
+      213: -5495388506918778658
+    second: Emi Idle_70
+  - first:
+      213: -7274652509074445638
+    second: Emi Idle_71
+  - first:
+      213: -8852071094972956676
+    second: Emi Idle_72
+  - first:
+      213: 9187730911450357226
+    second: Emi Idle_73
+  - first:
+      213: -8327911903500010896
+    second: Emi Idle_74
+  - first:
+      213: -7864537388072050141
+    second: Emi Idle_75
+  - first:
+      213: -5300054945950985742
+    second: Emi Idle_76
+  - first:
+      213: -8059661595162746224
+    second: Emi Idle_77
+  - first:
+      213: -7836028147491939451
+    second: Emi Idle_78
+  - first:
+      213: 7147832519213714833
+    second: Emi Idle_79
+  - first:
+      213: -7605469106979914239
+    second: Emi Idle_80
+  - first:
+      213: -8260185284494453268
+    second: Emi Idle_81
+  - first:
+      213: -4262284913477482683
+    second: Emi Idle_82
+  - first:
+      213: 7015905886823454553
+    second: Emi Idle_83
+  - first:
+      213: -3199135165765056794
+    second: Emi Idle_84
+  - first:
+      213: 4138712009143110682
+    second: Emi Idle_85
+  - first:
+      213: 6727253889575465537
+    second: Emi Idle_86
+  - first:
+      213: 5062811172078366390
+    second: Emi Idle_87
+  - first:
+      213: -1615722642436128563
+    second: Emi Idle_88
+  - first:
+      213: 1625547487102035858
+    second: Emi Idle_89
+  - first:
+      213: -5921800282417135847
+    second: Emi Idle_90
+  - first:
+      213: -5586969910995012149
+    second: Emi Idle_91
+  - first:
+      213: -1358221584232013279
+    second: Emi Idle_92
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Emi Idle_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 688
+        width: 227
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a70bd99986664910800000000000000
+      internalID: 1821255840495765416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Idle_1
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 688
+        width: 227
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c223faa1c4196dc70800000000000000
+      internalID: 8995537061770375724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Idle_2
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 688
+        width: 227
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c04d678c6ee95370800000000000000
+      internalID: 8311936737184923840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Idle_3
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 688
+        width: 226
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00bd75fdb3cb8aec0800000000000000
+      internalID: -3555384940472837376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Idle_4
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 689
+        width: 227
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40ff69b1df84407f0800000000000000
+      internalID: -647312194507702524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Idle_5
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 689
+        width: 228
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f6c7a03fb1f14c70800000000000000
+      internalID: 8953703337646606073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Idle_6
+      rect:
+        serializedVersion: 2
+        x: 1701
+        y: 688
+        width: 227
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a1bc4d9d649675e0800000000000000
+      internalID: -1912177793260801630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Idle_7
+      rect:
+        serializedVersion: 2
+        x: 1981
+        y: 688
+        width: 228
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd59b9437bf5132e0800000000000000
+      internalID: -2147830306812750369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Idle_8
+      rect:
+        serializedVersion: 2
+        x: 2261
+        y: 688
+        width: 228
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb586205898c848b0800000000000000
+      internalID: -5167660015902358081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Idle_9
+      rect:
+        serializedVersion: 2
+        x: 2542
+        y: 688
+        width: 228
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29f40f345642d6f60800000000000000
+      internalID: 8029113728021581714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Idle_10
+      rect:
+        serializedVersion: 2
+        x: 2823
+        y: 687
+        width: 229
+        height: 201
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9880fee268ea21080800000000000000
+      internalID: -9218113595937716087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Idle_11
+      rect:
+        serializedVersion: 2
+        x: 3103
+        y: 687
+        width: 231
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f3c2f59786e4f6e0800000000000000
+      internalID: -1804564080658037776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Idle_12
+      rect:
+        serializedVersion: 2
+        x: 3383
+        y: 687
+        width: 231
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21549778c0834acb0800000000000000
+      internalID: -4853692871934917358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Idle_13
+      rect:
+        serializedVersion: 2
+        x: 3663
+        y: 687
+        width: 233
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f8dca0527e1658e0800000000000000
+      internalID: -1705141932584544008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Idle_14
+      rect:
+        serializedVersion: 2
+        x: 3943
+        y: 686
+        width: 235
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21a6e1f955af8d0e0800000000000000
+      internalID: -2244769168595457518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Idle_15
+      rect:
+        serializedVersion: 2
+        x: 4223
+        y: 686
+        width: 236
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 340db9a41110ebf20800000000000000
+      internalID: 3440188339135434819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Idle_16
+      rect:
+        serializedVersion: 2
+        x: 4504
+        y: 686
+        width: 236
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f57d8050a7d929430800000000000000
+      internalID: 3788263383968044895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Idle_17
+      rect:
+        serializedVersion: 2
+        x: 4784
+        y: 685
+        width: 237
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f56e406e890e54230800000000000000
+      internalID: 3622548422588163679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Idle_18
+      rect:
+        serializedVersion: 2
+        x: 5064
+        y: 685
+        width: 237
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cac2f938f2dda9ac0800000000000000
+      internalID: -3847519735493219156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Idle_19
+      rect:
+        serializedVersion: 2
+        x: 5345
+        y: 685
+        width: 236
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 593f89717fd03a7c0800000000000000
+      internalID: -4061387084054072427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Idle_20
+      rect:
+        serializedVersion: 2
+        x: 5626
+        y: 685
+        width: 236
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 248cd422c42c8c010800000000000000
+      internalID: 1209430132197804098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Idle_21
+      rect:
+        serializedVersion: 2
+        x: 5906
+        y: 686
+        width: 237
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31692965ab73074f0800000000000000
+      internalID: -833104657607649773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Idle_22
+      rect:
+        serializedVersion: 2
+        x: 6186
+        y: 686
+        width: 237
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 290392edb5ec455c0800000000000000
+      internalID: -4227527256229465966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Idle_23
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 461
+        width: 235
+        height: 201
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7939f74ced0446340800000000000000
+      internalID: 4856077623735849879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Idle_24
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 462
+        width: 234
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 512e54cc7484fef80800000000000000
+      internalID: -8075156133645000171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Idle_25
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 462
+        width: 234
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a961640c45f65650800000000000000
+      internalID: 6221429642098731429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Idle_26
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 462
+        width: 234
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6437ba5276e677d0800000000000000
+      internalID: -2920893929480571795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Idle_27
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 462
+        width: 233
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9fc56175b8384260800000000000000
+      internalID: 7081972765982838686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Idle_28
+      rect:
+        serializedVersion: 2
+        x: 1422
+        y: 462
+        width: 232
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd4726ed2fa49d610800000000000000
+      internalID: 1646429545754162397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Idle_29
+      rect:
+        serializedVersion: 2
+        x: 1702
+        y: 462
+        width: 232
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3d6a79c2c38181d0800000000000000
+      internalID: -3350251775159800517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Idle_30
+      rect:
+        serializedVersion: 2
+        x: 1983
+        y: 462
+        width: 232
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4731d78aaa695cb90800000000000000
+      internalID: -7222200767703346316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Idle_31
+      rect:
+        serializedVersion: 2
+        x: 2263
+        y: 463
+        width: 232
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5863c9c3ea5db4af0800000000000000
+      internalID: -410999996656372091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Idle_32
+      rect:
+        serializedVersion: 2
+        x: 2543
+        y: 463
+        width: 232
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67822c7100a65c740800000000000000
+      internalID: 5171656295736027254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Idle_33
+      rect:
+        serializedVersion: 2
+        x: 2823
+        y: 463
+        width: 232
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d37a719fca301e40800000000000000
+      internalID: 5625060597759112152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Idle_34
+      rect:
+        serializedVersion: 2
+        x: 3103
+        y: 463
+        width: 232
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 588f8bb5171560090800000000000000
+      internalID: -8068672135075661691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Idle_35
+      rect:
+        serializedVersion: 2
+        x: 3383
+        y: 463
+        width: 231
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 482a1eb15cbe83e80800000000000000
+      internalID: -8198543889819131260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Idle_36
+      rect:
+        serializedVersion: 2
+        x: 3663
+        y: 463
+        width: 231
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20f037ef79613c390800000000000000
+      internalID: -7799365287610740990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Idle_37
+      rect:
+        serializedVersion: 2
+        x: 3943
+        y: 462
+        width: 232
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de71fe17aae022de0800000000000000
+      internalID: -1359508012293744659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Idle_38
+      rect:
+        serializedVersion: 2
+        x: 4224
+        y: 462
+        width: 231
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7ea7329b02812dc0800000000000000
+      internalID: -3665505635493499265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Idle_39
+      rect:
+        serializedVersion: 2
+        x: 4504
+        y: 462
+        width: 231
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdb7287c367cd84a0800000000000000
+      internalID: -6589391448410260513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Idle_40
+      rect:
+        serializedVersion: 2
+        x: 4784
+        y: 462
+        width: 231
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9803986eec3a31900800000000000000
+      internalID: 654046479925194889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Idle_41
+      rect:
+        serializedVersion: 2
+        x: 5064
+        y: 462
+        width: 231
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81cd9a2dc4447ca60800000000000000
+      internalID: 7694193585128332312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Idle_42
+      rect:
+        serializedVersion: 2
+        x: 5343
+        y: 462
+        width: 232
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dd4bba37a66c0e90800000000000000
+      internalID: -7058153647565484586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Idle_43
+      rect:
+        serializedVersion: 2
+        x: 5623
+        y: 462
+        width: 232
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f8491b73ed56dc20800000000000000
+      internalID: 3230873014289123571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Idle_44
+      rect:
+        serializedVersion: 2
+        x: 5903
+        y: 462
+        width: 283
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d076365dcdfeafc60800000000000000
+      internalID: 7852852632025786125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Idle_45
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 239
+        width: 232
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cd5bf0b9565ee510800000000000000
+      internalID: 1580295462474964425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Idle_46
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 239
+        width: 231
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15226cf2385348e80800000000000000
+      internalID: -8177352185839476143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Idle_47
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 239
+        width: 233
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5326c37c6c99be00800000000000000
+      internalID: 1061051176835228509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Idle_48
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 239
+        width: 233
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b444b270c4fd02e0800000000000000
+      internalID: -2157799539045284679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Idle_49
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 239
+        width: 233
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f41541849583724a0800000000000000
+      internalID: -6618259171285118641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Idle_50
+      rect:
+        serializedVersion: 2
+        x: 1415
+        y: 238
+        width: 232
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d7e11513895f55d0800000000000000
+      internalID: -3071638001314306092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Idle_51
+      rect:
+        serializedVersion: 2
+        x: 1695
+        y: 238
+        width: 232
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 903b34058192997d0800000000000000
+      internalID: -2911250499715747063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Idle_52
+      rect:
+        serializedVersion: 2
+        x: 1974
+        y: 238
+        width: 233
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35dc0e201d375fae0800000000000000
+      internalID: -1516178358006657709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Idle_53
+      rect:
+        serializedVersion: 2
+        x: 2253
+        y: 238
+        width: 233
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bb7e09baa15156a0800000000000000
+      internalID: -6462294196608926795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Idle_54
+      rect:
+        serializedVersion: 2
+        x: 2533
+        y: 238
+        width: 233
+        height: 201
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff98dfb12612ca810800000000000000
+      internalID: 1777832658164615679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Idle_55
+      rect:
+        serializedVersion: 2
+        x: 2811
+        y: 238
+        width: 235
+        height: 201
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eee8165edefdbd1f0800000000000000
+      internalID: -1018974677820666130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Idle_56
+      rect:
+        serializedVersion: 2
+        x: 3091
+        y: 238
+        width: 234
+        height: 201
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f740e0a5d37b4600800000000000000
+      internalID: 453583548845148144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Idle_57
+      rect:
+        serializedVersion: 2
+        x: 3370
+        y: 238
+        width: 235
+        height: 201
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0a58c8f092f82900800000000000000
+      internalID: 660044049872869898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Idle_58
+      rect:
+        serializedVersion: 2
+        x: 3650
+        y: 237
+        width: 235
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5efc40b8f64f7280800000000000000
+      internalID: -9043431492812997025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Idle_59
+      rect:
+        serializedVersion: 2
+        x: 3929
+        y: 237
+        width: 235
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53ece402cfeab6340800000000000000
+      internalID: 4858169020946239029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Idle_60
+      rect:
+        serializedVersion: 2
+        x: 4209
+        y: 237
+        width: 235
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c6c90b9ff2e0cff0800000000000000
+      internalID: -17764811063834943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Idle_61
+      rect:
+        serializedVersion: 2
+        x: 4488
+        y: 237
+        width: 236
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c73e85bbc63509850800000000000000
+      internalID: 6381692398448731004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Idle_62
+      rect:
+        serializedVersion: 2
+        x: 4767
+        y: 237
+        width: 237
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a5e5f19e78139190800000000000000
+      internalID: -7956989184739777120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Idle_63
+      rect:
+        serializedVersion: 2
+        x: 5047
+        y: 236
+        width: 236
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ac2621982862b840800000000000000
+      internalID: 5238363840028486816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Idle_64
+      rect:
+        serializedVersion: 2
+        x: 5327
+        y: 236
+        width: 236
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1cbbdbd4131ca620800000000000000
+      internalID: 2786623249744378911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Idle_65
+      rect:
+        serializedVersion: 2
+        x: 5606
+        y: 236
+        width: 237
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff54d3dd4c9ae25f0800000000000000
+      internalID: -779499022498052609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Idle_66
+      rect:
+        serializedVersion: 2
+        x: 5886
+        y: 236
+        width: 237
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 340762b1d0db25fa0800000000000000
+      internalID: -5813376304994160573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Idle_67
+      rect:
+        serializedVersion: 2
+        x: 6166
+        y: 329
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4235fbae9fbd66e60800000000000000
+      internalID: 7955287658228306724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Idle_68
+      rect:
+        serializedVersion: 2
+        x: 6181
+        y: 309
+        width: 5
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f93102bd5e3175da0800000000000000
+      internalID: -5956270104229440609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Idle_69
+      rect:
+        serializedVersion: 2
+        x: 6189
+        y: 287
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d0621a2509433b90800000000000000
+      internalID: -7263381487488966448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Idle_70
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 13
+        width: 237
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed8875ec4457cb3b0800000000000000
+      internalID: -5495388506918778658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Idle_71
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 13
+        width: 237
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abaa634f51e3b0b90800000000000000
+      internalID: -7274652509074445638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Idle_72
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 13
+        width: 237
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cff32a94d30272580800000000000000
+      internalID: -8852071094972956676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Idle_73
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 13
+        width: 237
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeddfd4d590618f70800000000000000
+      internalID: 9187730911450357226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Idle_74
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 13
+        width: 237
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07a72273f305d6c80800000000000000
+      internalID: -8327911903500010896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Idle_75
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 13
+        width: 237
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 322ef25e9ec8bd290800000000000000
+      internalID: -7864537388072050141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Idle_76
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 13
+        width: 237
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f11a888b1c6276b0800000000000000
+      internalID: -5300054945950985742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Idle_77
+      rect:
+        serializedVersion: 2
+        x: 1980
+        y: 13
+        width: 237
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 092677a2b74562090800000000000000
+      internalID: -8059661595162746224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Idle_78
+      rect:
+        serializedVersion: 2
+        x: 2260
+        y: 13
+        width: 237
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58bd7cabae5d04390800000000000000
+      internalID: -7836028147491939451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Idle_79
+      rect:
+        serializedVersion: 2
+        x: 2540
+        y: 13
+        width: 237
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19d08bd2ec3323360800000000000000
+      internalID: 7147832519213714833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Idle_80
+      rect:
+        serializedVersion: 2
+        x: 2820
+        y: 13
+        width: 237
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10e31488422f37690800000000000000
+      internalID: -7605469106979914239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Idle_81
+      rect:
+        serializedVersion: 2
+        x: 3101
+        y: 13
+        width: 237
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce59cc28f3ded5d80800000000000000
+      internalID: -8260185284494453268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Idle_82
+      rect:
+        serializedVersion: 2
+        x: 3381
+        y: 14
+        width: 237
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5470ba8247259d4c0800000000000000
+      internalID: -4262284913477482683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Idle_83
+      rect:
+        serializedVersion: 2
+        x: 3662
+        y: 14
+        width: 236
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9571fa17b318d5160800000000000000
+      internalID: 7015905886823454553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Idle_84
+      rect:
+        serializedVersion: 2
+        x: 3942
+        y: 14
+        width: 237
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e60d1834836a93d0800000000000000
+      internalID: -3199135165765056794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Idle_85
+      rect:
+        serializedVersion: 2
+        x: 4223
+        y: 14
+        width: 237
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1c4e9cf4a8af6930800000000000000
+      internalID: 4138712009143110682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Idle_86
+      rect:
+        serializedVersion: 2
+        x: 4504
+        y: 15
+        width: 236
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 142b20225c10c5d50800000000000000
+      internalID: 6727253889575465537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Idle_87
+      rect:
+        serializedVersion: 2
+        x: 4784
+        y: 15
+        width: 237
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6be2c94efe7b24640800000000000000
+      internalID: 5062811172078366390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Idle_88
+      rect:
+        serializedVersion: 2
+        x: 5065
+        y: 15
+        width: 236
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc00a0231dcc399e0800000000000000
+      internalID: -1615722642436128563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Idle_89
+      rect:
+        serializedVersion: 2
+        x: 5346
+        y: 15
+        width: 236
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 297ee36b3da1f8610800000000000000
+      internalID: 1625547487102035858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Idle_90
+      rect:
+        serializedVersion: 2
+        x: 5627
+        y: 15
+        width: 235
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91ff7b7a40a81dda0800000000000000
+      internalID: -5921800282417135847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Idle_91
+      rect:
+        serializedVersion: 2
+        x: 5907
+        y: 15
+        width: 236
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc5b85c87781772b0800000000000000
+      internalID: -5586969910995012149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Idle_92
+      rect:
+        serializedVersion: 2
+        x: 6188
+        y: 15
+        width: 235
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12225915aa0a62de0800000000000000
+      internalID: -1358221584232013279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 6c46b134ee675a049b842efd894bcc4a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Emi Idle_67: 7955287658228306724
+      Emi Idle_70: -5495388506918778658
+      Emi Idle_4: -647312194507702524
+      Emi Idle_91: -5586969910995012149
+      Emi Idle_50: -3071638001314306092
+      Emi Idle_51: -2911250499715747063
+      Emi Idle_74: -8327911903500010896
+      Emi Idle_66: -5813376304994160573
+      Emi Idle_37: -1359508012293744659
+      Emi Idle_63: 5238363840028486816
+      Emi Idle_73: 9187730911450357226
+      Emi Idle_59: 4858169020946239029
+      Emi Idle_38: -3665505635493499265
+      Emi Idle_10: -9218113595937716087
+      Emi Idle_18: -3847519735493219156
+      Emi Idle_13: -1705141932584544008
+      Emi Idle_11: -1804564080658037776
+      Emi Idle_53: -6462294196608926795
+      Emi Idle_0: 1821255840495765416
+      Emi Idle_8: -5167660015902358081
+      Emi Idle_19: -4061387084054072427
+      Emi Idle_61: 6381692398448731004
+      Emi Idle_22: -4227527256229465966
+      Emi Idle_42: -7058153647565484586
+      Emi Idle_16: 3788263383968044895
+      Emi Idle_68: -5956270104229440609
+      Emi Idle_48: -2157799539045284679
+      Emi Idle_24: -8075156133645000171
+      Emi Idle_52: -1516178358006657709
+      Emi Idle_35: -8198543889819131260
+      Emi Idle_78: -7836028147491939451
+      Emi Idle_45: 1580295462474964425
+      Emi Idle_56: 453583548845148144
+      Emi Idle_30: -7222200767703346316
+      Emi Idle_5: 8953703337646606073
+      Emi Idle_75: -7864537388072050141
+      Emi Idle_41: 7694193585128332312
+      Emi Idle_23: 4856077623735849879
+      Emi Idle_17: 3622548422588163679
+      Emi Idle_82: -4262284913477482683
+      Emi Idle_33: 5625060597759112152
+      Emi Idle_1: 8995537061770375724
+      Emi Idle_15: 3440188339135434819
+      Emi Idle_46: -8177352185839476143
+      Emi Idle_47: 1061051176835228509
+      Emi Idle_29: -3350251775159800517
+      Emi Idle_88: -1615722642436128563
+      Emi Idle_31: -410999996656372091
+      Emi Idle_81: -8260185284494453268
+      Emi Idle_87: 5062811172078366390
+      Emi Idle_90: -5921800282417135847
+      Emi Idle_80: -7605469106979914239
+      Emi Idle_60: -17764811063834943
+      Emi Idle_6: -1912177793260801630
+      Emi Idle_28: 1646429545754162397
+      Emi Idle_85: 4138712009143110682
+      Emi Idle_55: -1018974677820666130
+      Emi Idle_14: -2244769168595457518
+      Emi Idle_77: -8059661595162746224
+      Emi Idle_32: 5171656295736027254
+      Emi Idle_71: -7274652509074445638
+      Emi Idle_40: 654046479925194889
+      Emi Idle_43: 3230873014289123571
+      Emi Idle_84: -3199135165765056794
+      Emi Idle_89: 1625547487102035858
+      Emi Idle_9: 8029113728021581714
+      Emi Idle_26: -2920893929480571795
+      Emi Idle_12: -4853692871934917358
+      Emi Idle_79: 7147832519213714833
+      Emi Idle_39: -6589391448410260513
+      Emi Idle_65: -779499022498052609
+      Emi Idle_2: 8311936737184923840
+      Emi Idle_27: 7081972765982838686
+      Emi Idle_34: -8068672135075661691
+      Emi Idle_62: -7956989184739777120
+      Emi Idle_44: 7852852632025786125
+      Emi Idle_3: -3555384940472837376
+      Emi Idle_7: -2147830306812750369
+      Emi Idle_54: 1777832658164615679
+      Emi Idle_92: -1358221584232013279
+      Emi Idle_36: -7799365287610740990
+      Emi Idle_76: -5300054945950985742
+      Emi Idle_86: 6727253889575465537
+      Emi Idle_72: -8852071094972956676
+      Emi Idle_83: 7015905886823454553
+      Emi Idle_64: 2786623249744378911
+      Emi Idle_69: -7263381487488966448
+      Emi Idle_58: -9043431492812997025
+      Emi Idle_57: 660044049872869898
+      Emi Idle_25: 6221429642098731429
+      Emi Idle_49: -6618259171285118641
+      Emi Idle_20: 1209430132197804098
+      Emi Idle_21: -833104657607649773
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

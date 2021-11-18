@@ -1,0 +1,2760 @@
+fileFormatVersion: 2
+guid: 28a9b0d1436dff94b91d0939165b0efb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 668249266252696999
+    second: Auri1_0
+  - first:
+      213: 1678232150654741723
+    second: Auri1_1
+  - first:
+      213: -8375038226813664766
+    second: Auri1_2
+  - first:
+      213: -5349455831889602571
+    second: Auri1_3
+  - first:
+      213: -6331898352495191438
+    second: Auri1_4
+  - first:
+      213: 7651193327978552355
+    second: Auri1_5
+  - first:
+      213: -8004194789307053225
+    second: Auri1_6
+  - first:
+      213: 6409104753769125511
+    second: Auri1_7
+  - first:
+      213: 4214357378062206761
+    second: Auri1_8
+  - first:
+      213: 1876903054475695296
+    second: Auri1_9
+  - first:
+      213: 2178006955570311883
+    second: Auri1_10
+  - first:
+      213: -2321212351086461111
+    second: Auri1_11
+  - first:
+      213: 6700153379433692980
+    second: Auri1_12
+  - first:
+      213: -4150525181134507405
+    second: Auri1_13
+  - first:
+      213: 7622148196090793239
+    second: Auri1_14
+  - first:
+      213: -5781474361760812244
+    second: Auri1_15
+  - first:
+      213: -8294723970098473063
+    second: Auri1_16
+  - first:
+      213: 5862988937207926736
+    second: Auri1_17
+  - first:
+      213: 8706106819039930432
+    second: Auri1_18
+  - first:
+      213: 8954367622368245925
+    second: Auri1_19
+  - first:
+      213: -5091118149512094615
+    second: Auri1_20
+  - first:
+      213: -4745795423829884409
+    second: Auri1_21
+  - first:
+      213: -4280054595239930872
+    second: Auri1_22
+  - first:
+      213: 4990981530128937308
+    second: Auri1_23
+  - first:
+      213: 6271501834599567543
+    second: Auri1_24
+  - first:
+      213: 2316045235350610542
+    second: Auri1_25
+  - first:
+      213: -4125383300164470836
+    second: Auri1_26
+  - first:
+      213: 5703421344133341436
+    second: Auri1_27
+  - first:
+      213: 2846933157915643894
+    second: Auri1_28
+  - first:
+      213: 4738164559545956935
+    second: Auri1_29
+  - first:
+      213: -875576722725710585
+    second: Auri1_30
+  - first:
+      213: 7408738345424831996
+    second: Auri1_31
+  - first:
+      213: -7062786005117910688
+    second: Auri1_32
+  - first:
+      213: -7212462845915645668
+    second: Auri1_33
+  - first:
+      213: -2005272922021161366
+    second: Auri1_34
+  - first:
+      213: -2566661561731055745
+    second: Auri1_35
+  - first:
+      213: 7830736270803670623
+    second: Auri1_36
+  - first:
+      213: 6861370213162151944
+    second: Auri1_37
+  - first:
+      213: -2764498169136806331
+    second: Auri1_38
+  - first:
+      213: -4992905336649855120
+    second: Auri1_39
+  - first:
+      213: 2186374505742957418
+    second: Auri1_40
+  - first:
+      213: 5701907838721558876
+    second: Auri1_41
+  - first:
+      213: -74574995501800757
+    second: Auri1_42
+  - first:
+      213: 5918804540678593390
+    second: Auri1_43
+  - first:
+      213: -3234445288469318153
+    second: Auri1_44
+  - first:
+      213: -3646710014999234914
+    second: Auri1_45
+  - first:
+      213: 6820223296317093478
+    second: Auri1_46
+  - first:
+      213: -3203776628205363187
+    second: Auri1_47
+  - first:
+      213: 100784007110629465
+    second: Auri1_48
+  - first:
+      213: 3804172300941906613
+    second: Auri1_49
+  - first:
+      213: 2475361474349648202
+    second: Auri1_50
+  - first:
+      213: 2817761293243443915
+    second: Auri1_51
+  - first:
+      213: 1193814796757432135
+    second: Auri1_52
+  - first:
+      213: -7677410945781582718
+    second: Auri1_53
+  - first:
+      213: -2700466318631071162
+    second: Auri1_54
+  - first:
+      213: -4275523905682461032
+    second: Auri1_55
+  - first:
+      213: -1458073569203602755
+    second: Auri1_56
+  - first:
+      213: 2460892654286150773
+    second: Auri1_57
+  - first:
+      213: 5913920328492789362
+    second: Auri1_58
+  - first:
+      213: 7551095195236713957
+    second: Auri1_59
+  - first:
+      213: -1316930449060957409
+    second: Auri1_60
+  - first:
+      213: -4246886765515028680
+    second: Auri1_61
+  - first:
+      213: -8209241042969929034
+    second: Auri1_62
+  - first:
+      213: 2417105526294364544
+    second: Auri1_63
+  - first:
+      213: 2305740306982435147
+    second: Auri1_64
+  - first:
+      213: 2945494408098580384
+    second: Auri1_65
+  - first:
+      213: -454779939363947637
+    second: Auri1_66
+  - first:
+      213: -8235716125798349178
+    second: Auri1_67
+  - first:
+      213: 63525877802522505
+    second: Auri1_68
+  - first:
+      213: 1639700829402287381
+    second: Auri1_69
+  - first:
+      213: -7074497070172326283
+    second: Auri1_70
+  - first:
+      213: -5749071359786002761
+    second: Auri1_71
+  - first:
+      213: 3018143624127760747
+    second: Auri1_72
+  - first:
+      213: 5330572711174927034
+    second: Auri1_73
+  - first:
+      213: -562410078365130085
+    second: Auri1_74
+  - first:
+      213: -1938676891929779492
+    second: Auri1_75
+  - first:
+      213: 6016415533643242891
+    second: Auri1_76
+  - first:
+      213: 7596713427941557157
+    second: Auri1_77
+  - first:
+      213: 1309574086586976627
+    second: Auri1_78
+  - first:
+      213: 8464749200031492416
+    second: Auri1_79
+  - first:
+      213: -4078560846276298636
+    second: Auri1_80
+  - first:
+      213: 4699068284830897858
+    second: Auri1_81
+  - first:
+      213: 4235112349471425187
+    second: Auri1_82
+  - first:
+      213: -275561833732406993
+    second: Auri1_83
+  - first:
+      213: -7194914298634018461
+    second: Auri1_84
+  - first:
+      213: -6336137476575496273
+    second: Auri1_85
+  - first:
+      213: 7259738769715752368
+    second: Auri1_86
+  - first:
+      213: 7775665731934502092
+    second: Auri1_87
+  - first:
+      213: -9204106081748063955
+    second: Auri1_88
+  - first:
+      213: -7846950229625705154
+    second: Auri1_89
+  - first:
+      213: -6392209358200405624
+    second: Auri1_90
+  - first:
+      213: -1736343522154556599
+    second: Auri1_91
+  - first:
+      213: -952610201375296305
+    second: Auri1_92
+  - first:
+      213: 3299298229744490374
+    second: Auri1_93
+  - first:
+      213: 3561933930360364686
+    second: Auri1_94
+  - first:
+      213: -3558703137520894656
+    second: Auri1_95
+  - first:
+      213: 7162713530445772054
+    second: Auri1_96
+  - first:
+      213: -958235787312289916
+    second: Auri1_97
+  - first:
+      213: 2978427534607246215
+    second: Auri1_98
+  - first:
+      213: 1616011064582302375
+    second: Auri1_99
+  - first:
+      213: -2599785143983615168
+    second: Auri1_100
+  - first:
+      213: -6732518577375724698
+    second: Auri1_101
+  - first:
+      213: -6026171669122080761
+    second: Auri1_102
+  - first:
+      213: 9066296315373143021
+    second: Auri1_103
+  - first:
+      213: -6385601522884245270
+    second: Auri1_104
+  - first:
+      213: -1397295743656591756
+    second: Auri1_105
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Auri1_0
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 690
+        width: 175
+        height: 179
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ad4868ca29164900800000000000000
+      internalID: 668249266252696999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_1
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 690
+        width: 175
+        height: 179
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdc6a66df374a4710800000000000000
+      internalID: 1678232150654741723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_2
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 690
+        width: 175
+        height: 179
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20244760b13e5cb80800000000000000
+      internalID: -8375038226813664766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_3
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 690
+        width: 175
+        height: 178
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f71496734ae2c5b0800000000000000
+      internalID: -5349455831889602571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_4
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 689
+        width: 175
+        height: 176
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27a94a90ff39028a0800000000000000
+      internalID: -6331898352495191438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_5
+      rect:
+        serializedVersion: 2
+        x: 1431
+        y: 689
+        width: 175
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32c10064bcf7e2a60800000000000000
+      internalID: 7651193327978552355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_6
+      rect:
+        serializedVersion: 2
+        x: 1713
+        y: 688
+        width: 173
+        height: 175
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75b02564f336be090800000000000000
+      internalID: -8004194789307053225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_7
+      rect:
+        serializedVersion: 2
+        x: 1994
+        y: 687
+        width: 172
+        height: 176
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7861da011d6b1f850800000000000000
+      internalID: 6409104753769125511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_8
+      rect:
+        serializedVersion: 2
+        x: 2273
+        y: 684
+        width: 172
+        height: 178
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 927c1fbe4b76c7a30800000000000000
+      internalID: 4214357378062206761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_9
+      rect:
+        serializedVersion: 2
+        x: 2553
+        y: 680
+        width: 171
+        height: 181
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c49edf32691c0a10800000000000000
+      internalID: 1876903054475695296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_10
+      rect:
+        serializedVersion: 2
+        x: 2833
+        y: 680
+        width: 171
+        height: 181
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc2391959c5d93e10800000000000000
+      internalID: 2178006955570311883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_11
+      rect:
+        serializedVersion: 2
+        x: 3112
+        y: 677
+        width: 170
+        height: 183
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94ffd3d3aa569cfd0800000000000000
+      internalID: -2321212351086461111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_12
+      rect:
+        serializedVersion: 2
+        x: 3392
+        y: 674
+        width: 169
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43f37c9eff9bbfc50800000000000000
+      internalID: 6700153379433692980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_13
+      rect:
+        serializedVersion: 2
+        x: 3672
+        y: 674
+        width: 168
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 372f923965f5666c0800000000000000
+      internalID: -4150525181134507405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_14
+      rect:
+        serializedVersion: 2
+        x: 3951
+        y: 674
+        width: 168
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71d4065866f47c960800000000000000
+      internalID: 7622148196090793239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_15
+      rect:
+        serializedVersion: 2
+        x: 4231
+        y: 675
+        width: 167
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c23f73513b314cfa0800000000000000
+      internalID: -5781474361760812244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_16
+      rect:
+        serializedVersion: 2
+        x: 4509
+        y: 675
+        width: 169
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 997dc5c1f7833ec80800000000000000
+      internalID: -8294723970098473063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_17
+      rect:
+        serializedVersion: 2
+        x: 4788
+        y: 675
+        width: 169
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dfc25cff558d5150800000000000000
+      internalID: 5862988937207926736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_18
+      rect:
+        serializedVersion: 2
+        x: 5067
+        y: 675
+        width: 170
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0482b75660e42d870800000000000000
+      internalID: 8706106819039930432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_19
+      rect:
+        serializedVersion: 2
+        x: 5346
+        y: 676
+        width: 170
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a8b48709ed444c70800000000000000
+      internalID: 8954367622368245925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_20
+      rect:
+        serializedVersion: 2
+        x: 5625
+        y: 676
+        width: 171
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96c99c45407b859b0800000000000000
+      internalID: -5091118149512094615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_21
+      rect:
+        serializedVersion: 2
+        x: 5905
+        y: 676
+        width: 171
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70202f1d43c832eb0800000000000000
+      internalID: -4745795423829884409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_22
+      rect:
+        serializedVersion: 2
+        x: 6186
+        y: 675
+        width: 171
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8041277b5013a94c0800000000000000
+      internalID: -4280054595239930872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_23
+      rect:
+        serializedVersion: 2
+        x: 6467
+        y: 673
+        width: 170
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c51fedf1247834540800000000000000
+      internalID: 4990981530128937308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_24
+      rect:
+        serializedVersion: 2
+        x: 6750
+        y: 674
+        width: 169
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b09483d0b9d80750800000000000000
+      internalID: 6271501834599567543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_25
+      rect:
+        serializedVersion: 2
+        x: 7033
+        y: 675
+        width: 167
+        height: 189
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e622fc0eede342020800000000000000
+      internalID: 2316045235350610542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_26
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 459
+        width: 167
+        height: 189
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc73e57eeb1bfb6c0800000000000000
+      internalID: -4125383300164470836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_27
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 460
+        width: 168
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf0e2759e7f962f40800000000000000
+      internalID: 5703421344133341436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_28
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 461
+        width: 169
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ffc7d89f96528720800000000000000
+      internalID: 2846933157915643894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_29
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 464
+        width: 172
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74af413209751c140800000000000000
+      internalID: 4738164559545956935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_30
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 470
+        width: 173
+        height: 176
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70555541c9359d3f0800000000000000
+      internalID: -875576722725710585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_31
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 474
+        width: 173
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf5ccd0a54021d660800000000000000
+      internalID: 7408738345424831996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_32
+      rect:
+        serializedVersion: 2
+        x: 1699
+        y: 474
+        width: 173
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 061c8507c81fbfd90800000000000000
+      internalID: -7062786005117910688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_33
+      rect:
+        serializedVersion: 2
+        x: 1979
+        y: 473
+        width: 174
+        height: 176
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c19be71414f28eb90800000000000000
+      internalID: -7212462845915645668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_34
+      rect:
+        serializedVersion: 2
+        x: 2259
+        y: 472
+        width: 175
+        height: 178
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a66183dd6e6db24e0800000000000000
+      internalID: -2005272922021161366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_35
+      rect:
+        serializedVersion: 2
+        x: 2539
+        y: 472
+        width: 175
+        height: 179
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7ffe5a88e2616cd0800000000000000
+      internalID: -2566661561731055745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_36
+      rect:
+        serializedVersion: 2
+        x: 2819
+        y: 473
+        width: 175
+        height: 179
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f561507362d5cac60800000000000000
+      internalID: 7830736270803670623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_37
+      rect:
+        serializedVersion: 2
+        x: 3099
+        y: 474
+        width: 175
+        height: 179
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 800f9f31bdb783f50800000000000000
+      internalID: 6861370213162151944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_38
+      rect:
+        serializedVersion: 2
+        x: 3378
+        y: 474
+        width: 175
+        height: 179
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5460266ef8782a9d0800000000000000
+      internalID: -2764498169136806331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_39
+      rect:
+        serializedVersion: 2
+        x: 3655
+        y: 473
+        width: 174
+        height: 178
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07f45d3cc03a5bab0800000000000000
+      internalID: -4992905336649855120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_40
+      rect:
+        serializedVersion: 2
+        x: 3931
+        y: 473
+        width: 175
+        height: 175
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6b77c07700975e10800000000000000
+      internalID: 2186374505742957418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_41
+      rect:
+        serializedVersion: 2
+        x: 4210
+        y: 471
+        width: 174
+        height: 175
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c59830528fe312f40800000000000000
+      internalID: 5701907838721558876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_42
+      rect:
+        serializedVersion: 2
+        x: 4489
+        y: 469
+        width: 173
+        height: 175
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc22dfbcf6e07fef0800000000000000
+      internalID: -74574995501800757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_43
+      rect:
+        serializedVersion: 2
+        x: 4769
+        y: 469
+        width: 173
+        height: 175
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6bdd1ede51d32250800000000000000
+      internalID: 5918804540678593390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_44
+      rect:
+        serializedVersion: 2
+        x: 5055
+        y: 473
+        width: 174
+        height: 178
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f5b95f9521fc13d0800000000000000
+      internalID: -3234445288469318153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_45
+      rect:
+        serializedVersion: 2
+        x: 5326
+        y: 464
+        width: 172
+        height: 178
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e967c1dff88446dc0800000000000000
+      internalID: -3646710014999234914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_46
+      rect:
+        serializedVersion: 2
+        x: 5606
+        y: 464
+        width: 172
+        height: 178
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 666f2d1f3fc46ae50800000000000000
+      internalID: 6820223296317093478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_47
+      rect:
+        serializedVersion: 2
+        x: 5884
+        y: 460
+        width: 172
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d00ee188126e983d0800000000000000
+      internalID: -3203776628205363187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_48
+      rect:
+        serializedVersion: 2
+        x: 6164
+        y: 460
+        width: 172
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9589ede358e066100800000000000000
+      internalID: 100784007110629465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_49
+      rect:
+        serializedVersion: 2
+        x: 6444
+        y: 460
+        width: 172
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b2d5066d822bc430800000000000000
+      internalID: 3804172300941906613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_50
+      rect:
+        serializedVersion: 2
+        x: 6738
+        y: 474
+        width: 175
+        height: 179
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a494c4955204a5220800000000000000
+      internalID: 2475361474349648202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_51
+      rect:
+        serializedVersion: 2
+        x: 7019
+        y: 473
+        width: 175
+        height: 179
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcaee9197f2ba1720800000000000000
+      internalID: 2817761293243443915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_52
+      rect:
+        serializedVersion: 2
+        x: 7299
+        y: 472
+        width: 175
+        height: 179
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 747f4588b38419010800000000000000
+      internalID: 1193814796757432135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_53
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 241
+        width: 175
+        height: 179
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2843ef5eb6b547590800000000000000
+      internalID: -7677410945781582718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_54
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 242
+        width: 175
+        height: 179
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 642961ed034068ad0800000000000000
+      internalID: -2700466318631071162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_55
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 242
+        width: 175
+        height: 179
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89e2b1519a94aa4c0800000000000000
+      internalID: -4275523905682461032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_56
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 241
+        width: 174
+        height: 178
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbabb3360d1e3cbe0800000000000000
+      internalID: -1458073569203602755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_57
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 241
+        width: 175
+        height: 175
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57c1819a4d8d62220800000000000000
+      internalID: 2460892654286150773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_58
+      rect:
+        serializedVersion: 2
+        x: 1425
+        y: 239
+        width: 174
+        height: 175
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27e26c99437721250800000000000000
+      internalID: 5913920328492789362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_59
+      rect:
+        serializedVersion: 2
+        x: 1704
+        y: 237
+        width: 173
+        height: 175
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e54e399211eac860800000000000000
+      internalID: 7551095195236713957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_60
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 237
+        width: 173
+        height: 175
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1373d5ebb259bde0800000000000000
+      internalID: -1316930449060957409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_61
+      rect:
+        serializedVersion: 2
+        x: 2270
+        y: 241
+        width: 174
+        height: 178
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8374b2cdcf60015c0800000000000000
+      internalID: -4246886765515028680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_62
+      rect:
+        serializedVersion: 2
+        x: 2541
+        y: 232
+        width: 172
+        height: 178
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ba583e04cae21e80800000000000000
+      internalID: -8209241042969929034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_63
+      rect:
+        serializedVersion: 2
+        x: 2821
+        y: 232
+        width: 172
+        height: 178
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 081c8677ba84b8120800000000000000
+      internalID: 2417105526294364544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_64
+      rect:
+        serializedVersion: 2
+        x: 3099
+        y: 228
+        width: 172
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b49fcf5c792afff10800000000000000
+      internalID: 2305740306982435147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_65
+      rect:
+        serializedVersion: 2
+        x: 3379
+        y: 228
+        width: 172
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a78d9aee8f70e820800000000000000
+      internalID: 2945494408098580384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_66
+      rect:
+        serializedVersion: 2
+        x: 3659
+        y: 228
+        width: 172
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8bfc3ffd0c40b9f0800000000000000
+      internalID: -454779939363947637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_67
+      rect:
+        serializedVersion: 2
+        x: 3953
+        y: 242
+        width: 175
+        height: 179
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68645da71dbd4bd80800000000000000
+      internalID: -8235716125798349178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_68
+      rect:
+        serializedVersion: 2
+        x: 4234
+        y: 241
+        width: 175
+        height: 179
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 987d6740370b1e000800000000000000
+      internalID: 63525877802522505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_69
+      rect:
+        serializedVersion: 2
+        x: 4514
+        y: 240
+        width: 175
+        height: 179
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51dcf62873361c610800000000000000
+      internalID: 1639700829402287381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_70
+      rect:
+        serializedVersion: 2
+        x: 4785
+        y: 239
+        width: 174
+        height: 175
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57636df956652dd90800000000000000
+      internalID: -7074497070172326283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_71
+      rect:
+        serializedVersion: 2
+        x: 5066
+        y: 241
+        width: 175
+        height: 175
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b65593ee023730b0800000000000000
+      internalID: -5749071359786002761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_72
+      rect:
+        serializedVersion: 2
+        x: 5354
+        y: 240
+        width: 175
+        height: 178
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b69ce35a2a992e920800000000000000
+      internalID: 3018143624127760747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_73
+      rect:
+        serializedVersion: 2
+        x: 5634
+        y: 241
+        width: 174
+        height: 176
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab2f8f263aff9f940800000000000000
+      internalID: 5330572711174927034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_74
+      rect:
+        serializedVersion: 2
+        x: 5914
+        y: 242
+        width: 173
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9262f4730be138f0800000000000000
+      internalID: -562410078365130085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_75
+      rect:
+        serializedVersion: 2
+        x: 6194
+        y: 242
+        width: 173
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd2644a63af6815e0800000000000000
+      internalID: -1938676891929779492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_76
+      rect:
+        serializedVersion: 2
+        x: 6471
+        y: 238
+        width: 173
+        height: 176
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8d92ff2d0a9e7350800000000000000
+      internalID: 6016415533643242891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_77
+      rect:
+        serializedVersion: 2
+        x: 6745
+        y: 229
+        width: 169
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a385e41d92fc6960800000000000000
+      internalID: 7596713427941557157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_78
+      rect:
+        serializedVersion: 2
+        x: 7023
+        y: 228
+        width: 168
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 379c21e71ba8c2210800000000000000
+      internalID: 1309574086586976627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_79
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 167
+        height: 189
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04926ac9c84d87570800000000000000
+      internalID: 8464749200031492416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_80
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 1
+        width: 169
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47872eaf48a0667c0800000000000000
+      internalID: -4078560846276298636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_81
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 0
+        width: 170
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c656a455b1763140800000000000000
+      internalID: 4699068284830897858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_82
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 2
+        width: 171
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a24d164e3426ca30800000000000000
+      internalID: 4235112349471425187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_83
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 3
+        width: 171
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2189b2e8f10d2cf0800000000000000
+      internalID: -275561833732406993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_84
+      rect:
+        serializedVersion: 2
+        x: 1393
+        y: 3
+        width: 170
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3616a80d097862c90800000000000000
+      internalID: -7194914298634018461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_85
+      rect:
+        serializedVersion: 2
+        x: 1673
+        y: 3
+        width: 170
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa77dac09848118a0800000000000000
+      internalID: -6336137476575496273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_86
+      rect:
+        serializedVersion: 2
+        x: 1971
+        y: 17
+        width: 175
+        height: 179
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bde90382f5cfb460800000000000000
+      internalID: 7259738769715752368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_87
+      rect:
+        serializedVersion: 2
+        x: 2234
+        y: 2
+        width: 170
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccc322439c6b8eb60800000000000000
+      internalID: 7775665731934502092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_88
+      rect:
+        serializedVersion: 2
+        x: 2515
+        y: 2
+        width: 169
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d29e46ab842744080800000000000000
+      internalID: -9204106081748063955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_89
+      rect:
+        serializedVersion: 2
+        x: 2796
+        y: 2
+        width: 169
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3d6df057580a1390800000000000000
+      internalID: -7846950229625705154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_90
+      rect:
+        serializedVersion: 2
+        x: 3078
+        y: 2
+        width: 167
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8818982c47f4a47a0800000000000000
+      internalID: -6392209358200405624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_91
+      rect:
+        serializedVersion: 2
+        x: 3358
+        y: 1
+        width: 168
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9435de124c447e7e0800000000000000
+      internalID: -1736343522154556599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_92
+      rect:
+        serializedVersion: 2
+        x: 3639
+        y: 1
+        width: 168
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc4bc99a116a7c2f0800000000000000
+      internalID: -952610201375296305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_93
+      rect:
+        serializedVersion: 2
+        x: 3919
+        y: 1
+        width: 169
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 687deff624679cd20800000000000000
+      internalID: 3299298229744490374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_94
+      rect:
+        serializedVersion: 2
+        x: 4199
+        y: 4
+        width: 170
+        height: 183
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8e5a88a9088e6130800000000000000
+      internalID: 3561933930360364686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_95
+      rect:
+        serializedVersion: 2
+        x: 4480
+        y: 7
+        width: 171
+        height: 181
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04dbffae952fc9ec0800000000000000
+      internalID: -3558703137520894656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_96
+      rect:
+        serializedVersion: 2
+        x: 4760
+        y: 7
+        width: 171
+        height: 181
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 615ba1a9102176360800000000000000
+      internalID: 7162713530445772054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_97
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 11
+        width: 173
+        height: 178
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4872f2ed0a9a3b2f0800000000000000
+      internalID: -958235787312289916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_98
+      rect:
+        serializedVersion: 2
+        x: 5321
+        y: 14
+        width: 173
+        height: 176
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 783e185ff00855920800000000000000
+      internalID: 2978427534607246215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_99
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 15
+        width: 173
+        height: 175
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aa678150893d6610800000000000000
+      internalID: 1616011064582302375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_100
+      rect:
+        serializedVersion: 2
+        x: 5878
+        y: 16
+        width: 175
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 043d4809f25bbebd0800000000000000
+      internalID: -2599785143983615168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_101
+      rect:
+        serializedVersion: 2
+        x: 6165
+        y: 7
+        width: 172
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66b3dc7360a4192a0800000000000000
+      internalID: -6732518577375724698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_102
+      rect:
+        serializedVersion: 2
+        x: 6432
+        y: 3
+        width: 171
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 700a4728bccbe5ca0800000000000000
+      internalID: -6026171669122080761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_103
+      rect:
+        serializedVersion: 2
+        x: 6722
+        y: 17
+        width: 175
+        height: 179
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de3cf3aa674f1dd70800000000000000
+      internalID: 9066296315373143021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_104
+      rect:
+        serializedVersion: 2
+        x: 6999
+        y: 16
+        width: 175
+        height: 176
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae88a4f4f39c167a0800000000000000
+      internalID: -6385601522884245270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Auri1_105
+      rect:
+        serializedVersion: 2
+        x: 7281
+        y: 17
+        width: 175
+        height: 178
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47efe21aceecb9ce0800000000000000
+      internalID: -1397295743656591756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 7be87a977491e1049800141fb51c5a44
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Auri1_93: 3299298229744490374
+      Auri1_51: 2817761293243443915
+      Auri1_58: 5913920328492789362
+      Auri1_46: 6820223296317093478
+      Auri1_17: 5862988937207926736
+      Auri1_57: 2460892654286150773
+      Auri1_85: -6336137476575496273
+      Auri1_43: 5918804540678593390
+      Auri1_84: -7194914298634018461
+      Auri1_1: 1678232150654741723
+      Auri1_13: -4150525181134507405
+      Auri1_98: 2978427534607246215
+      Auri1_102: -6026171669122080761
+      Auri1_80: -4078560846276298636
+      Auri1_24: 6271501834599567543
+      Auri1_11: -2321212351086461111
+      Auri1_16: -8294723970098473063
+      Auri1_38: -2764498169136806331
+      Auri1_37: 6861370213162151944
+      Auri1_81: 4699068284830897858
+      Auri1_82: 4235112349471425187
+      Auri1_96: 7162713530445772054
+      Auri1_31: 7408738345424831996
+      Auri1_94: 3561933930360364686
+      Auri1_26: -4125383300164470836
+      Auri1_87: 7775665731934502092
+      Auri1_34: -2005272922021161366
+      Auri1_18: 8706106819039930432
+      Auri1_95: -3558703137520894656
+      Auri1_97: -958235787312289916
+      Auri1_35: -2566661561731055745
+      Auri1_9: 1876903054475695296
+      Auri1_44: -3234445288469318153
+      Auri1_72: 3018143624127760747
+      Auri1_0: 668249266252696999
+      Auri1_88: -9204106081748063955
+      Auri1_12: 6700153379433692980
+      Auri1_105: -1397295743656591756
+      Auri1_5: 7651193327978552355
+      Auri1_56: -1458073569203602755
+      Auri1_66: -454779939363947637
+      Auri1_69: 1639700829402287381
+      Auri1_101: -6732518577375724698
+      Auri1_21: -4745795423829884409
+      Auri1_64: 2305740306982435147
+      Auri1_75: -1938676891929779492
+      Auri1_73: 5330572711174927034
+      Auri1_100: -2599785143983615168
+      Auri1_20: -5091118149512094615
+      Auri1_22: -4280054595239930872
+      Auri1_2: -8375038226813664766
+      Auri1_104: -6385601522884245270
+      Auri1_79: 8464749200031492416
+      Auri1_23: 4990981530128937308
+      Auri1_78: 1309574086586976627
+      Auri1_19: 8954367622368245925
+      Auri1_89: -7846950229625705154
+      Auri1_3: -5349455831889602571
+      Auri1_28: 2846933157915643894
+      Auri1_49: 3804172300941906613
+      Auri1_39: -4992905336649855120
+      Auri1_40: 2186374505742957418
+      Auri1_52: 1193814796757432135
+      Auri1_61: -4246886765515028680
+      Auri1_45: -3646710014999234914
+      Auri1_27: 5703421344133341436
+      Auri1_50: 2475361474349648202
+      Auri1_92: -952610201375296305
+      Auri1_76: 6016415533643242891
+      Auri1_14: 7622148196090793239
+      Auri1_55: -4275523905682461032
+      Auri1_99: 1616011064582302375
+      Auri1_53: -7677410945781582718
+      Auri1_90: -6392209358200405624
+      Auri1_42: -74574995501800757
+      Auri1_7: 6409104753769125511
+      Auri1_91: -1736343522154556599
+      Auri1_54: -2700466318631071162
+      Auri1_25: 2316045235350610542
+      Auri1_41: 5701907838721558876
+      Auri1_48: 100784007110629465
+      Auri1_71: -5749071359786002761
+      Auri1_63: 2417105526294364544
+      Auri1_83: -275561833732406993
+      Auri1_33: -7212462845915645668
+      Auri1_74: -562410078365130085
+      Auri1_6: -8004194789307053225
+      Auri1_36: 7830736270803670623
+      Auri1_86: 7259738769715752368
+      Auri1_32: -7062786005117910688
+      Auri1_60: -1316930449060957409
+      Auri1_68: 63525877802522505
+      Auri1_8: 4214357378062206761
+      Auri1_4: -6331898352495191438
+      Auri1_59: 7551095195236713957
+      Auri1_70: -7074497070172326283
+      Auri1_29: 4738164559545956935
+      Auri1_10: 2178006955570311883
+      Auri1_47: -3203776628205363187
+      Auri1_65: 2945494408098580384
+      Auri1_77: 7596713427941557157
+      Auri1_30: -875576722725710585
+      Auri1_62: -8209241042969929034
+      Auri1_67: -8235716125798349178
+      Auri1_15: -5781474361760812244
+      Auri1_103: 9066296315373143021
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

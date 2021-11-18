@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 623c543ba480cc84db33e9c63ae27e2f
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: EasyReadingPRO
+  fontNames:
+  - EasyReadingPRO
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 0d3bd9e0afd7a864fb7a7cb96eff9ec4, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

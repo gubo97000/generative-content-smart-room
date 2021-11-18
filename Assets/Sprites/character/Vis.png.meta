@@ -1,0 +1,2410 @@
+fileFormatVersion: 2
+guid: 239963ec474dfa24d9d8c73a4f169119
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 633508278916203472
+    second: Vis_0
+  - first:
+      213: -9049113492507121243
+    second: Vis_1
+  - first:
+      213: 2087864891338737105
+    second: Vis_2
+  - first:
+      213: 2431711049225076513
+    second: Vis_3
+  - first:
+      213: -2627889010173184106
+    second: Vis_4
+  - first:
+      213: -7826436391950188977
+    second: Vis_5
+  - first:
+      213: 6928320864027250819
+    second: Vis_6
+  - first:
+      213: -7128737048247756138
+    second: Vis_7
+  - first:
+      213: -4429375426894789657
+    second: Vis_8
+  - first:
+      213: 1076401487268127715
+    second: Vis_9
+  - first:
+      213: -8525380574998915614
+    second: Vis_10
+  - first:
+      213: -6824570353412349794
+    second: Vis_11
+  - first:
+      213: -1163560715055380432
+    second: Vis_12
+  - first:
+      213: 5207489021303190206
+    second: Vis_13
+  - first:
+      213: 8847446732736320592
+    second: Vis_14
+  - first:
+      213: -6207526057026013176
+    second: Vis_15
+  - first:
+      213: 7366893732608070155
+    second: Vis_16
+  - first:
+      213: 4436068200307791026
+    second: Vis_17
+  - first:
+      213: 620633249212455845
+    second: Vis_18
+  - first:
+      213: -7366771862233953721
+    second: Vis_19
+  - first:
+      213: 5147990708603582688
+    second: Vis_20
+  - first:
+      213: 905846382419157340
+    second: Vis_21
+  - first:
+      213: -6631184166348899717
+    second: Vis_22
+  - first:
+      213: -8759272634579529676
+    second: Vis_23
+  - first:
+      213: -4903391321518272434
+    second: Vis_24
+  - first:
+      213: -6447613042789898589
+    second: Vis_25
+  - first:
+      213: 8657654297618385588
+    second: Vis_26
+  - first:
+      213: -3805417368444212884
+    second: Vis_27
+  - first:
+      213: -8614226137605835294
+    second: Vis_28
+  - first:
+      213: -7638995721360582465
+    second: Vis_29
+  - first:
+      213: -8408824577355554531
+    second: Vis_30
+  - first:
+      213: 3665003643267350090
+    second: Vis_31
+  - first:
+      213: 3674377533444657314
+    second: Vis_32
+  - first:
+      213: -7221790163204171841
+    second: Vis_33
+  - first:
+      213: -3229926195352483622
+    second: Vis_34
+  - first:
+      213: -1414837352632124855
+    second: Vis_35
+  - first:
+      213: -1609853823214168142
+    second: Vis_36
+  - first:
+      213: -893231406041568200
+    second: Vis_37
+  - first:
+      213: -5305809603717655842
+    second: Vis_38
+  - first:
+      213: 5870111449005401747
+    second: Vis_39
+  - first:
+      213: 6912562409830916758
+    second: Vis_40
+  - first:
+      213: 5688104242210478778
+    second: Vis_41
+  - first:
+      213: -164516368819187139
+    second: Vis_42
+  - first:
+      213: -7659524304517604340
+    second: Vis_43
+  - first:
+      213: 8938954559861773483
+    second: Vis_44
+  - first:
+      213: 8612720967871833727
+    second: Vis_45
+  - first:
+      213: 4355220358556730435
+    second: Vis_46
+  - first:
+      213: -5602217923849016330
+    second: Vis_47
+  - first:
+      213: -4334696163480247361
+    second: Vis_48
+  - first:
+      213: -1803533454031294939
+    second: Vis_49
+  - first:
+      213: -3320930530034152059
+    second: Vis_50
+  - first:
+      213: -9150556084646042456
+    second: Vis_51
+  - first:
+      213: -365425319306466450
+    second: Vis_52
+  - first:
+      213: -439503506141725346
+    second: Vis_53
+  - first:
+      213: -7828566695218829859
+    second: Vis_54
+  - first:
+      213: -699315245466300200
+    second: Vis_55
+  - first:
+      213: -7905915931793632548
+    second: Vis_56
+  - first:
+      213: 3427341323280077180
+    second: Vis_57
+  - first:
+      213: 6617507105934630956
+    second: Vis_58
+  - first:
+      213: -9064207303794730624
+    second: Vis_59
+  - first:
+      213: 3255614768160912251
+    second: Vis_60
+  - first:
+      213: 5340689481833202861
+    second: Vis_61
+  - first:
+      213: -1764006592798167542
+    second: Vis_62
+  - first:
+      213: -1144733477496385762
+    second: Vis_63
+  - first:
+      213: 4768008720279486392
+    second: Vis_64
+  - first:
+      213: 160248746328298121
+    second: Vis_65
+  - first:
+      213: -7376415096833545361
+    second: Vis_66
+  - first:
+      213: -6176793718455167414
+    second: Vis_67
+  - first:
+      213: -8090292979513421863
+    second: Vis_68
+  - first:
+      213: 6764891518916099391
+    second: Vis_69
+  - first:
+      213: 3196607909064219748
+    second: Vis_70
+  - first:
+      213: 7061330863097018313
+    second: Vis_71
+  - first:
+      213: -4527459177546082766
+    second: Vis_72
+  - first:
+      213: 4285972287869453307
+    second: Vis_73
+  - first:
+      213: -6022751696366701230
+    second: Vis_74
+  - first:
+      213: 4794099883837102491
+    second: Vis_75
+  - first:
+      213: -5766764251172427629
+    second: Vis_76
+  - first:
+      213: 5039384952402309327
+    second: Vis_77
+  - first:
+      213: -4112247278863799485
+    second: Vis_78
+  - first:
+      213: 9156263998253941620
+    second: Vis_79
+  - first:
+      213: 1247885519214940496
+    second: Vis_80
+  - first:
+      213: 1755506919810932349
+    second: Vis_81
+  - first:
+      213: 2094522244845177506
+    second: Vis_82
+  - first:
+      213: 6580440313387016031
+    second: Vis_83
+  - first:
+      213: -8336957439052161810
+    second: Vis_84
+  - first:
+      213: -3176021160804702969
+    second: Vis_85
+  - first:
+      213: 7183982644975631986
+    second: Vis_86
+  - first:
+      213: 8263481338911603652
+    second: Vis_87
+  - first:
+      213: -1620490056367416724
+    second: Vis_88
+  - first:
+      213: 3709255359491182662
+    second: Vis_89
+  - first:
+      213: -7816948628742837773
+    second: Vis_90
+  - first:
+      213: -3117212224043791259
+    second: Vis_91
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Vis_0
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 687
+        width: 129
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d3c1175c6caac800800000000000000
+      internalID: 633508278916203472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vis_1
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 687
+        width: 129
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a92bea09371b6280800000000000000
+      internalID: -9049113492507121243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vis_2
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 687
+        width: 129
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d541438e0699fc10800000000000000
+      internalID: 2087864891338737105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vis_3
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 688
+        width: 129
+        height: 195
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12ff375c05c2fb120800000000000000
+      internalID: 2431711049225076513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vis_4
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 691
+        width: 128
+        height: 194
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 697797f4edcd78bd0800000000000000
+      internalID: -2627889010173184106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vis_5
+      rect:
+        serializedVersion: 2
+        x: 1476
+        y: 694
+        width: 127
+        height: 193
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4e7e985199e26390800000000000000
+      internalID: -7826436391950188977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vis_6
+      rect:
+        serializedVersion: 2
+        x: 1758
+        y: 696
+        width: 125
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38095463e17562060800000000000000
+      internalID: 6928320864027250819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vis_7
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 699
+        width: 123
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69a960e9c63a11d90800000000000000
+      internalID: -7128737048247756138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vis_8
+      rect:
+        serializedVersion: 2
+        x: 2320
+        y: 699
+        width: 124
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e3871f5482b782c0800000000000000
+      internalID: -4429375426894789657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vis_9
+      rect:
+        serializedVersion: 2
+        x: 2603
+        y: 699
+        width: 122
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e3a15c137520fe00800000000000000
+      internalID: 1076401487268127715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vis_10
+      rect:
+        serializedVersion: 2
+        x: 2885
+        y: 698
+        width: 121
+        height: 189
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e59c245983cfa980800000000000000
+      internalID: -8525380574998915614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vis_11
+      rect:
+        serializedVersion: 2
+        x: 3167
+        y: 697
+        width: 120
+        height: 189
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e90e134fb614a41a0800000000000000
+      internalID: -6824570353412349794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vis_12
+      rect:
+        serializedVersion: 2
+        x: 3449
+        y: 696
+        width: 119
+        height: 189
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0384688c1b33adfe0800000000000000
+      internalID: -1163560715055380432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vis_13
+      rect:
+        serializedVersion: 2
+        x: 3730
+        y: 694
+        width: 121
+        height: 189
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb2f586aca7b44840800000000000000
+      internalID: 5207489021303190206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vis_14
+      rect:
+        serializedVersion: 2
+        x: 4011
+        y: 692
+        width: 122
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05450f97de178ca70800000000000000
+      internalID: 8847446732736320592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vis_15
+      rect:
+        serializedVersion: 2
+        x: 4290
+        y: 692
+        width: 123
+        height: 189
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 808bbf4a0ff6ad9a0800000000000000
+      internalID: -6207526057026013176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vis_16
+      rect:
+        serializedVersion: 2
+        x: 4564
+        y: 689
+        width: 130
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b02d72e71d67c3660800000000000000
+      internalID: 7366893732608070155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vis_17
+      rect:
+        serializedVersion: 2
+        x: 4840
+        y: 686
+        width: 134
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b490ce5684109d30800000000000000
+      internalID: 4436068200307791026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vis_18
+      rect:
+        serializedVersion: 2
+        x: 5118
+        y: 684
+        width: 137
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5abda13e6aeec9800800000000000000
+      internalID: 620633249212455845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vis_19
+      rect:
+        serializedVersion: 2
+        x: 5397
+        y: 682
+        width: 139
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74ac33aa508f3c990800000000000000
+      internalID: -7366771862233953721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vis_20
+      rect:
+        serializedVersion: 2
+        x: 5678
+        y: 681
+        width: 140
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e8f3553646517740800000000000000
+      internalID: 5147990708603582688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vis_21
+      rect:
+        serializedVersion: 2
+        x: 5959
+        y: 680
+        width: 140
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c51aa254c76329c00800000000000000
+      internalID: 905846382419157340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vis_22
+      rect:
+        serializedVersion: 2
+        x: 6241
+        y: 681
+        width: 139
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7a349c522d49f3a0800000000000000
+      internalID: -6631184166348899717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vis_23
+      rect:
+        serializedVersion: 2
+        x: 6525
+        y: 683
+        width: 136
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 430561d82ffc07680800000000000000
+      internalID: -8759272634579529676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vis_24
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 466
+        width: 130
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e409b268297a3fbb0800000000000000
+      internalID: -4903391321518272434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vis_25
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 472
+        width: 124
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a62557391a7586a0800000000000000
+      internalID: -6447613042789898589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vis_26
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 476
+        width: 120
+        height: 189
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ba8da5a6ba262870800000000000000
+      internalID: 8657654297618385588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vis_27
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 476
+        width: 120
+        height: 189
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c69e7cbb011703bc0800000000000000
+      internalID: -3805417368444212884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vis_28
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 481
+        width: 120
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e57e1dc7fe147880800000000000000
+      internalID: -8614226137605835294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vis_29
+      rect:
+        serializedVersion: 2
+        x: 1487
+        y: 482
+        width: 123
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb8d2935dd5dcf590800000000000000
+      internalID: -7638995721360582465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vis_30
+      rect:
+        serializedVersion: 2
+        x: 1768
+        y: 480
+        width: 127
+        height: 195
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d11e528499add4b80800000000000000
+      internalID: -8408824577355554531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vis_31
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 479
+        width: 131
+        height: 197
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4e76714565bcd230800000000000000
+      internalID: 3665003643267350090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vis_32
+      rect:
+        serializedVersion: 2
+        x: 2328
+        y: 478
+        width: 133
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a015a326e20ef230800000000000000
+      internalID: 3674377533444657314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vis_33
+      rect:
+        serializedVersion: 2
+        x: 2606
+        y: 477
+        width: 137
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb71ec7fb1c07cb90800000000000000
+      internalID: -7221790163204171841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vis_34
+      rect:
+        serializedVersion: 2
+        x: 2885
+        y: 476
+        width: 139
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad8494bfc3ffc23d0800000000000000
+      internalID: -3229926195352483622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vis_35
+      rect:
+        serializedVersion: 2
+        x: 3165
+        y: 475
+        width: 139
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94a78658cec7d5ce0800000000000000
+      internalID: -1414837352632124855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vis_36
+      rect:
+        serializedVersion: 2
+        x: 3442
+        y: 473
+        width: 138
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b7d3072a76a8a9e0800000000000000
+      internalID: -1609853823214168142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vis_37
+      rect:
+        serializedVersion: 2
+        x: 3719
+        y: 471
+        width: 138
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83c6bacc4ca9a93f0800000000000000
+      internalID: -893231406041568200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vis_38
+      rect:
+        serializedVersion: 2
+        x: 3997
+        y: 469
+        width: 137
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed29d8cd64afd56b0800000000000000
+      internalID: -5305809603717655842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vis_39
+      rect:
+        serializedVersion: 2
+        x: 4274
+        y: 467
+        width: 138
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 396abedf243d67150800000000000000
+      internalID: 5870111449005401747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vis_40
+      rect:
+        serializedVersion: 2
+        x: 4551
+        y: 464
+        width: 137
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 692a0bd23ea5eef50800000000000000
+      internalID: 6912562409830916758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vis_41
+      rect:
+        serializedVersion: 2
+        x: 4828
+        y: 462
+        width: 137
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aba1952eba430fe40800000000000000
+      internalID: 5688104242210478778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vis_42
+      rect:
+        serializedVersion: 2
+        x: 5107
+        y: 461
+        width: 136
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d329bc4fb3587bdf0800000000000000
+      internalID: -164516368819187139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vis_43
+      rect:
+        serializedVersion: 2
+        x: 5385
+        y: 461
+        width: 136
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0cd1c81a37e3b590800000000000000
+      internalID: -7659524304517604340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vis_44
+      rect:
+        serializedVersion: 2
+        x: 5664
+        y: 461
+        width: 135
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba45be3cfcb8d0c70800000000000000
+      internalID: 8938954559861773483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vis_45
+      rect:
+        serializedVersion: 2
+        x: 5942
+        y: 463
+        width: 134
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f762f8f8618868770800000000000000
+      internalID: 8612720967871833727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vis_46
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 243
+        width: 132
+        height: 197
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 344c25657d9d07c30800000000000000
+      internalID: 4355220358556730435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vis_47
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 247
+        width: 130
+        height: 195
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fb27a6ea7ce042b0800000000000000
+      internalID: -5602217923849016330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vis_48
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 251
+        width: 126
+        height: 193
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb3e2863ec018d3c0800000000000000
+      internalID: -4334696163480247361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vis_49
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 254
+        width: 123
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52e6eeb01ef88f6e0800000000000000
+      internalID: -1803533454031294939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vis_50
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 253
+        width: 122
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58d8099274fa9e1d0800000000000000
+      internalID: -3320930530034152059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vis_51
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 252
+        width: 122
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a4226509b1b20180800000000000000
+      internalID: -9150556084646042456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vis_52
+      rect:
+        serializedVersion: 2
+        x: 1747
+        y: 252
+        width: 122
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6bedc2bb9fbdeaf0800000000000000
+      internalID: -365425319306466450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vis_53
+      rect:
+        serializedVersion: 2
+        x: 2023
+        y: 246
+        width: 124
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5d32e6c3e196e9f0800000000000000
+      internalID: -439503506141725346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vis_54
+      rect:
+        serializedVersion: 2
+        x: 2297
+        y: 241
+        width: 128
+        height: 189
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd5270771185b5390800000000000000
+      internalID: -7828566695218829859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vis_55
+      rect:
+        serializedVersion: 2
+        x: 2576
+        y: 238
+        width: 131
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d057f74d788b46f0800000000000000
+      internalID: -699315245466300200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vis_56
+      rect:
+        serializedVersion: 2
+        x: 2855
+        y: 234
+        width: 133
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd2d65de85b884290800000000000000
+      internalID: -7905915931793632548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vis_57
+      rect:
+        serializedVersion: 2
+        x: 3135
+        y: 234
+        width: 134
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c71502256cc509f20800000000000000
+      internalID: 3427341323280077180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vis_58
+      rect:
+        serializedVersion: 2
+        x: 3416
+        y: 233
+        width: 134
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c206bdbd6ab16db50800000000000000
+      internalID: 6617507105934630956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vis_59
+      rect:
+        serializedVersion: 2
+        x: 3696
+        y: 232
+        width: 135
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08950de3b77753280800000000000000
+      internalID: -9064207303794730624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vis_60
+      rect:
+        serializedVersion: 2
+        x: 3977
+        y: 232
+        width: 133
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b733fb5f1644e2d20800000000000000
+      internalID: 3255614768160912251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vis_61
+      rect:
+        serializedVersion: 2
+        x: 4258
+        y: 232
+        width: 133
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da4455c99c0fd1a40800000000000000
+      internalID: 5340689481833202861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vis_62
+      rect:
+        serializedVersion: 2
+        x: 4540
+        y: 232
+        width: 131
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0e61d6995df487e0800000000000000
+      internalID: -1764006592798167542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vis_63
+      rect:
+        serializedVersion: 2
+        x: 4821
+        y: 233
+        width: 130
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1f845f97f61d10f0800000000000000
+      internalID: -1144733477496385762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vis_64
+      rect:
+        serializedVersion: 2
+        x: 5102
+        y: 234
+        width: 129
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bf393a4bae5b2240800000000000000
+      internalID: 4768008720279486392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vis_65
+      rect:
+        serializedVersion: 2
+        x: 5385
+        y: 237
+        width: 126
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9829990c261593200800000000000000
+      internalID: 160248746328298121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vis_66
+      rect:
+        serializedVersion: 2
+        x: 5668
+        y: 240
+        width: 123
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6b68652d85b1a990800000000000000
+      internalID: -7376415096833545361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vis_67
+      rect:
+        serializedVersion: 2
+        x: 5950
+        y: 244
+        width: 121
+        height: 189
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a469d90d6de974aa0800000000000000
+      internalID: -6176793718455167414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vis_68
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 26
+        width: 120
+        height: 189
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9df044b366189bf80800000000000000
+      internalID: -8090292979513421863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vis_69
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 30
+        width: 119
+        height: 189
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3dfb099ef8b1ed50800000000000000
+      internalID: 6764891518916099391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vis_70
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 33
+        width: 122
+        height: 189
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46c1af9f4f1ac5c20800000000000000
+      internalID: 3196607909064219748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vis_71
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 32
+        width: 128
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c77668e103eef160800000000000000
+      internalID: 7061330863097018313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vis_72
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 31
+        width: 133
+        height: 195
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23698439ddb3b21c0800000000000000
+      internalID: -4527459177546082766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vis_73
+      rect:
+        serializedVersion: 2
+        x: 1482
+        y: 28
+        width: 136
+        height: 197
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf380a77615da7b30800000000000000
+      internalID: 4285972287869453307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vis_74
+      rect:
+        serializedVersion: 2
+        x: 1762
+        y: 26
+        width: 140
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2557ea7fd33ea6ca0800000000000000
+      internalID: -6022751696366701230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vis_75
+      rect:
+        serializedVersion: 2
+        x: 2042
+        y: 24
+        width: 141
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b991ad1b170188240800000000000000
+      internalID: 4794099883837102491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vis_76
+      rect:
+        serializedVersion: 2
+        x: 2321
+        y: 23
+        width: 142
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3982279977658ffa0800000000000000
+      internalID: -5766764251172427629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vis_77
+      rect:
+        serializedVersion: 2
+        x: 2601
+        y: 23
+        width: 142
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc073661aed7fe540800000000000000
+      internalID: 5039384952402309327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vis_78
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 21
+        width: 142
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34ba1c233ec5ee6c0800000000000000
+      internalID: -4112247278863799485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vis_79
+      rect:
+        serializedVersion: 2
+        x: 3160
+        y: 19
+        width: 141
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 473cf9d2895911f70800000000000000
+      internalID: 9156263998253941620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vis_80
+      rect:
+        serializedVersion: 2
+        x: 3439
+        y: 18
+        width: 141
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0511925a441615110800000000000000
+      internalID: 1247885519214940496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vis_81
+      rect:
+        serializedVersion: 2
+        x: 3718
+        y: 18
+        width: 140
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7e12141e30dc5810800000000000000
+      internalID: 1755506919810932349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vis_82
+      rect:
+        serializedVersion: 2
+        x: 3996
+        y: 19
+        width: 139
+        height: 197
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aa862a62ec311d10800000000000000
+      internalID: 2094522244845177506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vis_83
+      rect:
+        serializedVersion: 2
+        x: 4275
+        y: 19
+        width: 137
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5fd711b99b625b50800000000000000
+      internalID: 6580440313387016031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vis_84
+      rect:
+        serializedVersion: 2
+        x: 4554
+        y: 21
+        width: 136
+        height: 197
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eecdeb9516d2d4c80800000000000000
+      internalID: -8336957439052161810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vis_85
+      rect:
+        serializedVersion: 2
+        x: 4833
+        y: 22
+        width: 135
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 705ac1fd4918ce3d0800000000000000
+      internalID: -3176021160804702969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vis_86
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 20
+        width: 129
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27ef75a3722a2b360800000000000000
+      internalID: 7183982644975631986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vis_87
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 20
+        width: 129
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cb35e5fe78cda270800000000000000
+      internalID: 8263481338911603652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vis_88
+      rect:
+        serializedVersion: 2
+        x: 5680
+        y: 20
+        width: 129
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6ada2421ecd289e0800000000000000
+      internalID: -1620490056367416724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vis_89
+      rect:
+        serializedVersion: 2
+        x: 5960
+        y: 21
+        width: 129
+        height: 195
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6409fa3d81ce97330800000000000000
+      internalID: 3709255359491182662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vis_90
+      rect:
+        serializedVersion: 2
+        x: 6240
+        y: 24
+        width: 128
+        height: 194
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f96e4c53ae948390800000000000000
+      internalID: -7816948628742837773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vis_91
+      rect:
+        serializedVersion: 2
+        x: 6521
+        y: 27
+        width: 127
+        height: 193
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56c4d587fff6db4d0800000000000000
+      internalID: -3117212224043791259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 3419267ca0b355a45980fe50661818b6
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Vis_72: -4527459177546082766
+      Vis_77: 5039384952402309327
+      Vis_32: 3674377533444657314
+      Vis_81: 1755506919810932349
+      Vis_85: -3176021160804702969
+      Vis_64: 4768008720279486392
+      Vis_91: -3117212224043791259
+      Vis_75: 4794099883837102491
+      Vis_4: -2627889010173184106
+      Vis_83: 6580440313387016031
+      Vis_17: 4436068200307791026
+      Vis_29: -7638995721360582465
+      Vis_0: 633508278916203472
+      Vis_2: 2087864891338737105
+      Vis_74: -6022751696366701230
+      Vis_40: 6912562409830916758
+      Vis_71: 7061330863097018313
+      Vis_15: -6207526057026013176
+      Vis_79: 9156263998253941620
+      Vis_38: -5305809603717655842
+      Vis_39: 5870111449005401747
+      Vis_14: 8847446732736320592
+      Vis_11: -6824570353412349794
+      Vis_35: -1414837352632124855
+      Vis_78: -4112247278863799485
+      Vis_55: -699315245466300200
+      Vis_42: -164516368819187139
+      Vis_8: -4429375426894789657
+      Vis_54: -7828566695218829859
+      Vis_88: -1620490056367416724
+      Vis_3: 2431711049225076513
+      Vis_30: -8408824577355554531
+      Vis_87: 8263481338911603652
+      Vis_18: 620633249212455845
+      Vis_65: 160248746328298121
+      Vis_34: -3229926195352483622
+      Vis_46: 4355220358556730435
+      Vis_27: -3805417368444212884
+      Vis_23: -8759272634579529676
+      Vis_33: -7221790163204171841
+      Vis_63: -1144733477496385762
+      Vis_89: 3709255359491182662
+      Vis_36: -1609853823214168142
+      Vis_82: 2094522244845177506
+      Vis_25: -6447613042789898589
+      Vis_19: -7366771862233953721
+      Vis_69: 6764891518916099391
+      Vis_21: 905846382419157340
+      Vis_60: 3255614768160912251
+      Vis_41: 5688104242210478778
+      Vis_31: 3665003643267350090
+      Vis_24: -4903391321518272434
+      Vis_76: -5766764251172427629
+      Vis_45: 8612720967871833727
+      Vis_5: -7826436391950188977
+      Vis_6: 6928320864027250819
+      Vis_68: -8090292979513421863
+      Vis_52: -365425319306466450
+      Vis_57: 3427341323280077180
+      Vis_20: 5147990708603582688
+      Vis_51: -9150556084646042456
+      Vis_67: -6176793718455167414
+      Vis_9: 1076401487268127715
+      Vis_73: 4285972287869453307
+      Vis_59: -9064207303794730624
+      Vis_62: -1764006592798167542
+      Vis_43: -7659524304517604340
+      Vis_47: -5602217923849016330
+      Vis_12: -1163560715055380432
+      Vis_53: -439503506141725346
+      Vis_26: 8657654297618385588
+      Vis_44: 8938954559861773483
+      Vis_16: 7366893732608070155
+      Vis_90: -7816948628742837773
+      Vis_7: -7128737048247756138
+      Vis_37: -893231406041568200
+      Vis_49: -1803533454031294939
+      Vis_1: -9049113492507121243
+      Vis_13: 5207489021303190206
+      Vis_80: 1247885519214940496
+      Vis_28: -8614226137605835294
+      Vis_50: -3320930530034152059
+      Vis_84: -8336957439052161810
+      Vis_56: -7905915931793632548
+      Vis_61: 5340689481833202861
+      Vis_70: 3196607909064219748
+      Vis_86: 7183982644975631986
+      Vis_58: 6617507105934630956
+      Vis_66: -7376415096833545361
+      Vis_48: -4334696163480247361
+      Vis_22: -6631184166348899717
+      Vis_10: -8525380574998915614
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

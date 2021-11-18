@@ -1,0 +1,2335 @@
+fileFormatVersion: 2
+guid: eff42780be296464f9101e711171a5d2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3029732423091446832
+    second: Gus_0
+  - first:
+      213: -285942059788259709
+    second: Gus_1
+  - first:
+      213: -5260242534832834598
+    second: Gus_2
+  - first:
+      213: 1484267304967617331
+    second: Gus_3
+  - first:
+      213: 8499197564797907852
+    second: Gus_4
+  - first:
+      213: -6056608699352500898
+    second: Gus_5
+  - first:
+      213: 5738745590256595351
+    second: Gus_6
+  - first:
+      213: -2193766329833658426
+    second: Gus_7
+  - first:
+      213: 4012314880174557675
+    second: Gus_8
+  - first:
+      213: -3179325466096893854
+    second: Gus_9
+  - first:
+      213: -6191202406183766195
+    second: Gus_10
+  - first:
+      213: 5337836085600184344
+    second: Gus_11
+  - first:
+      213: -2836368592760437370
+    second: Gus_12
+  - first:
+      213: 8818450086005882332
+    second: Gus_13
+  - first:
+      213: 9139370833087999748
+    second: Gus_14
+  - first:
+      213: 4242696592419640975
+    second: Gus_15
+  - first:
+      213: 4903324548366518167
+    second: Gus_16
+  - first:
+      213: 7101461753943793894
+    second: Gus_17
+  - first:
+      213: 1948510454955624879
+    second: Gus_18
+  - first:
+      213: -3399680314630781084
+    second: Gus_19
+  - first:
+      213: -5293723072431765898
+    second: Gus_20
+  - first:
+      213: -2534240280866282753
+    second: Gus_21
+  - first:
+      213: -7953278988546917561
+    second: Gus_22
+  - first:
+      213: 2590841048903509549
+    second: Gus_23
+  - first:
+      213: -4721876876377013916
+    second: Gus_24
+  - first:
+      213: 5792843644439913668
+    second: Gus_25
+  - first:
+      213: 3539961533378934097
+    second: Gus_26
+  - first:
+      213: 1222874290280875221
+    second: Gus_27
+  - first:
+      213: -632892298722513154
+    second: Gus_28
+  - first:
+      213: -2762877309695515041
+    second: Gus_29
+  - first:
+      213: 3249330830195113714
+    second: Gus_30
+  - first:
+      213: -413399602676983766
+    second: Gus_31
+  - first:
+      213: -7222933391550499243
+    second: Gus_32
+  - first:
+      213: 7017696662755398422
+    second: Gus_33
+  - first:
+      213: 5759141656406657273
+    second: Gus_34
+  - first:
+      213: -1297742043930557715
+    second: Gus_35
+  - first:
+      213: -3134103448435321913
+    second: Gus_36
+  - first:
+      213: 5223950858100732009
+    second: Gus_37
+  - first:
+      213: -74777031626583791
+    second: Gus_38
+  - first:
+      213: 1773117383770853204
+    second: Gus_39
+  - first:
+      213: -8257510465712609660
+    second: Gus_40
+  - first:
+      213: 5494107968483472319
+    second: Gus_41
+  - first:
+      213: -4851610464690722757
+    second: Gus_42
+  - first:
+      213: 7275146836722397448
+    second: Gus_43
+  - first:
+      213: 5298521710993780134
+    second: Gus_44
+  - first:
+      213: 8587074245054291481
+    second: Gus_45
+  - first:
+      213: -1694450197485856270
+    second: Gus_46
+  - first:
+      213: -2179786698021056794
+    second: Gus_47
+  - first:
+      213: -2202191014701247535
+    second: Gus_48
+  - first:
+      213: 1748276535297182983
+    second: Gus_49
+  - first:
+      213: 4916072465957362220
+    second: Gus_50
+  - first:
+      213: -1133512177218062580
+    second: Gus_51
+  - first:
+      213: -8212161034976286176
+    second: Gus_52
+  - first:
+      213: -1151461347028810429
+    second: Gus_53
+  - first:
+      213: 6861944667050844121
+    second: Gus_54
+  - first:
+      213: 1755782785164003870
+    second: Gus_55
+  - first:
+      213: -2760388015923419436
+    second: Gus_56
+  - first:
+      213: 2014933878871696152
+    second: Gus_57
+  - first:
+      213: -532242764037496674
+    second: Gus_58
+  - first:
+      213: 4429365834955937071
+    second: Gus_59
+  - first:
+      213: 3668758269749787378
+    second: Gus_60
+  - first:
+      213: 4397922283598269024
+    second: Gus_61
+  - first:
+      213: 1549149292632033257
+    second: Gus_62
+  - first:
+      213: -134626212675645698
+    second: Gus_63
+  - first:
+      213: -1814180205047638381
+    second: Gus_64
+  - first:
+      213: 4014133609450663640
+    second: Gus_65
+  - first:
+      213: 1862909332289421207
+    second: Gus_66
+  - first:
+      213: -3167100129426540653
+    second: Gus_67
+  - first:
+      213: 8711466188977428824
+    second: Gus_68
+  - first:
+      213: -895196861845687267
+    second: Gus_69
+  - first:
+      213: -6119752798381351812
+    second: Gus_70
+  - first:
+      213: 4333206856079119765
+    second: Gus_71
+  - first:
+      213: -3238745407521009898
+    second: Gus_72
+  - first:
+      213: -1123857342312729480
+    second: Gus_73
+  - first:
+      213: -3670148311029061022
+    second: Gus_74
+  - first:
+      213: 7460046484855629640
+    second: Gus_75
+  - first:
+      213: -5119640826390480156
+    second: Gus_76
+  - first:
+      213: 5692005289915993999
+    second: Gus_77
+  - first:
+      213: -6297734508935507026
+    second: Gus_78
+  - first:
+      213: -3577917599547150798
+    second: Gus_79
+  - first:
+      213: 9215906777350934256
+    second: Gus_80
+  - first:
+      213: -5413123754357822289
+    second: Gus_81
+  - first:
+      213: 7665507947216890251
+    second: Gus_82
+  - first:
+      213: 136262952230092011
+    second: Gus_83
+  - first:
+      213: -3039639025920304097
+    second: Gus_84
+  - first:
+      213: 1090096605089536075
+    second: Gus_85
+  - first:
+      213: -4745505792515404222
+    second: Gus_86
+  - first:
+      213: -3046109611899589985
+    second: Gus_87
+  - first:
+      213: 3656834688359243569
+    second: Gus_88
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Gus_0
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 684
+        width: 196
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03469da2695cb0a20800000000000000
+      internalID: 3029732423091446832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gus_1
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 684
+        width: 196
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38e2afb2631280cf0800000000000000
+      internalID: -285942059788259709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gus_2
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 684
+        width: 197
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad773e6d84ddff6b0800000000000000
+      internalID: -5260242534832834598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gus_3
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 684
+        width: 196
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33b3258ff3d299410800000000000000
+      internalID: 1484267304967617331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gus_4
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 687
+        width: 195
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c83f4ad872733f570800000000000000
+      internalID: 8499197564797907852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gus_5
+      rect:
+        serializedVersion: 2
+        x: 1460
+        y: 687
+        width: 192
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e55bd8b2a7a92fba0800000000000000
+      internalID: -6056608699352500898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gus_6
+      rect:
+        serializedVersion: 2
+        x: 1739
+        y: 690
+        width: 194
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 791759b85be14af40800000000000000
+      internalID: 5738745590256595351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gus_7
+      rect:
+        serializedVersion: 2
+        x: 2019
+        y: 690
+        width: 195
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c76d06652d2e81e0800000000000000
+      internalID: -2193766329833658426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gus_8
+      rect:
+        serializedVersion: 2
+        x: 2299
+        y: 690
+        width: 196
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be981d7102b9ea730800000000000000
+      internalID: 4012314880174557675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gus_9
+      rect:
+        serializedVersion: 2
+        x: 2580
+        y: 690
+        width: 195
+        height: 193
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26001f75554c0e3d0800000000000000
+      internalID: -3179325466096893854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gus_10
+      rect:
+        serializedVersion: 2
+        x: 2861
+        y: 690
+        width: 193
+        height: 193
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d477fd6c63e641aa0800000000000000
+      internalID: -6191202406183766195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gus_11
+      rect:
+        serializedVersion: 2
+        x: 3139
+        y: 692
+        width: 196
+        height: 189
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 818e57783adc31a40800000000000000
+      internalID: 5337836085600184344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gus_12
+      rect:
+        serializedVersion: 2
+        x: 3420
+        y: 693
+        width: 195
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6858078eac133a8d0800000000000000
+      internalID: -2836368592760437370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gus_13
+      rect:
+        serializedVersion: 2
+        x: 3695
+        y: 693
+        width: 198
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cddb4ed81ad616a70800000000000000
+      internalID: 8818450086005882332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gus_14
+      rect:
+        serializedVersion: 2
+        x: 3974
+        y: 693
+        width: 198
+        height: 189
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40fa6c8a95195de70800000000000000
+      internalID: 9139370833087999748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gus_15
+      rect:
+        serializedVersion: 2
+        x: 4253
+        y: 693
+        width: 199
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f86dee0721611ea30800000000000000
+      internalID: 4242696592419640975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gus_16
+      rect:
+        serializedVersion: 2
+        x: 4531
+        y: 690
+        width: 198
+        height: 193
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 797c6d3a2bb1c0440800000000000000
+      internalID: 4903324548366518167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gus_17
+      rect:
+        serializedVersion: 2
+        x: 4809
+        y: 687
+        width: 198
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e0a7dd07d57d8260800000000000000
+      internalID: 7101461753943793894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gus_18
+      rect:
+        serializedVersion: 2
+        x: 5087
+        y: 684
+        width: 198
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa9c3c46fef7a0b10800000000000000
+      internalID: 1948510454955624879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gus_19
+      rect:
+        serializedVersion: 2
+        x: 5367
+        y: 684
+        width: 197
+        height: 201
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4674b8024c8e1d0d0800000000000000
+      internalID: -3399680314630781084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gus_20
+      rect:
+        serializedVersion: 2
+        x: 5648
+        y: 681
+        width: 196
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6764a68b9eae886b0800000000000000
+      internalID: -5293723072431765898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gus_21
+      rect:
+        serializedVersion: 2
+        x: 5929
+        y: 681
+        width: 196
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff2aa7b34e194dcd0800000000000000
+      internalID: -2534240280866282753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gus_22
+      rect:
+        serializedVersion: 2
+        x: 6210
+        y: 684
+        width: 196
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74b3510f5e640a190800000000000000
+      internalID: -7953278988546917561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gus_23
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 460
+        width: 198
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d26e465053484f320800000000000000
+      internalID: 2590841048903509549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gus_24
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 466
+        width: 198
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 461ca6e9ff5887eb0800000000000000
+      internalID: -4721876876377013916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gus_25
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 469
+        width: 198
+        height: 189
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c468325a90546050800000000000000
+      internalID: 5792843644439913668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gus_26
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 472
+        width: 196
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15539935248702130800000000000000
+      internalID: 3539961533378934097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gus_27
+      rect:
+        serializedVersion: 2
+        x: 1154
+        y: 472
+        width: 198
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d4462d10b588f010800000000000000
+      internalID: 1222874290280875221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gus_28
+      rect:
+        serializedVersion: 2
+        x: 1441
+        y: 472
+        width: 195
+        height: 189
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efe6099bec38737f0800000000000000
+      internalID: -632892298722513154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gus_29
+      rect:
+        serializedVersion: 2
+        x: 1722
+        y: 469
+        width: 198
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f56ac95a9b948a9d0800000000000000
+      internalID: -2762877309695515041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gus_30
+      rect:
+        serializedVersion: 2
+        x: 2006
+        y: 467
+        width: 195
+        height: 201
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fe3183ac21f71d20800000000000000
+      internalID: 3249330830195113714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gus_31
+      rect:
+        serializedVersion: 2
+        x: 2290
+        y: 466
+        width: 192
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a28962c604f434af0800000000000000
+      internalID: -413399602676983766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gus_32
+      rect:
+        serializedVersion: 2
+        x: 2571
+        y: 466
+        width: 192
+        height: 205
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5563350695cf2cb90800000000000000
+      internalID: -7222933391550499243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gus_33
+      rect:
+        serializedVersion: 2
+        x: 2855
+        y: 463
+        width: 189
+        height: 208
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 613daf4feedd36160800000000000000
+      internalID: 7017696662755398422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gus_34
+      rect:
+        serializedVersion: 2
+        x: 3136
+        y: 463
+        width: 189
+        height: 208
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f80641c2d49cef40800000000000000
+      internalID: 5759141656406657273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gus_35
+      rect:
+        serializedVersion: 2
+        x: 3417
+        y: 463
+        width: 187
+        height: 208
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de20e6d9c7e7dfde0800000000000000
+      internalID: -1297742043930557715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gus_36
+      rect:
+        serializedVersion: 2
+        x: 3694
+        y: 461
+        width: 189
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c39fa2d48d6184d0800000000000000
+      internalID: -3134103448435321913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gus_37
+      rect:
+        serializedVersion: 2
+        x: 3972
+        y: 460
+        width: 189
+        height: 208
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 960f035b0a33f7840800000000000000
+      internalID: 5223950858100732009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gus_38
+      rect:
+        serializedVersion: 2
+        x: 4250
+        y: 460
+        width: 189
+        height: 208
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1111a889fa656fef0800000000000000
+      internalID: -74777031626583791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gus_39
+      rect:
+        serializedVersion: 2
+        x: 4528
+        y: 459
+        width: 191
+        height: 206
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45f4bbcbdd06b9810800000000000000
+      internalID: 1773117383770853204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gus_40
+      rect:
+        serializedVersion: 2
+        x: 4805
+        y: 456
+        width: 193
+        height: 209
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 486212a4bfd676d80800000000000000
+      internalID: -8257510465712609660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gus_41
+      rect:
+        serializedVersion: 2
+        x: 5083
+        y: 456
+        width: 193
+        height: 209
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb3b91b961efe3c40800000000000000
+      internalID: 5494107968483472319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gus_42
+      rect:
+        serializedVersion: 2
+        x: 5361
+        y: 456
+        width: 195
+        height: 208
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b38aa8fbcfd9bacb0800000000000000
+      internalID: -4851610464690722757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gus_43
+      rect:
+        serializedVersion: 2
+        x: 5642
+        y: 456
+        width: 192
+        height: 206
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80135aba08386f460800000000000000
+      internalID: 7275146836722397448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gus_44
+      rect:
+        serializedVersion: 2
+        x: 5920
+        y: 456
+        width: 192
+        height: 206
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6adaa726c61288940800000000000000
+      internalID: 5298521710993780134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gus_45
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 237
+        width: 193
+        height: 206
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91edd54978a6b2770800000000000000
+      internalID: 8587074245054291481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gus_46
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 239
+        width: 192
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f9d341e58a1c78e0800000000000000
+      internalID: -1694450197485856270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gus_47
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 242
+        width: 194
+        height: 201
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ee45521c87dfb1e0800000000000000
+      internalID: -2179786698021056794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gus_48
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 245
+        width: 197
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d3dc2990fe3071e0800000000000000
+      internalID: -2202191014701247535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gus_49
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 248
+        width: 196
+        height: 193
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70d0a8ffe30234810800000000000000
+      internalID: 1748276535297182983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gus_50
+      rect:
+        serializedVersion: 2
+        x: 1453
+        y: 250
+        width: 199
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2a977f7cd5693440800000000000000
+      internalID: 4916072465957362220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gus_51
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 251
+        width: 199
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0776503ea4f440f0800000000000000
+      internalID: -1133512177218062580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gus_52
+      rect:
+        serializedVersion: 2
+        x: 2009
+        y: 251
+        width: 199
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02a2fef6c0b880e80800000000000000
+      internalID: -8212161034976286176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gus_53
+      rect:
+        serializedVersion: 2
+        x: 2284
+        y: 248
+        width: 201
+        height: 189
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34541cd61003500f0800000000000000
+      internalID: -1151461347028810429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gus_54
+      rect:
+        serializedVersion: 2
+        x: 2561
+        y: 245
+        width: 199
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9df93fb81568a3f50800000000000000
+      internalID: 6861944667050844121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gus_55
+      rect:
+        serializedVersion: 2
+        x: 2842
+        y: 242
+        width: 199
+        height: 195
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1a427cf32bcd5810800000000000000
+      internalID: 1755782785164003870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gus_56
+      rect:
+        serializedVersion: 2
+        x: 3120
+        y: 239
+        width: 199
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d6a3a489b121b9d0800000000000000
+      internalID: -2760388015923419436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gus_57
+      rect:
+        serializedVersion: 2
+        x: 3401
+        y: 239
+        width: 199
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8132c00ffab76fb10800000000000000
+      internalID: 2014933878871696152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gus_58
+      rect:
+        serializedVersion: 2
+        x: 3682
+        y: 238
+        width: 199
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e90e54ba6081d98f0800000000000000
+      internalID: -532242764037496674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gus_59
+      rect:
+        serializedVersion: 2
+        x: 3961
+        y: 238
+        width: 200
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f25dcc452c4487d30800000000000000
+      internalID: 4429365834955937071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gus_60
+      rect:
+        serializedVersion: 2
+        x: 4241
+        y: 238
+        width: 201
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fa763b553c0ae230800000000000000
+      internalID: 3668758269749787378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gus_61
+      rect:
+        serializedVersion: 2
+        x: 4521
+        y: 238
+        width: 200
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06a46a7040f880d30800000000000000
+      internalID: 4397922283598269024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gus_62
+      rect:
+        serializedVersion: 2
+        x: 4802
+        y: 238
+        width: 199
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e7416be21faf7510800000000000000
+      internalID: 1549149292632033257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gus_63
+      rect:
+        serializedVersion: 2
+        x: 5083
+        y: 239
+        width: 199
+        height: 195
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efe03004c26b12ef0800000000000000
+      internalID: -134626212675645698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gus_64
+      rect:
+        serializedVersion: 2
+        x: 5364
+        y: 239
+        width: 199
+        height: 195
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 396179727bcb2d6e0800000000000000
+      internalID: -1814180205047638381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gus_65
+      rect:
+        serializedVersion: 2
+        x: 5645
+        y: 242
+        width: 199
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8de6340004115b730800000000000000
+      internalID: 4014133609450663640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gus_66
+      rect:
+        serializedVersion: 2
+        x: 5928
+        y: 245
+        width: 197
+        height: 189
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79ffed7ea226ad910800000000000000
+      internalID: 1862909332289421207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gus_67
+      rect:
+        serializedVersion: 2
+        x: 6210
+        y: 248
+        width: 199
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 397ff6956333c04d0800000000000000
+      internalID: -3167100129426540653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gus_68
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 17
+        width: 195
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85953d2f75855e870800000000000000
+      internalID: 8711466188977428824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gus_69
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 17
+        width: 195
+        height: 189
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d14b4a5723f9393f0800000000000000
+      internalID: -895196861845687267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gus_70
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 17
+        width: 195
+        height: 193
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7cd643f045421ba0800000000000000
+      internalID: -6119752798381351812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gus_71
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 14
+        width: 192
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59512e26da4a22c30800000000000000
+      internalID: 4333206856079119765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gus_72
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 12
+        width: 189
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61f48c2263aad03d0800000000000000
+      internalID: -3238745407521009898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gus_73
+      rect:
+        serializedVersion: 2
+        x: 1466
+        y: 11
+        width: 186
+        height: 205
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8743c3d93b14760f0800000000000000
+      internalID: -1123857342312729480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gus_74
+      rect:
+        serializedVersion: 2
+        x: 1747
+        y: 8
+        width: 186
+        height: 208
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26aec107e83011dc0800000000000000
+      internalID: -3670148311029061022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gus_75
+      rect:
+        serializedVersion: 2
+        x: 2028
+        y: 8
+        width: 186
+        height: 208
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 847a8b1c0c8678760800000000000000
+      internalID: 7460046484855629640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gus_76
+      rect:
+        serializedVersion: 2
+        x: 2309
+        y: 7
+        width: 183
+        height: 209
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ea786d1bc163f8b0800000000000000
+      internalID: -5119640826390480156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gus_77
+      rect:
+        serializedVersion: 2
+        x: 2587
+        y: 6
+        width: 186
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8f461557a01efe40800000000000000
+      internalID: 5692005289915993999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gus_78
+      rect:
+        serializedVersion: 2
+        x: 2867
+        y: 5
+        width: 186
+        height: 211
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea31e29b4d3f998a0800000000000000
+      internalID: -6297734508935507026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gus_79
+      rect:
+        serializedVersion: 2
+        x: 3148
+        y: 5
+        width: 183
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23eaf5b56eea85ec0800000000000000
+      internalID: -3577917599547150798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gus_80
+      rect:
+        serializedVersion: 2
+        x: 3426
+        y: 5
+        width: 186
+        height: 208
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fe0e13d26a75ef70800000000000000
+      internalID: 9215906777350934256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gus_81
+      rect:
+        serializedVersion: 2
+        x: 3707
+        y: 5
+        width: 183
+        height: 208
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: face54810a8b0e4b0800000000000000
+      internalID: -5413123754357822289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gus_82
+      rect:
+        serializedVersion: 2
+        x: 3985
+        y: 5
+        width: 186
+        height: 208
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b89ebc84dda516a60800000000000000
+      internalID: 7665507947216890251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gus_83
+      rect:
+        serializedVersion: 2
+        x: 4263
+        y: 5
+        width: 186
+        height: 208
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bec78bfde6a14e100800000000000000
+      internalID: 136262952230092011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gus_84
+      rect:
+        serializedVersion: 2
+        x: 4540
+        y: 8
+        width: 189
+        height: 205
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1c1b9e196801d5d0800000000000000
+      internalID: -3039639025920304097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gus_85
+      rect:
+        serializedVersion: 2
+        x: 4818
+        y: 8
+        width: 189
+        height: 205
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b489835361dc02f00800000000000000
+      internalID: 1090096605089536075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gus_86
+      rect:
+        serializedVersion: 2
+        x: 5099
+        y: 8
+        width: 189
+        height: 205
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24e8f8ddf93942eb0800000000000000
+      internalID: -4745505792515404222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gus_87
+      rect:
+        serializedVersion: 2
+        x: 5374
+        y: 11
+        width: 192
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9a62db627b0ab5d0800000000000000
+      internalID: -3046109611899589985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gus_88
+      rect:
+        serializedVersion: 2
+        x: 5648
+        y: 14
+        width: 196
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13f9af936cfafb230800000000000000
+      internalID: 3656834688359243569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5bb1b51b70cbbd744872e363d8957578
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Gus_42: -4851610464690722757
+      Gus_34: 5759141656406657273
+      Gus_77: 5692005289915993999
+      Gus_84: -3039639025920304097
+      Gus_10: -6191202406183766195
+      Gus_67: -3167100129426540653
+      Gus_78: -6297734508935507026
+      Gus_6: 5738745590256595351
+      Gus_46: -1694450197485856270
+      Gus_85: 1090096605089536075
+      Gus_18: 1948510454955624879
+      Gus_12: -2836368592760437370
+      Gus_35: -1297742043930557715
+      Gus_14: 9139370833087999748
+      Gus_3: 1484267304967617331
+      Gus_26: 3539961533378934097
+      Gus_4: 8499197564797907852
+      Gus_15: 4242696592419640975
+      Gus_71: 4333206856079119765
+      Gus_58: -532242764037496674
+      Gus_53: -1151461347028810429
+      Gus_79: -3577917599547150798
+      Gus_17: 7101461753943793894
+      Gus_41: 5494107968483472319
+      Gus_22: -7953278988546917561
+      Gus_48: -2202191014701247535
+      Gus_24: -4721876876377013916
+      Gus_39: 1773117383770853204
+      Gus_37: 5223950858100732009
+      Gus_44: 5298521710993780134
+      Gus_50: 4916072465957362220
+      Gus_69: -895196861845687267
+      Gus_73: -1123857342312729480
+      Gus_54: 6861944667050844121
+      Gus_28: -632892298722513154
+      Gus_23: 2590841048903509549
+      Gus_59: 4429365834955937071
+      Gus_87: -3046109611899589985
+      Gus_45: 8587074245054291481
+      Gus_29: -2762877309695515041
+      Gus_72: -3238745407521009898
+      Gus_63: -134626212675645698
+      Gus_19: -3399680314630781084
+      Gus_75: 7460046484855629640
+      Gus_0: 3029732423091446832
+      Gus_20: -5293723072431765898
+      Gus_38: -74777031626583791
+      Gus_83: 136262952230092011
+      Gus_9: -3179325466096893854
+      Gus_52: -8212161034976286176
+      Gus_43: 7275146836722397448
+      Gus_56: -2760388015923419436
+      Gus_80: 9215906777350934256
+      Gus_2: -5260242534832834598
+      Gus_33: 7017696662755398422
+      Gus_60: 3668758269749787378
+      Gus_27: 1222874290280875221
+      Gus_82: 7665507947216890251
+      Gus_68: 8711466188977428824
+      Gus_86: -4745505792515404222
+      Gus_13: 8818450086005882332
+      Gus_36: -3134103448435321913
+      Gus_64: -1814180205047638381
+      Gus_88: 3656834688359243569
+      Gus_65: 4014133609450663640
+      Gus_32: -7222933391550499243
+      Gus_49: 1748276535297182983
+      Gus_7: -2193766329833658426
+      Gus_76: -5119640826390480156
+      Gus_31: -413399602676983766
+      Gus_61: 4397922283598269024
+      Gus_66: 1862909332289421207
+      Gus_74: -3670148311029061022
+      Gus_57: 2014933878871696152
+      Gus_70: -6119752798381351812
+      Gus_16: 4903324548366518167
+      Gus_25: 5792843644439913668
+      Gus_62: 1549149292632033257
+      Gus_5: -6056608699352500898
+      Gus_1: -285942059788259709
+      Gus_11: 5337836085600184344
+      Gus_40: -8257510465712609660
+      Gus_55: 1755782785164003870
+      Gus_51: -1133512177218062580
+      Gus_8: 4012314880174557675
+      Gus_47: -2179786698021056794
+      Gus_81: -5413123754357822289
+      Gus_30: 3249330830195113714
+      Gus_21: -2534240280866282753
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

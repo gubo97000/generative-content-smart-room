@@ -1,0 +1,2310 @@
+fileFormatVersion: 2
+guid: dae3ed0964809f341b480e748ef60b9e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6687867564998046313
+    second: Tati_0
+  - first:
+      213: -8131076659932569406
+    second: Tati_1
+  - first:
+      213: -9142280035288471893
+    second: Tati_2
+  - first:
+      213: 224687880085567992
+    second: Tati_3
+  - first:
+      213: -3245354004870490572
+    second: Tati_4
+  - first:
+      213: -5259622765986671296
+    second: Tati_5
+  - first:
+      213: 7626902854039869423
+    second: Tati_6
+  - first:
+      213: 8160594345737544570
+    second: Tati_7
+  - first:
+      213: -4841889680047609566
+    second: Tati_8
+  - first:
+      213: 1701574940855322981
+    second: Tati_9
+  - first:
+      213: 1827965005332359870
+    second: Tati_10
+  - first:
+      213: -504808233574655212
+    second: Tati_11
+  - first:
+      213: -3576834089735694374
+    second: Tati_12
+  - first:
+      213: -8069973160885992142
+    second: Tati_13
+  - first:
+      213: -1448126907418807069
+    second: Tati_14
+  - first:
+      213: -4638174095518373947
+    second: Tati_15
+  - first:
+      213: 64750447810224168
+    second: Tati_16
+  - first:
+      213: -5497428787141166324
+    second: Tati_17
+  - first:
+      213: 6326674339196285144
+    second: Tati_18
+  - first:
+      213: 545135180777646755
+    second: Tati_19
+  - first:
+      213: -5762666679651408216
+    second: Tati_20
+  - first:
+      213: -1208894205835678418
+    second: Tati_21
+  - first:
+      213: -8850202882616158204
+    second: Tati_22
+  - first:
+      213: 4436438690927183308
+    second: Tati_23
+  - first:
+      213: 2673669651450641262
+    second: Tati_24
+  - first:
+      213: 8765331786244420179
+    second: Tati_25
+  - first:
+      213: 9092490030881879366
+    second: Tati_26
+  - first:
+      213: 1475633760879197929
+    second: Tati_27
+  - first:
+      213: -3116887868064608489
+    second: Tati_28
+  - first:
+      213: -1931074989428361579
+    second: Tati_29
+  - first:
+      213: -238365587502581152
+    second: Tati_30
+  - first:
+      213: 1945864464335207346
+    second: Tati_31
+  - first:
+      213: -4466254818284937062
+    second: Tati_32
+  - first:
+      213: -2382044067858461641
+    second: Tati_33
+  - first:
+      213: -3975286285806808910
+    second: Tati_34
+  - first:
+      213: 8791789533366070659
+    second: Tati_35
+  - first:
+      213: 540489655553507906
+    second: Tati_36
+  - first:
+      213: 287752322821104437
+    second: Tati_37
+  - first:
+      213: -5912375480955633789
+    second: Tati_38
+  - first:
+      213: 3955327984677245150
+    second: Tati_39
+  - first:
+      213: -3586183260023725033
+    second: Tati_40
+  - first:
+      213: -3547405801079480608
+    second: Tati_41
+  - first:
+      213: -4533050888652152218
+    second: Tati_42
+  - first:
+      213: 3476638897606766392
+    second: Tati_43
+  - first:
+      213: -8744108844274272988
+    second: Tati_44
+  - first:
+      213: -620519636489699206
+    second: Tati_45
+  - first:
+      213: -3024909176826544961
+    second: Tati_46
+  - first:
+      213: -8762472039705496425
+    second: Tati_47
+  - first:
+      213: 758115977240264064
+    second: Tati_48
+  - first:
+      213: -3463102622921237637
+    second: Tati_49
+  - first:
+      213: -1718172936600713151
+    second: Tati_50
+  - first:
+      213: -7362236099182708042
+    second: Tati_51
+  - first:
+      213: -5914016076494719562
+    second: Tati_52
+  - first:
+      213: -5853143714104137354
+    second: Tati_53
+  - first:
+      213: 5680041594282031956
+    second: Tati_54
+  - first:
+      213: 7269432042204961237
+    second: Tati_55
+  - first:
+      213: -5213012285927162950
+    second: Tati_56
+  - first:
+      213: 989463932272623937
+    second: Tati_57
+  - first:
+      213: 5792306231392964089
+    second: Tati_58
+  - first:
+      213: -3815592896306045410
+    second: Tati_59
+  - first:
+      213: 3450027890631460094
+    second: Tati_60
+  - first:
+      213: 5039614093359942855
+    second: Tati_61
+  - first:
+      213: -2360412786024481528
+    second: Tati_62
+  - first:
+      213: -197408395740094536
+    second: Tati_63
+  - first:
+      213: -2218384410835478629
+    second: Tati_64
+  - first:
+      213: 253122491101075201
+    second: Tati_65
+  - first:
+      213: -6633539182680973907
+    second: Tati_66
+  - first:
+      213: -4880382590770202321
+    second: Tati_67
+  - first:
+      213: 3908323800932622791
+    second: Tati_68
+  - first:
+      213: -352573869878221545
+    second: Tati_69
+  - first:
+      213: -6323055007142849798
+    second: Tati_70
+  - first:
+      213: -9076992312515325518
+    second: Tati_71
+  - first:
+      213: -3406074948271230056
+    second: Tati_72
+  - first:
+      213: -7910935539875196021
+    second: Tati_73
+  - first:
+      213: 3364344738614154906
+    second: Tati_74
+  - first:
+      213: -18649814234140529
+    second: Tati_75
+  - first:
+      213: -8030292903278695245
+    second: Tati_76
+  - first:
+      213: -9109425413003888258
+    second: Tati_77
+  - first:
+      213: -1955930558535645447
+    second: Tati_78
+  - first:
+      213: 1446681244051799500
+    second: Tati_79
+  - first:
+      213: 2056736117933898170
+    second: Tati_80
+  - first:
+      213: -1735017877571659332
+    second: Tati_81
+  - first:
+      213: 8991321224314442915
+    second: Tati_82
+  - first:
+      213: -1571536931642555837
+    second: Tati_83
+  - first:
+      213: -5310879828037230142
+    second: Tati_84
+  - first:
+      213: 4723026771885656406
+    second: Tati_85
+  - first:
+      213: 6232153680987915793
+    second: Tati_86
+  - first:
+      213: 2743494747673010949
+    second: Tati_87
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tati_0
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 687
+        width: 118
+        height: 211
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 962b094dd1410dc50800000000000000
+      internalID: 6687867564998046313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tati_1
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 684
+        width: 148
+        height: 208
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c0ef3babdc982f80800000000000000
+      internalID: -8131076659932569406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tati_2
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 681
+        width: 153
+        height: 211
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba62c7beeb8102180800000000000000
+      internalID: -9142280035288471893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tati_3
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 681
+        width: 152
+        height: 211
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f9f5ddbf604e1300800000000000000
+      internalID: 224687880085567992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tati_4
+      rect:
+        serializedVersion: 2
+        x: 1205
+        y: 681
+        width: 154
+        height: 208
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4369d492abf26f2d0800000000000000
+      internalID: -3245354004870490572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tati_5
+      rect:
+        serializedVersion: 2
+        x: 1485
+        y: 681
+        width: 154
+        height: 208
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0459ec406f01207b0800000000000000
+      internalID: -5259622765986671296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tati_6
+      rect:
+        serializedVersion: 2
+        x: 1766
+        y: 684
+        width: 150
+        height: 208
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe795779cb338d960800000000000000
+      internalID: 7626902854039869423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tati_7
+      rect:
+        serializedVersion: 2
+        x: 2046
+        y: 684
+        width: 145
+        height: 211
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a736fbd1251404170800000000000000
+      internalID: 8160594345737544570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tati_8
+      rect:
+        serializedVersion: 2
+        x: 2327
+        y: 687
+        width: 138
+        height: 211
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 229e12b4df62eccb0800000000000000
+      internalID: -4841889680047609566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tati_9
+      rect:
+        serializedVersion: 2
+        x: 2610
+        y: 687
+        width: 130
+        height: 213
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5694364b4653d9710800000000000000
+      internalID: 1701574940855322981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tati_10
+      rect:
+        serializedVersion: 2
+        x: 2888
+        y: 690
+        width: 126
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eba2ea4cc7c3e5910800000000000000
+      internalID: 1827965005332359870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tati_11
+      rect:
+        serializedVersion: 2
+        x: 3168
+        y: 690
+        width: 124
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41b171e069f8ef8f0800000000000000
+      internalID: -504808233574655212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tati_12
+      rect:
+        serializedVersion: 2
+        x: 3448
+        y: 690
+        width: 121
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad7dbc4a8588c5ec0800000000000000
+      internalID: -3576834089735694374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tati_13
+      rect:
+        serializedVersion: 2
+        x: 3726
+        y: 687
+        width: 111
+        height: 213
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 235447eaa22b10090800000000000000
+      internalID: -8069973160885992142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tati_14
+      rect:
+        serializedVersion: 2
+        x: 4006
+        y: 684
+        width: 109
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e4fd9d004837ebe0800000000000000
+      internalID: -1448126907418807069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tati_15
+      rect:
+        serializedVersion: 2
+        x: 4284
+        y: 681
+        width: 111
+        height: 217
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c76536fb35e1afb0800000000000000
+      internalID: -4638174095518373947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tati_16
+      rect:
+        serializedVersion: 2
+        x: 4558
+        y: 675
+        width: 118
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 820a6c0703a06e000800000000000000
+      internalID: 64750447810224168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tati_17
+      rect:
+        serializedVersion: 2
+        x: 4833
+        y: 672
+        width: 126
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0bb17c05a535b3b0800000000000000
+      internalID: -5497428787141166324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tati_18
+      rect:
+        serializedVersion: 2
+        x: 5113
+        y: 672
+        width: 127
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d0bf559accdcc750800000000000000
+      internalID: 6326674339196285144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tati_19
+      rect:
+        serializedVersion: 2
+        x: 5393
+        y: 672
+        width: 127
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aae1d40f85b09700800000000000000
+      internalID: 545135180777646755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tati_20
+      rect:
+        serializedVersion: 2
+        x: 5674
+        y: 675
+        width: 124
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a6e560df25e600b0800000000000000
+      internalID: -5762666679651408216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tati_21
+      rect:
+        serializedVersion: 2
+        x: 5957
+        y: 678
+        width: 119
+        height: 217
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2de222ff15293fe0800000000000000
+      internalID: -1208894205835678418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tati_22
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 458
+        width: 120
+        height: 217
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 408968f5e53cd2580800000000000000
+      internalID: -8850202882616158204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tati_23
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 458
+        width: 115
+        height: 217
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc58380fb75619d30800000000000000
+      internalID: 4436438690927183308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tati_24
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 461
+        width: 114
+        height: 217
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6b357dd168ca1520800000000000000
+      internalID: 2673669651450641262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tati_25
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 461
+        width: 114
+        height: 217
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 352f981a1d6b4a970800000000000000
+      internalID: 8765331786244420179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tati_26
+      rect:
+        serializedVersion: 2
+        x: 1205
+        y: 461
+        width: 111
+        height: 217
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 645be7e42830f2e70800000000000000
+      internalID: 9092490030881879366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tati_27
+      rect:
+        serializedVersion: 2
+        x: 1485
+        y: 461
+        width: 111
+        height: 217
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ee37c756118a7410800000000000000
+      internalID: 1475633760879197929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tati_28
+      rect:
+        serializedVersion: 2
+        x: 1766
+        y: 461
+        width: 110
+        height: 217
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71fc84b7ff69eb4d0800000000000000
+      internalID: -3116887868064608489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tati_29
+      rect:
+        serializedVersion: 2
+        x: 2046
+        y: 461
+        width: 109
+        height: 214
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5963b7447817335e0800000000000000
+      internalID: -1931074989428361579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tati_30
+      rect:
+        serializedVersion: 2
+        x: 2327
+        y: 458
+        width: 108
+        height: 217
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06a3b36d2c721bcf0800000000000000
+      internalID: -238365587502581152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tati_31
+      rect:
+        serializedVersion: 2
+        x: 2607
+        y: 461
+        width: 109
+        height: 214
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bb71c1bb69110b10800000000000000
+      internalID: 1945864464335207346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tati_32
+      rect:
+        serializedVersion: 2
+        x: 2888
+        y: 461
+        width: 108
+        height: 214
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a90efbfe7eca402c0800000000000000
+      internalID: -4466254818284937062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tati_33
+      rect:
+        serializedVersion: 2
+        x: 3168
+        y: 464
+        width: 111
+        height: 214
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73c48f77a8741fed0800000000000000
+      internalID: -2382044067858461641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tati_34
+      rect:
+        serializedVersion: 2
+        x: 3448
+        y: 464
+        width: 112
+        height: 214
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b0d00e5f22f4d8c0800000000000000
+      internalID: -3975286285806808910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tati_35
+      rect:
+        serializedVersion: 2
+        x: 3729
+        y: 467
+        width: 114
+        height: 211
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38d284ceff5b20a70800000000000000
+      internalID: 8791789533366070659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tati_36
+      rect:
+        serializedVersion: 2
+        x: 4009
+        y: 470
+        width: 118
+        height: 208
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2424a046a74308700800000000000000
+      internalID: 540489655553507906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tati_37
+      rect:
+        serializedVersion: 2
+        x: 4289
+        y: 467
+        width: 121
+        height: 211
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 533ab09863d4ef300800000000000000
+      internalID: 287752322821104437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tati_38
+      rect:
+        serializedVersion: 2
+        x: 4567
+        y: 467
+        width: 124
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38ff8ee33d503fda0800000000000000
+      internalID: -5912375480955633789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tati_39
+      rect:
+        serializedVersion: 2
+        x: 4848
+        y: 464
+        width: 126
+        height: 211
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed059d888d524e630800000000000000
+      internalID: 3955327984677245150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tati_40
+      rect:
+        serializedVersion: 2
+        x: 5128
+        y: 464
+        width: 127
+        height: 211
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71465de43515b3ec0800000000000000
+      internalID: -3586183260023725033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tati_41
+      rect:
+        serializedVersion: 2
+        x: 5409
+        y: 464
+        width: 129
+        height: 211
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ee5f78083515cec0800000000000000
+      internalID: -3547405801079480608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tati_42
+      rect:
+        serializedVersion: 2
+        x: 5689
+        y: 464
+        width: 130
+        height: 209
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 662ae11eb3e5711c0800000000000000
+      internalID: -4533050888652152218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tati_43
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 246
+        width: 130
+        height: 209
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83f282848a08f3030800000000000000
+      internalID: 3476638897606766392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tati_44
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 246
+        width: 133
+        height: 209
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4253eab955fa6a680800000000000000
+      internalID: -8744108844274272988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tati_45
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 247
+        width: 134
+        height: 208
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7080e2ada87367f0800000000000000
+      internalID: -620519636489699206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tati_46
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 249
+        width: 139
+        height: 206
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbc3f6d512d5506d0800000000000000
+      internalID: -3024909176826544961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tati_47
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 247
+        width: 138
+        height: 208
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 794bf0ffa12756680800000000000000
+      internalID: -8762472039705496425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tati_48
+      rect:
+        serializedVersion: 2
+        x: 1485
+        y: 246
+        width: 148
+        height: 205
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08d34f1f67e558a00800000000000000
+      internalID: 758115977240264064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tati_49
+      rect:
+        serializedVersion: 2
+        x: 1766
+        y: 243
+        width: 150
+        height: 205
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7b5e04438690ffc0800000000000000
+      internalID: -3463102622921237637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tati_50
+      rect:
+        serializedVersion: 2
+        x: 2043
+        y: 243
+        width: 157
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 148893341d2d728e0800000000000000
+      internalID: -1718172936600713151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tati_51
+      rect:
+        serializedVersion: 2
+        x: 2321
+        y: 242
+        width: 162
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ba38ab464514d990800000000000000
+      internalID: -7362236099182708042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tati_52
+      rect:
+        serializedVersion: 2
+        x: 2601
+        y: 243
+        width: 160
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b5359456b13deda0800000000000000
+      internalID: -5914016076494719562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tati_53
+      rect:
+        serializedVersion: 2
+        x: 2881
+        y: 243
+        width: 160
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6792385adc475cea0800000000000000
+      internalID: -5853143714104137354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tati_54
+      rect:
+        serializedVersion: 2
+        x: 3162
+        y: 243
+        width: 157
+        height: 205
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45bbf906cbf83de40800000000000000
+      internalID: 5680041594282031956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tati_55
+      rect:
+        serializedVersion: 2
+        x: 3445
+        y: 246
+        width: 151
+        height: 205
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d918726de532e460800000000000000
+      internalID: 7269432042204961237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tati_56
+      rect:
+        serializedVersion: 2
+        x: 3726
+        y: 246
+        width: 148
+        height: 208
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abb709712f8a7a7b0800000000000000
+      internalID: -5213012285927162950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tati_57
+      rect:
+        serializedVersion: 2
+        x: 4012
+        y: 247
+        width: 136
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 141cb2934384bbd00800000000000000
+      internalID: 989463932272623937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tati_58
+      rect:
+        serializedVersion: 2
+        x: 4296
+        y: 249
+        width: 129
+        height: 209
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fd857814d7626050800000000000000
+      internalID: 5792306231392964089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tati_59
+      rect:
+        serializedVersion: 2
+        x: 4576
+        y: 249
+        width: 124
+        height: 209
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1e9c280a7a4c0bc0800000000000000
+      internalID: -3815592896306045410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tati_60
+      rect:
+        serializedVersion: 2
+        x: 4857
+        y: 249
+        width: 120
+        height: 211
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef447466616f0ef20800000000000000
+      internalID: 3450027890631460094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tati_61
+      rect:
+        serializedVersion: 2
+        x: 5136
+        y: 249
+        width: 119
+        height: 211
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cc85cf115e40f540800000000000000
+      internalID: 5039614093359942855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tati_62
+      rect:
+        serializedVersion: 2
+        x: 5415
+        y: 246
+        width: 114
+        height: 214
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80d78bdb3112e3fd0800000000000000
+      internalID: -2360412786024481528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tati_63
+      rect:
+        serializedVersion: 2
+        x: 5698
+        y: 243
+        width: 108
+        height: 215
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bf5b382c1aa24df0800000000000000
+      internalID: -197408395740094536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tati_64
+      rect:
+        serializedVersion: 2
+        x: 5997
+        y: 412
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9713e0c127b631e0800000000000000
+      internalID: -2218384410835478629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tati_65
+      rect:
+        serializedVersion: 2
+        x: 5975
+        y: 375
+        width: 22
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 107ddb68095438300800000000000000
+      internalID: 253122491101075201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tati_66
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 17
+        width: 111
+        height: 217
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dad5aa4624fe0f3a0800000000000000
+      internalID: -6633539182680973907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tati_67
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 17
+        width: 113
+        height: 217
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f29342d14e5654cb0800000000000000
+      internalID: -4880382590770202321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tati_68
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 14
+        width: 115
+        height: 217
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c12bcd2ac72d3630800000000000000
+      internalID: 3908323800932622791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tati_69
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 14
+        width: 118
+        height: 217
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 715e2d0fee76b1bf0800000000000000
+      internalID: -352573869878221545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tati_70
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 14
+        width: 111
+        height: 217
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af2def3d8feff38a0800000000000000
+      internalID: -6323055007142849798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tati_71
+      rect:
+        serializedVersion: 2
+        x: 1495
+        y: 17
+        width: 111
+        height: 217
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b1929f659b080280800000000000000
+      internalID: -9076992312515325518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tati_72
+      rect:
+        serializedVersion: 2
+        x: 1781
+        y: 20
+        width: 105
+        height: 214
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 893bfe571e03bb0d0800000000000000
+      internalID: -3406074948271230056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tati_73
+      rect:
+        serializedVersion: 2
+        x: 2061
+        y: 23
+        width: 112
+        height: 211
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b83d9b85a06b63290800000000000000
+      internalID: -7910935539875196021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tati_74
+      rect:
+        serializedVersion: 2
+        x: 2340
+        y: 26
+        width: 116
+        height: 208
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a961d07f6bd80be20800000000000000
+      internalID: 3364344738614154906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tati_75
+      rect:
+        serializedVersion: 2
+        x: 2619
+        y: 0
+        width: 124
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f80727fb71ebdbff0800000000000000
+      internalID: -18649814234140529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tati_76
+      rect:
+        serializedVersion: 2
+        x: 2900
+        y: 0
+        width: 126
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bcabb9962bae8090800000000000000
+      internalID: -8030292903278695245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tati_77
+      rect:
+        serializedVersion: 2
+        x: 3177
+        y: 0
+        width: 133
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e79bcf5c9d1d49180800000000000000
+      internalID: -9109425413003888258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tati_78
+      rect:
+        serializedVersion: 2
+        x: 3457
+        y: 0
+        width: 133
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f6c62d15832bd4e0800000000000000
+      internalID: -1955930558535645447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tati_79
+      rect:
+        serializedVersion: 2
+        x: 3735
+        y: 0
+        width: 136
+        height: 231
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccd7de63de4a31410800000000000000
+      internalID: 1446681244051799500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tati_80
+      rect:
+        serializedVersion: 2
+        x: 4015
+        y: 0
+        width: 136
+        height: 231
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab97a2a2a9efa8c10800000000000000
+      internalID: 2056736117933898170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tati_81
+      rect:
+        serializedVersion: 2
+        x: 4293
+        y: 23
+        width: 135
+        height: 208
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb99360de6afbe7e0800000000000000
+      internalID: -1735017877571659332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tati_82
+      rect:
+        serializedVersion: 2
+        x: 4573
+        y: 20
+        width: 136
+        height: 211
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a451b4f30797cc70800000000000000
+      internalID: 8991321224314442915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tati_83
+      rect:
+        serializedVersion: 2
+        x: 4854
+        y: 20
+        width: 132
+        height: 211
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 342c90eac77c03ae0800000000000000
+      internalID: -1571536931642555837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tati_84
+      rect:
+        serializedVersion: 2
+        x: 5134
+        y: 20
+        width: 130
+        height: 211
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c1ad054fe6fb46b0800000000000000
+      internalID: -5310879828037230142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tati_85
+      rect:
+        serializedVersion: 2
+        x: 5415
+        y: 20
+        width: 126
+        height: 211
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65987ea43df8b8140800000000000000
+      internalID: 4723026771885656406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tati_86
+      rect:
+        serializedVersion: 2
+        x: 5692
+        y: 23
+        width: 124
+        height: 208
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1168de4e0ce0d7650800000000000000
+      internalID: 6232153680987915793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tati_87
+      rect:
+        serializedVersion: 2
+        x: 5972
+        y: 23
+        width: 121
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5032336ffe9d21620800000000000000
+      internalID: 2743494747673010949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 429f3cb66ae3f9e438f5be531dec00da
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Tati_14: -1448126907418807069
+      Tati_2: -9142280035288471893
+      Tati_26: 9092490030881879366
+      Tati_42: -4533050888652152218
+      Tati_21: -1208894205835678418
+      Tati_76: -8030292903278695245
+      Tati_74: 3364344738614154906
+      Tati_38: -5912375480955633789
+      Tati_27: 1475633760879197929
+      Tati_77: -9109425413003888258
+      Tati_40: -3586183260023725033
+      Tati_49: -3463102622921237637
+      Tati_80: 2056736117933898170
+      Tati_44: -8744108844274272988
+      Tati_43: 3476638897606766392
+      Tati_75: -18649814234140529
+      Tati_65: 253122491101075201
+      Tati_24: 2673669651450641262
+      Tati_46: -3024909176826544961
+      Tati_37: 287752322821104437
+      Tati_53: -5853143714104137354
+      Tati_54: 5680041594282031956
+      Tati_47: -8762472039705496425
+      Tati_63: -197408395740094536
+      Tati_3: 224687880085567992
+      Tati_60: 3450027890631460094
+      Tati_62: -2360412786024481528
+      Tati_48: 758115977240264064
+      Tati_56: -5213012285927162950
+      Tati_66: -6633539182680973907
+      Tati_82: 8991321224314442915
+      Tati_81: -1735017877571659332
+      Tati_51: -7362236099182708042
+      Tati_79: 1446681244051799500
+      Tati_36: 540489655553507906
+      Tati_32: -4466254818284937062
+      Tati_23: 4436438690927183308
+      Tati_68: 3908323800932622791
+      Tati_35: 8791789533366070659
+      Tati_6: 7626902854039869423
+      Tati_71: -9076992312515325518
+      Tati_12: -3576834089735694374
+      Tati_69: -352573869878221545
+      Tati_57: 989463932272623937
+      Tati_4: -3245354004870490572
+      Tati_18: 6326674339196285144
+      Tati_20: -5762666679651408216
+      Tati_41: -3547405801079480608
+      Tati_85: 4723026771885656406
+      Tati_39: 3955327984677245150
+      Tati_33: -2382044067858461641
+      Tati_34: -3975286285806808910
+      Tati_0: 6687867564998046313
+      Tati_67: -4880382590770202321
+      Tati_10: 1827965005332359870
+      Tati_7: 8160594345737544570
+      Tati_28: -3116887868064608489
+      Tati_19: 545135180777646755
+      Tati_59: -3815592896306045410
+      Tati_15: -4638174095518373947
+      Tati_31: 1945864464335207346
+      Tati_87: 2743494747673010949
+      Tati_55: 7269432042204961237
+      Tati_58: 5792306231392964089
+      Tati_11: -504808233574655212
+      Tati_25: 8765331786244420179
+      Tati_84: -5310879828037230142
+      Tati_86: 6232153680987915793
+      Tati_61: 5039614093359942855
+      Tati_16: 64750447810224168
+      Tati_83: -1571536931642555837
+      Tati_9: 1701574940855322981
+      Tati_78: -1955930558535645447
+      Tati_13: -8069973160885992142
+      Tati_29: -1931074989428361579
+      Tati_45: -620519636489699206
+      Tati_64: -2218384410835478629
+      Tati_8: -4841889680047609566
+      Tati_22: -8850202882616158204
+      Tati_50: -1718172936600713151
+      Tati_30: -238365587502581152
+      Tati_73: -7910935539875196021
+      Tati_72: -3406074948271230056
+      Tati_1: -8131076659932569406
+      Tati_70: -6323055007142849798
+      Tati_52: -5914016076494719562
+      Tati_17: -5497428787141166324
+      Tati_5: -5259622765986671296
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

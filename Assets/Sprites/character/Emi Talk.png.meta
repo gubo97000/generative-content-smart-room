@@ -1,0 +1,2360 @@
+fileFormatVersion: 2
+guid: 37a36003cc4d74e4480d3ef303a155b7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -334670311408597828
+    second: Emi Talk_0
+  - first:
+      213: -3560274591812675340
+    second: Emi Talk_1
+  - first:
+      213: 534371108857563426
+    second: Emi Talk_2
+  - first:
+      213: 6297806443412739536
+    second: Emi Talk_3
+  - first:
+      213: 891643030094901986
+    second: Emi Talk_4
+  - first:
+      213: -7910156295584359390
+    second: Emi Talk_5
+  - first:
+      213: -920612181601140800
+    second: Emi Talk_6
+  - first:
+      213: 1333926319203126016
+    second: Emi Talk_7
+  - first:
+      213: -757168557147177079
+    second: Emi Talk_8
+  - first:
+      213: 522155189046280558
+    second: Emi Talk_9
+  - first:
+      213: -1557048522658521454
+    second: Emi Talk_10
+  - first:
+      213: 6105282751981082161
+    second: Emi Talk_11
+  - first:
+      213: -1965400498760731863
+    second: Emi Talk_12
+  - first:
+      213: -470979066005809888
+    second: Emi Talk_13
+  - first:
+      213: -7412305652318391828
+    second: Emi Talk_14
+  - first:
+      213: 4675645790745382515
+    second: Emi Talk_15
+  - first:
+      213: 2817146173322541466
+    second: Emi Talk_16
+  - first:
+      213: 8932792850191525468
+    second: Emi Talk_17
+  - first:
+      213: -8641344987717488437
+    second: Emi Talk_18
+  - first:
+      213: -9025278423504877179
+    second: Emi Talk_19
+  - first:
+      213: 6341018982088751371
+    second: Emi Talk_20
+  - first:
+      213: 4393264596377859279
+    second: Emi Talk_21
+  - first:
+      213: -1202703851694615813
+    second: Emi Talk_22
+  - first:
+      213: 5205107656939148188
+    second: Emi Talk_23
+  - first:
+      213: -8631695841701401105
+    second: Emi Talk_24
+  - first:
+      213: 1717933561300734417
+    second: Emi Talk_25
+  - first:
+      213: -8075164487852000797
+    second: Emi Talk_26
+  - first:
+      213: 898930248622745929
+    second: Emi Talk_27
+  - first:
+      213: -7350664854827431202
+    second: Emi Talk_28
+  - first:
+      213: 1029436708363490710
+    second: Emi Talk_29
+  - first:
+      213: 3358248565013410467
+    second: Emi Talk_30
+  - first:
+      213: -6631163914429447623
+    second: Emi Talk_31
+  - first:
+      213: -5004401005845020817
+    second: Emi Talk_32
+  - first:
+      213: 9110186137699932773
+    second: Emi Talk_33
+  - first:
+      213: -4500214605048875157
+    second: Emi Talk_34
+  - first:
+      213: -8373566224083480172
+    second: Emi Talk_35
+  - first:
+      213: -5512940848688615462
+    second: Emi Talk_36
+  - first:
+      213: -1280416684983366929
+    second: Emi Talk_37
+  - first:
+      213: -7315655991343618857
+    second: Emi Talk_38
+  - first:
+      213: 8212371549885408723
+    second: Emi Talk_39
+  - first:
+      213: 5525725505944582720
+    second: Emi Talk_40
+  - first:
+      213: -1282889715550884135
+    second: Emi Talk_41
+  - first:
+      213: -3320734824789841771
+    second: Emi Talk_42
+  - first:
+      213: -6087226665733934177
+    second: Emi Talk_43
+  - first:
+      213: 3546404702360794401
+    second: Emi Talk_44
+  - first:
+      213: -21964095367612525
+    second: Emi Talk_45
+  - first:
+      213: -8791599725712480749
+    second: Emi Talk_46
+  - first:
+      213: 8557701544574966277
+    second: Emi Talk_47
+  - first:
+      213: -6956056688520578023
+    second: Emi Talk_48
+  - first:
+      213: 2056329667080145137
+    second: Emi Talk_49
+  - first:
+      213: -5186314076228250339
+    second: Emi Talk_50
+  - first:
+      213: 5784066060460002788
+    second: Emi Talk_51
+  - first:
+      213: -1175222908495771286
+    second: Emi Talk_52
+  - first:
+      213: -2308997170597447232
+    second: Emi Talk_53
+  - first:
+      213: -3149800804618154992
+    second: Emi Talk_54
+  - first:
+      213: -7351653085782746363
+    second: Emi Talk_55
+  - first:
+      213: 7844461640609118803
+    second: Emi Talk_56
+  - first:
+      213: -3214048181601134191
+    second: Emi Talk_57
+  - first:
+      213: -536813043334074678
+    second: Emi Talk_58
+  - first:
+      213: -5879624471947864057
+    second: Emi Talk_59
+  - first:
+      213: 369768811895758049
+    second: Emi Talk_60
+  - first:
+      213: -996509865869776214
+    second: Emi Talk_61
+  - first:
+      213: 5127914249597279196
+    second: Emi Talk_62
+  - first:
+      213: 3699784480762836987
+    second: Emi Talk_63
+  - first:
+      213: -7638170630390711038
+    second: Emi Talk_64
+  - first:
+      213: -9118895217938070989
+    second: Emi Talk_65
+  - first:
+      213: -2988014488662431554
+    second: Emi Talk_66
+  - first:
+      213: 9220430180994603688
+    second: Emi Talk_67
+  - first:
+      213: 3735882288086782108
+    second: Emi Talk_68
+  - first:
+      213: -5793880148740923644
+    second: Emi Talk_69
+  - first:
+      213: -4050907327018910339
+    second: Emi Talk_70
+  - first:
+      213: -8153843761978708533
+    second: Emi Talk_71
+  - first:
+      213: 1917512929009031049
+    second: Emi Talk_72
+  - first:
+      213: -6717789209777694001
+    second: Emi Talk_73
+  - first:
+      213: 2261203925235913709
+    second: Emi Talk_74
+  - first:
+      213: -3632655097518295677
+    second: Emi Talk_75
+  - first:
+      213: 7959733711075619409
+    second: Emi Talk_76
+  - first:
+      213: 5276985819534820088
+    second: Emi Talk_77
+  - first:
+      213: -3157239684499886847
+    second: Emi Talk_78
+  - first:
+      213: -3874571813689480018
+    second: Emi Talk_79
+  - first:
+      213: -6955098615673737180
+    second: Emi Talk_80
+  - first:
+      213: 5741524741700360607
+    second: Emi Talk_81
+  - first:
+      213: 2197682074159863671
+    second: Emi Talk_82
+  - first:
+      213: -4080673113838999419
+    second: Emi Talk_83
+  - first:
+      213: -1984358210803865929
+    second: Emi Talk_84
+  - first:
+      213: 5882392472444483808
+    second: Emi Talk_85
+  - first:
+      213: 4873119245472778000
+    second: Emi Talk_86
+  - first:
+      213: 4242111924931996943
+    second: Emi Talk_87
+  - first:
+      213: 7095480440110525203
+    second: Emi Talk_88
+  - first:
+      213: -1378099278727083052
+    second: Emi Talk_89
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Emi Talk_0
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 686
+        width: 237
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb40f9bff130b5bf0800000000000000
+      internalID: -334670311408597828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Talk_1
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 686
+        width: 237
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f818243f1d579ec0800000000000000
+      internalID: -3560274591812675340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Talk_2
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 686
+        width: 237
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 229cfa931b77a6700800000000000000
+      internalID: 534371108857563426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Talk_3
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 686
+        width: 237
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d558c3d79d466750800000000000000
+      internalID: 6297806443412739536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Talk_4
+      rect:
+        serializedVersion: 2
+        x: 1142
+        y: 686
+        width: 237
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e2724b9c90cf5c00800000000000000
+      internalID: 891643030094901986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Talk_5
+      rect:
+        serializedVersion: 2
+        x: 1422
+        y: 686
+        width: 237
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22cdfdb42ca793290800000000000000
+      internalID: -7910156295584359390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Talk_6
+      rect:
+        serializedVersion: 2
+        x: 1702
+        y: 686
+        width: 237
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cf34c339145933f0800000000000000
+      internalID: -920612181601140800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Talk_7
+      rect:
+        serializedVersion: 2
+        x: 1982
+        y: 686
+        width: 237
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00b85ac7bee038210800000000000000
+      internalID: 1333926319203126016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Talk_8
+      rect:
+        serializedVersion: 2
+        x: 2262
+        y: 686
+        width: 237
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98fb52c753ffd75f0800000000000000
+      internalID: -757168557147177079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Talk_9
+      rect:
+        serializedVersion: 2
+        x: 2542
+        y: 686
+        width: 237
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e610bb0c0611f3700800000000000000
+      internalID: 522155189046280558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Talk_10
+      rect:
+        serializedVersion: 2
+        x: 2822
+        y: 686
+        width: 237
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29e54e44e90446ae0800000000000000
+      internalID: -1557048522658521454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Talk_11
+      rect:
+        serializedVersion: 2
+        x: 3102
+        y: 686
+        width: 237
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 136d625d0525ab450800000000000000
+      internalID: 6105282751981082161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Talk_12
+      rect:
+        serializedVersion: 2
+        x: 3382
+        y: 686
+        width: 237
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 923bdf5d8ae79b4e0800000000000000
+      internalID: -1965400498760731863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Talk_13
+      rect:
+        serializedVersion: 2
+        x: 3662
+        y: 686
+        width: 237
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 025141ae80fb679f0800000000000000
+      internalID: -470979066005809888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Talk_14
+      rect:
+        serializedVersion: 2
+        x: 3942
+        y: 686
+        width: 237
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce131f20843322990800000000000000
+      internalID: -7412305652318391828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Talk_15
+      rect:
+        serializedVersion: 2
+        x: 4222
+        y: 686
+        width: 237
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37ecde4f21b33e040800000000000000
+      internalID: 4675645790745382515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Talk_16
+      rect:
+        serializedVersion: 2
+        x: 4502
+        y: 686
+        width: 237
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a99bd3dc483881720800000000000000
+      internalID: 2817146173322541466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Talk_17
+      rect:
+        serializedVersion: 2
+        x: 4782
+        y: 686
+        width: 237
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c56a0dfe4c7a7fb70800000000000000
+      internalID: 8932792850191525468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Talk_18
+      rect:
+        serializedVersion: 2
+        x: 5062
+        y: 686
+        width: 237
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc03f797486c31880800000000000000
+      internalID: -8641344987717488437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Talk_19
+      rect:
+        serializedVersion: 2
+        x: 5342
+        y: 686
+        width: 237
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5898eff7715cfb280800000000000000
+      internalID: -9025278423504877179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Talk_20
+      rect:
+        serializedVersion: 2
+        x: 5622
+        y: 686
+        width: 237
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b09b8650b23dff750800000000000000
+      internalID: 6341018982088751371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Talk_21
+      rect:
+        serializedVersion: 2
+        x: 5902
+        y: 686
+        width: 237
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc4f667bfd208fc30800000000000000
+      internalID: 4393264596377859279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Talk_22
+      rect:
+        serializedVersion: 2
+        x: 6182
+        y: 686
+        width: 220
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf29fb518332f4fe0800000000000000
+      internalID: -1202703851694615813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Talk_23
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 463
+        width: 237
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c93168d06d14c3840800000000000000
+      internalID: 5205107656939148188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Talk_24
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 463
+        width: 237
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fedeb2a5d5e063880800000000000000
+      internalID: -8631695841701401105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Talk_25
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 463
+        width: 237
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d15d05d87357d710800000000000000
+      internalID: 1717933561300734417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Talk_26
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 463
+        width: 237
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e97bbeaea04fef80800000000000000
+      internalID: -8075164487852000797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Talk_27
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 463
+        width: 237
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94923036c44a97c00800000000000000
+      internalID: 898930248622745929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Talk_28
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 463
+        width: 237
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eda001192413df990800000000000000
+      internalID: -7350664854827431202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Talk_29
+      rect:
+        serializedVersion: 2
+        x: 1699
+        y: 463
+        width: 237
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 695d0c86b3b494e00800000000000000
+      internalID: 1029436708363490710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Talk_30
+      rect:
+        serializedVersion: 2
+        x: 1979
+        y: 463
+        width: 237
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a2f611f645ea9e20800000000000000
+      internalID: 3358248565013410467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Talk_31
+      rect:
+        serializedVersion: 2
+        x: 2259
+        y: 463
+        width: 237
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9324b01ad8f59f3a0800000000000000
+      internalID: -6631163914429447623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Talk_32
+      rect:
+        serializedVersion: 2
+        x: 2539
+        y: 463
+        width: 237
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6ffff4bccbcc8ab0800000000000000
+      internalID: -5004401005845020817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Talk_33
+      rect:
+        serializedVersion: 2
+        x: 2819
+        y: 463
+        width: 237
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56ada4f3602ed6e70800000000000000
+      internalID: 9110186137699932773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Talk_34
+      rect:
+        serializedVersion: 2
+        x: 3099
+        y: 463
+        width: 237
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b67790de8a60c81c0800000000000000
+      internalID: -4500214605048875157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Talk_35
+      rect:
+        serializedVersion: 2
+        x: 3379
+        y: 463
+        width: 237
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4919b4e52ed1bcb80800000000000000
+      internalID: -8373566224083480172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Talk_36
+      rect:
+        serializedVersion: 2
+        x: 3659
+        y: 463
+        width: 237
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adfac26c1891e73b0800000000000000
+      internalID: -5512940848688615462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Talk_37
+      rect:
+        serializedVersion: 2
+        x: 3939
+        y: 463
+        width: 237
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fea45171fcb0b3ee0800000000000000
+      internalID: -1280416684983366929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Talk_38
+      rect:
+        serializedVersion: 2
+        x: 4219
+        y: 463
+        width: 237
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d46109c2a1997a90800000000000000
+      internalID: -7315655991343618857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Talk_39
+      rect:
+        serializedVersion: 2
+        x: 4499
+        y: 463
+        width: 237
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d5a172e96438f170800000000000000
+      internalID: 8212371549885408723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Talk_40
+      rect:
+        serializedVersion: 2
+        x: 4779
+        y: 463
+        width: 237
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04a742432125fac40800000000000000
+      internalID: 5525725505944582720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Talk_41
+      rect:
+        serializedVersion: 2
+        x: 5059
+        y: 463
+        width: 237
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9de669ac992423ee0800000000000000
+      internalID: -1282889715550884135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Talk_42
+      rect:
+        serializedVersion: 2
+        x: 5339
+        y: 463
+        width: 237
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 598e12755416ae1d0800000000000000
+      internalID: -3320734824789841771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Talk_43
+      rect:
+        serializedVersion: 2
+        x: 5619
+        y: 463
+        width: 237
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f93b4a95993d58ba0800000000000000
+      internalID: -6087226665733934177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Talk_44
+      rect:
+        serializedVersion: 2
+        x: 5899
+        y: 463
+        width: 237
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1257df1894c573130800000000000000
+      internalID: 3546404702360794401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Talk_45
+      rect:
+        serializedVersion: 2
+        x: 6179
+        y: 463
+        width: 237
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 397fcc985c7f1bff0800000000000000
+      internalID: -21964095367612525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Talk_46
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 239
+        width: 237
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3166c7d11a6fdf580800000000000000
+      internalID: -8791599725712480749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Talk_47
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 239
+        width: 237
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50ad332d63013c670800000000000000
+      internalID: 8557701544574966277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Talk_48
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 239
+        width: 237
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91c304beb4f177f90800000000000000
+      internalID: -6956056688520578023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Talk_49
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 239
+        width: 237
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f8c863ffec898c10800000000000000
+      internalID: 2056329667080145137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Talk_50
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 239
+        width: 237
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d159ec073d28608b0800000000000000
+      internalID: -5186314076228250339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Talk_51
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 239
+        width: 237
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ed8c1bcf61254050800000000000000
+      internalID: 5784066060460002788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Talk_52
+      rect:
+        serializedVersion: 2
+        x: 1699
+        y: 239
+        width: 237
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a694537cdf4c0bfe0800000000000000
+      internalID: -1175222908495771286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Talk_53
+      rect:
+        serializedVersion: 2
+        x: 1979
+        y: 239
+        width: 237
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c938239e4bc4ffd0800000000000000
+      internalID: -2308997170597447232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Talk_54
+      rect:
+        serializedVersion: 2
+        x: 2259
+        y: 239
+        width: 237
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01cce774bd8a944d0800000000000000
+      internalID: -3149800804618154992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Talk_55
+      rect:
+        serializedVersion: 2
+        x: 2539
+        y: 239
+        width: 237
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50bd30e187ea9f990800000000000000
+      internalID: -7351653085782746363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Talk_56
+      rect:
+        serializedVersion: 2
+        x: 2819
+        y: 239
+        width: 237
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35a3fa6ec402ddc60800000000000000
+      internalID: 7844461640609118803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Talk_57
+      rect:
+        serializedVersion: 2
+        x: 3099
+        y: 239
+        width: 237
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1999ca425386563d0800000000000000
+      internalID: -3214048181601134191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Talk_58
+      rect:
+        serializedVersion: 2
+        x: 3379
+        y: 239
+        width: 237
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acea649916bdc88f0800000000000000
+      internalID: -536813043334074678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Talk_59
+      rect:
+        serializedVersion: 2
+        x: 3659
+        y: 239
+        width: 237
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7089ad0c1b0676ea0800000000000000
+      internalID: -5879624471947864057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Talk_60
+      rect:
+        serializedVersion: 2
+        x: 3939
+        y: 239
+        width: 237
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ec901a76cea12500800000000000000
+      internalID: 369768811895758049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Talk_61
+      rect:
+        serializedVersion: 2
+        x: 4219
+        y: 239
+        width: 237
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaae8a58e8fab22f0800000000000000
+      internalID: -996509865869776214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Talk_62
+      rect:
+        serializedVersion: 2
+        x: 4499
+        y: 239
+        width: 237
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdbd8e557d20a2740800000000000000
+      internalID: 5127914249597279196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Talk_63
+      rect:
+        serializedVersion: 2
+        x: 4779
+        y: 239
+        width: 237
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf73f590266485330800000000000000
+      internalID: 3699784480762836987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Talk_64
+      rect:
+        serializedVersion: 2
+        x: 5059
+        y: 239
+        width: 237
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20d7db9c744cff590800000000000000
+      internalID: -7638170630390711038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Talk_65
+      rect:
+        serializedVersion: 2
+        x: 5339
+        y: 239
+        width: 237
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3320bcefc1d237180800000000000000
+      internalID: -9118895217938070989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Talk_66
+      rect:
+        serializedVersion: 2
+        x: 5619
+        y: 239
+        width: 237
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb82e8b57a07886d0800000000000000
+      internalID: -2988014488662431554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Talk_67
+      rect:
+        serializedVersion: 2
+        x: 5899
+        y: 239
+        width: 237
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aa597ec56c85ff70800000000000000
+      internalID: 9220430180994603688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Talk_68
+      rect:
+        serializedVersion: 2
+        x: 6179
+        y: 239
+        width: 237
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c901610c52588d330800000000000000
+      internalID: 3735882288086782108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Talk_69
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 15
+        width: 238
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40f1c17b3b0089fa0800000000000000
+      internalID: -5793880148740923644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Talk_70
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 15
+        width: 238
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7db20baf3948c7c0800000000000000
+      internalID: -4050907327018910339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Talk_71
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 15
+        width: 238
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcd6935ac4ab7de80800000000000000
+      internalID: -8153843761978708533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Talk_72
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 15
+        width: 238
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9875dc979df5c9a10800000000000000
+      internalID: 1917512929009031049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Talk_73
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 15
+        width: 238
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fca9f3b5e4e95c2a0800000000000000
+      internalID: -6717789209777694001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Talk_74
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 15
+        width: 238
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de3d7685df8616f10800000000000000
+      internalID: 2261203925235913709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Talk_75
+      rect:
+        serializedVersion: 2
+        x: 1699
+        y: 15
+        width: 238
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 385f8e87f67369dc0800000000000000
+      internalID: -3632655097518295677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Talk_76
+      rect:
+        serializedVersion: 2
+        x: 1979
+        y: 15
+        width: 238
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1523d5343a7a67e60800000000000000
+      internalID: 7959733711075619409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Talk_77
+      rect:
+        serializedVersion: 2
+        x: 2259
+        y: 15
+        width: 238
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f2852ae4ae9b3940800000000000000
+      internalID: 5276985819534820088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Talk_78
+      rect:
+        serializedVersion: 2
+        x: 2539
+        y: 15
+        width: 238
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10d2e961c3b3f24d0800000000000000
+      internalID: -3157239684499886847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Talk_79
+      rect:
+        serializedVersion: 2
+        x: 2819
+        y: 15
+        width: 238
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eac2c4cb671ca3ac0800000000000000
+      internalID: -3874571813689480018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Talk_80
+      rect:
+        serializedVersion: 2
+        x: 3099
+        y: 15
+        width: 238
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 420b4f2a8a68a7f90800000000000000
+      internalID: -6955098615673737180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Talk_81
+      rect:
+        serializedVersion: 2
+        x: 3379
+        y: 15
+        width: 238
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f999a2a255efdaf40800000000000000
+      internalID: 5741524741700360607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Talk_82
+      rect:
+        serializedVersion: 2
+        x: 3659
+        y: 15
+        width: 238
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 777da8fd33cbf7e10800000000000000
+      internalID: 2197682074159863671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Talk_83
+      rect:
+        serializedVersion: 2
+        x: 3939
+        y: 15
+        width: 238
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 588a32d5c698e57c0800000000000000
+      internalID: -4080673113838999419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Talk_84
+      rect:
+        serializedVersion: 2
+        x: 4219
+        y: 15
+        width: 238
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b6e7e988b42674e0800000000000000
+      internalID: -1984358210803865929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Talk_85
+      rect:
+        serializedVersion: 2
+        x: 4499
+        y: 15
+        width: 238
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e83c7599c472a150800000000000000
+      internalID: 5882392472444483808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Talk_86
+      rect:
+        serializedVersion: 2
+        x: 4779
+        y: 15
+        width: 238
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0174686822cc0a340800000000000000
+      internalID: 4873119245472778000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Talk_87
+      rect:
+        serializedVersion: 2
+        x: 5059
+        y: 15
+        width: 238
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0d250fe1520fda30800000000000000
+      internalID: 4242111924931996943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Talk_88
+      rect:
+        serializedVersion: 2
+        x: 5339
+        y: 15
+        width: 238
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31b2587edd5387260800000000000000
+      internalID: 7095480440110525203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Emi Talk_89
+      rect:
+        serializedVersion: 2
+        x: 5619
+        y: 15
+        width: 238
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4db004ae10200ece0800000000000000
+      internalID: -1378099278727083052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 380659144eec46b4da35bf2c75d1456d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Emi Talk_14: -7412305652318391828
+      Emi Talk_74: 2261203925235913709
+      Emi Talk_59: -5879624471947864057
+      Emi Talk_18: -8641344987717488437
+      Emi Talk_15: 4675645790745382515
+      Emi Talk_19: -9025278423504877179
+      Emi Talk_7: 1333926319203126016
+      Emi Talk_29: 1029436708363490710
+      Emi Talk_44: 3546404702360794401
+      Emi Talk_26: -8075164487852000797
+      Emi Talk_11: 6105282751981082161
+      Emi Talk_50: -5186314076228250339
+      Emi Talk_57: -3214048181601134191
+      Emi Talk_69: -5793880148740923644
+      Emi Talk_10: -1557048522658521454
+      Emi Talk_25: 1717933561300734417
+      Emi Talk_89: -1378099278727083052
+      Emi Talk_42: -3320734824789841771
+      Emi Talk_48: -6956056688520578023
+      Emi Talk_5: -7910156295584359390
+      Emi Talk_0: -334670311408597828
+      Emi Talk_24: -8631695841701401105
+      Emi Talk_6: -920612181601140800
+      Emi Talk_72: 1917512929009031049
+      Emi Talk_54: -3149800804618154992
+      Emi Talk_68: 3735882288086782108
+      Emi Talk_12: -1965400498760731863
+      Emi Talk_1: -3560274591812675340
+      Emi Talk_58: -536813043334074678
+      Emi Talk_40: 5525725505944582720
+      Emi Talk_53: -2308997170597447232
+      Emi Talk_60: 369768811895758049
+      Emi Talk_80: -6955098615673737180
+      Emi Talk_31: -6631163914429447623
+      Emi Talk_49: 2056329667080145137
+      Emi Talk_63: 3699784480762836987
+      Emi Talk_9: 522155189046280558
+      Emi Talk_47: 8557701544574966277
+      Emi Talk_65: -9118895217938070989
+      Emi Talk_2: 534371108857563426
+      Emi Talk_87: 4242111924931996943
+      Emi Talk_76: 7959733711075619409
+      Emi Talk_38: -7315655991343618857
+      Emi Talk_77: 5276985819534820088
+      Emi Talk_67: 9220430180994603688
+      Emi Talk_75: -3632655097518295677
+      Emi Talk_51: 5784066060460002788
+      Emi Talk_41: -1282889715550884135
+      Emi Talk_35: -8373566224083480172
+      Emi Talk_85: 5882392472444483808
+      Emi Talk_21: 4393264596377859279
+      Emi Talk_16: 2817146173322541466
+      Emi Talk_28: -7350664854827431202
+      Emi Talk_71: -8153843761978708533
+      Emi Talk_45: -21964095367612525
+      Emi Talk_70: -4050907327018910339
+      Emi Talk_88: 7095480440110525203
+      Emi Talk_30: 3358248565013410467
+      Emi Talk_66: -2988014488662431554
+      Emi Talk_52: -1175222908495771286
+      Emi Talk_56: 7844461640609118803
+      Emi Talk_78: -3157239684499886847
+      Emi Talk_4: 891643030094901986
+      Emi Talk_8: -757168557147177079
+      Emi Talk_22: -1202703851694615813
+      Emi Talk_46: -8791599725712480749
+      Emi Talk_32: -5004401005845020817
+      Emi Talk_62: 5127914249597279196
+      Emi Talk_64: -7638170630390711038
+      Emi Talk_82: 2197682074159863671
+      Emi Talk_55: -7351653085782746363
+      Emi Talk_79: -3874571813689480018
+      Emi Talk_36: -5512940848688615462
+      Emi Talk_37: -1280416684983366929
+      Emi Talk_34: -4500214605048875157
+      Emi Talk_86: 4873119245472778000
+      Emi Talk_33: 9110186137699932773
+      Emi Talk_84: -1984358210803865929
+      Emi Talk_17: 8932792850191525468
+      Emi Talk_61: -996509865869776214
+      Emi Talk_81: 5741524741700360607
+      Emi Talk_39: 8212371549885408723
+      Emi Talk_13: -470979066005809888
+      Emi Talk_83: -4080673113838999419
+      Emi Talk_20: 6341018982088751371
+      Emi Talk_3: 6297806443412739536
+      Emi Talk_23: 5205107656939148188
+      Emi Talk_73: -6717789209777694001
+      Emi Talk_43: -6087226665733934177
+      Emi Talk_27: 898930248622745929
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

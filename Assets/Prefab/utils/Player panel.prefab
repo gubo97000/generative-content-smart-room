@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4297580381980462672
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4297580381980462679}
+  - component: {fileID: 4297580381980462676}
+  - component: {fileID: 4297580381980462678}
+  - component: {fileID: 3462011571405206694}
+  m_Layer: 5
+  m_Name: Player panel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &4297580381980462679
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4297580381980462672}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &4297580381980462676
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4297580381980462672}
+  m_CullTransparentMesh: 0
+--- !u!114 &4297580381980462678
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4297580381980462672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7448816fabd12741a7751615bb195d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  panelWidth: 30
+  panelHeight: 100
+  ancor: 1
+  backgroundColor: {r: 1, g: 1, b: 0.6650944, a: 0.36078432}
+  playerInfoBoard: {fileID: 3887577433423299670, guid: 0c3a544d78ef7824ca0f2b2af71e7205,
+    type: 3}
+  numcolumn: 1
+  numOfVisiblePlayers: 6
+  origin: 0
+  showOnlyCalledPlayers: 0
+  ActivePlayerColor: {r: 0, g: 0.4848323, b: 1, a: 1}
+  InactivePlayerColor: {r: 0.8862746, g: 0.7960785, b: 0.32156864, a: 1}
+  targetPosition: {x: 0, y: 0, z: 0}
+--- !u!114 &3462011571405206694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4297580381980462672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f32364230e670f4ea91127bfca67a3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
