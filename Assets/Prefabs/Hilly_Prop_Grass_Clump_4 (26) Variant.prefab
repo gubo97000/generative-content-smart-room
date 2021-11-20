@@ -27,7 +27,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 0.4, y: 0.4, z: 0.4}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &141236578
 MonoBehaviour:
@@ -41,7 +41,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0beb48e3aac3b9d45abbd9d49484a73b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefab: {fileID: 8668590516993104003, guid: 4d321fd3eaf568143bab571a44e0c763, type: 3}
+  prefab: {fileID: 9158848666860950036, guid: 995b4647a367b1548b1681bbb6385dab, type: 3}
+--- !u!114 &6857192241503747985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3206694084775811025}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88f2ce0580a1a9e44a04633ad5ca5740, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  flowerPrefab: {fileID: 6325449686324184012, guid: 9420db0b6b0f29741943b9d525ffb276, type: 3}
 --- !u!1001 &2324172512938011264
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -107,7 +120,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: eb035d32a49024447b24ab2dc2e01a35, type: 2}
     - target: {fileID: 919132149155446097, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
       propertyPath: m_Name
-      value: Hilly_Prop_Grass_Clump_4 (26)
+      value: Hilly_Prop_Grass_Clump_4 (26) Variant
       objectReference: {fileID: 0}
     - target: {fileID: 4202379946347956051, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
       propertyPath: m_Materials.Array.data[0]
