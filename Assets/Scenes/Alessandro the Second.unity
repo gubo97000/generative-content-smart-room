@@ -21508,6 +21508,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -5400617833188668461, guid: 9420db0b6b0f29741943b9d525ffb276, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6325449686324184012, guid: 9420db0b6b0f29741943b9d525ffb276, type: 3}
       propertyPath: m_Name
       value: Hilly_Prop_Flower_Daisy
@@ -21556,7 +21560,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -5400617833188668461, guid: 9420db0b6b0f29741943b9d525ffb276, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 9420db0b6b0f29741943b9d525ffb276, type: 3}
 --- !u!1001 &9160114869345273104
 PrefabInstance:

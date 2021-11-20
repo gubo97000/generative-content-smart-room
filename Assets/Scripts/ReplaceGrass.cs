@@ -20,8 +20,8 @@ public class ReplaceGrass : MonoBehaviour
 
     void ReplaceAll()
     {
-        ReplaceGrass[] tests = FindObjectsOfType(typeof(ReplaceGrass)) as ReplaceGrass[];
-        foreach (var grass in tests)
+        ReplaceGrass[] grassPatch = FindObjectsOfType(typeof(ReplaceGrass)) as ReplaceGrass[];
+        foreach (var grass in grassPatch)
         {
             Instantiate(flowerPrefab, grass.transform.position, grass.transform.rotation);
             Destroy(grass.gameObject);
