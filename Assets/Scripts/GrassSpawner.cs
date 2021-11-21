@@ -20,7 +20,7 @@ public class GrassSpawner : MonoBehaviour
         Vector3 position = gameObject.transform.position;
         position.y += 1;
 
-        int isSpawned = Random.Range(1, 30);
+        int isSpawned = Random.Range(1, 50);
         if (isSpawned <= 1)
             Instantiate(prefab, position, Quaternion.identity);
     }
