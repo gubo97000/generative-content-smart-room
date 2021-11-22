@@ -2,41 +2,43 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(Collector))]
 public class Campfire : MonoBehaviour
 {
-    enum State
+    public string[] states = new string[] { "Collecting", "Triggerable", "Lit" };
+
+    // public Dictionary<string, Mono> ScriptsInStates = new Dictionary<string, MonoBehaviour[]> { ["Collecting"] = Collector };
+    public string _state = "Collecting";
+    public string State
     {
-        COLLECTING,
-        TRIGGERABLE
-
-    }
-    State state = State.COLLECTING;
-    int collected = 0;
-    public int toCollect = 3;
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
-    void OnTriggerEnter(Collider other)
-    {
-        if (state != State.COLLECTING) return;
-        if (other.gameObject.tag == "Branch")
+        get
         {
-            Destroy(other.gameObject);
-            collected++;
-            if (collected == toCollect)
+            return _state;
+        }
+        set
+        {
+            _state = value;
+            switch (_state)
             {
-                state = State.TRIGGERABLE;
+                case "Collecting":
+                    Debug.Log("Campfire is now collecting");
+                    break;
+                case "Triggerable":
+                    Debug.Log("Campfire is now triggerable");
+                    break;
+                case "Lit":
+                    Debug.Log("Campfire is now lit");
+                    break;
             }
-
         }
     }
+    // public MonoBehaviour[] componentsToDisable;
+
+
+    void OnCollectorFull()
+    {
+        State = "Triggerable";
+    }
+
 }
+
