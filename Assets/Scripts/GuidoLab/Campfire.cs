@@ -6,7 +6,7 @@ using System;
 [RequireComponent(typeof(Collector))]
 public class Campfire : MonoBehaviour
 {
-    public string _currentState = "Collecting";
+    public string _currentState = "";
     public State[] states = new State[]
     {
     new State("Collecting"),
@@ -32,6 +32,19 @@ public class Campfire : MonoBehaviour
         }
     }
 
+    void initState()
+    {
+        foreach (var state in states)
+        {
+            state.Deactivate();
+        }
+        _currentState = states[0].name;
+        states[0].Activate();
+    }
+    void Start()
+    {
+        initState();
+    }
 
     void OnCollectorFull()
     {
