@@ -1,43 +1,41 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 [RequireComponent(typeof(Collector))]
 public class Campfire : MonoBehaviour
 {
-    public string[] states = new string[] { "Collecting", "Triggerable", "Lit" };
+    public string _currentState = "Collecting";
+    public State[] states = new State[]
+    {
+    new State("Collecting"),
+    new State("Triggerable"),
+    new State("Lit")
+     };
 
-    // public Dictionary<string, Mono> ScriptsInStates = new Dictionary<string, MonoBehaviour[]> { ["Collecting"] = Collector };
-    public string _state = "Collecting";
-    public string State
+    public string CurrentState
     {
         get
         {
-            return _state;
+            return _currentState;
         }
         set
         {
-            _state = value;
-            switch (_state)
+            if (_currentState != value)
             {
-                case "Collecting":
-                    Debug.Log("Campfire is now collecting");
-                    break;
-                case "Triggerable":
-                    Debug.Log("Campfire is now triggerable");
-                    break;
-                case "Lit":
-                    Debug.Log("Campfire is now lit");
-                    break;
+                Array.Find(states, el => el.name == _currentState).Deactivate();
+                _currentState = value;
+                Array.Find(states, el => el.name == value).Activate();
+                Debug.Log(gameObject.name + " has state " + _currentState);
             }
         }
     }
-    // public MonoBehaviour[] componentsToDisable;
 
 
     void OnCollectorFull()
     {
-        State = "Triggerable";
+        CurrentState = "Triggerable";
     }
 
 }

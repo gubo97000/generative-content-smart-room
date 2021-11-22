@@ -15,7 +15,7 @@ public class Collector : MonoBehaviour
     {
         Debug.Log(other.gameObject.tag);
         Debug.Log(other.gameObject.name);
-        if ( TagsToCollect.Contains(other.gameObject.tag))
+        if (TagsToCollect.Contains(other.gameObject.tag))
         {
             collected += 1;
             GameObject.Destroy(other.gameObject);
@@ -25,7 +25,14 @@ public class Collector : MonoBehaviour
             }
         }
     }
-  
+    private void OnDisable()
+    {
+        GetComponent<Collider>().enabled = false;
+    }
+    private void OnEnable()
+    {
+        GetComponent<Collider>().enabled = true;
+    }
 
 }
 

@@ -6,6 +6,7 @@ TagManager:
   tags:
   - CinemachineTarget
   - Seed
+  - Branch
   layers:
   - Default
   - TransparentFX

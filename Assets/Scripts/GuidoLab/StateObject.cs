@@ -5,6 +5,5 @@ using UnityEngine;
 [CreateAssetMenu]
 public class StateObject : ScriptableObject
 {
-    [SerializeField]
-    public Dictionary<string, MonoBehaviour[]> States;
+    public State[] states;
 }
