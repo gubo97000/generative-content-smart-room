@@ -44,7 +44,8 @@ public class DemoInputs : MonoBehaviour
     public void OnCrouch(InputValue value)
     {
         CrouchInput(value.isPressed);
-        EventManager.TriggerEvent("OnCrouch", gameObject);
+        EventManager.TriggerEvent("OnCrouch", gameObject); //Deprecated
+        EventManager.TriggerEvent(value.isPressed ? "OnCrouchStart" : "OnCrouchEnd", gameObject);
     }
 
     public void OnSprint(InputValue value)
@@ -73,9 +74,9 @@ public class DemoInputs : MonoBehaviour
     public void CrouchInput(bool newCrouchState)
     {
         crouch = newCrouchState;
-		print("crouch");
-	}
-    
+        print("crouch");
+    }
+
 
     public void SprintInput(bool newSprintState)
     {

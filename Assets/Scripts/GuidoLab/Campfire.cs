@@ -4,52 +4,34 @@ using UnityEngine;
 using System;
 
 [RequireComponent(typeof(Collector))]
-public class Campfire : MonoBehaviour
+public class Campfire : ObjectStateHandler
 {
-    public string _currentState = "";
-    public State[] states = new State[]
+    private void Reset()
     {
-    new State("Collecting"),
-    new State("Triggerable"),
+        states = new State[]
+        {
+    new State("Collecting", new MonoBehaviour[]{GetComponent<Collector>()}),
+    new State("Triggerable",  new MonoBehaviour[]{GetComponent<TwoPlayerTrigger>()}),
     new State("Lit")
-     };
-
-    public string CurrentState
-    {
-        get
-        {
-            return _currentState;
-        }
-        set
-        {
-            if (_currentState != value)
-            {
-                Array.Find(states, el => el.name == _currentState).Deactivate();
-                _currentState = value;
-                Array.Find(states, el => el.name == value).Activate();
-                Debug.Log(gameObject.name + " has state " + _currentState);
-            }
-        }
+        };
     }
 
-    void initState()
+    /// <summary>
+    /// Calling the Start function of ObjectStateHandler
+    /// </summary>
+    protected override void Start()
     {
-        foreach (var state in states)
-        {
-            state.Deactivate();
-        }
-        _currentState = states[0].name;
-        states[0].Activate();
-    }
-    void Start()
-    {
-        initState();
+        base.Start();
     }
 
+    //Called from Collector
     void OnCollectorFull()
     {
         CurrentState = "Triggerable";
     }
-
+    void OnTwoPlayerTrigger()
+    {
+        CurrentState = "Lit";
+    }
 }
 

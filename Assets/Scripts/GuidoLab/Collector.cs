@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.Linq;
 
-[RequireComponent(typeof(Collider))]
+[RequireComponent(typeof(BoxCollider))]
 public class Collector : MonoBehaviour
 {
 
@@ -13,25 +13,27 @@ public class Collector : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        Debug.Log(other.gameObject.tag);
-        Debug.Log(other.gameObject.name);
-        if (TagsToCollect.Contains(other.gameObject.tag))
+        if (enabled && TagsToCollect.Contains(other.gameObject.tag))
         {
             collected += 1;
             GameObject.Destroy(other.gameObject);
             if (collected >= toCollect)
             {
-                this.SendMessage("OnCollectorFull");
+                this.SendMessage("OnCollectorFull", options : SendMessageOptions.DontRequireReceiver);
+            }
+            else
+            {
+                this.SendMessage("OnCollectorChange", collected, SendMessageOptions.DontRequireReceiver);
             }
         }
     }
     private void OnDisable()
     {
-        GetComponent<Collider>().enabled = false;
+        GetComponent<BoxCollider>().enabled = false;
     }
     private void OnEnable()
     {
-        GetComponent<Collider>().enabled = true;
+        GetComponent<BoxCollider>().enabled = true;
     }
 
 }
