@@ -3,9 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 
+//This is an ObjectStateHandler
 [RequireComponent(typeof(Collector))]
 public class Campfire : ObjectStateHandler
 {
+    //Set the states here, with the scripts attached for each state.
     private void Reset()
     {
         states = new State[]
@@ -16,20 +18,19 @@ public class Campfire : ObjectStateHandler
         };
     }
 
-    /// <summary>
-    /// Calling the Start function of ObjectStateHandler
-    /// </summary>
+    //Remember to call the Start function of ObjectStateHandler
     protected override void Start()
     {
         base.Start();
     }
 
-    //Called from Collector
-    void OnCollectorFull()
+    //Messages from other scripts activate functions, 
+    //to change the state change the value of CurrentState
+    void OnCollectorFull() //Called from Collector
     {
         CurrentState = "Triggerable";
     }
-    void OnTwoPlayerTrigger()
+    void OnTwoPlayerTrigger() //Called from TwoPlayerTrigger
     {
         CurrentState = "Lit";
     }

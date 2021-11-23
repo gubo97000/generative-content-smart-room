@@ -3,6 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.Linq;
 
+//This is one component for the ObjectStateMachine
+//IMPORTANT: Scripts are dis/enabled from the ObjectStateHandler 
+//but disable state only stops the Update function,
+//So you need to check with the variable "enabled" the state of the script
 [RequireComponent(typeof(BoxCollider))]
 public class Collector : MonoBehaviour
 {
@@ -19,7 +23,7 @@ public class Collector : MonoBehaviour
             GameObject.Destroy(other.gameObject);
             if (collected >= toCollect)
             {
-                this.SendMessage("OnCollectorFull", options : SendMessageOptions.DontRequireReceiver);
+                this.SendMessage("OnCollectorFull", options: SendMessageOptions.DontRequireReceiver);
             }
             else
             {
@@ -27,6 +31,7 @@ public class Collector : MonoBehaviour
             }
         }
     }
+    
     private void OnDisable()
     {
         GetComponent<BoxCollider>().enabled = false;

@@ -27,9 +27,7 @@ public abstract class ObjectStateHandler : MonoBehaviour
             }
         }
     }
-    /// <summary>
-    /// Always insert this function inside the Start function to init the state
-    /// </summary>
+
     protected void initState()
     {
         foreach (var state in states)
