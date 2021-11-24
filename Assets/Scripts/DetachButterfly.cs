@@ -5,25 +5,29 @@ using UnityEngine;
 public class DetachButterfly : MonoBehaviour
 {
     private List<GameObject> playerInsideTrigger = new List<GameObject>();
-    
+
+    public bool isEmpty = true;
+
     // Start is called before the first frame update
     void Start()
     {
-        EventManager.StartListening("OnCrouchEnd", OnCrouchHandler);
+        EventManager.StartListening("OnCrouchStart", OnCrouchHandler);
     }
 
     void OnDestroy()
     {
-        EventManager.StopListening("OnCrouchEnd", OnCrouchHandler);
+        EventManager.StopListening("OnCrouchStart", OnCrouchHandler);
     }
 
     void OnCrouchHandler(EventDict data)
     {
         GameObject sender = (GameObject)data["sender"];
 
-        if (playerInsideTrigger.Contains(sender))
+        if (playerInsideTrigger.Contains(sender) && isEmpty)
         {
-            EventManager.TriggerEvent("ItemUncollected", gameObject, new EventDict() { ["player"] = sender });
+            EventManager.TriggerEvent("ItemUncollected", gameObject, new EventDict() { { "player", sender }, { "isRecollectable", false }, { "newTarget", gameObject } });
+            isEmpty = false;
+
         }
     }
 

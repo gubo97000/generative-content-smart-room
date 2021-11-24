@@ -77,8 +77,11 @@ public class InventoryManager : MonoBehaviour
 
             print("Item " + sender.name + " removed from " + player.name + " inventory");
             Debug.Log(prettyPrintToSring(inventory));
-            EventManager.TriggerEvent("InventoryRemoveEvent", gameObject, new EventDict() { { "item", sender }, { "receiver", player } });
+            EventManager.TriggerEvent("InventoryRemoveEvent", gameObject, new EventDict() { { "item", sender }, { "receiver", player }, { "newTarget", dict["newTarget"] } });
             Debug.Log("Removed a butterfly");
+
+            //Decide if recollectable
+            sender.GetComponent<SphereCollider>().isTrigger = (bool)dict["isRecollectable"];
         }
     }
 
