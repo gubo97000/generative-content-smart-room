@@ -11,12 +11,12 @@ public class DetachButterfly : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        EventManager.StartListening("OnCrouch", OnCrouchHandler);
+        EventManager.StartListening("OnCrouchEnd", OnCrouchHandler);
     }
 
     void OnDestroy()
     {
-        EventManager.StopListening("OnCrouch", OnCrouchHandler);
+        EventManager.StopListening("OnCrouchEnd", OnCrouchHandler);
     }
 
     void OnCrouchHandler(EventDict data)

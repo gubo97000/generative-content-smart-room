@@ -2,12 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SpawnPoint
-{
-    public GameObject Spawner;
-    public int radius;
-}
-
 public class SpawnFish : MonoBehaviour
 {
     public GameObject[] lilypads = GameObject.FindGameObjectsWithTag("Lilypad");
@@ -42,5 +36,10 @@ public class SpawnFish : MonoBehaviour
         position.z += point.transform.position.z;
 
         Instantiate(prefab, position, Quaternion.identity); 
+
+        foreach (GameObject l in lilypads)
+        {
+            l.GetComponent<DetachButterfly>().isEmpty = true;
+        }
     }
 }
