@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class CrouchParticles : MonoBehaviour
 {
+    public int numberOfParticles = 20;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,7 +23,7 @@ public class CrouchParticles : MonoBehaviour
         var sender = dict["sender"] as GameObject;
         if (sender == this.transform.parent.gameObject)
         {
-            GetComponent<ParticleSystem>().Emit(30);
+            GetComponent<ParticleSystem>().Emit(numberOfParticles);
             GetComponent<ParticleSystemForceField>().gravity = 0;
         }
 
@@ -32,10 +33,10 @@ public class CrouchParticles : MonoBehaviour
         var sender = dict["sender"] as GameObject;
         if (sender == this.transform.parent.gameObject)
         {
-            GetComponent<ParticleSystemForceField>().gravity = 2;
+            GetComponent<ParticleSystemForceField>().gravity = 1;
             //This should be an animation...
             // GetComponent<ParticleSystem>().Clear();
-            Invoke("StopParticles", 0.5f);
+            Invoke("StopParticles", 0.4f);
         }
 
     }
