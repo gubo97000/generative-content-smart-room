@@ -34,6 +34,7 @@ public class InventoryManager : MonoBehaviour
     void Start()
     {
         EventManager.StartListening("ItemCollected", AddItem);
+        EventManager.StartListening("ItemUncollected", RemoveItem);
     }
 
     // Update is called once per frame
@@ -45,6 +46,7 @@ public class InventoryManager : MonoBehaviour
     void OnDestroy()
     {
         EventManager.StopListening("ItemCollected", AddItem);
+        EventManager.StopListening("ItemUncollected", RemoveItem);
     }
 
     //All the functions that subscribe to an event have this mandatory argument
@@ -66,16 +68,20 @@ public class InventoryManager : MonoBehaviour
 
     public void RemoveItem(EventDict dict)
     {
-
-        GameObject sender = (GameObject)dict["sender"];
         GameObject player = (GameObject)dict["player"];
-        if (inventory[player].Contains(sender))
+        
+        if (inventory[player].Count > 0)
         {
+            GameObject sender = new List<GameObject>(inventory[player])[0];
             inventory[player].Remove(sender);
 
             print("Item " + sender.name + " removed from " + player.name + " inventory");
             Debug.Log(prettyPrintToSring(inventory));
-            EventManager.TriggerEvent("InventoryRemoveEvent", gameObject, new EventDict() { { "item", sender }, { "receiver", player } });
+            EventManager.TriggerEvent("InventoryRemoveEvent", gameObject, new EventDict() { { "item", sender }, { "receiver", player }, { "newTarget", dict["newTarget"] } });
+            Debug.Log("Removed a butterfly");
+
+            //Decide if recollectable
+            sender.GetComponent<SphereCollider>().isTrigger = (bool)dict["isRecollectable"];
         }
     }
 

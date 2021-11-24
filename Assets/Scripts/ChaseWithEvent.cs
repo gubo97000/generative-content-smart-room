@@ -6,10 +6,13 @@ public class ChaseWithEvent : MonoBehaviour
     public int speed = 2;
     private GameObject target;
 
-void Start(){
-    EventManager.StartListening("FollowMe", onFollowMe);
-}
-void onFollowMe(EventDict dict)
+    void Start()
+    {
+        EventManager.StartListening("FollowMe", onFollowMe);
+        EventManager.StartListening("UnfollowMe", onUnfollowMe);
+    }
+
+    void onFollowMe(EventDict dict)
     {
         if (((GameObject)dict["receiver"]) == gameObject)
         {
@@ -17,6 +20,16 @@ void onFollowMe(EventDict dict)
 
         }
     }
+
+    void onUnfollowMe(EventDict dict)
+    {
+        if (((GameObject)dict["receiver"]) == gameObject)
+        {
+            target = (GameObject)dict["newTarget"];
+
+        }
+    }
+
     void Update()
     {
         if (target != null)
