@@ -77,7 +77,7 @@ public class EventManager : MonoBehaviour
     /// <param name="eventName"></param>
     /// <param name="sender"></param>
     /// <param name="additionalDataDict"></param>
-    public static void TriggerEvent(string eventName, GameObject sender, EventDict additionalDataDict = null)
+    public static void TriggerEvent(string eventName, GameObject sender = null, EventDict additionalDataDict = null)
     {
         Event thisEvent = null;
         EventDict data = new EventDict() { ["sender"] = sender };

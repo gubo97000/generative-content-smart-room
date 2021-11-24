@@ -33,6 +33,7 @@ public class Campfire : ObjectStateHandler
     void OnTwoPlayerTrigger() //Called from TwoPlayerTrigger
     {
         CurrentState = "Lit";
+        GameStateManager.night = true;
     }
 }
 

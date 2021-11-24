@@ -7,6 +7,30 @@ using System.Collections.Generic;
 public class GameStateManager : MonoBehaviour
 {
     public static HashSet<GameObject> playersCrouched = new HashSet<GameObject>();
+    public static bool night
+    {
+        get
+        {
+            return night;
+        }
+        set
+        {
+            if (night != value)
+            {
+                night = value;
+                if (night)
+                {
+                    EventManager.TriggerEvent("Night");
+                }
+                else
+                {
+                    EventManager.TriggerEvent("Day");
+                }
+
+            }
+
+        }
+    }
 
     private static GameStateManager gameStateManager;
 
