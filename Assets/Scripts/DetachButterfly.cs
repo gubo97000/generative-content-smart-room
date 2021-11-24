@@ -23,7 +23,7 @@ public class DetachButterfly : MonoBehaviour
     {
         GameObject sender = (GameObject)data["sender"];
 
-        if (playerInsideTrigger.Contains(sender) && isEmpty)
+        if (playerInsideTrigger.Contains(sender) && isEmpty && sender.GetComponent<HasFloatingInventory>().slots.Count > 0)
         {
             EventManager.TriggerEvent("ItemUncollected", gameObject, new EventDict() { { "player", sender }, { "isRecollectable", false }, { "newTarget", gameObject } });
             isEmpty = false;
