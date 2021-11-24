@@ -1327,7 +1327,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c71b94ffdf9d744aaa8789c0e4dfcc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isEmpty: 0
+  isEmpty: 1
 --- !u!64 &179551035
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1722,7 +1722,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4dd8bc6dd5802a7418708b3a84ccafd3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lilypads: []
+  lilypads:
+  - {fileID: 903450382}
+  - {fileID: 1672879273}
+  - {fileID: 179551030}
+  spawnPoints:
+  - {fileID: 1425183487}
+  - {fileID: 753884924}
+  - {fileID: 1042791514}
+  - {fileID: 1861221241}
+  radiuses:
+  - 1.5
+  - 2
+  - 1.2
+  - 1.5
   prefab: {fileID: 3561536310154227527, guid: 2c29f7d6171cc714286641e74e0030da, type: 3}
 --- !u!4 &220696252
 Transform:
@@ -7994,7 +8007,7 @@ SphereCollider:
   m_GameObject: {fileID: 753884924}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
@@ -8005,7 +8018,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 753884924}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -11107,7 +11120,7 @@ SphereCollider:
   m_GameObject: {fileID: 1042791514}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
@@ -11118,7 +11131,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1042791514}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -11274,6 +11287,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lilypads: []
+  spawnPoints: []
+  radiuses: []
   prefab: {fileID: 0}
 --- !u!1001 &1054587365
 PrefabInstance:
@@ -11591,6 +11606,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lilypads: []
+  spawnPoints: []
+  radiuses: []
   prefab: {fileID: 0}
 --- !u!1001 &1081983809
 PrefabInstance:
@@ -15519,7 +15536,7 @@ SphereCollider:
   m_GameObject: {fileID: 1425183487}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
@@ -15530,7 +15547,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1425183487}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -17862,7 +17879,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c71b94ffdf9d744aaa8789c0e4dfcc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isEmpty: 0
+  isEmpty: 1
 --- !u!54 &1672879280
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -19841,7 +19858,7 @@ SphereCollider:
   m_GameObject: {fileID: 1861221241}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
@@ -19852,7 +19869,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1861221241}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -20127,6 +20144,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lilypads: []
+  spawnPoints: []
+  radiuses: []
   prefab: {fileID: 0}
 --- !u!1 &1892207284 stripped
 GameObject:
