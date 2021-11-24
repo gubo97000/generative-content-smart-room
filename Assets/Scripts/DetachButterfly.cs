@@ -11,23 +11,23 @@ public class DetachButterfly : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        EventManager.StartListening("OnCrouchStart", OnCrouchHandler);
+        EventManager.StartListening("OnCrouchEnd", OnCrouchHandler);
     }
 
     void OnDestroy()
     {
-        EventManager.StopListening("OnCrouchStart", OnCrouchHandler);
+        EventManager.StopListening("OnCrouchEnd", OnCrouchHandler);
     }
 
     void OnCrouchHandler(EventDict data)
     {
         GameObject sender = (GameObject)data["sender"];
 
-        if (playerInsideTrigger.Contains(sender) && isEmpty)
+        if (playerInsideTrigger.Contains(sender) && isEmpty && sender.GetComponent<HasFloatingInventory>().slots.Count > 0)
         {
             EventManager.TriggerEvent("ItemUncollected", gameObject, new EventDict() { { "player", sender }, { "isRecollectable", false }, { "newTarget", gameObject } });
             isEmpty = false;
-
+            EventManager.TriggerEvent("LilypadHasButterfly", gameObject, new EventDict() { });
         }
     }
 

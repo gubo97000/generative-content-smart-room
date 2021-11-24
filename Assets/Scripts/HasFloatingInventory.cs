@@ -58,7 +58,7 @@ public class HasFloatingInventory : MonoBehaviour
         {
             GameObject item = (GameObject)data["item"];
             var slot = Instantiate(slotObject);
-            slots.Remove(slot.transform);
+            slots.RemoveAt(0);
             EventManager.TriggerEvent("UnfollowMe", slot, new EventDict() { { "receiver", item }, { "newTarget", data["newTarget"] } });
             
         }

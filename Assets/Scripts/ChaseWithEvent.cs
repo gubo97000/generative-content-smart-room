@@ -17,7 +17,6 @@ public class ChaseWithEvent : MonoBehaviour
         if (((GameObject)dict["receiver"]) == gameObject)
         {
             target = (GameObject)dict["sender"];
-
         }
     }
 
@@ -26,8 +25,7 @@ public class ChaseWithEvent : MonoBehaviour
         if (((GameObject)dict["receiver"]) == gameObject)
         {
             target = (GameObject)dict["newTarget"];
-
-        }
+        } 
     }
 
     void Update()
