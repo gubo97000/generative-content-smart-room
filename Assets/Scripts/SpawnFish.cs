@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SpawnFish : MonoBehaviour
 {
-    public GameObject[] lilypads = GameObject.FindGameObjectsWithTag("Lilypad");
+    public GameObject[] lilypads;
     public GameObject[] spawnPoints;
     public float[] radiuses;
     public GameObject prefab;
@@ -12,6 +12,7 @@ public class SpawnFish : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        lilypads = GameObject.FindGameObjectsWithTag("Lilypad");
         EventManager.StartListening("LilypadHasButterfly", checkAllLilypads);
     }
 

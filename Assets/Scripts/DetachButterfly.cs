@@ -4,32 +4,48 @@ using UnityEngine;
 
 public class DetachButterfly : MonoBehaviour
 {
-    private List<GameObject> playerInsideTrigger = new List<GameObject>();
+    private HashSet<GameObject> playerInsideTrigger = new HashSet<GameObject>();
 
     public bool isEmpty = true;
 
     // Start is called before the first frame update
     void Start()
     {
-        EventManager.StartListening("OnCrouchEnd", OnCrouchHandler);
+        EventManager.StartListening("OnCrouchStart", OnCrouchHandler);
+        EventManager.StartListening("InventoryAddEvent", OnInventoryAddEvent);
     }
 
     void OnDestroy()
     {
-        EventManager.StopListening("OnCrouchEnd", OnCrouchHandler);
+        EventManager.StopListening("OnCrouchStart", OnCrouchHandler);
+        EventManager.StopListening("InventoryAddEvent", OnInventoryAddEvent);
     }
 
     void OnCrouchHandler(EventDict data)
     {
         GameObject sender = (GameObject)data["sender"];
 
-        if (playerInsideTrigger.Contains(sender) && isEmpty && sender.GetComponent<HasFloatingInventory>().slots.Count > 0)
+        if (playerInsideTrigger.Contains(sender) && isEmpty && InventoryManager.HasItemsByTagName(sender, "Butterfly"))
         {
-            EventManager.TriggerEvent("ItemUncollected", gameObject, new EventDict() { { "player", sender }, { "isRecollectable", false }, { "newTarget", gameObject } });
+            EventManager.TriggerEvent("ItemReceived", gameObject, new EventDict() { { "receiver", gameObject }, { "giver", sender }, { "item", InventoryManager.GetItemByTagName(sender, "Butterfly") } });
             isEmpty = false;
-            EventManager.TriggerEvent("LilypadHasButterfly", gameObject, new EventDict() { });
+            // EventManager.TriggerEvent("ItemUncollected", gameObject, new EventDict() { { "player", sender }, { "isRecollectable", false }, { "newTarget", gameObject } });
+            EventManager.TriggerEvent("LilypadHasButterfly", gameObject);
         }
     }
+
+    //When the butterfly is confirmed to be collected, will ask to be followed
+    void OnInventoryAddEvent(EventDict dict)
+    {
+        GameObject owner = (GameObject)dict["owner"];
+        GameObject item = (GameObject)dict["item"];
+        if (owner == gameObject)
+        {
+            EventManager.TriggerEvent("FollowMe", gameObject, new EventDict() { { "receiver", item } });
+            Debug.Log("FollowMe");
+        }
+    }
+
 
     void OnTriggerEnter(Collider other)
     {

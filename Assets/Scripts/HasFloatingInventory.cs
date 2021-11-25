@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Linq;
 
 public class HasFloatingInventory : MonoBehaviour
 {
@@ -26,17 +27,19 @@ public class HasFloatingInventory : MonoBehaviour
     private Vector3 positionOffset;
     private float angle;
 
-    public List<Transform> slots;
+    public Dictionary<GameObject, Transform> slots = new Dictionary<GameObject, Transform>();
 
     GameObject slotObject;
 
     private void Start()
     {
+        //Create the original slot
         slotObject = new GameObject("FloatingSlot");
         EventManager.StartListening("InventoryAddEvent", addSlot);
         EventManager.StartListening("InventoryRemoveEvent", removeSlot);
     }
-    private void OnDestroy()     {
+    private void OnDestroy()
+    {
         EventManager.StopListening("InventoryAddEvent", addSlot);
         EventManager.StopListening("InventoryRemoveEvent", removeSlot);
     }
@@ -44,26 +47,24 @@ public class HasFloatingInventory : MonoBehaviour
 
     private void addSlot(EventDict data)
     {
-        if (((GameObject)data["receiver"]) == gameObject)
+        if (((GameObject)data["owner"]) == gameObject)
         {
-            GameObject item = (GameObject)data["item"];
+            GameObject item = data["item"] as GameObject;
             var slot = Instantiate(slotObject);
-            slots.Add(slot.transform);
-             EventManager.TriggerEvent("FollowMe", slot, new EventDict() { { "receiver", item } });
+            slots.Add(item, slot.transform);
+            EventManager.TriggerEvent("FollowMe", slot, new EventDict() { { "receiver", item } });
         }
     }
     private void removeSlot(EventDict data)
     {
-        if (((GameObject)data["receiver"]) == gameObject)
+        if (((GameObject)data["owner"]) == gameObject)
         {
             GameObject item = (GameObject)data["item"];
-            var slot = Instantiate(slotObject);
-            slots.RemoveAt(0);
-            EventManager.TriggerEvent("UnfollowMe", slot, new EventDict() { { "receiver", item }, { "newTarget", data["newTarget"] } });
-            
+            EventManager.TriggerEvent("UnfollowMe", slots[item].gameObject, new EventDict() { { "receiver", item } });
+            GameObject.Destroy(slots[item].gameObject);
+            slots.Remove(item);
         }
     }
-
     private void LateUpdate()
     {
         var offset = slots.Count != 0 ? 2 * Mathf.PI / slots.Count : 0;
@@ -75,7 +76,7 @@ public class HasFloatingInventory : MonoBehaviour
                 ElevationOffset,
                 Mathf.Sin(angle + offset * i) * CircleRadius
             );
-            slots[i].position = transform.position + positionOffset;
+            slots.ElementAt(i).Value.position = transform.position + positionOffset;
         }
 
         angle += Time.deltaTime * RotationSpeed;
