@@ -23,8 +23,13 @@ public class SpawnFish : MonoBehaviour
 
     void checkAllLilypads(EventDict dict)
     {
-        if (System.Array.TrueForAll(lilypads, l => !l.GetComponent<DetachButterfly>().isEmpty))
+        if (System.Array.TrueForAll(lilypads, l => !l.GetComponent<LilyPad>().isEmpty))
+        {
             spawnFish();
+            EventManager.TriggerEvent("LilypadCleanUp");
+
+        }
+
     }
 
     void spawnFish()
@@ -36,11 +41,6 @@ public class SpawnFish : MonoBehaviour
         position.y = 1;
         position.z += point.transform.position.z;
 
-        Instantiate(prefab, position, Quaternion.identity); 
-
-        foreach (GameObject l in lilypads)
-        {
-            l.GetComponent<DetachButterfly>().isEmpty = true;
-        }
+        Instantiate(prefab, position, Quaternion.identity);
     }
 }

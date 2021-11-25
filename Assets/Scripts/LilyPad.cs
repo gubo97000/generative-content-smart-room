@@ -2,25 +2,30 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DetachButterfly : MonoBehaviour
+public class LilyPad : MonoBehaviour
 {
     private HashSet<GameObject> playerInsideTrigger = new HashSet<GameObject>();
 
     public bool isEmpty = true;
+
+    public GameObject _slot = null;
 
     // Start is called before the first frame update
     void Start()
     {
         EventManager.StartListening("OnCrouchStart", OnCrouchHandler);
         EventManager.StartListening("InventoryAddEvent", OnInventoryAddEvent);
+        EventManager.StartListening("LilypadCleanUp", OnLilypadCleanUp);
     }
 
     void OnDestroy()
     {
         EventManager.StopListening("OnCrouchStart", OnCrouchHandler);
         EventManager.StopListening("InventoryAddEvent", OnInventoryAddEvent);
+        EventManager.StopListening("LilypadCleanUp", OnLilypadCleanUp);
     }
 
+    //Player Crouch in Lily Pad, we ask inventory to give us one butterfly
     void OnCrouchHandler(EventDict data)
     {
         GameObject sender = (GameObject)data["sender"];
@@ -41,12 +46,18 @@ public class DetachButterfly : MonoBehaviour
         GameObject item = (GameObject)dict["item"];
         if (owner == gameObject)
         {
+            _slot = item;
             EventManager.TriggerEvent("FollowMe", gameObject, new EventDict() { { "receiver", item } });
             Debug.Log("FollowMe");
         }
     }
 
-
+    void OnLilypadCleanUp(EventDict dict)
+    {
+        EventManager.TriggerEvent("FlyAway", gameObject, new EventDict() { { "receiver", _slot } });
+        isEmpty = true;
+        _slot = null;
+    }
     void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Player")

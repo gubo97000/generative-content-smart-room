@@ -10,6 +10,12 @@ public class ChaseWithEvent : MonoBehaviour
     void Start()
     {
         EventManager.StartListening("FollowMe", onFollowMe);
+        EventManager.StartListening("FlyAway", OnFlyAway);
+    }
+    void OnDestory()
+    {
+        EventManager.StopListening("FollowMe", onFollowMe);
+        EventManager.StopListening("FlyAway", OnFlyAway);
         // EventManager.StartListening("UnfollowMe", onUnfollowMe);
     }
 
@@ -18,6 +24,15 @@ public class ChaseWithEvent : MonoBehaviour
         if ((dict["receiver"] as GameObject) == gameObject)
         {
             target = (GameObject)dict["sender"];
+        }
+    }
+    void OnFlyAway(EventDict dict)
+    {
+        if ((dict["receiver"] as GameObject) == gameObject)
+        {
+            var go = new GameObject();
+            go.transform.position = new Vector3(1000,1000,1000);
+            target = go;
         }
     }
 

@@ -8,6 +8,7 @@ TagManager:
   - Seed
   - Branch
   - Lilypad
+  - Butterfly
   layers:
   - Default
   - TransparentFX
