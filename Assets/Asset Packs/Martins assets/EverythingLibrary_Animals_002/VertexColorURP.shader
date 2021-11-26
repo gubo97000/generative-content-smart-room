@@ -1,6 +1,6 @@
 Shader "Custom/VertexColor" {
 	SubShader{
-		Tags { "RenderType" = "Opaque" "IgnoreProjector" = "True" "RenderPipeline" = "UniversalPipeline" }
+		Tags { "RenderType" = "Opaque" "RenderPipeline" = "UniversalPipeline" }
 		LOD 200
 
 		HLSLPROGRAM
