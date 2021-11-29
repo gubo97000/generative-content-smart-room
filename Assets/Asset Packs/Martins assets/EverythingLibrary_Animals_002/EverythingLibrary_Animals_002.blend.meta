@@ -3,7 +3,67 @@ guid: 8fa6d6947bc9d4aa78d462b630c0789c
 ModelImporter:
   serializedVersion: 21202
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Default_Material
+    second: {fileID: 2100000, guid: 6f674b53591df1c49bb65957fb008867, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_DblSided
+    second: {fileID: 2100000, guid: bd5a583efb2d5e247aac8f54a32fdf49, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_Flying
+    second: {fileID: 2100000, guid: 20a13536463db20439f8fa9f1682fe3c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_FlyingInsectWings
+    second: {fileID: 2100000, guid: 384fbf70145d65242a2d2d59116fab12, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_Light
+    second: {fileID: 2100000, guid: a06cf9edea96f314f955d04f749c399e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_ParticleTransp
+    second: {fileID: 2100000, guid: dea81158d3f2b344aa172bd3d92af380, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_Refl
+    second: {fileID: 2100000, guid: 8619d02dbc216e940a8ce69c8665dc74, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_Standard
+    second: {fileID: 2100000, guid: 74e03d77a51ad2f4f86fa323160b4309, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_Swim
+    second: {fileID: 2100000, guid: 1e090a31505c98f4aaea2d2dd9f79647, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_SwimTransp
+    second: {fileID: 2100000, guid: e79a7ac74620393449f72b5386551f4d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_Transp
+    second: {fileID: 2100000, guid: 8553da1cb969c074584c5df58e4351ea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: 7a6db6cbada19944182aea1b1dedc0ec, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
