@@ -45,7 +45,7 @@ public class DemoInputs : MonoBehaviour
     public void OnCrouch(InputValue value)
     {
         CrouchInput(value.isPressed);
-        EventManager.TriggerEvent("OnCrouch", gameObject); //Deprecated
+        EventManager.TriggerEvent("OnCrouch", gameObject); // Deprecated, Is called on key press and on key release
         EventManager.TriggerEvent(value.isPressed ? "OnCrouchStart" : "OnCrouchEnd", gameObject);
     }
 
@@ -57,7 +57,7 @@ public class DemoInputs : MonoBehaviour
     public void OnHandRaise(InputValue value)
     {
         HandRaiseInput(value.isPressed);
-        EventManager.TriggerEvent("OnHandRaise", gameObject); //Deprecated
+        EventManager.TriggerEvent("OnHandRaise", gameObject); // Deprecated, Is called on key press and on key release
         EventManager.TriggerEvent(value.isPressed ? "OnHandRaiseStart" : "OnHandRaiseEnd", gameObject);
     }
 #else
