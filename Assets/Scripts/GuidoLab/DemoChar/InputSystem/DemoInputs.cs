@@ -12,6 +12,7 @@ public class DemoInputs : MonoBehaviour
     public bool jump;
     public bool sprint;
     public bool crouch;
+    public bool handRaise;
 
     [Header("Movement Settings")]
     public bool analogMovement;
@@ -52,6 +53,13 @@ public class DemoInputs : MonoBehaviour
     {
         SprintInput(value.isPressed);
     }
+
+    public void OnHandRaise(InputValue value)
+    {
+        HandRaiseInput(value.isPressed);
+        EventManager.TriggerEvent("OnHandRaise", gameObject); //Deprecated
+        EventManager.TriggerEvent(value.isPressed ? "OnHandRaiseStart" : "OnHandRaiseEnd", gameObject);
+    }
 #else
 	// old input sys if we do decide to have it (most likely wont)...
 #endif
@@ -74,7 +82,12 @@ public class DemoInputs : MonoBehaviour
     public void CrouchInput(bool newCrouchState)
     {
         crouch = newCrouchState;
-        print("crouch");
+        print("Crouch");
+    }
+    public void HandRaiseInput(bool newCrouchState)
+    {
+        crouch = newCrouchState;
+        print("HandRaise");
     }
 
 

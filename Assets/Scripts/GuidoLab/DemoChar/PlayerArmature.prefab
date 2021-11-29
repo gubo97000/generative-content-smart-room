@@ -233,10 +233,10 @@ GameObject:
   - component: {fileID: 7344289129111604561}
   - component: {fileID: 1261608156935319298}
   - component: {fileID: 4019590385568726331}
-  - component: {fileID: 8275855551737410510}
   - component: {fileID: 6748206225040980837}
+  - component: {fileID: 2559244838426292482}
   m_Layer: 0
-  m_Name: CrouchParticles
+  m_Name: HelpParticles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5098,19 +5098,6 @@ ParticleSystemRenderer:
   m_MeshWeighting2: 1
   m_MeshWeighting3: 1
   m_MaskInteraction: 0
---- !u!114 &8275855551737410510
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1046074712138314585}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 80dc7bc25354de04f9362b529d36fb50, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  numberOfParticles: 20
 --- !u!330 &6748206225040980837
 ParticleSystemForceField:
   m_ObjectHideFlags: 0
@@ -5615,6 +5602,19 @@ ParticleSystemForceField:
         m_RotationOrder: 4
     m_MultiplyDragByParticleSize: 1
     m_MultiplyDragByParticleVelocity: 1
+--- !u!114 &2559244838426292482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1046074712138314585}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 777424a12b203ab45870395b09786bc3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numberOfParticles: 20
 --- !u!1 &1191273259690468839
 GameObject:
   m_ObjectHideFlags: 0
@@ -11910,6 +11910,7 @@ MonoBehaviour:
   jump: 0
   sprint: 0
   crouch: 0
+  handRaise: 0
   analogMovement: 0
   cursorLocked: 1
   cursorInputForLook: 1
@@ -12475,7 +12476,7 @@ GameObject:
   - component: {fileID: 5583019138040188830}
   - component: {fileID: 5635041737112762607}
   m_Layer: 0
-  m_Name: SecondaryParticles
+  m_Name: CrouchParticles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12504,7 +12505,7 @@ ParticleSystem:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6496638674932600497}
   serializedVersion: 8
-  lengthInSec: 5
+  lengthInSec: 10
   simulationSpeed: 1
   stopAction: 0
   cullingMode: 0
@@ -12632,7 +12633,7 @@ ParticleSystem:
     startSpeed:
       serializedVersion: 2
       minMaxState: 3
-      scalar: 0.1
+      scalar: 0.09
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -12749,7 +12750,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 3
       scalar: 0.01
-      minScalar: 0.06
+      minScalar: 0.09
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -13449,7 +13450,7 @@ ParticleSystem:
       countCurve:
         serializedVersion: 2
         minMaxState: 0
-        scalar: 100
+        scalar: 150
         minScalar: 30
         maxCurve:
           serializedVersion: 2
@@ -15211,7 +15212,7 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
   NoiseModule:
-    enabled: 1
+    enabled: 0
     strength:
       serializedVersion: 2
       minMaxState: 0
@@ -17595,7 +17596,7 @@ ParticleSystemForceField:
     m_RotationSpeedCurve:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.3
+      scalar: 0.25
       minScalar: 0
       maxCurve:
         serializedVersion: 2
@@ -17648,7 +17649,7 @@ ParticleSystemForceField:
     m_RotationAttractionCurve:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.1
+      scalar: 0.3
       minScalar: 0
       maxCurve:
         serializedVersion: 2
