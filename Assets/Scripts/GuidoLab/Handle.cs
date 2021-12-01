@@ -33,11 +33,20 @@ public class Handle : MonoBehaviour
         Debug.Log(gameObject + " grabbed");
         EventManager.TriggerEvent("HandleGrabbed", gameObject, new EventDict() { ["player"] = sender, ["parent"] = transform.parent });
 
-        gameObject.GetComponent<ChaseWithRigidBody>().target = sender.transform;
+        gameObject.GetComponent<ChaseWithRigidBody>().target = sender.tag == "Player" ? sender.GetComponent<Player>().target : sender.transform;
         gameObject.GetComponent<Rigidbody>().isKinematic = false;
         isGrabbable = false;
         isGrabbed = true;
         playerInsideTrigger.RemoveAll(item => item);
+        if (GetComponent<HelperGlow>() != null)
+        {
+            GetComponent<HelperGlow>().enabled = false;
+        }
+        else if (GetComponentInParent<ObjectStateHandler>())
+        {
+            GetComponentInParent<ObjectStateHandler>().SendMessage("OnGrabbed", gameObject);
+        }
+
     }
     void Ungrab(GameObject sender)
     {
@@ -87,6 +96,7 @@ public class Handle : MonoBehaviour
         //Stuck myself for 2P interaction
         gameObject.GetComponent<Rigidbody>().isKinematic = true;
     }
+
     // void onHandleUngrabbed(EventDict dict)
     // {
     //     if (!isGrabbed) return; //If is grabbed, don't want to stuck
@@ -98,7 +108,7 @@ public class Handle : MonoBehaviour
     //     //If I'm here. I'm the other handle
     //     //I ungrab too
     //     Debug.Log(gameObject + " ungrabbed");
-        
+
     //     gameObject.GetComponent<ChaseWithRigidBody>().target = null;
     //     gameObject.GetComponent<Rigidbody>().isKinematic = false;
     //     isGrabbable = true;

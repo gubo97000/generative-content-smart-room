@@ -7,8 +7,9 @@ using System.Collections.Generic;
 public class GameStateManager : MonoBehaviour
 {
     public static HashSet<GameObject> playersCrouched = new HashSet<GameObject>();
-    public static Color P1Color= Color.red;
-    public static Color P2Color= Color.blue;
+    public static List<Color> playersColor= new List<Color>(){ Color.red, Color.blue };
+    // public static Color P1Color= Color.red;
+    // public static Color P2Color= Color.blue;
     public static bool night
     {
         get

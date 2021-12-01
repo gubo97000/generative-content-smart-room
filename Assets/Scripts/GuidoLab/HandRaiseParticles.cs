@@ -8,16 +8,17 @@ public class HandRaiseParticles : MonoBehaviour
 
     public int numberOfParticles = 20;
     ParticleSystem ps;
+    private Color _color;
     private void Start()
     {
-        Debug.Log("Called");
+        _color= GameStateManager.playersColor[this.GetComponentInParent<Player>().playerNumber];
         ps = GetComponent<ParticleSystem>();
         var maxTime = ps.main.startLifetime;
         var sCol = ps.main;
-        sCol.startColor = GameStateManager.P1Color;
+        sCol.startColor = _color;
         var grad = new Gradient();
         grad.SetKeys(new GradientColorKey[] {
-                new GradientColorKey(GameStateManager.P1Color, 0.0f), new GradientColorKey(GameStateManager.P1Color, 10.0f) },
+                new GradientColorKey(_color, 0.0f), new GradientColorKey(_color, 10.0f) },
             new GradientAlphaKey[] {
                 new GradientAlphaKey(1.0f, 0.0f), new GradientAlphaKey(0.0f, 10.0f) });
         var col = ps.colorOverLifetime;

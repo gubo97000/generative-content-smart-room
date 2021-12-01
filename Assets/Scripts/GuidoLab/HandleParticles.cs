@@ -22,12 +22,13 @@ public class HandleParticles : MonoBehaviour
     {
         if ((GameObject)dict["sender"] == gameObject)
         {
+            Color color = GameStateManager.playersColor[(dict["player"] as GameObject).GetComponent<Player>().playerNumber];
             var ps = GetComponent<ParticleSystem>();
             var sCol = ps.main;
-            sCol.startColor = GameStateManager.P1Color;
+            sCol.startColor = color;
             var grad = new Gradient();
             grad.SetKeys(new GradientColorKey[] {
-                new GradientColorKey(GameStateManager.P1Color, 0.0f), new GradientColorKey(GameStateManager.P1Color, 10.0f) },
+                new GradientColorKey(color, 0.0f), new GradientColorKey(color, 10.0f) },
                 new GradientAlphaKey[] {
                 new GradientAlphaKey(1.0f, 0.0f), new GradientAlphaKey(0.0f, 10.0f) });
             var col = ps.colorOverLifetime;

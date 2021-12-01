@@ -220,6 +220,36 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b61a21b54f98c44448e6c0552cfd6e90, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &6316001182290965293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7096504631948177471}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 0
+  outlineColor: {r: 1, g: 1, b: 1, a: 1}
+  outlineWidth: 2
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
+--- !u!114 &1074091443810145952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7096504631948177471}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98abeaa9a7bbcc544b740d809ac06839, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8973343636769575152
 GameObject:
   m_ObjectHideFlags: 0
@@ -402,6 +432,36 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1074392374062735528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8973343638121564399}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98abeaa9a7bbcc544b740d809ac06839, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &8823892105072206038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8973343638121564399}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 0
+  outlineColor: {r: 1, g: 1, b: 1, a: 1}
+  outlineWidth: 2
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
 --- !u!1001 &7564986129141278936
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -463,6 +523,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e706dfb890b1b8442b658b69fef85dfd, type: 3}
+--- !u!1 &7096504631948177471 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 758825272133179623, guid: e706dfb890b1b8442b658b69fef85dfd, type: 3}
+  m_PrefabInstance: {fileID: 7564986129141278936}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &7096504631948177445 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 758825272133179645, guid: e706dfb890b1b8442b658b69fef85dfd, type: 3}
@@ -534,6 +599,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e706dfb890b1b8442b658b69fef85dfd, type: 3}
+--- !u!1 &8973343638121564399 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 758825272133179623, guid: e706dfb890b1b8442b658b69fef85dfd, type: 3}
+  m_PrefabInstance: {fileID: 8502897176209854472}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &8973343638121564405 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 758825272133179645, guid: e706dfb890b1b8442b658b69fef85dfd, type: 3}

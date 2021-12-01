@@ -20,6 +20,15 @@ public class HelperGlow : MonoBehaviour
         EventManager.StopListening("OnHandRaiseEnd", OnHandRaiseEnd);
     }
 
+    private void OnEnable() {
+        EventManager.StartListening("OnHandRaiseStart", OnHandRaiseStart);
+        EventManager.StartListening("OnHandRaiseEnd", OnHandRaiseEnd);
+    }
+    private void OnDisable() {
+        EventManager.StopListening("OnHandRaiseStart", OnHandRaiseStart);
+        EventManager.StopListening("OnHandRaiseEnd", OnHandRaiseEnd);
+    }
+
     void OnHandRaiseStart(EventDict dict)
     {
         GetComponent<Outline>().enabled = true;
