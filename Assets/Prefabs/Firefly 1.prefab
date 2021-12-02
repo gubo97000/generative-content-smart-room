@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8273019853502670375}
   - component: {fileID: 5491618335293475190}
   - component: {fileID: 6343145856187393056}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: transp.004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92,7 +92,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1449369882987971745}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -126,7 +126,7 @@ GameObject:
   - component: {fileID: 4451339375563093990}
   - component: {fileID: 532169606901568580}
   - component: {fileID: 3655123104301867961}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: light.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -207,7 +207,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3431132691654084172}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Firefly 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -244,7 +244,7 @@ GameObject:
   - component: {fileID: 8353698068002748182}
   - component: {fileID: 7937013369090746596}
   - component: {fileID: 7004133248623531924}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: base.138
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -327,7 +327,7 @@ GameObject:
   - component: {fileID: 1751025470500822163}
   - component: {fileID: 7898408704506393360}
   - component: {fileID: 3701474209063011236}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: DblSided.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
