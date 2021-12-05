@@ -9,6 +9,7 @@ TagManager:
   - Branch
   - Lilypad
   - Butterfly
+  - Jump
   layers:
   - Default
   - TransparentFX
