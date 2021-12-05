@@ -27,7 +27,7 @@ public class CrouchParticles : MonoBehaviour
         EventManager.StartListening("OnCrouchEnd", OnCrouchEndHandler);
     }
 
-    void OnDestory()
+    void OnDestroy()
     {
         EventManager.StopListening("OnCrouchStart", OnCrouchStartHandler);
         EventManager.StopListening("OnCrouchEnd", OnCrouchEndHandler);

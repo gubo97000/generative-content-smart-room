@@ -46,7 +46,7 @@ public class HandRaiseParticles : MonoBehaviour
         // EventManager.StartListening("OnHandRaiseEnd", OnHandRaiseEndHandler);
     }
 
-    void OnDestory()
+    void OnDestroy()
     {
         EventManager.StopListening("OnHandRaiseStart", OnHandRaiseStartHandler);
         // EventManager.StopListening("OnHandRaiseEnd", OnHandRaiseEndHandler);

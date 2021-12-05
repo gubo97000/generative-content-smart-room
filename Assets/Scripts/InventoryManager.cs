@@ -72,7 +72,7 @@ public class InventoryManager : MonoBehaviour
     {
         EventManager.StopListening("ItemCollected", AddItem);
         EventManager.StopListening("ItemUncollected", RemoveItem);
-        EventManager.StartListening("ItemReceived", PassItem);
+        EventManager.StopListening("ItemReceived", PassItem);
     }
 
     //All the functions that subscribe to an event have this mandatory argument
