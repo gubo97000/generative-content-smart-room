@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7412079941862062928}
   - component: {fileID: 6994304922480877001}
   - component: {fileID: -3399912415548790674}
+  - component: {fileID: -8320003408059091980}
   m_Layer: 0
   m_Name: MushroomJumpDetector
   m_TagString: Untagged
@@ -58,3 +59,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8066744fd653ecf4682753c9e7d9a82c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isEmpty: 1
+  _slot: {fileID: 0}
+--- !u!114 &-8320003408059091980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 398908556404987299}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3979113d70da13447a7f77b7b7a0903b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RotationSpeed: 3
+  CircleRadius: 1
+  ElevationOffset: 1
