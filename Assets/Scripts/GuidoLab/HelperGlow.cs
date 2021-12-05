@@ -9,24 +9,24 @@ public class HelperGlow : MonoBehaviour
     void Start()
     {
         GetComponent<Outline>().enabled = false;
-        EventManager.StartListening("OnHandRaiseStart", OnHandRaiseStart);
-        EventManager.StartListening("OnHandRaiseEnd", OnHandRaiseEnd);
+        EventManager.StartListening("OnHelperGlowStart", OnHandRaiseStart);
+        EventManager.StartListening("OnHelperGlowEnd", OnHandRaiseEnd);
     }
 
     // Update is called once per frame
     void OnDestroy()
     {
-        EventManager.StopListening("OnHandRaiseStart", OnHandRaiseStart);
-        EventManager.StopListening("OnHandRaiseEnd", OnHandRaiseEnd);
+        EventManager.StopListening("OnHelperGlowStart", OnHandRaiseStart);
+        EventManager.StopListening("OnHelperGlowEnd", OnHandRaiseEnd);
     }
 
     private void OnEnable() {
-        EventManager.StartListening("OnHandRaiseStart", OnHandRaiseStart);
-        EventManager.StartListening("OnHandRaiseEnd", OnHandRaiseEnd);
+        EventManager.StartListening("OnHelperGlowStart", OnHandRaiseStart);
+        EventManager.StartListening("OnHelperGlowEnd", OnHandRaiseEnd);
     }
     private void OnDisable() {
-        EventManager.StopListening("OnHandRaiseStart", OnHandRaiseStart);
-        EventManager.StopListening("OnHandRaiseEnd", OnHandRaiseEnd);
+        EventManager.StopListening("OnHelperGlowStart", OnHandRaiseStart);
+        EventManager.StopListening("OnHelperGlowEnd", OnHandRaiseEnd);
     }
 
     void OnHandRaiseStart(EventDict dict)
