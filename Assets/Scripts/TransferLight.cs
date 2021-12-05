@@ -21,19 +21,20 @@ public class TransferLight : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        if(other.gameObject.tag == "Jump" && other.gameObject.GetComponent<JumpCollider>().isInAir())
-            EventManager.TriggerEvent("ActivateMushroom", gameObject, new EventDict() { 
-                { "sender", other.gameObject.transform.parent.gameObject /* i.e. the player object */ }
+        if (other.gameObject.tag == "Jump" && other.gameObject.GetComponent<JumpCollider>().isInAir())
+            EventManager.TriggerEvent("ActivateMushroom", gameObject, new EventDict() {
+                { "activator", other.gameObject.transform.parent.gameObject /* i.e. the player object */ }
             });
     }
 
     void ActivateMushroomHandler(EventDict dict)
     {
         GameObject sender = (GameObject)dict["sender"];
-
-        if (isEmpty && InventoryManager.HasItemsByTagName(sender, "Firefly"))
+        GameObject activator = (GameObject)dict["activator"];
+        if (sender != gameObject) return;
+        if (isEmpty && InventoryManager.HasItemsByTagName(activator, "Firefly"))
         {
-            EventManager.TriggerEvent("ItemReceived", gameObject, new EventDict() { { "receiver", gameObject }, { "giver", sender }, { "item", InventoryManager.GetItemByTagName(sender, "Firefly") } });
+            EventManager.TriggerEvent("ItemReceived", gameObject, new EventDict() { { "receiver", gameObject }, { "giver", activator }, { "item", InventoryManager.GetItemByTagName(activator, "Firefly") } });
             isEmpty = false;
             EventManager.TriggerEvent("MushroomHasFirefly", gameObject);
         }
