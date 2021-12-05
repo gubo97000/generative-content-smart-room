@@ -2216,6 +2216,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 4873002210252225915, guid: dd835eb8d75d9814fb45466583d65af5, type: 3}
+--- !u!1 &152430337 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 398908556404987299, guid: 582ca240741d08944bf20963352af9dc, type: 3}
+  m_PrefabInstance: {fileID: 1873172935}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &153312966 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8338988566280778634, guid: 656b406c853b9cb4795e5e1fa72af2ac, type: 3}
@@ -2992,6 +2997,11 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: eb035d32a49024447b24ab2dc2e01a35, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
+--- !u!1 &204680844 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 398908556404987299, guid: 582ca240741d08944bf20963352af9dc, type: 3}
+  m_PrefabInstance: {fileID: 1149253600}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &208982725
 GameObject:
   m_ObjectHideFlags: 0
@@ -14277,6 +14287,11 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 1
+--- !u!1 &1134476258 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 398908556404987299, guid: 582ca240741d08944bf20963352af9dc, type: 3}
+  m_PrefabInstance: {fileID: 710696164}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1147984001 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 472495575738148755, guid: eadfc28f70b64f7499ade87edc283124, type: 3}
@@ -14844,6 +14859,11 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: eb035d32a49024447b24ab2dc2e01a35, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
+--- !u!1 &1174906903 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 398908556404987299, guid: 582ca240741d08944bf20963352af9dc, type: 3}
+  m_PrefabInstance: {fileID: 616973224}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1176079929 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1991322978864050, guid: c9bb692f8b5490743a59d75a7995b81c, type: 3}
@@ -27031,6 +27051,11 @@ Transform:
   m_Father: {fileID: 1541989430}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2005886842 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 398908556404987299, guid: 582ca240741d08944bf20963352af9dc, type: 3}
+  m_PrefabInstance: {fileID: 1372388663}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2006172536
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27787,6 +27812,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 40
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2041160090
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2041160092}
+  - component: {fileID: 2041160091}
+  m_Layer: 0
+  m_Name: FairySpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2041160091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2041160090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f6f6bcdc08ca1340941fbb7bcd8609d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mushrooms:
+  - {fileID: 204680844}
+  - {fileID: 2005886842}
+  - {fileID: 1134476258}
+  - {fileID: 152430337}
+  - {fileID: 1174906903}
+  prefab: {fileID: 100116, guid: cb2a63aa7e6bbda4b8127e31c18ef3e9, type: 3}
+--- !u!4 &2041160092
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2041160090}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.714, y: 1, z: -4.25}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 52
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2047238440
 PrefabInstance:

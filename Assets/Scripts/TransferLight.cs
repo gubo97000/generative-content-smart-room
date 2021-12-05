@@ -11,12 +11,14 @@ public class TransferLight : MonoBehaviour
     {
         EventManager.StartListening("ActivateMushroom", ActivateMushroomHandler);
         EventManager.StartListening("InventoryAddEvent", OnInventoryAddEvent);
+        EventManager.StartListening("MushroomCleanUp", OnMushroomCleanUp);
     }
 
     void OnDestroy()
     {
         EventManager.StopListening("ActivateMushroom", ActivateMushroomHandler);
         EventManager.StopListening("InventoryAddEvent", OnInventoryAddEvent);
+        EventManager.StopListening("MushroomCleanUp", OnMushroomCleanUp);
     }
 
     void OnTriggerEnter(Collider other)
@@ -48,8 +50,21 @@ public class TransferLight : MonoBehaviour
         {
             _slot = item;
             EventManager.TriggerEvent("FollowMe", gameObject, new EventDict() { { "receiver", item } });
+
+            // Enable glow
             transform.parent.GetComponent<Renderer>().material.EnableKeyword("_EMISSION");
+
             Debug.Log("FollowMe");
         }
+    }
+
+    void OnMushroomCleanUp(EventDict dict)
+    {
+        EventManager.TriggerEvent("FlyAway", gameObject, new EventDict() { { "receiver", _slot } });
+        isEmpty = true;
+        _slot = null;
+
+        // Disable glow
+        transform.parent.GetComponent<Renderer>().material.DisableKeyword("_EMISSION");
     }
 }
