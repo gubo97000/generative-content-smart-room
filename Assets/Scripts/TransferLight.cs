@@ -48,6 +48,7 @@ public class TransferLight : MonoBehaviour
         {
             _slot = item;
             EventManager.TriggerEvent("FollowMe", gameObject, new EventDict() { { "receiver", item } });
+            transform.parent.GetComponent<Renderer>().material.EnableKeyword("_EMISSION");
             Debug.Log("FollowMe");
         }
     }
