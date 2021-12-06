@@ -269,6 +269,17 @@
                     "action": "HandRaise",
                     "isComposite": false,
                     "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ee602675-2afd-4a3a-954d-c0bab91799e0",
+                    "path": "<Gamepad>/buttonNorth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Gamepad;Xbox Controller;PS4 Controller",
+                    "action": "HandRaise",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         }

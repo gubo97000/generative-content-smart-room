@@ -11,11 +11,13 @@ public class Handle : MonoBehaviour
     public bool onJump;
     public bool isGrabbable = true;
     public bool isGrabbed = false;
+    public float? guidePlayerAfter = 10f;
     private List<GameObject> playerInsideTrigger = new List<GameObject>();
     private List<GameObject> playerNotAllowed = new List<GameObject>(); //List of players that have grabbed another brother handle
 
     void Start()
     {
+        if (transform.parent == null) Debug.LogWarning("Handle MUST have a parent to work correctly");
         EventManager.StartListening("OnCrouch", OnCrouchHandler);
         EventManager.StartListening("OnJump", OnJumpHandler);
         EventManager.StartListening("HandleGrabbed", onHandleGrabbed);
@@ -33,11 +35,23 @@ public class Handle : MonoBehaviour
         Debug.Log(gameObject + " grabbed");
         EventManager.TriggerEvent("HandleGrabbed", gameObject, new EventDict() { ["player"] = sender, ["parent"] = transform.parent });
 
-        gameObject.GetComponent<ChaseWithRigidBody>().target = sender.transform;
+        gameObject.GetComponent<ChaseWithRigidBody>().target = sender.tag == "Player" ? sender.GetComponent<Player>().target : sender.transform;
         gameObject.GetComponent<Rigidbody>().isKinematic = false;
         isGrabbable = false;
         isGrabbed = true;
         playerInsideTrigger.RemoveAll(item => item);
+
+        CancelGuidePlayer();
+
+        if (GetComponent<HelperGlow>() != null)
+        {
+            GetComponent<HelperGlow>().enabled = false;
+        }
+        else if (GetComponentInParent<ObjectStateHandler>())
+        {
+            GetComponentInParent<ObjectStateHandler>().SendMessage("OnGrabbed", gameObject);
+        }
+
     }
     void Ungrab(GameObject sender)
     {
@@ -86,7 +100,35 @@ public class Handle : MonoBehaviour
         playerNotAllowed.Add((GameObject)dict["player"]);
         //Stuck myself for 2P interaction
         gameObject.GetComponent<Rigidbody>().isKinematic = true;
+        if (guidePlayerAfter != null)
+        {
+            Invoke("GuidePlayer", guidePlayerAfter ?? 0);
+        }
     }
+
+    void GuidePlayer()
+    {
+        var lineObj = new GameObject("HelpLine");
+
+        // GuideLine line = new GuideLine();
+        GuideLine line = lineObj.AddComponent<GuideLine>();
+        // line.SendMessage("SetTarget", gameObject.transform.position);
+        line.target = gameObject.transform;
+        foreach (var player in GameObject.FindGameObjectsWithTag("Player"))
+        {
+            if (playerNotAllowed.Contains(player)) continue;
+            // line.SendMessage("SetToGuide",player.transform);
+            line.toGuide = player.transform;
+            break;
+        }
+    }
+
+    void CancelGuidePlayer()
+    {
+        CancelInvoke("GuidePlayer");
+        EventManager.TriggerEvent("DeleteGuideLine", gameObject);
+    }
+
     // void onHandleUngrabbed(EventDict dict)
     // {
     //     if (!isGrabbed) return; //If is grabbed, don't want to stuck
@@ -98,7 +140,7 @@ public class Handle : MonoBehaviour
     //     //If I'm here. I'm the other handle
     //     //I ungrab too
     //     Debug.Log(gameObject + " ungrabbed");
-        
+
     //     gameObject.GetComponent<ChaseWithRigidBody>().target = null;
     //     gameObject.GetComponent<Rigidbody>().isKinematic = false;
     //     isGrabbable = true;

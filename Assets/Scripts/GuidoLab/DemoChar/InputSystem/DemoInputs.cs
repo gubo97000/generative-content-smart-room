@@ -40,6 +40,7 @@ public class DemoInputs : MonoBehaviour
     public void OnJump(InputValue value)
     {
         JumpInput(value.isPressed);
+        EventManager.TriggerEvent("OnJumpStart", gameObject);
     }
 
     public void OnCrouch(InputValue value)
@@ -61,7 +62,7 @@ public class DemoInputs : MonoBehaviour
         EventManager.TriggerEvent(value.isPressed ? "OnHandRaiseStart" : "OnHandRaiseEnd", gameObject);
     }
 #else
-	// old input sys if we do decide to have it (most likely wont)...
+    // old input sys if we do decide to have it (most likely wont)...
 #endif
 
 

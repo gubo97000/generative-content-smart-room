@@ -9,6 +9,8 @@ TagManager:
   - Branch
   - Lilypad
   - Butterfly
+  - Jump
+  - Firefly
   layers:
   - Default
   - TransparentFX
@@ -16,8 +18,8 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
+  - Front
+  - Floor
   - 
   - 
   - 

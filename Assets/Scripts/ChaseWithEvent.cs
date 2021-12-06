@@ -12,7 +12,7 @@ public class ChaseWithEvent : MonoBehaviour
         EventManager.StartListening("FollowMe", onFollowMe);
         EventManager.StartListening("FlyAway", OnFlyAway);
     }
-    void OnDestory()
+    void OnDestroy()
     {
         EventManager.StopListening("FollowMe", onFollowMe);
         EventManager.StopListening("FlyAway", OnFlyAway);
