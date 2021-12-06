@@ -15065,6 +15065,14 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 795bc063e70079f49aff81f55099b009, type: 2}
+    - target: {fileID: 3377969946663423248, guid: 4a7d6cee9f1328e468c9f485779e2c20, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4063609877551180484, guid: 4a7d6cee9f1328e468c9f485779e2c20, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a7d6cee9f1328e468c9f485779e2c20, type: 3}
 --- !u!1 &1095615810 stripped
@@ -19477,6 +19485,14 @@ PrefabInstance:
     - target: {fileID: 95932855924321842, guid: 4a7d6cee9f1328e468c9f485779e2c20, type: 3}
       propertyPath: m_ApplyRootMotion
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3377969946663423248, guid: 4a7d6cee9f1328e468c9f485779e2c20, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4063609877551180484, guid: 4a7d6cee9f1328e468c9f485779e2c20, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a7d6cee9f1328e468c9f485779e2c20, type: 3}
