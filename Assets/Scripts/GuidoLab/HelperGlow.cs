@@ -17,6 +17,7 @@ public class HelperGlow : MonoBehaviour
     // Update is called once per frame
     void OnDestroy()
     {
+        GetComponent<Outline>().enabled = false;
         EventManager.StopListening("OnHelperGlowStart", OnHandRaiseStart);
         EventManager.StopListening("OnHelperGlowEnd", OnHandRaiseEnd);
     }
@@ -26,6 +27,7 @@ public class HelperGlow : MonoBehaviour
         EventManager.StartListening("OnHelperGlowEnd", OnHandRaiseEnd);
     }
     private void OnDisable() {
+        GetComponent<Outline>().enabled = false;
         EventManager.StopListening("OnHelperGlowStart", OnHandRaiseStart);
         EventManager.StopListening("OnHelperGlowEnd", OnHandRaiseEnd);
     }
