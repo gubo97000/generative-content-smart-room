@@ -5,7 +5,7 @@ using UnityEngine;
 public class SpawnBranch : MonoBehaviour
 {
     public GameObject prefab;
-    public GameObject instance = null;
+    private GameObject instance = null;
 
     void OnMouseDown()
     {
