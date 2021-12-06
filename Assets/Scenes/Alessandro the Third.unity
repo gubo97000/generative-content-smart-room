@@ -20085,8 +20085,8 @@ MonoBehaviour:
   spawner: {fileID: 1543088677}
   trees:
   - {fileID: 6585247158609757750, guid: 6009546b41c92fa45945f26f4abcd1d1, type: 3}
-  - {fileID: 4661435515762455780, guid: e289bf5debb17f6459818c207d781953, type: 3}
   - {fileID: 6941765000743290380, guid: c60edd51c065ceb46b345849a03bc106, type: 3}
+  - {fileID: 4661435515762455780, guid: e289bf5debb17f6459818c207d781953, type: 3}
 --- !u!4 &1543088679
 Transform:
   m_ObjectHideFlags: 0
