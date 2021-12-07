@@ -22,6 +22,7 @@ public class SpawnApples : MonoBehaviour
                 GameObject instance = Instantiate(prefab, position, Quaternion.Euler(new Vector3(Random.Range(0, 360), Random.Range(0, 360), Random.Range(0, 360))));
                 instances.Add(instance);
             }
+            EventManager.TriggerEvent("SpawnBeavers", gameObject);
             Debug.Log("Apples fell from the apple tree");
         }
     }
