@@ -1241,6 +1241,8 @@ GameObject:
   - component: {fileID: 4425596554519066}
   - component: {fileID: 95932855924321842}
   - component: {fileID: -1388194528265350741}
+  - component: {fileID: 8318842680607418628}
+  - component: {fileID: 3453727354018981195}
   m_Layer: 0
   m_Name: SCharacter_Squirrel
   m_TagString: Untagged
@@ -1299,6 +1301,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   waypoints: []
   moveSpeed: 2
+--- !u!64 &8318842680607418628
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1745488152287196}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 265ee6fac4cc17345b23403e90e2ba45, type: 3}
+--- !u!114 &3453727354018981195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1745488152287196}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76672562687c11142bd0fe60ec120aa3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1757227337845944
 GameObject:
   m_ObjectHideFlags: 0

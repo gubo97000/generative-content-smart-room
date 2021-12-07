@@ -17,6 +17,9 @@ public class DragApple : MonoBehaviour
 
         // Store offset = gameobject world pos - mouse world pos
         mOffset = gameObject.transform.position - GetMouseAsWorldPoint();
+
+        // Change tag so that the beaver will recognize the apple only if dragging
+        gameObject.tag = "Apple";
     }
 
     private Vector3 GetMouseAsWorldPoint()
@@ -34,5 +37,10 @@ public class DragApple : MonoBehaviour
     void OnMouseDrag()
     {
         transform.position = GetMouseAsWorldPoint() + mOffset;
+    }
+
+    void OnMouseUp()
+    {
+        gameObject.tag = "Untagged";
     }
 }
