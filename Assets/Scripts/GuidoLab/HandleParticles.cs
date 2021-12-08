@@ -10,13 +10,13 @@ public class HandleParticles : MonoBehaviour
     {
 
         EventManager.StartListening("HandleGrabbed", onHandleGrabbed);
-        // EventManager.StartListening("HandleUngrabbed", onHandleUngrabbed);
+        EventManager.StartListening("HandleUngrabbed", onHandleUngrabbed);
     }
     void OnDestroy()
     {
 
         EventManager.StopListening("HandleGrabbed", onHandleGrabbed);
-        // EventManager.StopListening("HandleUngrabbed", onHandleUngrabbed);
+        EventManager.StopListening("HandleUngrabbed", onHandleUngrabbed);
     }
     void onHandleGrabbed(EventDict dict)
     {
@@ -35,6 +35,14 @@ public class HandleParticles : MonoBehaviour
             col.color = grad;
 
             ps.Play();
+        }
+    }
+    void onHandleUngrabbed(EventDict dict)
+    {
+        if ((GameObject)dict["sender"] == gameObject)
+        {
+            var ps = GetComponent<ParticleSystem>();
+            ps.Stop();
         }
     }
 }
