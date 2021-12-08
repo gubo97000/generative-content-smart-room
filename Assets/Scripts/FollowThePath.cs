@@ -16,8 +16,7 @@ public class FollowThePath : MonoBehaviour
     // to the next one
     private int waypointIndex = 0;
 
-    // The animator to manage when the object has completed the path
-    private Animator anim;
+    private bool hasCompletedPath = false;
 
     // Use this for initialization
     private void Start()
@@ -26,8 +25,6 @@ public class FollowThePath : MonoBehaviour
         // Set position of object as position of the first waypoint
         transform.position = waypoints[waypointIndex].transform.position;
 
-        // Get the animator for managing the state later on
-        anim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -43,8 +40,6 @@ public class FollowThePath : MonoBehaviour
         // If object reached last waypoint then it stops
         if (waypointIndex <= waypoints.Length - 1)
         {
-            // The animator here will know that it needs the run animation
-            // anim.SetBool("hasReachedSpot", false);
 
             // Move object from current waypoint to the next one
             // using MoveTowards method
@@ -70,14 +65,18 @@ public class FollowThePath : MonoBehaviour
                 waypointIndex += 1;
             }
         }
-        else if (loop)
+        else if (loop)  // Restart the loop
         {
             waypointIndex = 0;
         }
-        else
+        else if (!hasCompletedPath)    // End of path
         {
-            // The animator stops running
-            // anim.SetBool("hasReachedSpot", true);
+            // If there is an animator, this event can be handled to change state
+            EventManager.TriggerEvent("EndOfPath", gameObject);
+            Debug.Log(gameObject);
+
+            // Set hasCompletedPath to true, to avoid firing events continuously
+            hasCompletedPath = true;
         }
     }
 }
