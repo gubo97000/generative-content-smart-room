@@ -6,8 +6,7 @@ public class FollowThePath : MonoBehaviour
     // Array of waypoints to walk from one to the next one
     [SerializeField]
     public Transform[] waypoints;
-    
-    public bool loop;
+
     // Walk speed that can be set in Inspector
     [SerializeField]
     private float moveSpeed = 2f;
@@ -44,7 +43,7 @@ public class FollowThePath : MonoBehaviour
         if (waypointIndex <= waypoints.Length - 1)
         {
             // The animator here will know that it needs the run animation
-            // anim.SetBool("hasReachedSpot", false);
+            anim.SetBool("hasReachedSpot", false);
 
             // Move object from current waypoint to the next one
             // using MoveTowards method
@@ -69,15 +68,11 @@ public class FollowThePath : MonoBehaviour
             {
                 waypointIndex += 1;
             }
-        }
-        else if (loop)
-        {
-            waypointIndex = 0;
-        }
+        } 
         else
         {
             // The animator stops running
-            // anim.SetBool("hasReachedSpot", true);
+            anim.SetBool("hasReachedSpot", true);
         }
     }
 }
