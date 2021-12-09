@@ -5,43 +5,69 @@ using UnityEngine;
 [RequireComponent(typeof(Outline))]
 public class HelperGlow : MonoBehaviour
 {
-    int _callCounter = 0;
+    HashSet<GameObject> _callerArray = new HashSet<GameObject>() { };
+    public int _callerCount = 0;
+    Outline _outline;
+
+    private void Awake()
+    {
+        _outline = GetComponent<Outline>();
+    }
+    private void Reset()
+    {
+        _outline = GetComponent<Outline>();
+    }
     // Start is called before the first frame update
     void Start()
     {
-        GetComponent<Outline>().enabled = false;
-        EventManager.StartListening("OnHelperGlowStart", OnHelperGlowStart);
-        EventManager.StartListening("OnHelperGlowEnd", OnHelperGlowEnd);
+        OnHelperGlowEnable();
+    }
+    private void Update()
+    {
+        _callerCount = _callerArray.Count;
     }
 
     void OnDestroy()
     {
-        GetComponent<Outline>().enabled = false;
-        EventManager.StopListening("OnHelperGlowStart", OnHelperGlowStart);
-        EventManager.StopListening("OnHelperGlowEnd", OnHelperGlowEnd);
+        OnHelperGlowDisable();
+    }
+    private void OnEnable()
+    {
+        OnHelperGlowEnable();
+    }
+    private void OnDisable()
+    {
+        OnHelperGlowDisable();
     }
 
-    private void OnEnable() {
+    void OnHelperGlowEnable()
+    {
+        _outline.enabled = false;
+        _callerArray.Clear();
         EventManager.StartListening("OnHelperGlowStart", OnHelperGlowStart);
         EventManager.StartListening("OnHelperGlowEnd", OnHelperGlowEnd);
+
     }
-    private void OnDisable() {
-        GetComponent<Outline>().enabled = false;
+    void OnHelperGlowDisable()
+    {
+        _outline.enabled = false;
+        _callerArray.Clear();
         EventManager.StopListening("OnHelperGlowStart", OnHelperGlowStart);
         EventManager.StopListening("OnHelperGlowEnd", OnHelperGlowEnd);
+
     }
 
     void OnHelperGlowStart(EventDict dict)
     {
-        GetComponent<Outline>().enabled = true;
-        _callCounter+=1;
+        _outline.enabled = true;
+        _callerArray.Add(dict["sender"] as GameObject);
     }
     void OnHelperGlowEnd(EventDict dict)
     {
-        _callCounter-=1;
-        if (_callCounter == 0)
+        _callerArray.Remove(dict["sender"] as GameObject);
+        if (_callerArray.Count == 0)
         {
-            GetComponent<Outline>().enabled = false;
+            _outline.enabled = false;
         }
     }
 

@@ -47,12 +47,12 @@ public class State
             if (script is MonoBehaviour)
             {
                 (script as MonoBehaviour).enabled = false;
-                Debug.Log("Mono"+script.name);
+                // Debug.Log("Mono"+script.name);
             }
             else if (script.GetType() == typeof(GameObject))
             {
                 (script as GameObject).SetActive(false);
-                Debug.Log("GO"+script.name);
+                // Debug.Log("GO"+script.name);
             }
             else
             {

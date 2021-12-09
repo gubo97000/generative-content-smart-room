@@ -44,7 +44,7 @@ public class Campfire : ObjectStateHandler
     {
         if (state == "Night")
         {
-            CurrentState = "Lit";
+            initState("Lit");
         }
         
     }

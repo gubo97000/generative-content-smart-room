@@ -37,17 +37,17 @@ public class GrassSpawner : MonoBehaviour
         EventManager.StopListening("OnState-Day", DaySwitch);
     }
 
-    //public void OnFirstTimeInit(string state)
-    //{
-    //    if (state == "Day")
-    //    {
-    //        DaySwitch();
-    //    }
-    //    else if (state == "Night")
-    //    {
-    //        NightSwitch();
-    //    }
-    //}
+    public void OnFirstTimeInit(string state)
+    {
+       if (state == "Day")
+       {
+           DaySwitch();
+       }
+       else if (state == "Night")
+       {
+           NightSwitch();
+       }
+    }
 
     void DaySwitch(EventDict dict = null)
     {
@@ -57,7 +57,6 @@ public class GrassSpawner : MonoBehaviour
     void NightSwitch(EventDict dict = null)
     {
         currentPrefab = prefabs["Night"];
-        Debug.Log("Hiiii");
     }
 
     void OnTriggerEnter(Collider other)

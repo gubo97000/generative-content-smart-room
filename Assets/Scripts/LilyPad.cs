@@ -32,14 +32,16 @@ public class LilyPad : MonoBehaviour
 
         if (playerInsideTrigger.Contains(sender) && isEmpty && InventoryManager.HasItemsByTagName(sender, "Butterfly"))
         {
+            BroadcastMessage("OnHelperGlowDisable");
             EventManager.TriggerEvent("ItemReceived", gameObject, new EventDict() { { "receiver", gameObject }, { "giver", sender }, { "item", InventoryManager.GetItemByTagName(sender, "Butterfly") } });
             isEmpty = false;
             // EventManager.TriggerEvent("ItemUncollected", gameObject, new EventDict() { { "player", sender }, { "isRecollectable", false }, { "newTarget", gameObject } });
             EventManager.TriggerEvent("LilypadHasButterfly", gameObject);
+            
         }
     }
 
-    //When the butterfly is confirmed to be collected, will ask to be followed
+    //When the butterfly is confirmed to be collected, lilyPad will ask to be followed
     void OnInventoryAddEvent(EventDict dict)
     {
         GameObject owner = (GameObject)dict["owner"];
@@ -48,7 +50,6 @@ public class LilyPad : MonoBehaviour
         {
             _slot = item;
             EventManager.TriggerEvent("FollowMe", gameObject, new EventDict() { { "receiver", item } });
-            Debug.Log("FollowMe");
         }
     }
 
@@ -57,7 +58,9 @@ public class LilyPad : MonoBehaviour
         EventManager.TriggerEvent("FlyAway", gameObject, new EventDict() { { "receiver", _slot } });
         isEmpty = true;
         _slot = null;
+        BroadcastMessage("OnHelperGlowEnable");
     }
+
     void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Player")

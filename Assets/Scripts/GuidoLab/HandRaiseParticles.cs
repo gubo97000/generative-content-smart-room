@@ -87,7 +87,7 @@ public class HandRaiseParticles : MonoBehaviour
     {
         ps.Clear();
         ps.Stop();
-        EventManager.TriggerEvent("OnHelperGlowEnd");
+        EventManager.TriggerEvent("OnHelperGlowEnd", this.transform.parent.gameObject); //I don't like this
         recover_ps.Play();
         Invoke("StopRecoverParticles", recoverTime);
     }

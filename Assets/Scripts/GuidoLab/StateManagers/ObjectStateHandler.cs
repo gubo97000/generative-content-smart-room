@@ -30,26 +30,28 @@ public abstract class ObjectStateHandler : MonoBehaviour
         }
     }
 
-    protected void initState()
+    protected void initState(string stateToSetName = null, bool overwriteState = true)
     {
+        if (_currentState != "" && !overwriteState) return;
         foreach (var state in states)
         {
             state.Deactivate();
         }
-        _currentState = states[0].name;
-        states[0].Activate();
+        State stateToSet = (stateToSetName == null) ? states[0] : (Array.Find(states, el => el.name == stateToSetName));
+        _currentState = stateToSet.name;
+        stateToSet.Activate();
         EventManager.TriggerEvent($"OnState-{_currentState}", gameObject);
     }
     protected virtual void Start()
     {
-        initState();
+        initState(overwriteState: false);
         Debug.Log("Stato inizializzato");
     }
 
     protected virtual void Update()
     {
         //Updates the state when the order of states is changed in editorMode
-        if (!Application.isPlaying &&  _currentState != states[0].name)
+        if (!Application.isPlaying && _currentState != states[0].name)
         {
             initState();
         }
