@@ -276,6 +276,7 @@ MonoBehaviour:
     - {fileID: 1726019794}
   - name: Night
     scripts: []
+  scriptsToInit: []
 --- !u!4 &45190219
 Transform:
   m_ObjectHideFlags: 0

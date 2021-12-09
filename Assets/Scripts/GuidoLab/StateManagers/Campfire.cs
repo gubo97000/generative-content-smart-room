@@ -23,10 +23,10 @@ public class Campfire : ObjectStateHandler
     {
         base.Start();
     }
-    protected override void Update()
-    {
-        base.Update();
-    }
+    // protected override void Update()
+    // {
+    //     base.Update();
+    // }
 
     //Messages from other scripts activate functions, 
     //to change the state change the value of CurrentState

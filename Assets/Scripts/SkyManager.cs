@@ -36,20 +36,42 @@ public class SkyManager : MonoBehaviour
 
     public void Update()
     {
+        if (!Application.isPlaying)
+        {
+            EventManager.StopListening("OnState-Night", NightSwitch);
+            EventManager.StopListening("OnState-Day", DaySwitch);
+            EventManager.StartListening("OnState-Night", NightSwitch);
+            EventManager.StartListening("OnState-Day", DaySwitch);
+        }
+
         if (Input.GetKeyUp(KeyCode.X))
         {
             EventManager.TriggerEvent("DayNightSwitch", gameObject);
         }
     }
 
-    void DaySwitch(EventDict dict)
+    void DaySwitch(EventDict dict = null)
     {
         SwitchToDay();
     }
 
-    void NightSwitch(EventDict dict)
+    void NightSwitch(EventDict dict = null)
     {
         SwitchToNight();
+    }
+
+    //To work the first time it needs to be controlled by the DayTimeStateManager
+    public void OnFirstTimeInit(string state)
+    {
+        Debug.Log(state);
+        if (state == "Day")
+        {
+            SwitchToDay();
+        }
+        else if (state == "Night")
+        {
+            SwitchToNight();
+        }
     }
 
     void SwitchToNight()
