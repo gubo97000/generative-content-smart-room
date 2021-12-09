@@ -48,9 +48,22 @@ public class DayTimeManager : ObjectStateHandler
         EventManager.StartListening("SwitchDay", OnSwitchDay);
         EventManager.StartListening("SwitchNight", OnSwitchNight);
         base.Start();
-        foreach (MonoBehaviour script in scriptsToInit)
+        foreach (var script in scriptsToInit)
         {
-            script.BroadcastMessage("OnFirstTimeInit", CurrentState);
+            // type = script.GetType();
+            if (script is GameObject)
+            {
+                (script as GameObject).BroadcastMessage("OnFirstTimeInit", CurrentState);
+            }
+            else if (script is MonoBehaviour)
+            {
+                (script as MonoBehaviour).BroadcastMessage("OnFirstTimeInit", CurrentState);
+            }
+            else
+            {
+                Debug.LogError("The script is not a GameObject or a MonoBehaviour");
+            }
+
         }
     }
     private void OnDestroy()
