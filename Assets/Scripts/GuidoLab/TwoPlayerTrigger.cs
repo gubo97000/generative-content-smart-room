@@ -9,12 +9,12 @@ public class TwoPlayerTrigger : MonoBehaviour
 
     private void OnEnable()
     {
-        GetComponent<Collider>().enabled = true;
+        GetComponent<SphereCollider>().enabled = true;
     }
 
     private void OnDisable()
     {
-        GetComponent<Collider>().enabled = false;
+        GetComponent<SphereCollider>().enabled = false;
     }
     void OnTriggerEnter(Collider other)
     {

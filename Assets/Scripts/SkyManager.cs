@@ -47,12 +47,12 @@ public class SkyManager : MonoBehaviour
 
     void DaySwitch(EventDict dict = null)
     {
-        SwitchToDay();
+        SwitchToDay(Application.isPlaying ? 2f : 0f);
     }
 
     void NightSwitch(EventDict dict = null)
     {
-        SwitchToNight();
+        SwitchToNight(Application.isPlaying ? 2f : 0f);
     }
 
     //To work the first time it needs to be controlled by the DayTimeStateManager

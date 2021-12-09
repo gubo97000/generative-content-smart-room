@@ -14,7 +14,7 @@ public class Handle : MonoBehaviour
 
     [Tooltip("If zero, the bond won't break")]
     public float breakDistance = 3f;
-    
+
     [Tooltip("Guide a second player to the other handle, if zero, no guide will be shown")]
     public float guidePlayerAfter = 10f;
     private GameObject _grabbedBy;
@@ -34,7 +34,7 @@ public class Handle : MonoBehaviour
         EventManager.StopListening("OnCrouch", OnCrouchHandler);
         EventManager.StopListening("OnJump", OnJumpHandler);
         EventManager.StopListening("HandleGrabbed", onHandleGrabbed);
-        // EventManager.StopListening("HandleUngrabbed", onHandleUngrabbed);
+        EventManager.StopListening("HandleUngrabbed", onHandleUngrabbed);
     }
     private void Update()
     {
@@ -71,16 +71,23 @@ public class Handle : MonoBehaviour
         }
 
     }
-    void Ungrab(GameObject sender)
+    void Ungrab(GameObject ungrabFrom, bool askedFromBrother = false)
     {
+        Debug.Log(gameObject + " ungrabbed");
         if (!isGrabbed)
         {
             CancelGuidePlayer();
             playerNotAllowed.RemoveAll(item => item);
             return;
         }
-        Debug.Log(gameObject + " ungrabbed");
-        EventManager.TriggerEvent("HandleUngrabbed", gameObject, new EventDict() { ["player"] = sender, ["parent"] = transform.parent });
+        if (!askedFromBrother)
+        {
+            EventManager.TriggerEvent("HandleUngrabbed", gameObject, new EventDict() { ["parent"] = transform.parent });
+        }
+        else
+        {
+            BroadcastMessage("onHandleUngrabbed", new EventDict() { ["sender"] = gameObject });
+        }
         _grabbedBy = null;
         gameObject.GetComponent<ChaseWithRigidBody>().target = null;
         gameObject.GetComponent<Rigidbody>().isKinematic = false;
@@ -134,27 +141,13 @@ public class Handle : MonoBehaviour
     }
     void onHandleUngrabbed(EventDict dict)
     {
-        // if (!isGrabbed) return; //If is grabbed, don't want to stuck
-
         if ((GameObject)dict["sender"] == gameObject) return; //Return if message is from myself
 
         if ((Transform)dict["parent"] != transform.parent) return; //Return if message is not from my brother
 
         //If I'm here. I'm the other handle
         //I ungrab too
-        // Debug.Log(gameObject + " ungrabbed");
-
-        // gameObject.GetComponent<ChaseWithRigidBody>().target = null;
-        // if (isGrabbed)
-        // {
-        //     gameObject.GetComponent<Rigidbody>().isKinematic = false;
-        //     Invoke("MakeKinematic", 1f);
-        // }
-        // isGrabbable = true;
-        // isGrabbed = false;
-        // playerNotAllowed.RemoveAll(item => item);
-
-        Ungrab(_grabbedBy);
+        Ungrab(_grabbedBy, true);
     }
 
     void MakeKinematic()
@@ -183,7 +176,6 @@ public class Handle : MonoBehaviour
         CancelInvoke("GuidePlayer");
         EventManager.TriggerEvent("DeleteGuideLine", gameObject);
     }
-
 
 
     void OnTriggerEnter(Collider other)

@@ -45,22 +45,29 @@ public class DayTimeManager : ObjectStateHandler
     //Remember to call the Start function of ObjectStateHandler
     protected override void Start()
     {
+        EventManager.StartListening("SwitchDay", OnSwitchDay);
+        EventManager.StartListening("SwitchNight", OnSwitchNight);
         base.Start();
         foreach (MonoBehaviour script in scriptsToInit)
         {
             script.BroadcastMessage("OnFirstTimeInit", CurrentState);
         }
     }
-
+    private void OnDestroy()
+    {
+        EventManager.StopListening("SwitchDay", OnSwitchDay);
+        EventManager.StopListening("SwitchNight", OnSwitchNight);
+    }
+    
     // protected override void Update()
     // {
     //     base.Update();
     // }
-    void OnSwitchDay()
+    void OnSwitchDay(EventDict dict = null)
     {
         CurrentState = "Day";
     }
-    void OnSwitchNight()
+    void OnSwitchNight(EventDict dict = null)
     {
         CurrentState = "Night";
     }

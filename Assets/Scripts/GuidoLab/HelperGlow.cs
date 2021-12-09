@@ -10,33 +10,33 @@ public class HelperGlow : MonoBehaviour
     void Start()
     {
         GetComponent<Outline>().enabled = false;
-        EventManager.StartListening("OnHelperGlowStart", OnHandRaiseStart);
-        EventManager.StartListening("OnHelperGlowEnd", OnHandRaiseEnd);
+        EventManager.StartListening("OnHelperGlowStart", OnHelperGlowStart);
+        EventManager.StartListening("OnHelperGlowEnd", OnHelperGlowEnd);
     }
 
     void OnDestroy()
     {
         GetComponent<Outline>().enabled = false;
-        EventManager.StopListening("OnHelperGlowStart", OnHandRaiseStart);
-        EventManager.StopListening("OnHelperGlowEnd", OnHandRaiseEnd);
+        EventManager.StopListening("OnHelperGlowStart", OnHelperGlowStart);
+        EventManager.StopListening("OnHelperGlowEnd", OnHelperGlowEnd);
     }
 
     private void OnEnable() {
-        EventManager.StartListening("OnHelperGlowStart", OnHandRaiseStart);
-        EventManager.StartListening("OnHelperGlowEnd", OnHandRaiseEnd);
+        EventManager.StartListening("OnHelperGlowStart", OnHelperGlowStart);
+        EventManager.StartListening("OnHelperGlowEnd", OnHelperGlowEnd);
     }
     private void OnDisable() {
         GetComponent<Outline>().enabled = false;
-        EventManager.StopListening("OnHelperGlowStart", OnHandRaiseStart);
-        EventManager.StopListening("OnHelperGlowEnd", OnHandRaiseEnd);
+        EventManager.StopListening("OnHelperGlowStart", OnHelperGlowStart);
+        EventManager.StopListening("OnHelperGlowEnd", OnHelperGlowEnd);
     }
 
-    void OnHandRaiseStart(EventDict dict)
+    void OnHelperGlowStart(EventDict dict)
     {
         GetComponent<Outline>().enabled = true;
         _callCounter+=1;
     }
-    void OnHandRaiseEnd(EventDict dict)
+    void OnHelperGlowEnd(EventDict dict)
     {
         _callCounter-=1;
         if (_callCounter == 0)
