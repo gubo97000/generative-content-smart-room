@@ -71,27 +71,29 @@ public class SkyManager : MonoBehaviour
 
     void SwitchToNight(float duration = 2f)
     {
-        StartCoroutine(SkyTransition(0f, 0.8f, dayColor, nightColor, duration));
-
-        dayLight.GetComponent<Light>().enabled = false;
-        nightLight.GetComponent<Light>().enabled = true;
+        StartCoroutine(SkyTransition(0f, 0.8f, dayColor, nightColor, 
+            dayLight.GetComponent<Light>(), nightLight.GetComponent<Light>(), 1.5f, 1.2f, duration));
     }
 
     void SwitchToDay(float duration = 2f)
     {
-        StartCoroutine(SkyTransition(0.8f, 0f, nightColor, dayColor, duration));
-
-        dayLight.GetComponent<Light>().enabled = true;
-        nightLight.GetComponent<Light>().enabled = false;
+        StartCoroutine(SkyTransition(0.8f, 0f, nightColor, dayColor,
+            nightLight.GetComponent<Light>(), dayLight.GetComponent<Light>(), 1.2f, 1.5f, duration));
     }
 
-    IEnumerator SkyTransition(float v_start, float v_end, Color color1, Color color2, float duration)
+    IEnumerator SkyTransition(float v_start, float v_end, Color color1, Color color2,
+        Light oldLight, Light newLight, float oldIntensity, float newIntensity, float duration)
     {
+        newLight.enabled = true;
+
         float elapsed = 0.0f;
         while (elapsed < duration)
         {
             RenderSettings.skybox.SetFloat("_CubemapTransition", Mathf.Lerp(v_start, v_end, elapsed / duration));
             RenderSettings.skybox.SetColor("_TintColor", Color.Lerp(color1, color2, elapsed / duration));
+
+            oldLight.intensity = Mathf.Lerp(oldIntensity, 0f, elapsed / duration);
+            newLight.intensity = Mathf.Lerp(0f, newIntensity, elapsed / duration);
 
             elapsed += Time.deltaTime;
 
@@ -101,6 +103,8 @@ public class SkyManager : MonoBehaviour
         }
         RenderSettings.skybox.SetFloat("_CubemapTransition", v_end);
         RenderSettings.skybox.SetColor("_TintColor", color2);
+
+        oldLight.enabled = false;
 
         DynamicGI.UpdateEnvironment();
 
