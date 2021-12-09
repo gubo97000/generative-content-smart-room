@@ -43,11 +43,6 @@ public class SkyManager : MonoBehaviour
             EventManager.StartListening("OnState-Night", NightSwitch);
             EventManager.StartListening("OnState-Day", DaySwitch);
         }
-
-        if (Input.GetKeyUp(KeyCode.X))
-        {
-            EventManager.TriggerEvent("DayNightSwitch", gameObject);
-        }
     }
 
     void DaySwitch(EventDict dict = null)
@@ -66,25 +61,25 @@ public class SkyManager : MonoBehaviour
         // Debug.Log(state);
         if (state == "Day")
         {
-            SwitchToDay();
+            SwitchToDay(0f);
         }
         else if (state == "Night")
         {
-            SwitchToNight();
+            SwitchToNight(0f);
         }
     }
 
-    void SwitchToNight()
+    void SwitchToNight(float duration = 2f)
     {
-        StartCoroutine(SkyTransition(0f, 0.8f, dayColor, nightColor, 2f));
+        StartCoroutine(SkyTransition(0f, 0.8f, dayColor, nightColor, duration));
 
         dayLight.GetComponent<Light>().enabled = false;
         nightLight.GetComponent<Light>().enabled = true;
     }
 
-    void SwitchToDay()
+    void SwitchToDay(float duration = 2f)
     {
-        StartCoroutine(SkyTransition(0.8f, 0f, nightColor, dayColor, 2f));
+        StartCoroutine(SkyTransition(0.8f, 0f, nightColor, dayColor, duration));
 
         dayLight.GetComponent<Light>().enabled = true;
         nightLight.GetComponent<Light>().enabled = false;
