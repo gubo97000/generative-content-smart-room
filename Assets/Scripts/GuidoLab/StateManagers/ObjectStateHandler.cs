@@ -48,9 +48,10 @@ public abstract class ObjectStateHandler : MonoBehaviour
 
     protected virtual void Update()
     {
-        if (!Application.isPlaying)
+        //Updates the state when the order of states is changed in editorMode
+        if (!Application.isPlaying &&  _currentState != states[0].name)
         {
-            CurrentState = states[0].name;
+            initState();
         }
     }
 }

@@ -50,7 +50,6 @@ public class DayTimeManager : ObjectStateHandler
         {
             script.BroadcastMessage("OnFirstTimeInit", CurrentState);
         }
-        Debug.Log("DayTimeManager started");
     }
 
     // protected override void Update()

@@ -63,7 +63,7 @@ public class SkyManager : MonoBehaviour
     //To work the first time it needs to be controlled by the DayTimeStateManager
     public void OnFirstTimeInit(string state)
     {
-        Debug.Log(state);
+        // Debug.Log(state);
         if (state == "Day")
         {
             SwitchToDay();
