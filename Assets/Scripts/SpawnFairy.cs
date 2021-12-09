@@ -10,15 +10,15 @@ public class SpawnFairy : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        EventManager.StartListening("MushroomHasFirefly", checkAllLilypads);
+        EventManager.StartListening("MushroomHasFirefly", checkAllMushrooms);
     }
 
     void OnDestroy()
     {
-        EventManager.StopListening("MushroomHasFirefly", checkAllLilypads);
+        EventManager.StopListening("MushroomHasFirefly", checkAllMushrooms);
     }
 
-    void checkAllLilypads(EventDict dict)
+    void checkAllMushrooms(EventDict dict)
     {
         //if (System.Array.TrueForAll(mushrooms, m => !m.GetComponent<TransferLight>().isEmpty))
         {
