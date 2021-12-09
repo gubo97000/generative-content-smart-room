@@ -27065,6 +27065,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   numberOfParticles: 100
+  ps: {fileID: 8782179460030661051}
 --- !u!330 &5635041737112762607
 ParticleSystemForceField:
   m_ObjectHideFlags: 0

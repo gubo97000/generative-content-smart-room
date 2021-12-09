@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(ParticleSystem))]
+[RequireComponent(typeof(ParticleSystemForceField))]
 public class CrouchParticles : MonoBehaviour
 {
     public int numberOfParticles = 20;
@@ -9,7 +11,7 @@ public class CrouchParticles : MonoBehaviour
     private Color _color;
     private void Start()
     {
-        _color= GameStateManager.playersColor[this.GetComponentInParent<Player>().playerNumber];
+        _color = GameStateManager.playersColor[this.GetComponentInParent<Player>().playerNumber];
         Debug.Log("Called");
         ps = GetComponent<ParticleSystem>();
         var maxTime = ps.main.startLifetime;
@@ -34,11 +36,11 @@ public class CrouchParticles : MonoBehaviour
     }
     void OnCrouchStartHandler(EventDict dict)
     {
-        CancelInvoke("StopParticles");
-        StopParticles();
         var sender = dict["sender"] as GameObject;
-        if (sender == this.transform.parent.gameObject)
+        if (sender == this.transform.parent.gameObject) //Crouch from this player
         {
+            CancelInvoke("StopParticles");
+            StopParticles();
             GetComponent<ParticleSystem>().Emit(numberOfParticles);
             GetComponent<ParticleSystemForceField>().gravity = 0;
         }
@@ -59,7 +61,7 @@ public class CrouchParticles : MonoBehaviour
     }
     void StopParticles()
     {
-        GetComponent<ParticleSystem>().Clear();
+        this.GetComponent<ParticleSystem>().Clear();
     }
 
 }
