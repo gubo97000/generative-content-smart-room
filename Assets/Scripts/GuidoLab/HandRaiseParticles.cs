@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//Creates a particle countdown and call the helper glow, then creates a particle countdown to recover
 [RequireComponent(typeof(ParticleSystem))]
 public class HandRaiseParticles : MonoBehaviour
 {
@@ -11,18 +12,21 @@ public class HandRaiseParticles : MonoBehaviour
     public float maxTime = 5f;
     public float recoverTime = 20f;
 
-    public bool locked = false;
+    public bool isRecovering = false;
 
+    //Active particles
     public ParticleSystem ps;
+    //Recovery particles
     public ParticleSystem recover_ps;
     public ParticleSystemForceField recoverPsForceField;
     private Color _color;
 
+    //Array of single particles for the countdown effect
     private ParticleSystem.Particle[] _particles;
     private void Start()
     {
-
         _particles = new ParticleSystem.Particle[numberOfParticles];
+        //Inizializing Color
         _color = GameStateManager.playersColor[this.GetComponentInParent<Player>().playerNumber];
         // var maxTime = ps.main.startLifetime.constant;
         var sCol = ps.main;
@@ -35,6 +39,7 @@ public class HandRaiseParticles : MonoBehaviour
         var col = ps.colorOverLifetime;
         col.color = grad;
 
+        //Setting color, emission rate and speed (To make a full circle) of recovery particles
         var psMain = recover_ps.main;
         psMain.startColor = _color;
         var psEmission = recover_ps.emission;
@@ -56,9 +61,9 @@ public class HandRaiseParticles : MonoBehaviour
     void OnHandRaiseStartHandler(EventDict dict)
     {
         var sender = dict["sender"] as GameObject;
-        if (sender == this.transform.parent.gameObject && !locked)
+        if (sender == this.transform.parent.gameObject && !isRecovering)
         {
-            locked = true;
+            isRecovering = true;
             EventManager.TriggerEvent("OnHelperGlowStart", sender);
             // CancelInvoke("StopParticles");
             // StopParticles();
@@ -78,16 +83,6 @@ public class HandRaiseParticles : MonoBehaviour
 
     }
 
-    // void initHelpParticles()
-    // {
-    //     ps.GetParticles(_particles, numberOfParticles);
-    //     for (int i = 0; i < numberOfParticles; i++)
-    //     {
-    //         _particles[i].startLifetime = i;
-    //     }
-    //     ps.SetParticles(_particles);
-    // }
-
     void StartRecoverParticles()
     {
         ps.Clear();
@@ -95,35 +90,18 @@ public class HandRaiseParticles : MonoBehaviour
         EventManager.TriggerEvent("OnHelperGlowEnd");
         recover_ps.Play();
         Invoke("StopRecoverParticles", recoverTime);
-
     }
     void StopRecoverParticles()
     {
         recoverPsForceField.gravity = 1;
-
         Invoke("StopParticles", 0.4f);
-
     }
-
-    // void OnHandRaiseEndHandler(EventDict dict)
-    // {
-    //     var sender = dict["sender"] as GameObject;
-    //     if (sender == this.transform.parent.gameObject)
-    //     {
-    //         GetComponent<ParticleSystemForceField>().gravity = 1;
-    //         //This should be an animation...
-    //         // GetComponent<ParticleSystem>().Clear();
-    //         // Debug.Log($"{ps.time} {ps.main.duration}");
-    //         Invoke("StopParticles", 0.4f);
-    //     }
-
-    // }
 
     void StopParticles()
     {
         recover_ps.Clear();
         recover_ps.Stop();
-        locked = false;
+        isRecovering = false;
         recoverPsForceField.gravity = 0;
     }
 }
