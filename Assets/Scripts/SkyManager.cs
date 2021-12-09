@@ -2,10 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[ExecuteAlways]
 public class SkyManager : MonoBehaviour
 {
-    private bool isDay = true;
-
     public Material _materialOne;
     public Material _materialTwo;
 
@@ -17,14 +16,16 @@ public class SkyManager : MonoBehaviour
 
     void Start()
     {
-        EventManager.StartListening("DayNightSwitch", DayNightSwitch);
+        EventManager.StartListening("OnState-Night", NightSwitch);
+        EventManager.StartListening("OnState-Day", DaySwitch);
 
         RenderSettings.skybox.SetFloat("_CubemapTransition", 0f);
     }
 
     void OnDestroy()
     {
-        EventManager.StopListening("DayNightSwitch", DayNightSwitch);
+        EventManager.StopListening("OnState-Night", NightSwitch);
+        EventManager.StopListening("OnState-Day", DaySwitch);
 
         // Resets scene to day
         RenderSettings.skybox.SetFloat("_CubemapTransition", 0f);
@@ -41,12 +42,14 @@ public class SkyManager : MonoBehaviour
         }
     }
 
-    void DayNightSwitch(EventDict dict)
+    void DaySwitch(EventDict dict)
     {
-        if (isDay) SwitchToNight();
-        else SwitchToDay();
+        SwitchToDay();
+    }
 
-        isDay = !isDay;
+    void NightSwitch(EventDict dict)
+    {
+        SwitchToNight();
     }
 
     void SwitchToNight()

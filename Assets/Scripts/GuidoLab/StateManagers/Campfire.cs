@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System;
-
+[ExecuteAlways]
 //This is an ObjectStateHandler
 [RequireComponent(typeof(Collector))]
 public class Campfire : ObjectStateHandler
@@ -22,6 +22,10 @@ public class Campfire : ObjectStateHandler
     protected override void Start()
     {
         base.Start();
+    }
+    protected override void Update()
+    {
+        base.Update();
     }
 
     //Messages from other scripts activate functions, 

@@ -4,6 +4,7 @@ using UnityEngine.Events;
 using System.Collections;
 using System.Collections.Generic;
 
+[ExecuteAlways]
 public class EventManager : MonoBehaviour
 {
     [System.Serializable]
@@ -93,6 +94,8 @@ public class EventManager : MonoBehaviour
         {
             thisEvent.Invoke(data);
             Debug.Log("Event Triggered: " + eventName);
+        }else{
+            Debug.Log("No one is listening: " + eventName);
         }
     }
 }

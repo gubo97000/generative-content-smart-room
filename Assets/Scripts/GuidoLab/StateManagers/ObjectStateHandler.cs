@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 
+
 public abstract class ObjectStateHandler : MonoBehaviour
 {
 
@@ -24,6 +25,7 @@ public abstract class ObjectStateHandler : MonoBehaviour
                 _currentState = value;
                 Array.Find(states, el => el.name == value).Activate();
                 Debug.Log(gameObject.name + " has state " + _currentState);
+                EventManager.TriggerEvent($"OnState-{_currentState}", gameObject);
             }
         }
     }
@@ -36,6 +38,7 @@ public abstract class ObjectStateHandler : MonoBehaviour
         }
         _currentState = states[0].name;
         states[0].Activate();
+        EventManager.TriggerEvent($"OnState-{_currentState}", gameObject);
     }
     protected virtual void Start()
     {
@@ -43,4 +46,11 @@ public abstract class ObjectStateHandler : MonoBehaviour
         Debug.Log("Stato inizializzato");
     }
 
+    protected virtual void Update()
+    {
+        if (!Application.isPlaying)
+        {
+            CurrentState = states[0].name;
+        }
+    }
 }
