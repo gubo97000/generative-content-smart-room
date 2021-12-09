@@ -5,7 +5,7 @@ using UnityEngine;
 [ExecuteAlways]
 public class DayTimeManager : ObjectStateHandler
 {
-    [Tooltip("Scripts that work with events may not listen to the first one, subscribe to this to avoid this issue")]
+    [Tooltip("If the script/object is not inside a state, you can know the starting state by subscribing here, on start OnFirstTimeInit function will be called in the script")]
     public MonoBehaviour[] scriptsToInit;
 
     private static DayTimeManager dayTimeManager;
@@ -58,7 +58,7 @@ public class DayTimeManager : ObjectStateHandler
         EventManager.StopListening("SwitchDay", OnSwitchDay);
         EventManager.StopListening("SwitchNight", OnSwitchNight);
     }
-    
+
     // protected override void Update()
     // {
     //     base.Update();

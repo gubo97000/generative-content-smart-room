@@ -39,5 +39,14 @@ public class Campfire : ObjectStateHandler
         CurrentState = "Lit";
         EventManager.TriggerEvent("SwitchNight");
     }
+
+    void OnFirstTimeInit(string state)
+    {
+        if (state == "Night")
+        {
+            CurrentState = "Lit";
+        }
+        
+    }
 }
 
