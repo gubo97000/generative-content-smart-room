@@ -61,11 +61,12 @@ public class Handle : MonoBehaviour
 
         CancelGuidePlayer();
 
-        if (GetComponent<HelperGlow>() != null) //Case when the handle has the outline
-        {
-            GetComponent<HelperGlow>().enabled = false;
-        }
-        else if (GetComponentInParent<ObjectStateHandler>()) //Case when the handle deactivate the outline of brother
+        BroadcastMessage("OnHelperGlowDisable", gameObject, SendMessageOptions.DontRequireReceiver);
+        // if (GetComponent<HelperGlow>() != null) //Case when the handle has the outline
+        // {
+        //     GetComponent<HelperGlow>().enabled = false;
+        // }
+        if (GetComponentInParent<ObjectStateHandler>()) //Case where this handle deactivate the outline outside the gameObject
         {
             GetComponentInParent<ObjectStateHandler>().SendMessage("OnGrabbed", gameObject);
         }
@@ -96,6 +97,7 @@ public class Handle : MonoBehaviour
         isGrabbable = true;
         isGrabbed = false;
         playerNotAllowed.RemoveAll(item => item);
+        BroadcastMessage("OnHelperGlowEnable", gameObject, SendMessageOptions.DontRequireReceiver);
     }
     void OnCrouchHandler(EventDict data)
     {
