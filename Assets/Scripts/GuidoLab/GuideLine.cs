@@ -10,25 +10,18 @@ public class GuideLine : MonoBehaviour
     public Transform toGuide; //Object to be guided (Line Start)
     public bool killOnPointLost = false; //If true, the line will be destroyed when the start or toGuide is lost
 
-    // Start is called before the first frame update
+
     void Start()
     {
         EventManager.StartListening("DeleteGuideLine", DeleteGuideLine);
 
     }
-    // Start is called before the first frame update
+
     private void OnDestroy()
     {
-
-
         EventManager.StopListening("DeleteGuideLine", DeleteGuideLine);
-
     }
-    void Init(Transform start, Transform end)
-    {
 
-    }
-    // Update is called once per frame
     void Update()
     {
         if (target != null && toGuide != null)
@@ -78,14 +71,5 @@ public class GuideLine : MonoBehaviour
     public void SetToGuide(Transform t)
     {
         toGuide = t;
-    }
-
-    public void test(string a)
-    {
-        Debug.Log(a);
-    }
-    public void test(int a)
-    {
-        Debug.Log(a.GetType());
     }
 }
