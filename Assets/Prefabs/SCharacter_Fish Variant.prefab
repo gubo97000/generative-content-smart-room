@@ -28,6 +28,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   loop: 1
+  isFish: 1
   moveSpeed: 0.5
 --- !u!1001 &3560554901296961795
 PrefabInstance:

@@ -1,3 +1,4 @@
+using System.Linq;
 using UnityEngine;
 
 public class FollowThePath : MonoBehaviour
@@ -8,6 +9,7 @@ public class FollowThePath : MonoBehaviour
     public Transform[] waypoints;
     
     public bool loop;
+    public bool isFish;
     // Walk speed that can be set in Inspector
     [SerializeField]
     private float moveSpeed = 2f;
@@ -21,6 +23,20 @@ public class FollowThePath : MonoBehaviour
     // Use this for initialization
     private void Start()
     {
+        if (isFish) {
+            
+            var fishPath = GameObject.Find("Fish path");
+            var i = 0;
+            Debug.Log(fishPath);
+            
+          
+            foreach (Transform waypoint in fishPath.transform)
+            {
+                waypoints[i] = waypoint;
+                i++;
+            }
+            
+        }
 
         // Set position of object as position of the first waypoint
         transform.position = waypoints[waypointIndex].transform.position;
