@@ -158,17 +158,10 @@ public class Handle : MonoBehaviour
     }
     void GuidePlayer()
     {
-        var lineObj = new GameObject("HelpLine");
-
-        // GuideLine line = new GuideLine();
-        GuideLine line = lineObj.AddComponent<GuideLine>();
-        // line.SendMessage("SetTarget", gameObject.transform.position);
-        line.target = gameObject.transform;
         foreach (var player in GameObject.FindGameObjectsWithTag("Player"))
         {
             if (playerNotAllowed.Contains(player)) continue;
-            // line.SendMessage("SetToGuide",player.transform);
-            line.toGuide = player.transform;
+            GuideLineManager.CreateLine(player.transform, gameObject.transform);
             break;
         }
     }
@@ -176,6 +169,7 @@ public class Handle : MonoBehaviour
     void CancelGuidePlayer()
     {
         CancelInvoke("GuidePlayer");
+        // GuideLineManager.DeleteLine(gameObject.transform, end: gameObject.transform);
         EventManager.TriggerEvent("DeleteGuideLine", gameObject);
     }
 

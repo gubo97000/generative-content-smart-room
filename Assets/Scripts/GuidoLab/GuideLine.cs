@@ -8,6 +8,7 @@ public class GuideLine : MonoBehaviour
     public Transform target;
 
     public Transform toGuide; //Object to be guided (Line Start)
+    public bool killOnPointLost = false; //If true, the line will be destroyed when the start or toGuide is lost
 
     // Start is called before the first frame update
     void Start()
@@ -23,7 +24,10 @@ public class GuideLine : MonoBehaviour
         EventManager.StopListening("DeleteGuideLine", DeleteGuideLine);
 
     }
+    void Init(Transform start, Transform end)
+    {
 
+    }
     // Update is called once per frame
     void Update()
     {
@@ -32,6 +36,10 @@ public class GuideLine : MonoBehaviour
             LineRenderer line = GetComponent<LineRenderer>();
             line.SetPosition(0, target.position);
             line.SetPosition(1, toGuide.position);
+        }
+        else if (killOnPointLost)
+        {
+            Destroy(gameObject);
         }
 
     }
@@ -43,6 +51,25 @@ public class GuideLine : MonoBehaviour
             Destroy(gameObject);
         }
     }
+    void DeleteGuideLine((Transform start, Transform end) data) //Doesn't work
+    {
+        if (data.start == target && data.end == toGuide)
+        {
+            Destroy(gameObject);
+            return;
+        }
+        else if (data.start == target && data.end == null)
+        {
+            Destroy(gameObject);
+            return;
+        }
+        else if (data.start == null && data.end == toGuide)
+        {
+            Destroy(gameObject);
+            return;
+        }
+    }
+
 
     public void SetTarget(Transform t)
     {
@@ -51,5 +78,14 @@ public class GuideLine : MonoBehaviour
     public void SetToGuide(Transform t)
     {
         toGuide = t;
+    }
+
+    public void test(string a)
+    {
+        Debug.Log(a);
+    }
+    public void test(int a)
+    {
+        Debug.Log(a.GetType());
     }
 }
