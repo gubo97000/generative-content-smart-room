@@ -138,7 +138,7 @@ public class Handle : MonoBehaviour
         gameObject.GetComponent<Rigidbody>().isKinematic = true;
         if (guidePlayerAfter != 0)
         {
-            Invoke("GuidePlayer", guidePlayerAfter);
+            GuidePlayer(guidePlayerAfter);
         }
     }
     void onHandleUngrabbed(EventDict dict)
@@ -156,19 +156,18 @@ public class Handle : MonoBehaviour
     {
         gameObject.GetComponent<Rigidbody>().isKinematic = true;
     }
-    void GuidePlayer()
+    void GuidePlayer(float delay)
     {
         foreach (var player in GameObject.FindGameObjectsWithTag("Player"))
         {
             if (playerNotAllowed.Contains(player)) continue;
-            GuideLineManager.CreateLine(player.transform, gameObject.transform);
+            GuideLineManager.instance?.CreateLine(player.transform, gameObject.transform, delay);
             break;
         }
     }
 
     void CancelGuidePlayer()
     {
-        CancelInvoke("GuidePlayer");
         // GuideLineManager.DeleteLine(gameObject.transform, end: gameObject.transform);
         EventManager.TriggerEvent("DeleteGuideLine", gameObject);
     }

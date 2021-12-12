@@ -12,6 +12,7 @@ public class TwoPlayerTrigger : MonoBehaviour
     private void OnEnable()
     {
         GetComponent<SphereCollider>().enabled = true;
+        playerInsideTrigger.Clear();
     }
 
     private void OnDisable()
@@ -43,7 +44,7 @@ public class TwoPlayerTrigger : MonoBehaviour
             foreach (var player in GameObject.FindGameObjectsWithTag("Player"))
             {
                 if (playerInsideTrigger.Contains(player)) continue;
-                GuideLineManager.CreateLine(player.transform, transform, ((int)(GuideLineDelay * 1000)));
+                GuideLineManager.instance?.CreateLine(player.transform, transform, GuideLineDelay);
                 break;
             }
         }

@@ -11,7 +11,7 @@ public class GuideLine : MonoBehaviour
     public bool killOnPointLost = false; //If true, the line will be destroyed when the start or toGuide is lost
 
 
-    void Start()
+    void Awake()
     {
         EventManager.StartListening("DeleteGuideLine", DeleteGuideLine);
 
@@ -38,6 +38,7 @@ public class GuideLine : MonoBehaviour
     }
     void DeleteGuideLine(EventDict dict)
     {
+        Debug.Log("Delete Guide Line");
         GameObject sender = dict["sender"] as GameObject;
         if (sender.transform == target)
         {

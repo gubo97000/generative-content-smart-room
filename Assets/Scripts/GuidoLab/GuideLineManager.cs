@@ -17,39 +17,37 @@ public class GuideLineManager : MonoBehaviour
 
                 if (!guideLineManager)
                 {
-                    Debug.LogError("There needs to be one active EventManger script on a GameObject in your scene.");
+                    Debug.LogError("There needs to be one active GuideLineManager script on a GameObject in your scene.");
+                    return null;
                 }
                 else
                 {
-                    // guideLineManager.Init();
+                    guideLineManager.Init();
                 }
             }
 
             return guideLineManager;
         }
     }
-    // void Init()
-    // {
-    //     if (eventDictionary == null)
-    //     {
-    //         eventDictionary = new Dictionary<string, Event>();
-    //     }
-    // }
+    void Init()
+    {
+        instance.transform.position = Vector3.zero;
+    }
 
-    public static void CreateLine(Transform start, Transform end, int millisecDelay = 0, float? duration = null)
+    public void CreateLine(Transform start, Transform end, float delay = 0f, float? duration = null)
     {
         Debug.Log("Creating line");
         var line = Instantiate(instance.guideLinePrefab, instance.transform);
         line.SetActive(false);
-        DelayedActivation(line, millisecDelay);
+        DelayedActivation(line, delay);
         GuideLine gl = line.GetComponent<GuideLine>();
         gl.target = end;
         gl.toGuide = start;
         gl.killOnPointLost = true;
     }
-    async static void DelayedActivation(GameObject go, int delay)
+    async void DelayedActivation(GameObject go, float delay)
     {
-        await Task.Delay(delay);
+        await Task.Delay(((int)(delay*1000)));
         if (go)
         {
             go.SetActive(true);

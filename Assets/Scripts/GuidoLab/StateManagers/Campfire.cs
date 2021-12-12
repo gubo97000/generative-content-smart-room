@@ -36,8 +36,15 @@ public class Campfire : ObjectStateHandler
     }
     void OnTwoPlayerTrigger() //Called from TwoPlayerTrigger
     {
-        CurrentState = "Lit";
-        EventManager.TriggerEvent("SwitchNight");
+        if (CurrentState == "Triggerable")
+        {
+            CurrentState = "Lit";
+            EventManager.TriggerEvent("SwitchNight");
+        } else if (CurrentState == "Lit")
+        {
+            CurrentState = "Collecting";
+            EventManager.TriggerEvent("SwitchDay");
+        }
     }
 
     void OnFirstTimeInit(string state)
@@ -46,7 +53,7 @@ public class Campfire : ObjectStateHandler
         {
             initState("Lit");
         }
-        
+
     }
 }
 
