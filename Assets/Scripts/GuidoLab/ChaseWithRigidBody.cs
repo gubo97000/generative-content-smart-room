@@ -8,6 +8,8 @@ public class ChaseWithRigidBody : MonoBehaviour
     private Rigidbody rb;
     public Transform target = null;
     public float speed = 1.0f;
+    public float minDistance = 0f;
+
     // Start is called before the first frame update
     void Awake()
     {
@@ -19,7 +21,11 @@ public class ChaseWithRigidBody : MonoBehaviour
     {
         if (target == null) return;
         Vector3 direction = target.position - transform.position;
+        direction.y = 0;    // Added this line so it can't float upwards
+
         // rb.MovePosition(transform.position + direction * Time.deltaTime);
-        rb.velocity = direction.normalized * speed;
+
+        if(direction.magnitude > minDistance)
+            rb.velocity = direction.normalized * speed;
     }
 }

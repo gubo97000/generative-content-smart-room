@@ -20,7 +20,7 @@ public class SpawnFairy : MonoBehaviour
 
     void checkAllMushrooms(EventDict dict)
     {
-        //if (System.Array.TrueForAll(mushrooms, m => !m.GetComponent<TransferLight>().isEmpty))
+        if (System.Array.TrueForAll(mushrooms, m => !m.GetComponent<TransferLight>().isEmpty))
         {
             spawnFairy();
             EventManager.TriggerEvent("MushroomCleanUp");

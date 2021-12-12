@@ -41,7 +41,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0beb48e3aac3b9d45abbd9d49484a73b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefab: {fileID: 9158848666860950036, guid: 995b4647a367b1548b1681bbb6385dab, type: 3}
+  prefabsList:
+  - state: Day
+    prefab: {fileID: 9158848666860950036, guid: 995b4647a367b1548b1681bbb6385dab, type: 3}
+  - state: Night
+    prefab: {fileID: 4873002210252225915, guid: dd835eb8d75d9814fb45466583d65af5, type: 3}
 --- !u!114 &6857192241503747985
 MonoBehaviour:
   m_ObjectHideFlags: 0
