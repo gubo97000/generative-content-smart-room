@@ -2,11 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System;
+using System.Threading.Tasks;
 [ExecuteAlways]
 //This is an ObjectStateHandler
 [RequireComponent(typeof(Collector))]
 public class Campfire : ObjectStateHandler
 {
+    private bool _afterDelay = false;
+    public float delay = 5f;
     //Set the states here, with the scripts attached for each state.
     private void Reset()
     {
@@ -40,11 +43,19 @@ public class Campfire : ObjectStateHandler
         {
             CurrentState = "Lit";
             EventManager.TriggerEvent("SwitchNight");
-        } else if (CurrentState == "Lit")
+            DelayedActivation(delay);
+        }
+        else if (CurrentState == "Lit" && _afterDelay)
         {
             CurrentState = "Collecting";
             EventManager.TriggerEvent("SwitchDay");
+            _afterDelay = false;
         }
+    }
+    async void DelayedActivation(float delay)
+    {
+        await Task.Delay(((int)(delay * 1000)));
+        _afterDelay = true;
     }
 
     void OnFirstTimeInit(string state)
