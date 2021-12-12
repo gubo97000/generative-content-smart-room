@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class ReturnToGrass : MonoBehaviour
 {
-    public GameObject grassPrefab; 
-    
     private float startTime;
     public float timer = 10;
 
@@ -24,11 +22,6 @@ public class ReturnToGrass : MonoBehaviour
 
     void ReplaceBack()
     {
-        ReturnToGrass[] flowerPatch = FindObjectsOfType(typeof(ReturnToGrass)) as ReturnToGrass[];
-        foreach (var flower in flowerPatch)
-        {
-            Instantiate(grassPrefab, flower.transform.position, flower.transform.rotation);
-            Destroy(flower.gameObject);
-        }
+        gameObject.SetActive(false);
     }
 }

@@ -4,28 +4,11 @@ using UnityEngine;
 
 public class ReplaceGrass : MonoBehaviour
 {
-    public GameObject flowerPrefab;
+    public GameObject flowers;
 
-    // Start is called before the first frame update
-    void Start()
+    void GrowFlowers()
     {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
-    void ReplaceAll()
-    {
-        ReplaceGrass[] grassPatch = FindObjectsOfType(typeof(ReplaceGrass)) as ReplaceGrass[];
-        foreach (var grass in grassPatch)
-        {
-            Instantiate(flowerPrefab, grass.transform.position, grass.transform.rotation);
-            Destroy(grass.gameObject);
-        }
+        flowers.SetActive(true);
     }
 
     void OnTriggerEnter(Collider other)
@@ -33,7 +16,7 @@ public class ReplaceGrass : MonoBehaviour
         if (other.gameObject.tag == "Seed")
         {
             Debug.Log("Seed has touched the grass");
-            ReplaceAll();
+            GrowFlowers();
             Destroy(other.gameObject);
         }
     }
