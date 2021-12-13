@@ -27,8 +27,8 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.007872385
-  m_Center: {x: 0.0000000020954758, y: -0.0000000032596286, z: -2.3161057e-23}
+  m_Radius: 0.006772385
+  m_Center: {x: 0.0000000020954758, y: -0.0000000032596286, z: -0.0011111}
 --- !u!64 &863095302193741712
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -72,7 +72,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1829371231341652, guid: 426b44a7575f71e479fab4f4e8431989, type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: AppleUndragged
       objectReference: {fileID: 0}
     - target: {fileID: 4411128782263238, guid: 426b44a7575f71e479fab4f4e8431989, type: 3}
       propertyPath: m_RootOrder
