@@ -37,10 +37,21 @@ public class DragApple : MonoBehaviour
     void OnMouseDrag()
     {
         transform.position = GetMouseAsWorldPoint() + mOffset;
+
+        GetComponent<Rigidbody>().isKinematic = false;
     }
 
     void OnMouseUp()
     {
         gameObject.tag = "Untagged";
+    }
+
+    // This is to avoid colliding other apples while dragging one
+    void OnCollisionEnter(Collision collision)
+    {
+        if(collision.gameObject.tag == "Apple")
+        {
+            GetComponent<Rigidbody>().isKinematic = true;
+        }
     }
 }
