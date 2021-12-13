@@ -26462,12 +26462,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   states:
-  - name: Apple
-    scripts:
-    - {fileID: 1328658727}
   - name: Oak
     scripts:
     - {fileID: 1954631407}
+  - name: Apple
+    scripts:
+    - {fileID: 1328658727}
+    - {fileID: 687852871}
+    - {fileID: 1181695332}
+    - {fileID: 1773604964}
   - name: Honey
     scripts:
     - {fileID: 1202113391}
@@ -34028,7 +34031,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!64 &687852872
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -44328,7 +44331,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6941765000743290380, guid: c60edd51c065ceb46b345849a03bc106, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7747525108644962689, guid: c60edd51c065ceb46b345849a03bc106, type: 3}
       propertyPath: m_Layer
@@ -56136,7 +56139,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!64 &1181695333
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -85775,7 +85778,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!64 &1773604965
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -94485,7 +94488,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1954631408
 MonoBehaviour:
   m_ObjectHideFlags: 0
