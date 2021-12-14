@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 [RequireComponent(typeof(Collector))]
 public class Campfire : ObjectStateHandler
 {
-    private bool _afterDelay = false;
+    private bool _afterDelay = true;
     public float delay = 5f;
     //Set the states here, with the scripts attached for each state.
     private void Reset()
@@ -42,8 +42,9 @@ public class Campfire : ObjectStateHandler
         if (CurrentState == "Triggerable")
         {
             CurrentState = "Lit";
-            EventManager.TriggerEvent("SwitchNight");
             DelayedActivation(delay);
+            _afterDelay = false;
+            EventManager.TriggerEvent("SwitchNight");
         }
         else if (CurrentState == "Lit" && _afterDelay)
         {
