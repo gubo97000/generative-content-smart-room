@@ -282,6 +282,34 @@
                     "isPartOfComposite": false
                 }
             ]
+        },
+        {
+            "name": "System",
+            "id": "0d0e7e83-5433-4105-9e54-3ebfe2f81349",
+            "actions": [
+                {
+                    "name": "PanicButton",
+                    "type": "Button",
+                    "id": "25775036-eace-4a1c-8f84-f8c20fef7d52",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "aef26c74-964c-4fbb-9dd4-152331240bbd",
+                    "path": "<Keyboard>/backspace",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "KeyboardMouse;Gamepad",
+                    "action": "PanicButton",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
         }
     ],
     "controlSchemes": [

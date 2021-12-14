@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 #if ENABLE_INPUT_SYSTEM && STARTER_ASSETS_PACKAGES_CHECKED
 using UnityEngine.InputSystem;
 #endif
@@ -60,6 +61,12 @@ public class DemoInputs : MonoBehaviour
         HandRaiseInput(value.isPressed);
         EventManager.TriggerEvent("OnHandRaise", gameObject); // Deprecated, Is called on key press and on key release
         EventManager.TriggerEvent(value.isPressed ? "OnHandRaiseStart" : "OnHandRaiseEnd", gameObject);
+    }
+
+    public void OnPanicButton(InputValue value)
+    {
+        Debug.Log("Reload Scene Pressed");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 #else
     // old input sys if we do decide to have it (most likely wont)...
