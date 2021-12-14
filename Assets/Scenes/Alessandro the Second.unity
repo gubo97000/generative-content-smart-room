@@ -63770,7 +63770,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88f2ce0580a1a9e44a04633ad5ca5740, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  flowers: {fileID: 979878558}
+  flowers: {fileID: 0}
 --- !u!4 &1303913142 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -105824,15 +105824,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7855130771873006820, guid: a288361a9f1f6324f860b0385d17de67, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7855130771873006820, guid: a288361a9f1f6324f860b0385d17de67, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7855130771873006820, guid: a288361a9f1f6324f860b0385d17de67, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7855130771873006820, guid: a288361a9f1f6324f860b0385d17de67, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
