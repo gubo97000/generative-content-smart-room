@@ -23,5 +23,6 @@ public class ReturnToGrass : MonoBehaviour
     void ReplaceBack()
     {
         gameObject.SetActive(false);
+        startTime = Time.time;
     }
 }
