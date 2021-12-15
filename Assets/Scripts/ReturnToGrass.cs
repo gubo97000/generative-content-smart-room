@@ -8,9 +8,13 @@ public class ReturnToGrass : MonoBehaviour
     public float timer = 10;
 
     // Start is called before the first frame update
-    void Start()
+    void OnEnable()
     {
         startTime = Time.time;
+    }
+    void OnDisable()
+    {
+      
     }
 
     // Update is called once per frame
@@ -23,6 +27,5 @@ public class ReturnToGrass : MonoBehaviour
     void ReplaceBack()
     {
         gameObject.SetActive(false);
-        startTime = Time.time;
     }
 }

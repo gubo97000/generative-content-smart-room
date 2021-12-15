@@ -18,7 +18,9 @@ public class LeanOnStep : MonoBehaviour
         player2 = GameObject.FindGameObjectsWithTag("Player")[1];
 
     }
-
+private void OnDisable() {
+    transform.rotation = Quaternion.identity;
+}
     // Update is called once per frame
     void Update()
     {
@@ -49,6 +51,7 @@ public class LeanOnStep : MonoBehaviour
             transform.rotation = Quaternion.Euler(-normalizedRelativePosition.z * (leanAngle * normalizedDistance), 0, normalizedRelativePosition.x * (leanAngle * normalizedDistance));
         }
     }
+
 }
 
 
