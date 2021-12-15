@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.29820415, g: 0.6362946, b: 0.99758154, a: 1}
+  m_IndirectSpecularColor: {r: 0.32212096, g: 0.6633757, b: 0.9950686, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -43066,6 +43066,17 @@ MonoBehaviour:
     scripts:
     - {fileID: 1989016245}
     - {fileID: 990778728}
+    - {fileID: 1000049797}
+    - {fileID: 1072970109}
+    - {fileID: 627759946}
+    - {fileID: 1038614937}
+    - {fileID: 348491228}
+    - {fileID: 1397799546}
+    - {fileID: 609838354}
+    - {fileID: 2122564771}
+    - {fileID: 1775975786}
+    - {fileID: 33106315}
+    - {fileID: 917149281}
   - name: Night
     scripts:
     - {fileID: 1348286648}
@@ -48797,6 +48808,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a0579be37319b3b408b147d87c0e1006, type: 3}
+--- !u!1 &1000049797 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3206694084775811025, guid: a0579be37319b3b408b147d87c0e1006, type: 3}
+  m_PrefabInstance: {fileID: 1000049796}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1002861407
 GameObject:
   m_ObjectHideFlags: 0
@@ -52474,6 +52490,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a0579be37319b3b408b147d87c0e1006, type: 3}
+--- !u!1 &1072970109 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3206694084775811025, guid: a0579be37319b3b408b147d87c0e1006, type: 3}
+  m_PrefabInstance: {fileID: 1072970108}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1073787677
 GameObject:
   m_ObjectHideFlags: 0
@@ -66806,6 +66827,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef0c2ab3feab6464bbdfe0d770a32e26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  displayToActivate: 1
 --- !u!1 &1350257509
 GameObject:
   m_ObjectHideFlags: 0
