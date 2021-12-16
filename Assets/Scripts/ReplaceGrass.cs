@@ -17,7 +17,7 @@ public class ReplaceGrass : MonoBehaviour
         {
             Debug.Log("Seed has touched the grass");
             GrowFlowers();
-            Destroy(other.gameObject);
+            Destroy(other.transform.parent.gameObject);
         }
     }
 }
