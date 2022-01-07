@@ -10,6 +10,7 @@ public class FollowThePath : MonoBehaviour
     
     public bool loop;
     public bool isFish;
+    public bool isBee;
     // Walk speed that can be set in Inspector
     [SerializeField]
     private float moveSpeed = 2f;
@@ -36,6 +37,19 @@ public class FollowThePath : MonoBehaviour
                 i++;
             }
             
+        }
+        else if (isBee)
+        {
+            var beePath = GameObject.Find("Bee Path");
+            var i = 1;
+            Debug.Log(beePath);
+
+            waypoints[0] = this.transform;
+            foreach (Transform waypoint in beePath.transform)
+            {
+                waypoints[i] = waypoint;
+                i++;
+            }
         }
 
         // Set position of object as position of the first waypoint

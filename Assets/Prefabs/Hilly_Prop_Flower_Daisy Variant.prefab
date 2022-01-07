@@ -41,7 +41,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  grassPrefab: {fileID: 7370377722113777246, guid: a288361a9f1f6324f860b0385d17de67, type: 3}
   timer: 10
 --- !u!114 &6504504454562842173
 MonoBehaviour:
@@ -50,14 +49,14 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6325449686324184012}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0beb48e3aac3b9d45abbd9d49484a73b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   prefabsList:
-  - state: 
-    prefab: {fileID: 0}
+  - state: Day
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
 --- !u!1001 &6560032890245660317
 PrefabInstance:
   m_ObjectHideFlags: 0
