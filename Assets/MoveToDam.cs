@@ -15,19 +15,29 @@ public class MoveToDam : MonoBehaviour
         beavers = new GameObject[howManyBeavers];
         EventManager.StartListening("NewBeaver", setBeaver);
         EventManager.StartListening("BeaverTamed", checkAllBeavers);
+        EventManager.StartListening("ReadyToBuild", checkAllReadyToBuild);
     }
 
     void OnDestroy()
     {
         EventManager.StopListening("NewBeaver", setBeaver);
         EventManager.StopListening("BeaverTamed", checkAllBeavers);
+        EventManager.StopListening("ReadyToBuild", checkAllReadyToBuild);
     }
 
     void checkAllBeavers(EventDict dict)
     {
-        if (System.Array.TrueForAll(beavers, m => m.GetComponent<BeaverAnimationManager>().isBeaverEating()))
+        if (System.Array.TrueForAll(beavers, m => m != null && m.GetComponent<BeaverAnimationManager>().isBeaverEating()))
         {
             StartCoroutine(changePath());
+        }
+    }
+
+    void checkAllReadyToBuild(EventDict dict)
+    {
+        if (System.Array.TrueForAll(beavers, m => m.GetComponent<BeaverAnimationManager>().isBeaverReadyToBuild()))
+        {
+            StartCoroutine(buildDam());
         }
     }
 
@@ -46,6 +56,12 @@ public class MoveToDam : MonoBehaviour
             yield return new WaitForSeconds(cooldown);
             b.GetComponent<FollowThePath>().ResetPath(newPaths);
         }
+    }
+
+    IEnumerator buildDam()
+    {
+        yield return new WaitForSeconds(3.5f);
+        EventManager.TriggerEvent("SwitchPondState", gameObject);
     }
 
 }

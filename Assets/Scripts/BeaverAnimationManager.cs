@@ -8,6 +8,8 @@ public class BeaverAnimationManager : MonoBehaviour
     private Animator anim;
 
     private bool isEating = false;
+    private bool hasEaten = false;
+    private bool isReadyToBuild = false;
 
     void Start()
     {
@@ -40,6 +42,12 @@ public class BeaverAnimationManager : MonoBehaviour
 
         if(sender == gameObject)
             anim.SetBool("hasReachedSpot", true);
+
+        if (hasEaten && !isReadyToBuild)
+        {
+            isReadyToBuild = true;
+            EventManager.TriggerEvent("ReadyToBuild", gameObject);
+        }
     }
 
     void EatApple(Collider other)
@@ -59,8 +67,15 @@ public class BeaverAnimationManager : MonoBehaviour
         return isEating;
     }
 
+    public bool isBeaverReadyToBuild()
+    {
+        return isReadyToBuild;
+    }
+
     void OnResetPath(EventDict dict)
     {
+        isEating = false;
+        hasEaten = true;
         GameObject sender = (GameObject)dict["sender"];
 
         if (sender == gameObject)
