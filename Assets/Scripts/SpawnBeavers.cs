@@ -42,6 +42,9 @@ public class SpawnBeavers : MonoBehaviour
 
             GameObject beaver = Instantiate(prefab, transform.position, Quaternion.identity);
             beaver.GetComponent<FollowThePath>().waypoints = waypoints[i];
+            beaver.GetComponent<FollowThePath>().setProgressiveNumber(i);
+
+            EventManager.TriggerEvent("NewBeaver", beaver, new EventDict() { { "order", i } });
         }
     }
 }

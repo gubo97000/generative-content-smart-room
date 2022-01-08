@@ -21,6 +21,8 @@ public class FollowThePath : MonoBehaviour
 
     private bool hasCompletedPath = false;
 
+    private int progressiveNumber;
+
     // Use this for initialization
     private void Start()
     {
@@ -108,5 +110,23 @@ public class FollowThePath : MonoBehaviour
             // Set hasCompletedPath to true, to avoid firing events continuously
             hasCompletedPath = true;
         }
+    }
+
+    public void ResetPath(GameObject[] newPaths)
+    {
+        EventManager.TriggerEvent("ResetPath", gameObject);
+
+        // newPaths is an array of paths. But the actual waypoints are children of each "path".
+        // So, retrieve the path, and then its children, in particular their transform
+        // Skip 1 beacuse GetComponentsInChildren also returns the father
+        waypoints = newPaths[progressiveNumber].GetComponentsInChildren<Transform>().Skip(1).ToArray();
+        hasCompletedPath = false;
+        waypointIndex = 0;
+    }
+
+    // Used for beavers. So to identify the path to take after they all have eaten an apple (to go to the dam)
+    public void setProgressiveNumber(int n)
+    {
+        progressiveNumber = n;
     }
 }

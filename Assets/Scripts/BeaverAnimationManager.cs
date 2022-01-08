@@ -15,11 +15,13 @@ public class BeaverAnimationManager : MonoBehaviour
         anim = GetComponent<Animator>();
 
         EventManager.StartListening("EndOfPath", OnEndOfPath);
+        EventManager.StartListening("ResetPath", OnResetPath);
     }
 
     void OnDestroy()
     {
         EventManager.StopListening("EndOfPath", OnEndOfPath);
+        EventManager.StopListening("ResetPath", OnResetPath);
     }
 
     // Feed the apple
@@ -47,7 +49,24 @@ public class BeaverAnimationManager : MonoBehaviour
         // Start eating animation
         isEating = true;
         anim.SetBool("isEating", true);
+        EventManager.TriggerEvent("BeaverTamed", gameObject);
 
         Debug.Log("Eat the apple!");
+    }
+
+    public bool isBeaverEating()
+    {
+        return isEating;
+    }
+
+    void OnResetPath(EventDict dict)
+    {
+        GameObject sender = (GameObject)dict["sender"];
+
+        if (sender == gameObject)
+        {
+            anim.SetBool("hasReachedSpot", false);
+            anim.SetBool("isEating", false);
+        }
     }
 }
