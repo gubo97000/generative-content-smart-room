@@ -3,7 +3,15 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - CinemachineTarget
+  - Seed
+  - Branch
+  - Lilypad
+  - Butterfly
+  - Jump
+  - Firefly
+  - Apple
   layers:
   - Default
   - TransparentFX
@@ -11,8 +19,8 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
+  - Front
+  - Floor
   - 
   - 
   - 

@@ -4,13 +4,14 @@ using UnityEngine.Events;
 using System.Collections;
 using System.Collections.Generic;
 
+[ExecuteAlways]
 public class EventManager : MonoBehaviour
 {
     [System.Serializable]
     public class Event : UnityEvent<EventDict> { }
     // public class EventData : Dictionary<string, EventDict> {} //I wish to add this for less text
 
-    private Dictionary<string, Event> eventDictionary;
+    public Dictionary<string, Event> eventDictionary;
 
     private static EventManager eventManager;
 
@@ -77,19 +78,24 @@ public class EventManager : MonoBehaviour
     /// <param name="eventName"></param>
     /// <param name="sender"></param>
     /// <param name="additionalDataDict"></param>
-    public static void TriggerEvent(string eventName, GameObject sender, EventDict additionalDataDict = null)
+    public static void TriggerEvent(string eventName, GameObject sender = null, EventDict additionalDataDict = null)
     {
         Event thisEvent = null;
         EventDict data = new EventDict() { ["sender"] = sender };
-        foreach (var item in additionalDataDict)
+        if (additionalDataDict != null)
         {
-            data[item.Key] = item.Value;
+            foreach (var item in additionalDataDict)
+            {
+                data[item.Key] = item.Value;
+            }
         }
 
         if (instance.eventDictionary.TryGetValue(eventName, out thisEvent))
         {
             thisEvent.Invoke(data);
             Debug.Log("Event Triggered: " + eventName);
+        }else{
+            Debug.Log("No one is listening: " + eventName);
         }
     }
 }
