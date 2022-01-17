@@ -6,7 +6,7 @@ public class SpawnApples : MonoBehaviour
 {
     public GameObject prefab;
     public int amount;
-    public List<GameObject> instances = new List<GameObject>();
+    private List<GameObject> instances = new List<GameObject>();
 
     void Start()
     {

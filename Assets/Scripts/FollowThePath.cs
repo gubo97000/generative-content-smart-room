@@ -7,6 +7,8 @@ public class FollowThePath : MonoBehaviour
     // Array of waypoints to walk from one to the next one
     [SerializeField]
     public Transform[] waypoints;
+
+    private bool isEnabled = true;
     
     public bool loop;
     public bool isFish;
@@ -62,7 +64,8 @@ public class FollowThePath : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
-        Move();
+        if(isEnabled)
+            Move();
     }
 
     // Method that actually make object walk
@@ -128,5 +131,11 @@ public class FollowThePath : MonoBehaviour
     public void setProgressiveNumber(int n)
     {
         progressiveNumber = n;
+    }
+
+
+    public void triggerEnabled()
+    {
+        isEnabled = !isEnabled;
     }
 }

@@ -29,7 +29,20 @@ MonoBehaviour:
   - {fileID: 0}
   loop: 1
   isFish: 1
+  isBee: 0
   moveSpeed: 0.5
+--- !u!114 &-2445157984744674749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3561536310154227527}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e82c9fcc70af5f041896822ec241bbae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &3560554901296961795
 PrefabInstance:
   m_ObjectHideFlags: 0
