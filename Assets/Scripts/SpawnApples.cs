@@ -6,7 +6,17 @@ public class SpawnApples : MonoBehaviour
 {
     public GameObject prefab;
     public int amount;
-    private List<GameObject> instances = new List<GameObject>();
+    public List<GameObject> instances = new List<GameObject>();
+
+    void Start()
+    {
+        EventManager.StartListening("ClearAppleTree", OnClearTree);
+    }
+
+    void OnDestroy()
+    {
+        EventManager.StopListening("ClearAppleTree", OnClearTree);
+    }
 
     void OnMouseDown()
     {
@@ -25,5 +35,12 @@ public class SpawnApples : MonoBehaviour
             EventManager.TriggerEvent("SpawnBeavers", gameObject);
             Debug.Log("Apples fell from the apple tree");
         }
+    }
+
+    // Reset tree: now more apples can spawn
+    // TODO: do not show apples on tree until reset
+    void OnClearTree(EventDict dict)
+    {
+        instances.Clear();
     }
 }

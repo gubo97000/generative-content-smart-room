@@ -2,12 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MoveToDam : MonoBehaviour
+public class MoveBeavers : MonoBehaviour
 {
     public int howManyBeavers = 3;
     public GameObject[] beavers;
-    public GameObject[] newPaths;
+    public GameObject[] damPaths;
+    public GameObject[] goAwayPaths;
     public float cooldown = 0.5f;
+
+    private bool hasBuiltDam = false;
 
     // Start is called before the first frame update
     void Start()
@@ -16,6 +19,7 @@ public class MoveToDam : MonoBehaviour
         EventManager.StartListening("NewBeaver", setBeaver);
         EventManager.StartListening("BeaverTamed", checkAllBeavers);
         EventManager.StartListening("ReadyToBuild", checkAllReadyToBuild);
+        EventManager.StartListening("SwitchPondState", OnSwitchPondState);
     }
 
     void OnDestroy()
@@ -23,13 +27,14 @@ public class MoveToDam : MonoBehaviour
         EventManager.StopListening("NewBeaver", setBeaver);
         EventManager.StopListening("BeaverTamed", checkAllBeavers);
         EventManager.StopListening("ReadyToBuild", checkAllReadyToBuild);
+        EventManager.StopListening("SwitchPondState", OnSwitchPondState);
     }
 
     void checkAllBeavers(EventDict dict)
     {
         if (System.Array.TrueForAll(beavers, m => m != null && m.GetComponent<BeaverAnimationManager>().isBeaverEating()))
         {
-            StartCoroutine(changePath());
+            StartCoroutine(changePath(damPaths));
         }
     }
 
@@ -48,7 +53,7 @@ public class MoveToDam : MonoBehaviour
         beavers[order] = sender;
     }
 
-    IEnumerator changePath()
+    IEnumerator changePath(GameObject[] newPaths)
     {
         // Change paths to follow
         foreach (GameObject b in beavers)
@@ -64,4 +69,17 @@ public class MoveToDam : MonoBehaviour
         EventManager.TriggerEvent("SwitchPondState", gameObject);
     }
 
+
+    void OnSwitchPondState(EventDict dict)
+    {
+        if (!hasBuiltDam) hasBuiltDam = true;
+        else
+        {
+            StartCoroutine(changePath(goAwayPaths));
+            hasBuiltDam = false;
+
+            // Enable more beavers by resetting apple tree: now there can spawn others
+            EventManager.TriggerEvent("ClearAppleTree", gameObject);
+        }
+    }
 }
