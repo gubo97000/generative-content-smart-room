@@ -28161,18 +28161,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   states:
+  - name: Honey
+    scripts:
+    - {fileID: 1202113391}
+  - name: Oak
+    scripts:
+    - {fileID: 1954631407}
   - name: Apple
     scripts:
     - {fileID: 1328658727}
     - {fileID: 687852871}
     - {fileID: 1181695332}
     - {fileID: 1773604964}
-  - name: Oak
-    scripts:
-    - {fileID: 1954631407}
-  - name: Honey
-    scripts:
-    - {fileID: 1202113391}
 --- !u!1 &533813218
 GameObject:
   m_ObjectHideFlags: 0
@@ -36056,7 +36056,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!64 &687852872
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -47158,7 +47158,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6941765000743290380, guid: c60edd51c065ceb46b345849a03bc106, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7747525108644962689, guid: c60edd51c065ceb46b345849a03bc106, type: 3}
       propertyPath: m_Layer
@@ -50136,7 +50136,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &979878559
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50144,7 +50144,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 979878558}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
   m_Name: 
@@ -58687,7 +58687,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4661435515762455780, guid: e289bf5debb17f6459818c207d781953, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4661435515762813124, guid: e289bf5debb17f6459818c207d781953, type: 3}
       propertyPath: m_RootOrder
@@ -59687,7 +59687,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!64 &1181695333
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -60634,6 +60634,20 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 4661435515762455780, guid: e289bf5debb17f6459818c207d781953, type: 3}
   m_PrefabInstance: {fileID: 1166791981}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1202113392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1202113391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8496ca9eeea2b3941ae124eb59cc9cf0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 1490035257308854811, guid: dffa653ba54ea0b4bbc5331dea4a5432, type: 3}
+  requiredBeesToTrigger: 3
 --- !u!1 &1206629407
 GameObject:
   m_ObjectHideFlags: 0
@@ -91045,7 +91059,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!64 &1773604965
 MeshCollider:
   m_ObjectHideFlags: 0

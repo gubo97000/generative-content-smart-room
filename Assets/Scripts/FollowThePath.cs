@@ -107,7 +107,7 @@ public class FollowThePath : MonoBehaviour
         else if (!hasCompletedPath)    // End of path
         {
             // If there is an animator, this event can be handled to change state
-            EventManager.TriggerEvent("EndOfPath", gameObject);
+            EventManager.TriggerEvent("EndOfPath", gameObject, new EventDict() { { "activator", gameObject } });
             Debug.Log(gameObject);
 
             // Set hasCompletedPath to true, to avoid firing events continuously

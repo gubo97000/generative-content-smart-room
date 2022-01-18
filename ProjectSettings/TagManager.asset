@@ -12,6 +12,8 @@ TagManager:
   - Jump
   - Firefly
   - Apple
+  - AppleUndragged
+  - Bee
   layers:
   - Default
   - TransparentFX
