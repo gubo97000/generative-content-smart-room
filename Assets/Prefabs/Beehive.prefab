@@ -27,7 +27,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 191661181038786140}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.9210303, y: -1.351, z: 0}
+  m_LocalPosition: {x: 0, y: -1.351, z: 0}
   m_LocalScale: {x: 0.8, y: 0.32069662, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -124,7 +124,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 305563376155971527}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.9210303, y: -1.6428556, z: 0}
+  m_LocalPosition: {x: 0, y: -1.6428556, z: 0}
   m_LocalScale: {x: 1.0947, y: 0.84937, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -221,7 +221,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1471806925279238885}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.9210303, y: -1.5288556, z: 0}
+  m_LocalPosition: {x: 0, y: -1.5288556, z: 0}
   m_LocalScale: {x: 1.0947, y: 0.43114457, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -301,6 +301,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5406038461170338830}
   - component: {fileID: 6694145004207110471}
+  - component: {fileID: -4812405311069097595}
   m_Layer: 0
   m_Name: Beehive
   m_TagString: Untagged
@@ -348,6 +349,24 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &-4812405311069097595
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1490035257308854811}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7475a898ee4eda41ab70505c2c62427, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waypoints: []
+  length: 5
+  startFromWaypoint: 0
+  loop: 0
+  pathName: Beehive Path
+  moveSpeed: 1
 --- !u!1 &2553048894905236867
 GameObject:
   m_ObjectHideFlags: 0
@@ -375,7 +394,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2553048894905236867}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.9210303, y: -1.7628555, z: 0}
+  m_LocalPosition: {x: 0, y: -1.7628555, z: 0}
   m_LocalScale: {x: 1.0947, y: 0.42347988, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -472,7 +491,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2930514858657027206}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.9210303, y: -1.631, z: 0}
+  m_LocalPosition: {x: 0, y: -1.631, z: 0}
   m_LocalScale: {x: 1.1593968, y: 0.42347988, z: 1.1059}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -569,7 +588,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3286066478672746157}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.9210303, y: -1.413, z: 0}
+  m_LocalPosition: {x: 0, y: -1.413, z: 0}
   m_LocalScale: {x: 0.9727399, y: 0.2952756, z: 0.9281}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -666,7 +685,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7585299337824357839}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.9210303, y: -1.872, z: 0}
+  m_LocalPosition: {x: 0, y: -1.872, z: 0}
   m_LocalScale: {x: 0.9727399, y: 0.2952756, z: 0.9281}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -763,7 +782,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8153031470116335025}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.9210303, y: -1.6428556, z: 0}
+  m_LocalPosition: {x: 0, y: -1.6428556, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -860,7 +879,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9107382932619668863}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.9210303, y: -1.9518557, z: 0}
+  m_LocalPosition: {x: 0, y: -1.9518557, z: 0}
   m_LocalScale: {x: 0.8, y: 0.32069662, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children: []

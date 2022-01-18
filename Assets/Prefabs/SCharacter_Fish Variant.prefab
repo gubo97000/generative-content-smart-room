@@ -1,5 +1,20 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-2445157984744674749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3561536310154227527}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e82c9fcc70af5f041896822ec241bbae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  seconds: 1
+  rotateOffset: 90
+  moveOffset: 0.3
 --- !u!114 &8927343812999732911
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27,22 +42,11 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  length: 14
+  startFromWaypoint: 1
   loop: 1
-  isFish: 1
-  isBee: 0
+  pathName: Fish Path
   moveSpeed: 0.5
---- !u!114 &-2445157984744674749
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3561536310154227527}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e82c9fcc70af5f041896822ec241bbae, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &3560554901296961795
 PrefabInstance:
   m_ObjectHideFlags: 0

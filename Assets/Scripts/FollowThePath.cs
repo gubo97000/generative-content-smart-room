@@ -7,12 +7,17 @@ public class FollowThePath : MonoBehaviour
     // Array of waypoints to walk from one to the next one
     [SerializeField]
     public Transform[] waypoints;
+    public int length = 0;
 
     private bool isEnabled = true;
-    
+
+    // True if spawned object is teleported to first waypoint
+    // False if we want it to start moving from where it actually spawned
+    public bool startFromWaypoint = true;
+
     public bool loop;
-    public bool isFish;
-    public bool isBee;
+
+    public string pathName;
     // Walk speed that can be set in Inspector
     [SerializeField]
     private float moveSpeed = 2f;
@@ -28,32 +33,24 @@ public class FollowThePath : MonoBehaviour
     // Use this for initialization
     private void Start()
     {
-        if (isFish) {
-            
-            var fishPath = GameObject.Find("Fish path");
-            var i = 0;
-            Debug.Log(fishPath);
-            
-          
-            foreach (Transform waypoint in fishPath.transform)
-            {
-                waypoints[i] = waypoint;
-                i++;
-            }
-            
-        }
-        else if (isBee)
-        {
-            var beePath = GameObject.Find("Bee Path");
-            var i = 1;
-            Debug.Log(beePath);
+        GameObject path = GameObject.Find(pathName);
 
+        int i = startFromWaypoint ? 0 : 1;
+
+        if(waypoints == null || waypoints.Length == 0 || System.Array.TrueForAll(waypoints, w => w == null))
+        {
+            waypoints = new Transform[length];
+        }
+
+        if(!startFromWaypoint)
             waypoints[0] = this.transform;
-            foreach (Transform waypoint in beePath.transform)
-            {
-                waypoints[i] = waypoint;
-                i++;
-            }
+
+        Debug.Log(path);
+        
+        foreach (Transform waypoint in path.transform)
+        {
+            waypoints[i] = waypoint;
+            i++;
         }
 
         // Set position of object as position of the first waypoint
