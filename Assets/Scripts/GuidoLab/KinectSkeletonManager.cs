@@ -26,6 +26,10 @@ public class KinectSkeletonManager : MonoBehaviour
     private Vector3 sensorDisallinment;
     public BoxArea interactiveArea;
 
+    private bool _activeCrouch = false;
+    private bool _activeHandRaise = false;
+    private bool _activeJump = false;
+
     private void Start()
     {
         if (MagicRoomManager.instance != null)
@@ -49,9 +53,9 @@ public class KinectSkeletonManager : MonoBehaviour
     /// <summary>
     /// Apply scale operations to the raw position
     /// </summary>
-    /// <param name="nposition"></param>
-    /// <returns></returns>
-    private Vector3 FixPosition(Vector3 position)
+    /// <param name="position"></param>
+    /// <returns name="Scaled Position">Scaled Position</returns>
+    private Vector3 FixPosition(Vector3 position, bool applyAxisFilter = false)
     {
         Vector3 axis = new Vector3(Convert.ToSingle(activeTrackAxis.X), Convert.ToSingle(activeTrackAxis.Y), Convert.ToSingle(activeTrackAxis.Z));
         //rescale according to the standard room size
@@ -61,9 +65,11 @@ public class KinectSkeletonManager : MonoBehaviour
         position = Vector3.Scale(position, standardizedFloorSize);
         //3) Transform into the coordiantes in the game
         position = Vector3.Scale(position, interactiveArea.getScaleVector()) + interactiveArea.getOrinig();
-        //4)apply filters for the axis
-        position = Vector3.Scale(position, axis);
+        //4) Apply filters for the axis
+        // position = Vector3.Scale(position, axisFilter != null ? (Vector3)axisFilter : new Vector3(1, 1, 1));
+        if (applyAxisFilter) position = Vector3.Scale(position, axis);
         //5) return the computed position
+        // Debug.Log("Position: " + position);
         return position;
     }
 
@@ -105,7 +111,7 @@ public class KinectSkeletonManager : MonoBehaviour
                     default: newposition = Vector3.zero; break;
                 }
 
-                trackingSchema[p.Key].position = FixPosition(newposition);
+                trackingSchema[p.Key].position = FixPosition(newposition, true);
 
                 if (activateHandCloseEvents)
                 {
@@ -153,18 +159,63 @@ public class KinectSkeletonManager : MonoBehaviour
             Vector3 KneeRight = FixPosition(skelPosition.KneeRight);
             if ((SpineBase.y < KneeLeft.y || SpineBase.y < KneeRight.y))
             {
-                SendMessage("OnCrouch");
+                // EventManager.TriggerEvent("OnCrouch", gameObject); // Deprecated, Is called on key press and on key release
+                if (!_activeCrouch)
+                {
+                    EventManager.TriggerEvent("OnCrouchStart", gameObject);
+                    EventManager.TriggerEvent("OnCrouch", gameObject);
+                    _activeCrouch = true;
+                }
                 Debug.Log("Crouch");
             }
+            else if (_activeCrouch)
+            {
+                EventManager.TriggerEvent("OnCrouchEnd", gameObject);
+                EventManager.TriggerEvent("OnCrouch", gameObject);
+                _activeCrouch = false;
+            }
+
             // HandRaise
             Vector3 HandLeft = FixPosition(skelPosition.HandLeft);
             Vector3 HandRight = FixPosition(skelPosition.HandRight);
             Vector3 Head = FixPosition(skelPosition.Head);
             if ((Head.y < HandLeft.y && Head.y < HandRight.y))
             {
-                SendMessage("HandRaise");
+                if (!_activeHandRaise)
+                {
+                    EventManager.TriggerEvent("OnHandRaiseStart", gameObject);
+                    EventManager.TriggerEvent("OnHandRaise", gameObject);
+                    _activeHandRaise = true;
+                }
                 Debug.Log("HandRaise");
             }
+            else if (_activeHandRaise)
+            {
+                EventManager.TriggerEvent("OnHandRaiseEnd", gameObject);
+                EventManager.TriggerEvent("OnHandRaise", gameObject);
+                _activeHandRaise = false;
+            }
+
+            // Jump
+            Vector3 FootLeft = FixPosition(skelPosition.FootLeft);
+            Vector3 FootRight = FixPosition(skelPosition.FootRight);
+            if ((FootLeft.y > 0.1f && FootRight.y > 0.1f))
+            {
+                if (!_activeJump)
+                {
+                    EventManager.TriggerEvent("OnJumpStart", gameObject);
+                    EventManager.TriggerEvent("OnJump", gameObject);
+                    _activeJump = true;
+                }
+                Debug.Log("Jump");
+            }
+            else if (_activeJump)
+            {
+                EventManager.TriggerEvent("OnJumpEnd", gameObject);
+                EventManager.TriggerEvent("OnJump", gameObject);
+                _activeJump = false;
+            }
+
 
             if (activateGestureEvents)
             {

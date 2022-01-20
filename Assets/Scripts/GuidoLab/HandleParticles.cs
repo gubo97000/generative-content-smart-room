@@ -22,7 +22,7 @@ public class HandleParticles : MonoBehaviour
     {
         if ((GameObject)dict["sender"] == gameObject)
         {
-            Color color = GameStateManager.playersColor[(dict["player"] as GameObject).GetComponent<Player>().playerNumber];
+            Color color = GameStateManager.playersColor[(dict["player"] as GameObject).GetComponent<PlayerInfo>().playerNumber];
             var ps = GetComponent<ParticleSystem>();
             var sCol = ps.main;
             sCol.startColor = color;

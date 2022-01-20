@@ -11,7 +11,7 @@ public class CrouchParticles : MonoBehaviour
     private Color _color;
     private void Start()
     {
-        _color = GameStateManager.playersColor[this.GetComponentInParent<Player>().playerNumber];
+        _color = GameStateManager.playersColor[this.GetComponentInParent<PlayerInfo>().playerNumber];
         Debug.Log("Called");
         ps = GetComponent<ParticleSystem>();
         var maxTime = ps.main.startLifetime;

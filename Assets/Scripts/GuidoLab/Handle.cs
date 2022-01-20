@@ -53,7 +53,7 @@ public class Handle : MonoBehaviour
         Debug.Log(gameObject + " grabbed");
         EventManager.TriggerEvent("HandleGrabbed", gameObject, new EventDict() { ["player"] = sender, ["parent"] = transform.parent });
         _grabbedBy = sender;
-        gameObject.GetComponent<ChaseWithRigidBody>().target = sender.tag == "Player" ? sender.GetComponent<Player>().target : sender.transform;
+        gameObject.GetComponent<ChaseWithRigidBody>().target = sender.tag == "Player" ? sender.GetComponent<PlayerInfo>().target : sender.transform;
         gameObject.GetComponent<Rigidbody>().isKinematic = false;
         isGrabbable = false;
         isGrabbed = true;

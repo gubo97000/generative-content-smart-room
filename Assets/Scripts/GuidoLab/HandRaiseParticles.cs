@@ -27,7 +27,7 @@ public class HandRaiseParticles : MonoBehaviour
     {
         _particles = new ParticleSystem.Particle[numberOfParticles];
         //Inizializing Color
-        _color = GameStateManager.playersColor[this.GetComponentInParent<Player>().playerNumber];
+        _color = GameStateManager.playersColor[this.GetComponentInParent<PlayerInfo>().playerNumber];
         // var maxTime = ps.main.startLifetime.constant;
         var sCol = ps.main;
         sCol.startColor = _color;
