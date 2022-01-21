@@ -6,6 +6,7 @@ public class DropBeehive : MonoBehaviour
 {
     public GameObject prefab;
     public int requiredBeesToTrigger = 3;
+    public GameObject[] beehivePathPoints;
 
     private int beeCounter = 0;
 
@@ -31,9 +32,11 @@ public class DropBeehive : MonoBehaviour
             Vector3 position = transform.position;
             position.x += Random.Range(-4, 4) / 5;
             position.y += 2.5f;
-            position.z += Random.Range(8, 10) / 5;
+            position.z += Random.Range(6, 8) / 5;
 
             GameObject instance = Instantiate(prefab, position, Quaternion.Euler(new Vector3(Random.Range(0, 360), Random.Range(0, 360), Random.Range(0, 360))));
+
+            instance.GetComponent<RollAlongPath>().SetWaypoints(beehivePathPoints);
 
             beeCounter = 0;
 
