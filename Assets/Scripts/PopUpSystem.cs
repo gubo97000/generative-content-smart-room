@@ -13,15 +13,15 @@ public class PopUpSystem : MonoBehaviour
     {
         animator = GetComponent<Animator>();
 
-        EventManager.StartListening("Check1", Check1);
-        EventManager.StartListening("Check2", Check1);
+        //EventManager.StartListening("Check1", Check1);
+        //EventManager.StartListening("Check2", Check2);
         PopUp();
     }
 
     void OnDestroy()
     {
-        EventManager.StopListening("Check1", Check1);
-        EventManager.StopListening("Check2", Check1);
+        //EventManager.StopListening("Check1", Check1);
+        //EventManager.StopListening("Check2", Check2);
     }
 
     public void PopUp(/*string text*/)
@@ -31,7 +31,7 @@ public class PopUpSystem : MonoBehaviour
         animator.SetTrigger("pop");
     }
 
-    public void Check1(EventDict dict)
+    /*public void Check1(EventDict dict)
     {
         animator.SetTrigger("check1");
     }
@@ -39,5 +39,5 @@ public class PopUpSystem : MonoBehaviour
     public void Check2(EventDict dict)
     {
         animator.SetTrigger("check2");
-    }
+    }*/
 }
