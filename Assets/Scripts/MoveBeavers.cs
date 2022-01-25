@@ -65,7 +65,9 @@ public class MoveBeavers : MonoBehaviour
 
     IEnumerator buildDam()
     {
-        yield return new WaitForSeconds(3.5f);
+        yield return new WaitForSeconds(1.5f); 
+        EventManager.TriggerEvent("TriggerDust", gameObject); 
+        yield return new WaitForSeconds(2f);
         EventManager.TriggerEvent("SwitchPondState", gameObject);
     }
 
