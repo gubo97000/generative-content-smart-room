@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SpawnBranch : MonoBehaviour
+public class SpawnBranch : Tree
 {
     public GameObject prefab;
 
@@ -20,6 +20,9 @@ public class SpawnBranch : MonoBehaviour
         position.z += Random.Range(5 * zOffsetMin, 5 * zOffsetMax) / 5;
 
         if (instance == null)
+        {
+            StartCoroutine(Shake());
             instance = Instantiate(prefab, position, Quaternion.Euler(new Vector3(Random.Range(0, 360), Random.Range(0, 360), Random.Range(0, 360))));
+        }
     }
 }

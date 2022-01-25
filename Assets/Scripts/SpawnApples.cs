@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SpawnApples : MonoBehaviour
+public class SpawnApples : Tree
 {
     public GameObject prefab;
     public int amount;
@@ -22,6 +22,8 @@ public class SpawnApples : MonoBehaviour
     {
         if (instances.Count == 0)
         {
+            StartCoroutine(Shake());
+
             for (int i = 0; i < amount; i++)
             {
                 Vector3 position = transform.position;
