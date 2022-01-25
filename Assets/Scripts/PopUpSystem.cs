@@ -9,19 +9,28 @@ public class PopUpSystem : MonoBehaviour
     private Animator animator;
     public TMP_Text popUpText;
 
+    public bool isHandRaiseEnabled;
+
     void Start()
     {
         animator = GetComponent<Animator>();
 
-        //EventManager.StartListening("Check1", Check1);
-        //EventManager.StartListening("Check2", Check2);
+        EventManager.StartListening("OnHandRaise", OnHandRaise);
         PopUp();
+    }
+
+    void Update()
+    {
+        if (animator.GetBool("check1") == true && animator.GetBool("check2") == true)
+        {
+            animator.SetTrigger("close");
+            StartCoroutine(GetNextTutorial());
+        }
     }
 
     void OnDestroy()
     {
-        //EventManager.StopListening("Check1", Check1);
-        //EventManager.StopListening("Check2", Check2);
+        EventManager.StartListening("OnHandRaise", OnHandRaise);
     }
 
     public void PopUp(/*string text*/)
@@ -31,13 +40,15 @@ public class PopUpSystem : MonoBehaviour
         animator.SetTrigger("pop");
     }
 
-    /*public void Check1(EventDict dict)
+    void OnHandRaise(EventDict dict)
     {
-        animator.SetTrigger("check1");
+        if (isHandRaiseEnabled)
+            animator.SetBool(((GameObject)dict["sender"]).tag == "Player1" ? "check1" : "check2", true);
     }
 
-    public void Check2(EventDict dict)
+    IEnumerator GetNextTutorial()
     {
-        animator.SetTrigger("check2");
-    }*/
+        yield return new WaitForSeconds(2f);
+        EventManager.TriggerEvent("NextTutorial", gameObject);
+    }
 }

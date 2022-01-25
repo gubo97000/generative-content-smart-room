@@ -82,7 +82,7 @@ public class TutorialFloorGesture : MonoBehaviour
         }
     }
 
-        IEnumerator GetNextTutorial()
+    IEnumerator GetNextTutorial()
     {
         yield return new WaitForSeconds(2f);
         EventManager.TriggerEvent("NextTutorial", gameObject);
