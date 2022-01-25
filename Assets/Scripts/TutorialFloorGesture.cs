@@ -11,11 +11,16 @@ public class TutorialFloorGesture : MonoBehaviour
     public bool onCrouch;
     public bool onJump;
 
+    public bool requiresDraggingBall;
+
     // Start is called before the first frame update
     void Start()
     {    
         EventManager.StartListening("OnCrouch", OnCrouchHandler);
         EventManager.StartListening("OnJumpLanding", OnJumpHandler);
+
+        if (requiresDraggingBall)
+            onCrouch = false;
     }
 
     void OnDestroy()
@@ -60,9 +65,24 @@ public class TutorialFloorGesture : MonoBehaviour
     {
         if (other.gameObject.tag == "Jump" && other.gameObject.GetComponent<JumpCollider>().isInAir())
             EventManager.TriggerEvent("OnJumpLanding", gameObject, new EventDict() { { "isPlayer1", other.transform.parent.gameObject.tag == "Player1" } });
+    
+        if(other.gameObject.tag == "Seed" && requiresDraggingBall)
+        {
+            // change color of circle for feedback
+            onCrouch = true;
+        }
     }
 
-    IEnumerator GetNextTutorial()
+    void OnTriggerLeave(Collider other)
+    {
+        if (other.gameObject.tag == "Seed" && requiresDraggingBall)
+        {
+            // change color of circle for feedback
+            onCrouch = false;
+        }
+    }
+
+        IEnumerator GetNextTutorial()
     {
         yield return new WaitForSeconds(2f);
         EventManager.TriggerEvent("NextTutorial", gameObject);
