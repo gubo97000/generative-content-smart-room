@@ -251,7 +251,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!95 &147894437
 Animator:
   serializedVersion: 4
@@ -478,7 +478,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 8999676466967722699, guid: e619f3be749a74cd79d91e463976cb6c, type: 3}
+  - {fileID: -8559731736929697333, guid: e185b1a3120d247e3a701ae6a2710d8d, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6774,11 +6774,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   states:
-  - name: Touch
-    scripts:
-    - {fileID: 1893814827}
-    - {fileID: 1988724161}
-    - {fileID: 147894436}
   - name: Jump
     scripts:
     - {fileID: 1288014809}
@@ -6796,6 +6791,11 @@ MonoBehaviour:
     - {fileID: 1446560630}
     - {fileID: 819984838}
     - {fileID: 2116001000}
+  - name: Touch
+    scripts:
+    - {fileID: 1893814827}
+    - {fileID: 1988724161}
+    - {fileID: 147894436}
   - name: Touch Drag
     scripts:
     - {fileID: 1610268869}
@@ -12225,7 +12225,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1288014810
 RectTransform:
   m_ObjectHideFlags: 0
@@ -12974,7 +12974,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!136 &1473218936
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -13718,7 +13718,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 8999676466967722699, guid: d6cc35138982c4e4a9eb914f500ed441, type: 3}
+  - {fileID: 7237521821243343654, guid: 4d00d84bc97e34b68a2fb804dde5bcbf, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -16527,7 +16527,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!136 &1875865675
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -18540,7 +18540,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!54 &1893814828
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -18670,7 +18670,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!54 &1988724162
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -19265,7 +19265,7 @@ ParticleSystem:
     startLifetime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 2
+      scalar: 5
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -19372,7 +19372,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 1, g: 1, b: 1, a: 1}
+      maxColor: {r: 1, g: 0.68787664, b: 0.3160377, a: 0.02745098}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -23210,7 +23210,7 @@ ParticleSystem:
     widthOverTrail:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 1
+      scalar: 0
       minScalar: 1
       maxCurve:
         serializedVersion: 2
