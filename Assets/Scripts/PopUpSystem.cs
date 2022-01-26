@@ -31,8 +31,8 @@ public class PopUpSystem : MonoBehaviour
 
     void OnDestroy()
     {
-        EventManager.StartListening("OnHandRaise", OnHandRaise);
-        EventManager.StartListening("TriggerRaiseHand", OnTriggerRaiseHand);
+        EventManager.StopListening("OnHandRaise", OnHandRaise);
+        EventManager.StopListening("TriggerRaiseHand", OnTriggerRaiseHand);
     }
 
     public void PopUp(/*string text*/)

@@ -13,6 +13,8 @@ public class TutorialFloorGesture : MonoBehaviour
 
     public bool requiresDraggingBall;
 
+    private GameObject ball = null;
+
     // Start is called before the first frame update
     void Start()
     {    
@@ -49,6 +51,11 @@ public class TutorialFloorGesture : MonoBehaviour
         {
             animator.SetBool(isPlayer1 ? "check1" : "check2", true);
             Debug.Log(isPlayer1 ? "check1" : "check2");
+
+            if(ball != null)
+            {
+                Destroy(ball);
+            }
         }
     }
 
@@ -72,6 +79,7 @@ public class TutorialFloorGesture : MonoBehaviour
         {
             // change color of circle for feedback
             onCrouch = true;
+            ball = other.gameObject;
         }
 
         // Raise hand tutorial
@@ -87,6 +95,7 @@ public class TutorialFloorGesture : MonoBehaviour
         {
             // change color of circle for feedback
             onCrouch = false;
+            ball = null;
         }
 
         // Raise hand tutorial
