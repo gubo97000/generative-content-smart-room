@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Water_mat_01
+  m_Name: Water_mat_01 1
   m_Shader: {fileID: -6465566751694194690, guid: dd97de70edf8a4141bee758a2efe7ff8, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -60,8 +60,8 @@ Material:
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors:
-    - Color_36218622185947c6a5ae36366d8e21d8: {r: 0.15218925, g: 0.20937225, b: 0.3396225, a: 0.9607843}
-    - Color_93e06cd551a5449091bcde90b46765a0: {r: 0, g: 0.50980395, b: 0.42002845, a: 0.19607843}
+    - Color_36218622185947c6a5ae36366d8e21d8: {r: 0.5, g: 0, b: 0, a: 0.4745098}
+    - Color_93e06cd551a5449091bcde90b46765a0: {r: 1, g: 1, b: 0, a: 0.38431373}
     - Vector2_4351ac2be1d74054986ec5378db9d578: {r: 10, g: 10, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &831472330281027770
