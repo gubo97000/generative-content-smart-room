@@ -9,13 +9,14 @@ public class PopUpSystem : MonoBehaviour
     private Animator animator;
     public TMP_Text popUpText;
 
-    public bool isHandRaiseEnabled;
+    private bool isHandRaiseEnabled;
 
     void Start()
     {
         animator = GetComponent<Animator>();
 
         EventManager.StartListening("OnHandRaise", OnHandRaise);
+        EventManager.StartListening("TriggerRaiseHand", OnTriggerRaiseHand);
         PopUp();
     }
 
@@ -31,6 +32,7 @@ public class PopUpSystem : MonoBehaviour
     void OnDestroy()
     {
         EventManager.StartListening("OnHandRaise", OnHandRaise);
+        EventManager.StartListening("TriggerRaiseHand", OnTriggerRaiseHand);
     }
 
     public void PopUp(/*string text*/)
@@ -50,5 +52,10 @@ public class PopUpSystem : MonoBehaviour
     {
         yield return new WaitForSeconds(2f);
         EventManager.TriggerEvent("NextTutorial", gameObject);
+    }
+
+    void OnTriggerRaiseHand(EventDict dict)
+    {
+        isHandRaiseEnabled = !isHandRaiseEnabled;
     }
 }

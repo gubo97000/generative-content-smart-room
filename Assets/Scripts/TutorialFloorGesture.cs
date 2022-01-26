@@ -63,22 +63,36 @@ public class TutorialFloorGesture : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
+        // Jump tutorial
         if (other.gameObject.tag == "Jump" && other.gameObject.GetComponent<JumpCollider>().isInAir())
             EventManager.TriggerEvent("OnJumpLanding", gameObject, new EventDict() { { "isPlayer1", other.transform.parent.gameObject.tag == "Player1" } });
     
+        // Crouch-Drag tutorial
         if(other.gameObject.tag == "Seed" && requiresDraggingBall)
         {
             // change color of circle for feedback
             onCrouch = true;
         }
+
+        // Raise hand tutorial
+        if (!onCrouch && !onJump) {
+            EventManager.TriggerEvent("TriggerRaiseHand", gameObject);
+        }
     }
 
     void OnTriggerLeave(Collider other)
     {
+        // Crouch-Drag tutorial
         if (other.gameObject.tag == "Seed" && requiresDraggingBall)
         {
             // change color of circle for feedback
             onCrouch = false;
+        }
+
+        // Raise hand tutorial
+        if (!onCrouch && !onJump)
+        {
+            EventManager.TriggerEvent("TriggerRaiseHand", gameObject);
         }
     }
 
