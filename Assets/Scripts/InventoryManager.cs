@@ -111,10 +111,12 @@ public class InventoryManager : MonoBehaviour
 
             print("Item " + sender.name + " removed from " + player.name + " inventory");
             Debug.Log(prettyPrintToString(inventory));
-            EventManager.TriggerEvent("InventoryRemoveEvent", gameObject, new EventDict() { { "item", sender }, { "owner", player }, { "newTarget", dict["newTarget"] } });
+            //EventManager.TriggerEvent("InventoryRemoveEvent", gameObject, new EventDict() { { "item", sender }, { "owner", player }, { "newTarget", dict["newTarget"] } });
+
+            EventManager.TriggerEvent("FlyAway", gameObject, new EventDict() { { "receiver", sender } });
 
             //Decide if recollectable
-            sender.GetComponent<SphereCollider>().isTrigger = (bool)dict["isRecollectable"];
+            //sender.GetComponent<SphereCollider>().isTrigger = ((bool)dict["isRecollectable"] != null ? (bool)dict["isRecollectable"] : false);
         }
     }
 

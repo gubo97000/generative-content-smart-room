@@ -79,9 +79,24 @@ public class DayTimeManager : ObjectStateHandler
     void OnSwitchDay(EventDict dict = null)
     {
         CurrentState = "Day";
+        ResetInventories();
     }
+
     void OnSwitchNight(EventDict dict = null)
     {
         CurrentState = "Night";
+        ResetInventories();
+    }
+
+    void ResetInventories()
+    {
+        GameObject[] players = GameObject.FindGameObjectsWithTag("Player");
+        foreach (var p in players)
+        {
+            for (int i = 0; i < InventoryManager.instance.maxSize; i++)
+            {
+                EventManager.TriggerEvent("ItemUncollected", gameObject, new EventDict() { { "player", p } });
+            }
+        }
     }
 }
