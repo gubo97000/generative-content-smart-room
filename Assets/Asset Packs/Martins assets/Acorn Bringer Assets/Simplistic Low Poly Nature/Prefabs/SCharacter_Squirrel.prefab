@@ -1243,6 +1243,7 @@ GameObject:
   - component: {fileID: -1388194528265350741}
   - component: {fileID: 8318842680607418628}
   - component: {fileID: 3453727354018981195}
+  - component: {fileID: 791810919280307550}
   m_Layer: 0
   m_Name: SCharacter_Squirrel
   m_TagString: Untagged
@@ -1330,6 +1331,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76672562687c11142bd0fe60ec120aa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &791810919280307550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1745488152287196}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56d44ce37587c0d41a0f38f0f40fedcc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  newPath: {fileID: 0}
 --- !u!1 &1757227337845944
 GameObject:
   m_ObjectHideFlags: 0

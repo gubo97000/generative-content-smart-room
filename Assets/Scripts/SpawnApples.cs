@@ -2,16 +2,28 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SpawnApples : MonoBehaviour
+public class SpawnApples : Tree
 {
     public GameObject prefab;
     public int amount;
     private List<GameObject> instances = new List<GameObject>();
 
+    void Start()
+    {
+        EventManager.StartListening("ClearAppleTree", OnClearTree);
+    }
+
+    void OnDestroy()
+    {
+        EventManager.StopListening("ClearAppleTree", OnClearTree);
+    }
+
     void OnMouseDown()
     {
         if (instances.Count == 0)
         {
+            StartCoroutine(Shake());
+
             for (int i = 0; i < amount; i++)
             {
                 Vector3 position = transform.position;
@@ -25,5 +37,12 @@ public class SpawnApples : MonoBehaviour
             EventManager.TriggerEvent("SpawnBeavers", gameObject);
             Debug.Log("Apples fell from the apple tree");
         }
+    }
+
+    // Reset tree: now more apples can spawn
+    // TODO: do not show apples on tree until reset
+    void OnClearTree(EventDict dict)
+    {
+        instances.Clear();
     }
 }

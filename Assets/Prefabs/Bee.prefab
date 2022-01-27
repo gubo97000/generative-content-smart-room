@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6212425316183173550}
   m_Layer: 0
   m_Name: Bee
-  m_TagString: Untagged
+  m_TagString: Bee
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -50,9 +50,10 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  length: 4
+  startFromWaypoint: 0
   loop: 0
-  isFish: 0
-  isBee: 1
+  pathName: Bee Path
   moveSpeed: 3
 --- !u!1 &3202227977747053234
 GameObject:

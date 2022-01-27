@@ -41,6 +41,8 @@ public class SpawnFish : MonoBehaviour
         position.y = 1;
         position.z += point.transform.position.z;
 
-        Instantiate(prefab, position, Quaternion.identity);
+        GameObject instance = Instantiate(prefab, position, Quaternion.identity);
+
+        EventManager.TriggerEvent("SpawnFish", gameObject, new EventDict { { "sender", instance } });
     }
 }

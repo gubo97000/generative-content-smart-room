@@ -9,7 +9,6 @@ public class PondManager : ObjectStateHandler
     public float secondsToMoveWater = 2f;
     public float offset = 1.5f;
     public GameObject pond;
-    private Vector3 startPosition;
 
     //Set the states here, with the scripts attached for each state.
     private void Reset()
@@ -26,8 +25,6 @@ public class PondManager : ObjectStateHandler
     {
         base.Start();
         EventManager.StartListening("SwitchPondState", OnSwitchPondState);
-
-        startPosition = pond.transform.position;
     }
 
     void OnDestroy()
@@ -52,6 +49,7 @@ public class PondManager : ObjectStateHandler
 
     void MoveWaterLevel(float seconds)
     {
+        Vector3 startPosition = pond.transform.position;
         Vector3 finalPosition = startPosition;
         if (CurrentState == "Full")
         {

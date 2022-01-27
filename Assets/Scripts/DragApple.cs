@@ -11,6 +11,8 @@ public class DragApple : MonoBehaviour
 
     private float mZCoord;
 
+    public bool staysAfloat = false;
+
     void OnMouseDown()
     {
         mZCoord = Camera.main.WorldToScreenPoint(gameObject.transform.position).z;
@@ -44,6 +46,8 @@ public class DragApple : MonoBehaviour
     void OnMouseUp()
     {
         gameObject.tag = "Untagged";
+        if(staysAfloat)
+            GetComponent<Rigidbody>().isKinematic = true;
     }
 
     // This is to avoid colliding other apples while dragging one
