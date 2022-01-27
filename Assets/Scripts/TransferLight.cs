@@ -52,7 +52,8 @@ public class TransferLight : MonoBehaviour
             EventManager.TriggerEvent("FollowMe", gameObject, new EventDict() { { "receiver", item } });
 
             // Enable glow
-            transform.parent.GetComponent<Renderer>().material.EnableKeyword("_EMISSION");
+            //transform.parent.GetComponent<Renderer>().material.EnableKeyword("_EMISSION");
+            transform.parent.transform.Find("Light").Find("Directional Light (2)").gameObject.SetActive(true);
 
             Debug.Log("FollowMe");
         }
@@ -65,6 +66,7 @@ public class TransferLight : MonoBehaviour
         _slot = null;
 
         // Disable glow
-        transform.parent.GetComponent<Renderer>().material.DisableKeyword("_EMISSION");
+        //transform.parent.GetComponent<Renderer>().material.DisableKeyword("_EMISSION");
+        transform.parent.transform.Find("Light").Find("Directional Light (2)").gameObject.SetActive(false);
     }
 }
