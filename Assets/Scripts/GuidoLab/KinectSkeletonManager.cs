@@ -11,6 +11,10 @@ public class KinectSkeletonManager : MonoBehaviour
 
     public bool activateHandCloseEvents = false;
     public bool activateGestureEvents = false;
+
+    public bool activatePlayerGestures = false;
+
+    public bool keepStartingPosition = false;
     public Vector3Bool activeTrackAxis;
     public PlayerToFollow playerIdentifier = PlayerToFollow.Closest_player;
 
@@ -70,6 +74,9 @@ public class KinectSkeletonManager : MonoBehaviour
         //4) Apply filters for the axis
         // position = Vector3.Scale(position, axisFilter != null ? (Vector3)axisFilter : new Vector3(1, 1, 1));
         if (applyAxisFilter) position = Vector3.Scale(position, axis);
+        //Invert a Verctor3bool
+
+
         //5) return the computed position
         // Debug.Log("Position: " + position);
         return position;
@@ -79,6 +86,7 @@ public class KinectSkeletonManager : MonoBehaviour
     {
         if (skelPosition != null)
         {
+            Vector3 invertedAxis = new Vector3(Convert.ToSingle(!activeTrackAxis.X), Convert.ToSingle(!activeTrackAxis.Y), Convert.ToSingle(!activeTrackAxis.Z));
             foreach (var p in trackingSchema)
             {
                 Vector3 newposition;
@@ -113,7 +121,14 @@ public class KinectSkeletonManager : MonoBehaviour
                     default: newposition = Vector3.zero; break;
                 }
 
-                trackingSchema[p.Key].position = FixPosition(newposition, true);
+                if (keepStartingPosition)
+                {
+                    trackingSchema[p.Key].position = Vector3.Scale(trackingSchema[p.Key].position, invertedAxis) + FixPosition(newposition, true);
+                }
+                else
+                {
+                    trackingSchema[p.Key].position = FixPosition(newposition, true);
+                }
 
                 if (activateHandCloseEvents)
                 {
