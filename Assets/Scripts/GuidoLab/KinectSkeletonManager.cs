@@ -66,7 +66,7 @@ public class KinectSkeletonManager : MonoBehaviour
         position = Vector3.Scale(position, standardizedFloorSize);
         //3) Transform into the coordiantes in the game
         position = Vector3.Scale(position, interactiveArea.getScaleVector()) + interactiveArea.getOrinig();
-        position = Vector3.Scale(position, new Vector3(-1, -1, 1));
+        position = Vector3.Scale(position, new Vector3(-1, 1, -1));
         //4) Apply filters for the axis
         // position = Vector3.Scale(position, axisFilter != null ? (Vector3)axisFilter : new Vector3(1, 1, 1));
         if (applyAxisFilter) position = Vector3.Scale(position, axis);
