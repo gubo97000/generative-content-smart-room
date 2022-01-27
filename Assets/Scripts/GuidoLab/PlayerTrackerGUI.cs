@@ -9,9 +9,11 @@ public class PlayerTrackerGUI : Editor
 {
     private SerializedProperty activeTrackAxis;
     private SerializedProperty playerIdentifier;
+    private SerializedProperty keepStartingPosition;
     private SerializedProperty trackingSchema;
     private SerializedProperty activateHandEvents;
     private SerializedProperty activateGestureEvents;
+    private SerializedProperty activatePlayerGestures;
     private SerializedProperty interactiveArea;
     private SerializedProperty handAction;
     private SerializedProperty handAction2;
@@ -21,6 +23,8 @@ public class PlayerTrackerGUI : Editor
     {
         activateHandEvents = serializedObject.FindProperty("activateHandCloseEvents");
         activateGestureEvents = serializedObject.FindProperty("activateGestureEvents");
+        keepStartingPosition = serializedObject.FindProperty("keepStartingPosition");
+        activatePlayerGestures = serializedObject.FindProperty("activatePlayerGestures");
         activeTrackAxis = serializedObject.FindProperty("activeTrackAxis");
         playerIdentifier = serializedObject.FindProperty("playerIdentifier");
         trackingSchema = serializedObject.FindProperty("trackingSchema");
@@ -54,6 +58,8 @@ public class PlayerTrackerGUI : Editor
 
             EditorGUILayout.HelpBox("Remember to select the functions with DYNAMIC parameters (top half of the list of values)", MessageType.Warning);
         }
+        EditorGUILayout.PropertyField(activatePlayerGestures);
+        EditorGUILayout.PropertyField(keepStartingPosition);
         EditorGUILayout.PropertyField(activeTrackAxis);
         EditorGUILayout.PropertyField(playerIdentifier);
         EditorGUILayout.PropertyField(interactiveArea);

@@ -11,9 +11,7 @@ public class KinectSkeletonManager : MonoBehaviour
 
     public bool activateHandCloseEvents = false;
     public bool activateGestureEvents = false;
-
     public bool activatePlayerGestures = false;
-
     public bool keepStartingPosition = false;
     public Vector3Bool activeTrackAxis;
     public PlayerToFollow playerIdentifier = PlayerToFollow.Closest_player;
@@ -170,90 +168,94 @@ public class KinectSkeletonManager : MonoBehaviour
                     }*/
                 }
             }
-            // Crouch
-            Vector3 SpineBase = FixPosition(skelPosition.SpineBase);
-            Vector3 KneeLeft = FixPosition(skelPosition.KneeLeft);
-            Vector3 KneeRight = FixPosition(skelPosition.KneeRight);
-            Vector3 HandLeft = FixPosition(skelPosition.HandLeft);
-            Vector3 HandRight = FixPosition(skelPosition.HandRight);
-            if ((HandLeft.y < KneeLeft.y || HandRight.y < KneeRight.y))
+            if (activatePlayerGestures)
             {
-                // EventManager.TriggerEvent("OnCrouch", gameObject); // Deprecated, Is called on key press and on key release
-                if (!_activeCrouch)
+
+                // Crouch
+                Vector3 SpineBase = FixPosition(skelPosition.SpineBase);
+                Vector3 KneeLeft = FixPosition(skelPosition.KneeLeft);
+                Vector3 KneeRight = FixPosition(skelPosition.KneeRight);
+                Vector3 HandLeft = FixPosition(skelPosition.HandLeft);
+                Vector3 HandRight = FixPosition(skelPosition.HandRight);
+                if ((HandLeft.y < KneeLeft.y || HandRight.y < KneeRight.y))
                 {
-                    EventManager.TriggerEvent("OnCrouchStart", gameObject);
+                    // EventManager.TriggerEvent("OnCrouch", gameObject); // Deprecated, Is called on key press and on key release
+                    if (!_activeCrouch)
+                    {
+                        EventManager.TriggerEvent("OnCrouchStart", gameObject);
+                        EventManager.TriggerEvent("OnCrouch", gameObject);
+                        _activeCrouch = true;
+                    }
+                    Debug.Log("Crouch");
+                }
+                else if (_activeCrouch)
+                {
+                    EventManager.TriggerEvent("OnCrouchEnd", gameObject);
                     EventManager.TriggerEvent("OnCrouch", gameObject);
-                    _activeCrouch = true;
+                    _activeCrouch = false;
                 }
-                Debug.Log("Crouch");
-            }
-            else if (_activeCrouch)
-            {
-                EventManager.TriggerEvent("OnCrouchEnd", gameObject);
-                EventManager.TriggerEvent("OnCrouch", gameObject);
-                _activeCrouch = false;
-            }
 
-            // HandRaise
-            Vector3 Head = FixPosition(skelPosition.Head);
-            if ((Head.y < HandLeft.y && Head.y < HandRight.y))
-            {
-                if (!_activeHandRaise)
+                // HandRaise
+                Vector3 Head = FixPosition(skelPosition.Head);
+                if ((Head.y < HandLeft.y && Head.y < HandRight.y))
                 {
-                    EventManager.TriggerEvent("OnHandRaiseStart", gameObject);
+                    if (!_activeHandRaise)
+                    {
+                        EventManager.TriggerEvent("OnHandRaiseStart", gameObject);
+                        EventManager.TriggerEvent("OnHandRaise", gameObject);
+                        _activeHandRaise = true;
+                    }
+                    Debug.Log("HandRaise");
+                }
+                else if (_activeHandRaise)
+                {
+                    EventManager.TriggerEvent("OnHandRaiseEnd", gameObject);
                     EventManager.TriggerEvent("OnHandRaise", gameObject);
-                    _activeHandRaise = true;
+                    _activeHandRaise = false;
                 }
-                Debug.Log("HandRaise");
-            }
-            else if (_activeHandRaise)
-            {
-                EventManager.TriggerEvent("OnHandRaiseEnd", gameObject);
-                EventManager.TriggerEvent("OnHandRaise", gameObject);
-                _activeHandRaise = false;
-            }
 
-            // HandsForward
-            // Vector3 ElbowLeft = FixPosition(skelPosition.ElbowLeft);
-            // Vector3 ElbowRight = FixPosition(skelPosition.ElbowRight);
-            Vector3 ShoulderLeft = FixPosition(skelPosition.ShoulderLeft);
-            Vector3 ShoulderRight = FixPosition(skelPosition.ShoulderRight);
-            if ((Math.Abs(ShoulderLeft.y - HandLeft.y) < 0.2 && Math.Abs(ShoulderRight.y - HandRight.y) < 0.2) &&
-            (Math.Abs(ShoulderLeft.x - HandLeft.x) < 0.2 && Math.Abs(ShoulderRight.x - HandRight.x) < 0.2))
-            {
-                if (!_activeHandsForward)
+                // HandsForward
+                // Vector3 ElbowLeft = FixPosition(skelPosition.ElbowLeft);
+                // Vector3 ElbowRight = FixPosition(skelPosition.ElbowRight);
+                Vector3 ShoulderLeft = FixPosition(skelPosition.ShoulderLeft);
+                Vector3 ShoulderRight = FixPosition(skelPosition.ShoulderRight);
+                if ((Math.Abs(ShoulderLeft.y - HandLeft.y) < 0.2 && Math.Abs(ShoulderRight.y - HandRight.y) < 0.2) &&
+                (Math.Abs(ShoulderLeft.x - HandLeft.x) < 0.2 && Math.Abs(ShoulderRight.x - HandRight.x) < 0.2))
                 {
-                    EventManager.TriggerEvent("OnHandsForwardStart", gameObject);
+                    if (!_activeHandsForward)
+                    {
+                        EventManager.TriggerEvent("OnHandsForwardStart", gameObject);
+                        EventManager.TriggerEvent("OnHandsForward", gameObject);
+                        _activeHandsForward = true;
+                    }
+                    Debug.Log("HandsForward");
+                }
+                else if (_activeHandsForward)
+                {
+                    EventManager.TriggerEvent("OnHandsForwardEnd", gameObject);
                     EventManager.TriggerEvent("OnHandsForward", gameObject);
-                    _activeHandsForward = true;
+                    _activeHandsForward = false;
                 }
-                Debug.Log("HandsForward");
-            }
-            else if (_activeHandsForward)
-            {
-                EventManager.TriggerEvent("OnHandsForwardEnd", gameObject);
-                EventManager.TriggerEvent("OnHandsForward", gameObject);
-                _activeHandsForward = false;
-            }
 
-            // Jump
-            Vector3 FootLeft = FixPosition(skelPosition.FootLeft);
-            Vector3 FootRight = FixPosition(skelPosition.FootRight);
-            if ((FootLeft.y > 0.1f && FootRight.y > 0.1f))
-            {
-                if (!_activeJump)
+                // Jump
+                Vector3 FootLeft = FixPosition(skelPosition.FootLeft);
+                Vector3 FootRight = FixPosition(skelPosition.FootRight);
+                if ((FootLeft.y > 0.1f && FootRight.y > 0.1f))
                 {
-                    EventManager.TriggerEvent("OnJumpStart", gameObject);
-                    EventManager.TriggerEvent("OnJump", gameObject);
-                    _activeJump = true;
+                    if (!_activeJump)
+                    {
+                        EventManager.TriggerEvent("OnJumpStart", gameObject);
+                        EventManager.TriggerEvent("OnJump", gameObject);
+                        _activeJump = true;
+                    }
+                    Debug.Log("Jump");
                 }
-                Debug.Log("Jump");
-            }
-            else if (_activeJump)
-            {
-                EventManager.TriggerEvent("OnJumpEnd", gameObject);
-                EventManager.TriggerEvent("OnJump", gameObject);
-                _activeJump = false;
+                else if (_activeJump)
+                {
+                    EventManager.TriggerEvent("OnJumpEnd", gameObject);
+                    EventManager.TriggerEvent("OnJump", gameObject);
+                    _activeJump = false;
+                }
             }
 
 

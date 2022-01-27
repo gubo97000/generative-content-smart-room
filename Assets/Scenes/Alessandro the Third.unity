@@ -182,6 +182,8 @@ MonoBehaviour:
       m_Calls: []
   activateHandCloseEvents: 0
   activateGestureEvents: 0
+  activatePlayerGestures: 1
+  keepStartingPosition: 1
   activeTrackAxis:
     X: 1
     Y: 0
@@ -15342,9 +15344,11 @@ MonoBehaviour:
       m_Calls: []
   activateHandCloseEvents: 0
   activateGestureEvents: 0
+  activatePlayerGestures: 1
+  keepStartingPosition: 1
   activeTrackAxis:
     X: 1
-    Y: 1
+    Y: 0
     Z: 1
   playerIdentifier: 0
   trackingSchema:
@@ -25397,6 +25401,8 @@ MonoBehaviour:
       m_Calls: []
   activateHandCloseEvents: 0
   activateGestureEvents: 0
+  activatePlayerGestures: 0
+  keepStartingPosition: 1
   activeTrackAxis:
     X: 1
     Y: 1
