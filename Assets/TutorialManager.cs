@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 [ExecuteAlways]
 public class TutorialManager : ObjectStateHandler
@@ -82,7 +83,15 @@ public class TutorialManager : ObjectStateHandler
     void NextTutorial(EventDict dict = null)
     {
         _index++;
-        _index %= states.Length;
-        CurrentState = states[_index].name;
+
+        if (_index % states.Length == 0)
+        {
+            SceneManager.LoadScene(sceneBuildIndex: 3);
+        }
+        else
+        {
+            _index %= states.Length;
+            CurrentState = states[_index].name;
+        }
     }
 }

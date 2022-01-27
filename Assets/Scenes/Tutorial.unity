@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18733683, g: 0.17740548, b: 0.31002122, a: 1}
+  m_IndirectSpecularColor: {r: 0.1875351, g: 0.17764527, b: 0.31016532, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -12623,7 +12623,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe7b05fe970c6844c99c6902dbb8ccd3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animator: {fileID: 1288014812}
+  animator: {fileID: 1777124410}
   isPlayer1: 1
   onCrouch: 0
   onJump: 0
@@ -12885,7 +12885,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe7b05fe970c6844c99c6902dbb8ccd3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animator: {fileID: 1288014812}
+  animator: {fileID: 1777124410}
   isPlayer1: 0
   onCrouch: 0
   onJump: 0
@@ -23911,7 +23911,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2046654935}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e27a3713fdb4e974088f1c5160765f39, type: 3}
   m_Name: 

@@ -13,6 +13,8 @@ public class TutorialFloorGesture : MonoBehaviour
 
     public bool requiresDraggingBall;
 
+    private bool isHandRaiseEnabled = false;
+
     private GameObject ball = null;
 
     // Start is called before the first frame update
@@ -20,6 +22,7 @@ public class TutorialFloorGesture : MonoBehaviour
     {    
         EventManager.StartListening("OnCrouch", OnCrouchHandler);
         EventManager.StartListening("OnJumpLanding", OnJumpHandler);
+        EventManager.StartListening("OnHandRaise", OnHandRaise);
 
         if (requiresDraggingBall)
             onCrouch = false;
@@ -29,18 +32,37 @@ public class TutorialFloorGesture : MonoBehaviour
     {
         EventManager.StopListening("OnCrouch", OnCrouchHandler);
         EventManager.StopListening("OnJumpLanding", OnJumpHandler);
+        EventManager.StopListening("OnHandRaise", OnHandRaise);
     }
 
     // Update is called once per frame
     void Update()
     {
+        // Check if tutorial step completed
         if (animator.GetBool("check1") == true && animator.GetBool("check2") == true)
         {
             animator.SetTrigger("close");
             StartCoroutine(GetNextTutorial());
         }
-    }
 
+        // Used in Raise Hand tutorial, to check if player is inside circle
+        if (!onCrouch && !onJump)
+        {
+            Collider[] thingsInBounds = Physics.OverlapSphere(transform.position, transform.localScale.x / 2);
+            
+            // If player1 (2) is inside, then enable raise hand
+            foreach (Collider thing in thingsInBounds)
+            {
+                if (thing.tag == (isPlayer1 ? "Player1" : "Player2"))
+                {
+                    isHandRaiseEnabled = true;
+                    break;
+                }
+                isHandRaiseEnabled = false;
+            }
+        }
+    }
+     
     void OnCrouchHandler(EventDict dict)
     {
         GameObject sender = (GameObject)dict["sender"];
@@ -83,9 +105,10 @@ public class TutorialFloorGesture : MonoBehaviour
         }
 
         // Raise hand tutorial
-        if (!onCrouch && !onJump) {
-            EventManager.TriggerEvent("TriggerRaiseHand", gameObject);
-        }
+        //if (!onCrouch && !onJump && other.transform.parent.gameObject.tag == (isPlayer1 ? "Player1" : "Player2"))
+        //{
+        //    isHandRaiseEnabled = true;
+        //}
     }
 
     void OnTriggerLeave(Collider other)
@@ -99,10 +122,10 @@ public class TutorialFloorGesture : MonoBehaviour
         }
 
         // Raise hand tutorial
-        if (!onCrouch && !onJump)
-        {
-            EventManager.TriggerEvent("TriggerRaiseHand", gameObject);
-        }
+        //if (!onCrouch && !onJump && other.transform.parent.gameObject.tag == (isPlayer1 ? "Player1" : "Player2"))
+        //{
+        //    isHandRaiseEnabled = false;
+        //}
     }
 
     IEnumerator GetNextTutorial()
@@ -110,4 +133,11 @@ public class TutorialFloorGesture : MonoBehaviour
         yield return new WaitForSeconds(2f);
         EventManager.TriggerEvent("NextTutorial", gameObject);
     }
+
+    void OnHandRaise(EventDict dict)
+    {
+        if (isHandRaiseEnabled)
+            animator.SetBool(((GameObject)dict["sender"]).tag == "Player1" ? "check1" : "check2", true);
+    }
+
 }
