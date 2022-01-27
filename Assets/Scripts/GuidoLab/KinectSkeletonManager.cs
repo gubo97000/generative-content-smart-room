@@ -204,7 +204,7 @@ public class KinectSkeletonManager : MonoBehaviour
             Vector3 ShoulderLeft = FixPosition(skelPosition.ShoulderLeft);
             Vector3 ShoulderRight = FixPosition(skelPosition.ShoulderRight);
             if ((Math.Abs(ShoulderLeft.y - HandLeft.y) < 0.2 && Math.Abs(ShoulderRight.y - HandRight.y) < 0.2) &&
-            (Math.Abs(ShoulderLeft.z - HandLeft.z) < 0.2 && Math.Abs(ShoulderRight.z - HandRight.z) < 0.2))
+            (Math.Abs(ShoulderLeft.x - HandLeft.x) < 0.2 && Math.Abs(ShoulderRight.x - HandRight.x) < 0.2))
             {
                 if (!_activeHandsForward)
                 {

@@ -15344,18 +15344,18 @@ MonoBehaviour:
   activateGestureEvents: 0
   activeTrackAxis:
     X: 1
-    Y: 0
+    Y: 1
     Z: 1
-  playerIdentifier: 3
+  playerIdentifier: 0
   trackingSchema:
-    _Buckets: ffffffffffffffff00000000
-    _HashCodes: 110000000000000000000000
+    _Buckets: ffffffff00000000ffffffff
+    _HashCodes: 130000000000000000000000
     _Next: ffffffff0000000000000000
     _Count: 1
-    _Version: 7
+    _Version: 11
     _FreeList: -1
     _FreeCount: 0
-    _Keys: 110000000000000000000000
+    _Keys: 130000000000000000000000
     _Values:
     - {fileID: 316100243}
     - {fileID: 0}
@@ -25401,7 +25401,7 @@ MonoBehaviour:
     X: 1
     Y: 1
     Z: 0
-  playerIdentifier: 3
+  playerIdentifier: 0
   trackingSchema:
     _Buckets: ffffffff00000000ffffffff
     _HashCodes: 040000000000000000000000
