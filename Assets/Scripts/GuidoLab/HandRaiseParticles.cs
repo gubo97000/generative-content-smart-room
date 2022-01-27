@@ -60,8 +60,8 @@ public class HandRaiseParticles : MonoBehaviour
     // Start particles
     void OnHandRaiseStartHandler(EventDict dict)
     {
-        GameObject smartLight = GameObject.Find("SmartLightManager");
-        smartLight.GetComponent<MagicRoomLightManager>().SendColor("green");
+        // GameObject smartLight = GameObject.Find("SmartLightManager");
+        // smartLight.GetComponent<MagicRoomLightManager>().SendColor("green");
 
         var sender = dict["sender"] as GameObject;
         if (sender == this.transform.parent.gameObject && !isRecovering)

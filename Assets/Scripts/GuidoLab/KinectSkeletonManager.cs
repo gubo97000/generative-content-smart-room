@@ -66,6 +66,7 @@ public class KinectSkeletonManager : MonoBehaviour
         position = Vector3.Scale(position, standardizedFloorSize);
         //3) Transform into the coordiantes in the game
         position = Vector3.Scale(position, interactiveArea.getScaleVector()) + interactiveArea.getOrinig();
+        position = Vector3.Scale(position, new Vector3(-1, -1, 1));
         //4) Apply filters for the axis
         // position = Vector3.Scale(position, axisFilter != null ? (Vector3)axisFilter : new Vector3(1, 1, 1));
         if (applyAxisFilter) position = Vector3.Scale(position, axis);
@@ -158,7 +159,9 @@ public class KinectSkeletonManager : MonoBehaviour
             Vector3 SpineBase = FixPosition(skelPosition.SpineBase);
             Vector3 KneeLeft = FixPosition(skelPosition.KneeLeft);
             Vector3 KneeRight = FixPosition(skelPosition.KneeRight);
-            if ((SpineBase.y < KneeLeft.y || SpineBase.y < KneeRight.y))
+            Vector3 HandLeft = FixPosition(skelPosition.HandLeft);
+            Vector3 HandRight = FixPosition(skelPosition.HandRight);
+            if ((HandLeft.y < KneeLeft.y || HandRight.y < KneeRight.y))
             {
                 // EventManager.TriggerEvent("OnCrouch", gameObject); // Deprecated, Is called on key press and on key release
                 if (!_activeCrouch)
@@ -177,8 +180,6 @@ public class KinectSkeletonManager : MonoBehaviour
             }
 
             // HandRaise
-            Vector3 HandLeft = FixPosition(skelPosition.HandLeft);
-            Vector3 HandRight = FixPosition(skelPosition.HandRight);
             Vector3 Head = FixPosition(skelPosition.Head);
             if ((Head.y < HandLeft.y && Head.y < HandRight.y))
             {
