@@ -29,7 +29,8 @@ public class InventoryManager : MonoBehaviour
 {
     //Create a dictionary 
     public static DefaultDictionary<GameObject, HashSet<GameObject>> inventory = new DefaultDictionary<GameObject, HashSet<GameObject>>(() => new HashSet<GameObject>());
-
+    public int maxSize = 3;
+    
     private static InventoryManager inventoryManager;
 
     public static InventoryManager instance
@@ -84,11 +85,18 @@ public class InventoryManager : MonoBehaviour
 
         if (!inventory[player].Contains(sender))
         {
-            inventory[player].Add(sender);
+            if (inventory[player].Count < maxSize)
+            {
+                inventory[player].Add(sender);
 
-            print("Item " + sender.name + " added to " + player.name + " inventory");
-            Debug.Log(prettyPrintToString(inventory));
-            EventManager.TriggerEvent("InventoryAddEvent", gameObject, new EventDict() { { "item", sender }, { "owner", player } });
+                print("Item " + sender.name + " added to " + player.name + " inventory");
+                Debug.Log(prettyPrintToString(inventory));
+                EventManager.TriggerEvent("InventoryAddEvent", gameObject, new EventDict() { { "item", sender }, { "owner", player } });
+            }
+            else
+            {
+                EventManager.TriggerEvent("FlyAway", gameObject, new EventDict() { { "receiver", sender } });
+            }
         }
     }
 
