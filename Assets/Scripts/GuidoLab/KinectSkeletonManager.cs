@@ -29,6 +29,7 @@ public class KinectSkeletonManager : MonoBehaviour
     private bool _activeCrouch = false;
     private bool _activeHandRaise = false;
     private bool _activeJump = false;
+    private bool _activeHandsForward = false;
 
     private void Start()
     {
@@ -194,6 +195,29 @@ public class KinectSkeletonManager : MonoBehaviour
                 EventManager.TriggerEvent("OnHandRaiseEnd", gameObject);
                 EventManager.TriggerEvent("OnHandRaise", gameObject);
                 _activeHandRaise = false;
+            }
+
+            // HandsForward
+            // Vector3 ElbowLeft = FixPosition(skelPosition.ElbowLeft);
+            // Vector3 ElbowRight = FixPosition(skelPosition.ElbowRight);
+            Vector3 ShoulderLeft = FixPosition(skelPosition.ShoulderLeft);
+            Vector3 ShoulderRight = FixPosition(skelPosition.ShoulderRight);
+            if ((Math.Abs(ShoulderLeft.y - HandLeft.y) < 0.2 && Math.Abs(ShoulderRight.y - HandRight.y) < 0.2) &&
+            (Math.Abs(ShoulderLeft.z - HandLeft.z) < 0.2 && Math.Abs(ShoulderRight.z - HandRight.z) < 0.2))
+            {
+                if (!_activeHandsForward)
+                {
+                    EventManager.TriggerEvent("OnHandsForwardStart", gameObject);
+                    EventManager.TriggerEvent("OnHandsForward", gameObject);
+                    _activeHandsForward = true;
+                }
+                Debug.Log("HandsForward");
+            }
+            else if (_activeHandsForward)
+            {
+                EventManager.TriggerEvent("OnHandsForwardEnd", gameObject);
+                EventManager.TriggerEvent("OnHandsForward", gameObject);
+                _activeHandsForward = false;
             }
 
             // Jump

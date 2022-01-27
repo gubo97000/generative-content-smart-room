@@ -58,9 +58,16 @@ public class DemoInputs : MonoBehaviour
 
     public void OnHandRaise(InputValue value)
     {
-        HandRaiseInput(value.isPressed);
+        // HandRaiseInput(value.isPressed);
         EventManager.TriggerEvent("OnHandRaise", gameObject); // Deprecated, Is called on key press and on key release
         EventManager.TriggerEvent(value.isPressed ? "OnHandRaiseStart" : "OnHandRaiseEnd", gameObject);
+    }
+
+    public void OnHandsForward(InputValue value)
+    {
+        // HandsForwardInput(value.isPressed);
+        EventManager.TriggerEvent("OnHandsForward", gameObject); // Deprecated, Is called on key press and on key release
+        EventManager.TriggerEvent(value.isPressed ? "OnHandsForwardStart" : "OnHandsForwardEnd", gameObject);
     }
 
     public void OnPanicButton(InputValue value)
@@ -92,11 +99,11 @@ public class DemoInputs : MonoBehaviour
         crouch = newCrouchState;
         print("Crouch");
     }
-    public void HandRaiseInput(bool newCrouchState)
-    {
-        crouch = newCrouchState;
-        print("HandRaise");
-    }
+    // public void HandRaiseInput(bool newCrouchState)
+    // {
+    //     crouch = newCrouchState;
+    //     print("HandRaise");
+    // }
 
 
     public void SprintInput(bool newSprintState)
