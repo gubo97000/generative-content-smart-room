@@ -51,6 +51,7 @@ public class KinectSkeletonManager : MonoBehaviour
         }
         HandStateRight = new StringEvent();
         HandStateLeft = new StringEvent();
+        if (activatePlayerGestures) HandStateRight.AddListener(RightHandHandler);
     }
 
     /// <summary>
@@ -79,7 +80,30 @@ public class KinectSkeletonManager : MonoBehaviour
         // Debug.Log("Position: " + position);
         return position;
     }
-
+    private void RightHandHandler(string state)
+    {
+        Debug.Log("Right Hand: " + state);
+        if (state == "RIGHTHAND_OPEN")
+        {
+            if (_activeHandsForward)
+            {
+                EventManager.TriggerEvent("OnHandsForwardEnd", gameObject);
+                EventManager.TriggerEvent("OnHandsForward", gameObject);
+                _activeHandsForward = false;
+            }
+        }
+        else if (state == "RIGHTHAND_CLOSE")
+        {
+            Debug.Log("Right Hand Close");
+            if (!_activeHandsForward)
+            {
+                EventManager.TriggerEvent("OnHandsForwardStart", gameObject);
+                EventManager.TriggerEvent("OnHandsForward", gameObject);
+                _activeHandsForward = true;
+            }
+            Debug.Log("HandsForward");
+        }
+    }
     private void Update()
     {
         if (skelPosition != null)
@@ -159,7 +183,7 @@ public class KinectSkeletonManager : MonoBehaviour
                     {
                         //hand.Add(PartToTrack.RightHand, false);
                         HandStateRight?.Invoke("RIGHTHAND_CLOSE");
-                        rightHandState = true;
+                        rightHandState = false;
                         //haschangehappened = true;
                     }
                     /*if (haschangehappened)
