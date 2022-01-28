@@ -23,6 +23,15 @@ public class GrassSpawner : MonoBehaviour
         {
             prefabs[kvp.state] = kvp.prefab;
         }
+
+        if (DayTimeManager.instance.CurrentState == "Day")
+        {
+            DaySwitch();
+        }
+        else if (DayTimeManager.instance.CurrentState == "Night")
+        {
+            NightSwitch();
+        }
     }
     
     void Start()
