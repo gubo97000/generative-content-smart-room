@@ -183,7 +183,21 @@ public class KinectSkeletonManager : MonoBehaviour
                     {
                         //hand.Add(PartToTrack.RightHand, false);
                         HandStateRight?.Invoke("RIGHTHAND_CLOSE");
-                        rightHandState = false;
+                        rightHandState = true;
+                        //haschangehappened = true;
+                    }
+                    if (!skelPosition.IsRightHandClosed())
+                    {
+                        //hand.Add(PartToTrack.RightHand, true);
+                        // rightHandState = true;
+                        HandStateRight?.Invoke("RIGHTHAND_OPEN");
+                        //haschangehappened = true;
+                    }
+                    if (skelPosition.IsRightHandClosed())
+                    {
+                        //hand.Add(PartToTrack.RightHand, false);
+                        HandStateRight?.Invoke("RIGHTHAND_CLOSE");
+                        // rightHandState = true;
                         //haschangehappened = true;
                     }
                     /*if (haschangehappened)
