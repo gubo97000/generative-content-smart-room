@@ -24949,15 +24949,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   states:
-  - name: Oak
-    scripts:
-    - {fileID: 1954631407}
   - name: Apple
     scripts:
     - {fileID: 1328658727}
     - {fileID: 687852871}
     - {fileID: 1181695332}
     - {fileID: 1773604964}
+  - name: Oak
+    scripts:
+    - {fileID: 1954631407}
   - name: Honey
     scripts:
     - {fileID: 1202113391}
@@ -31580,7 +31580,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!64 &687852872
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -41663,6 +41663,14 @@ PrefabInstance:
       value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 880970725214738984, guid: c60edd51c065ceb46b345849a03bc106, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 880970725214738984, guid: c60edd51c065ceb46b345849a03bc106, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 880970725214738984, guid: c60edd51c065ceb46b345849a03bc106, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.7231297
       objectReference: {fileID: 0}
@@ -41728,7 +41736,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6941765000743290380, guid: c60edd51c065ceb46b345849a03bc106, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7747525108644962689, guid: c60edd51c065ceb46b345849a03bc106, type: 3}
       propertyPath: m_Layer
@@ -52096,7 +52104,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!64 &1181695333
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -83217,7 +83225,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!64 &1773604965
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -90706,7 +90714,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1954631408
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -90815,7 +90823,7 @@ Transform:
   m_GameObject: {fileID: 1954631407}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.739, y: 0.99, z: -4.2909}
-  m_LocalScale: {x: 1.84224, y: 1.2, z: 1.2702}
+  m_LocalScale: {x: 1.84224, y: 1.4, z: 1.2702}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
