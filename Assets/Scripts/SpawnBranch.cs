@@ -19,9 +19,10 @@ public class SpawnBranch : Tree
         position.y += Random.Range(5 * yOffsetMin, 5 * yOffsetMax) / 5;
         position.z += Random.Range(5 * zOffsetMin, 5 * zOffsetMax) / 5;
 
+        StartCoroutine(Shake());
+        
         if (instance == null)
         {
-            StartCoroutine(Shake());
             instance = Instantiate(prefab, position, Quaternion.Euler(new Vector3(Random.Range(0, 360), Random.Range(0, 360), Random.Range(0, 360))));
         }
     }

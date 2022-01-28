@@ -20,10 +20,10 @@ public class SpawnApples : Tree
 
     void OnMouseDown()
     {
+        StartCoroutine(Shake());
+        
         if (instances.Count == 0)
         {
-            StartCoroutine(Shake());
-
             for (int i = 0; i < amount; i++)
             {
                 Vector3 position = transform.position;
