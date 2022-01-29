@@ -13,12 +13,14 @@ public class Drown : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        EventManager.StartListening("SwitchPondState", OnSwitchPondState);
+        EventManager.StartListening("WaterPond", OnSwitchPondState);
+        EventManager.StartListening("EmptyPond", OnSwitchPondState);
     }
 
     void OnDestroy()
     {
-        EventManager.StopListening("SwitchPondState", OnSwitchPondState);
+        EventManager.StopListening("WaterPond", OnSwitchPondState);
+        EventManager.StopListening("EmptyPond", OnSwitchPondState);
     }
 
     void OnSwitchPondState(EventDict dict)

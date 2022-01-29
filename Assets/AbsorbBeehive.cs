@@ -8,6 +8,7 @@ public class AbsorbBeehive : MonoBehaviour
     {
         if(other.gameObject.tag == "Beehive")
         {
+            EventManager.TriggerEvent("HoneyPond", gameObject);
             EventManager.TriggerEvent("ResetBeehive", gameObject);
             Destroy(other.gameObject);
         }

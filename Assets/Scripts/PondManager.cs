@@ -5,10 +5,10 @@ using UnityEngine;
 [ExecuteAlways]
 public class PondManager : ObjectStateHandler
 {
-    private int _index = 0;
     public float secondsToMoveWater = 2f;
     public float offset = 1.5f;
     public GameObject pond;
+    public GameObject honeyPond;
 
     //Set the states here, with the scripts attached for each state.
     private void Reset()
@@ -16,7 +16,8 @@ public class PondManager : ObjectStateHandler
         states = new State[]
         {
     new State("Full"),
-    new State("Empty")
+    new State("Empty"),
+    new State("Honey")
         };
     }
 
@@ -24,27 +25,56 @@ public class PondManager : ObjectStateHandler
     protected override void Start()
     {
         base.Start();
-        EventManager.StartListening("SwitchPondState", OnSwitchPondState);
+        EventManager.StartListening("EmptyPond", EmptyPond);
+        EventManager.StartListening("WaterPond", WaterPond);
+        EventManager.StartListening("HoneyPond", HoneyPond);
     }
 
     void OnDestroy()
     {
-        EventManager.StopListening("SwitchPondState", OnSwitchPondState);
+        EventManager.StopListening("EmptyPond", EmptyPond);
+        EventManager.StopListening("WaterPond", WaterPond);
+        EventManager.StopListening("HoneyPond", HoneyPond);
 
         // Restores pond level
-        if (CurrentState == "Empty")
+        if (CurrentState != "Full")
         {
             MoveWaterLevel(0);
         }
+
+        if (CurrentState == "Honey")
+        {
+            MoveHoneyLevel(0);
+        }
     }
 
-    void OnSwitchPondState(EventDict dict)
+    void EmptyPond(EventDict dict)
     {
         MoveWaterLevel(secondsToMoveWater);
 
-        _index++;
-        _index %= states.Length;
-        CurrentState = states[_index].name;
+        CurrentState = "Empty";
+    }
+    
+    void WaterPond(EventDict dict)
+    {
+        if (CurrentState == "Honey")
+        {
+            MoveHoneyLevel(secondsToMoveWater);
+        }
+
+        MoveWaterLevel(secondsToMoveWater);
+
+        CurrentState = "Full";
+    }
+
+    void HoneyPond(EventDict dict)
+    {
+        if (CurrentState == "Empty")
+        {
+            MoveHoneyLevel(secondsToMoveWater);
+
+            CurrentState = "Honey";
+        }
     }
 
     void MoveWaterLevel(float seconds)
@@ -55,11 +85,26 @@ public class PondManager : ObjectStateHandler
         {
             finalPosition.y -= offset;
         }
-        else if(CurrentState == "Empty")
+        else
         {
             finalPosition.y += offset;
         }
         StartCoroutine(MoveOverSeconds(pond, startPosition, finalPosition, seconds));
+    }
+
+    void MoveHoneyLevel(float seconds)
+    {
+        Vector3 startPosition = honeyPond.transform.position;
+        Vector3 finalPosition = startPosition;
+        if (CurrentState == "Honey")
+        {
+            finalPosition.y -= offset / 2;
+        }
+        else
+        {
+            finalPosition.y += offset / 2;
+        }
+        StartCoroutine(MoveOverSeconds(honeyPond, startPosition, finalPosition, seconds));
     }
 
     public IEnumerator MoveOverSeconds(GameObject objectToMove, Vector3 start, Vector3 end, float seconds)
