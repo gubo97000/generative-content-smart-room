@@ -34,7 +34,11 @@ public class DropBeehive : Tree
         if(beeCounter >= requiredBeesToTrigger)
         {
             // Stop shaking every second
-            StopCoroutine(lastRoutine);
+            if (lastRoutine != null)
+            {
+                StopCoroutine(lastRoutine);
+                lastRoutine = null;
+            }
 
             beehive.SetActive(false);
 

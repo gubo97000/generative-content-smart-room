@@ -17,6 +17,7 @@ TagManager:
   - Box
   - Player1
   - Player2
+  - Beehive
   layers:
   - Default
   - TransparentFX
