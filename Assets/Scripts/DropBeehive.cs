@@ -2,8 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DropBeehive : MonoBehaviour
+public class DropBeehive : Tree
 {
+    public GameObject beehive;
     public GameObject prefab;
     public int requiredBeesToTrigger = 3;
     public GameObject[] beehivePathPoints;
@@ -15,20 +16,25 @@ public class DropBeehive : MonoBehaviour
     {
         EventManager.StartListening("BeeEnteredHoneyTree", OnBeeEntered);
         EventManager.StartListening("EndOfPath", OnFollowThePathEnded);
+        EventManager.StartListening("ResetBeehive", ResetBeehive);
     }
 
     void OnDestroy()
     {
         EventManager.StopListening("BeeEnteredHoneyTree", OnBeeEntered);
         EventManager.StopListening("EndOfPath", OnFollowThePathEnded);
+        EventManager.StopListening("ResetBeehive", ResetBeehive);
     }
 
     void OnBeeEntered(EventDict dict)
     {
         beeCounter += 1;
+        StartCoroutine(Shake());
 
         if(beeCounter >= requiredBeesToTrigger)
         {
+            beehive.SetActive(false);
+
             Vector3 position = transform.position;
             position.x += Random.Range(-4, 4) / 5;
             position.y += 2.5f;
@@ -50,5 +56,10 @@ public class DropBeehive : MonoBehaviour
         {
             EventManager.TriggerEvent("BeeEnteredHoneyTree", gameObject);
         }
+    }
+
+    void ResetBeehive(EventDict dict)
+    {
+        beehive.SetActive(true);
     }
 }
