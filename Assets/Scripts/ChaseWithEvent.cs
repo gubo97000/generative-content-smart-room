@@ -31,7 +31,7 @@ public class ChaseWithEvent : MonoBehaviour
         if ((dict["receiver"] as GameObject) == gameObject)
         {
             var go = new GameObject();
-            go.transform.position = new Vector3(1000,1000,1000);
+            go.transform.position = new Vector3(3,100,-100);
             target = go;
         }
     }
