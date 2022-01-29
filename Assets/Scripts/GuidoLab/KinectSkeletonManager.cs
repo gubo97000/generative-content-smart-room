@@ -255,25 +255,25 @@ public class KinectSkeletonManager : MonoBehaviour
                 // HandsForward
                 // Vector3 ElbowLeft = FixPosition(skelPosition.ElbowLeft);
                 // Vector3 ElbowRight = FixPosition(skelPosition.ElbowRight);
-                Vector3 ShoulderLeft = FixPosition(skelPosition.ShoulderLeft);
-                Vector3 ShoulderRight = FixPosition(skelPosition.ShoulderRight);
-                if ((Math.Abs(ShoulderLeft.y - HandLeft.y) < 0.2 && Math.Abs(ShoulderRight.y - HandRight.y) < 0.2) &&
-                (Math.Abs(ShoulderLeft.x - HandLeft.x) < 0.2 && Math.Abs(ShoulderRight.x - HandRight.x) < 0.2))
-                {
-                    if (!_activeHandsForward)
-                    {
-                        EventManager.TriggerEvent("OnHandsForwardStart", gameObject);
-                        EventManager.TriggerEvent("OnHandsForward", gameObject);
-                        _activeHandsForward = true;
-                    }
-                    Debug.Log("HandsForward");
-                }
-                else if (_activeHandsForward)
-                {
-                    EventManager.TriggerEvent("OnHandsForwardEnd", gameObject);
-                    EventManager.TriggerEvent("OnHandsForward", gameObject);
-                    _activeHandsForward = false;
-                }
+                // Vector3 ShoulderLeft = FixPosition(skelPosition.ShoulderLeft);
+                // Vector3 ShoulderRight = FixPosition(skelPosition.ShoulderRight);
+                // if ((Math.Abs(ShoulderLeft.y - HandLeft.y) < 0.2 && Math.Abs(ShoulderRight.y - HandRight.y) < 0.2) &&
+                // (Math.Abs(ShoulderLeft.x - HandLeft.x) < 0.2 && Math.Abs(ShoulderRight.x - HandRight.x) < 0.2))
+                // {
+                //     if (!_activeHandsForward)
+                //     {
+                //         EventManager.TriggerEvent("OnHandsForwardStart", gameObject);
+                //         EventManager.TriggerEvent("OnHandsForward", gameObject);
+                //         _activeHandsForward = true;
+                //     }
+                //     Debug.Log("HandsForward");
+                // }
+                // else if (_activeHandsForward)
+                // {
+                //     EventManager.TriggerEvent("OnHandsForwardEnd", gameObject);
+                //     EventManager.TriggerEvent("OnHandsForward", gameObject);
+                //     _activeHandsForward = false;
+                // }
 
                 // Jump
                 Vector3 FootLeft = FixPosition(skelPosition.FootLeft);
@@ -308,6 +308,11 @@ public class KinectSkeletonManager : MonoBehaviour
                 }
             }
         }
+    }
+
+    public void OnChangeKinectPlayerId(ulong id)
+    {
+        playerIdentifier = (PlayerToFollow)id;
     }
 
     private void ManageSkeleton(Dictionary<ulong, Skeleton> skel)
