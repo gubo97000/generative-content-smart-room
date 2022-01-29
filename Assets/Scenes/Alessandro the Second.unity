@@ -32457,6 +32457,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 698823086}
   m_Mesh: {fileID: -2349749667616923659, guid: cad97634738554ee99948169c4c0e3ec, type: 3}
+--- !u!1 &699801109 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5778332464476757240, guid: c72f3f8a9daab2442b7dd148c087d333, type: 3}
+  m_PrefabInstance: {fileID: 483305141}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &699941969
 GameObject:
   m_ObjectHideFlags: 0
@@ -44605,6 +44610,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &980141099 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5778332464476757240, guid: c72f3f8a9daab2442b7dd148c087d333, type: 3}
+  m_PrefabInstance: {fileID: 2052622198}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &981910313
 GameObject:
   m_ObjectHideFlags: 0
@@ -65196,11 +65206,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mushrooms:
-  - {fileID: 2147024322}
-  - {fileID: 1272038982}
-  - {fileID: 1966992328}
-  - {fileID: 2094896404}
-  - {fileID: 2088669769}
+  - {fileID: 1954925484}
+  - {fileID: 1474039156}
+  - {fileID: 1561949065}
+  - {fileID: 980141099}
+  - {fileID: 699801109}
   prefab: {fileID: 100116, guid: 35667ca8b02a79046a22615d56cf1e1d, type: 3}
 --- !u!4 &1358905020
 Transform:
@@ -70553,6 +70563,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1473554315}
   m_Mesh: {fileID: -2349749667616923659, guid: cad97634738554ee99948169c4c0e3ec, type: 3}
+--- !u!1 &1474039156 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5778332464476757240, guid: c72f3f8a9daab2442b7dd148c087d333, type: 3}
+  m_PrefabInstance: {fileID: 2101346629}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1476758821
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -73906,6 +73921,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1241f5183481c4aafa9ba90708b197c2, type: 3}
+--- !u!1 &1561949065 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5778332464476757240, guid: c72f3f8a9daab2442b7dd148c087d333, type: 3}
+  m_PrefabInstance: {fileID: 264362297}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1564161625 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -91029,6 +91049,11 @@ MonoBehaviour:
   minDistance: 1
   leanAngle: 20
   inverted: 0
+--- !u!1 &1954925484 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5778332464476757240, guid: c72f3f8a9daab2442b7dd148c087d333, type: 3}
+  m_PrefabInstance: {fileID: 349367126}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1956218771
 PrefabInstance:
   m_ObjectHideFlags: 0
