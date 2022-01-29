@@ -10,6 +10,7 @@ public class DropBeehive : Tree
     public GameObject[] beehivePathPoints;
 
     private int beeCounter = 0;
+    private Coroutine lastRoutine = null;
 
     // Start is called before the first frame update
     void Start()
@@ -29,10 +30,12 @@ public class DropBeehive : Tree
     void OnBeeEntered(EventDict dict)
     {
         beeCounter += 1;
-        StartCoroutine(Shake());
 
         if(beeCounter >= requiredBeesToTrigger)
         {
+            // Stop shaking every second
+            StopCoroutine(lastRoutine);
+
             beehive.SetActive(false);
 
             Vector3 position = transform.position;
@@ -47,7 +50,13 @@ public class DropBeehive : Tree
             beeCounter = 0;
 
             Debug.Log("A beehive fell from the honey tree");
+        } else if(beeCounter == requiredBeesToTrigger - 1)
+        {
+            lastRoutine = StartCoroutine(KeepShaking());
         }
+
+        StartCoroutine(Shake());
+
     }
 
     void OnFollowThePathEnded(EventDict dict)
@@ -61,5 +70,14 @@ public class DropBeehive : Tree
     void ResetBeehive(EventDict dict)
     {
         beehive.SetActive(true);
+    }
+
+    IEnumerator KeepShaking()
+    {
+        while (true)
+        {
+            yield return new WaitForSeconds(1f);
+            StartCoroutine(Shake());
+        }
     }
 }
