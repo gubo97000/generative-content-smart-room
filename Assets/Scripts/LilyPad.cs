@@ -55,7 +55,8 @@ public class LilyPad : MonoBehaviour
 
     void OnLilypadCleanUp(EventDict dict)
     {
-        EventManager.TriggerEvent("FlyAway", gameObject, new EventDict() { { "receiver", _slot } });
+        EventManager.TriggerEvent("ItemUncollected", gameObject, new EventDict() { { "player", gameObject }, { "isRecollectable", false }, { "newTarget", gameObject } });
+        // EventManager.TriggerEvent("FlyAway", gameObject, new EventDict() { { "receiver", _slot } });
         isEmpty = true;
         _slot = null;
         BroadcastMessage("OnHelperGlowEnable");
