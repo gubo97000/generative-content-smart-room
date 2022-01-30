@@ -8,8 +8,16 @@ public class BuildDamDust : MonoBehaviour
     void Start()
     {
         EventManager.StartListening("TriggerDust", PlayDust);
-        EventManager.StartListening("SwitchPondState", StopDust);
+        EventManager.StartListening("EmptyPond", StopDust);
+        EventManager.StartListening("WaterPond", StopDust);
         GetComponent<ParticleSystem>().Stop();
+    }
+
+    void OnDestroy()
+    {
+        EventManager.StopListening("TriggerDust", PlayDust);
+        EventManager.StopListening("EmptyPond", StopDust);
+        EventManager.StopListening("WaterPond", StopDust);
     }
 
     void PlayDust(EventDict dict)

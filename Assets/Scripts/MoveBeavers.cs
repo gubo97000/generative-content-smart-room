@@ -19,7 +19,8 @@ public class MoveBeavers : MonoBehaviour
         EventManager.StartListening("NewBeaver", setBeaver);
         EventManager.StartListening("BeaverTamed", checkAllBeavers);
         EventManager.StartListening("ReadyToBuild", checkAllReadyToBuild);
-        EventManager.StartListening("SwitchPondState", OnSwitchPondState);
+        EventManager.StartListening("WaterPond", OnSwitchPondState);
+        EventManager.StartListening("EmptyPond", OnSwitchPondState);
     }
 
     void OnDestroy()
@@ -27,7 +28,8 @@ public class MoveBeavers : MonoBehaviour
         EventManager.StopListening("NewBeaver", setBeaver);
         EventManager.StopListening("BeaverTamed", checkAllBeavers);
         EventManager.StopListening("ReadyToBuild", checkAllReadyToBuild);
-        EventManager.StopListening("SwitchPondState", OnSwitchPondState);
+        EventManager.StopListening("WaterPond", OnSwitchPondState);
+        EventManager.StopListening("EmptyPond", OnSwitchPondState);
     }
 
     void checkAllBeavers(EventDict dict)
@@ -68,7 +70,7 @@ public class MoveBeavers : MonoBehaviour
         yield return new WaitForSeconds(1.5f); 
         EventManager.TriggerEvent("TriggerDust", gameObject); 
         yield return new WaitForSeconds(2f);
-        EventManager.TriggerEvent("SwitchPondState", gameObject);
+        EventManager.TriggerEvent("EmptyPond", gameObject);
     }
 
 

@@ -13,6 +13,6 @@ public class DestroyDam : MonoBehaviour
     {
         EventManager.TriggerEvent("TriggerDust", gameObject);
         yield return new WaitForSeconds(1f);
-        EventManager.TriggerEvent("SwitchPondState", gameObject);
+        EventManager.TriggerEvent("WaterPond", gameObject);
     }
 }

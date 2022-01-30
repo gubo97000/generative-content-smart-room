@@ -13,9 +13,12 @@ public class GrassSpawner : MonoBehaviour
     }
 
     public List<KeyValuePair> prefabsList;
+    public bool cleanupInsects = true;
 
     private Dictionary<string, GameObject> prefabs = new Dictionary<string, GameObject>();
     private GameObject currentPrefab;
+
+    private List<GameObject> insects = new List<GameObject>();
 
     void Awake()
     {
@@ -61,11 +64,31 @@ public class GrassSpawner : MonoBehaviour
     void DaySwitch(EventDict dict = null)
     {
         currentPrefab = prefabs["Day"];
+
+        // Reset insects
+        if (cleanupInsects)
+        {
+            foreach(GameObject i in insects)
+            {
+                StartCoroutine(GoAwayAndThenDestroy(i));
+            }
+            insects.Clear();
+        }
     }
 
     void NightSwitch(EventDict dict = null)
     {
         currentPrefab = prefabs["Night"];
+
+        // Reset insects
+        if (cleanupInsects)
+        {
+            foreach (GameObject i in insects)
+            {
+                StartCoroutine(GoAwayAndThenDestroy(i));
+            }
+            insects.Clear();
+        }
     }
 
     void OnTriggerEnter(Collider other)
@@ -84,6 +107,13 @@ public class GrassSpawner : MonoBehaviour
 
         int isSpawned = Random.Range(1, 50);
         if (isSpawned <= 1)
-            Instantiate(currentPrefab, position, Quaternion.identity);
+            insects.Add(Instantiate(currentPrefab, position, Quaternion.identity));
+    }
+
+    IEnumerator GoAwayAndThenDestroy(GameObject g)
+    {
+        EventManager.TriggerEvent("FlyAway", gameObject, new EventDict() { { "receiver", g } });
+        yield return new WaitForSeconds(10);
+        Destroy(g);
     }
 }

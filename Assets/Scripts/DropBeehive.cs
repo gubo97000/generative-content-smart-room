@@ -2,25 +2,29 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DropBeehive : MonoBehaviour
+public class DropBeehive : Tree
 {
+    public GameObject beehive;
     public GameObject prefab;
     public int requiredBeesToTrigger = 3;
     public GameObject[] beehivePathPoints;
 
     private int beeCounter = 0;
+    private Coroutine lastRoutine = null;
 
     // Start is called before the first frame update
     void Start()
     {
         EventManager.StartListening("BeeEnteredHoneyTree", OnBeeEntered);
         EventManager.StartListening("EndOfPath", OnFollowThePathEnded);
+        EventManager.StartListening("ResetBeehive", ResetBeehive);
     }
 
     void OnDestroy()
     {
         EventManager.StopListening("BeeEnteredHoneyTree", OnBeeEntered);
         EventManager.StopListening("EndOfPath", OnFollowThePathEnded);
+        EventManager.StopListening("ResetBeehive", ResetBeehive);
     }
 
     void OnBeeEntered(EventDict dict)
@@ -29,6 +33,15 @@ public class DropBeehive : MonoBehaviour
 
         if(beeCounter >= requiredBeesToTrigger)
         {
+            // Stop shaking every second
+            if (lastRoutine != null)
+            {
+                StopCoroutine(lastRoutine);
+                lastRoutine = null;
+            }
+
+            beehive.SetActive(false);
+
             Vector3 position = transform.position;
             position.x += Random.Range(-4, 4) / 5;
             position.y += 2.5f;
@@ -41,7 +54,13 @@ public class DropBeehive : MonoBehaviour
             beeCounter = 0;
 
             Debug.Log("A beehive fell from the honey tree");
+        } else if(beeCounter == requiredBeesToTrigger - 1)
+        {
+            lastRoutine = StartCoroutine(KeepShaking());
         }
+
+        StartCoroutine(Shake());
+
     }
 
     void OnFollowThePathEnded(EventDict dict)
@@ -49,6 +68,20 @@ public class DropBeehive : MonoBehaviour
         if(((GameObject)dict["activator"]).tag == "Bee")
         {
             EventManager.TriggerEvent("BeeEnteredHoneyTree", gameObject);
+        }
+    }
+
+    void ResetBeehive(EventDict dict)
+    {
+        beehive.SetActive(true);
+    }
+
+    IEnumerator KeepShaking()
+    {
+        while (true)
+        {
+            yield return new WaitForSeconds(1f);
+            StartCoroutine(Shake());
         }
     }
 }
