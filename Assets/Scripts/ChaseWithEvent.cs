@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 
 public class ChaseWithEvent : MonoBehaviour
 {
@@ -31,9 +32,21 @@ public class ChaseWithEvent : MonoBehaviour
         if ((dict["receiver"] as GameObject) == gameObject)
         {
             var go = new GameObject();
-            go.transform.position = new Vector3(1000,1000,1000);
+            go.transform.position = new Vector3(3,100,-100);
             target = go;
+            DelayedKill(5f);
+            DelayedKill(5f,go);
         }
+    }
+    async void DelayedKill(float delay)
+    {
+        await Task.Delay(((int)(delay * 1000)));
+        Destroy(gameObject);
+    }
+    async void DelayedKill(float delay, GameObject go)
+    {
+        await Task.Delay(((int)(delay * 1000)));
+        Destroy(go);
     }
 
     // void onUnfollowMe(EventDict dict)
