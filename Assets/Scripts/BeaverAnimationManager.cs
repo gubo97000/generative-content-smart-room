@@ -31,7 +31,14 @@ public class BeaverAnimationManager : MonoBehaviour
     {
         if(other.gameObject.tag == "Apple" && !isEating)
         {
-            EatApple(other);
+            EatApple(other.gameObject);
+        }
+    }
+    void AppleCollision(GameObject apple)
+    {
+        if(apple.tag == "Apple" && !isEating)
+        {
+            EatApple(apple);
         }
     }
 
@@ -50,9 +57,9 @@ public class BeaverAnimationManager : MonoBehaviour
         }
     }
 
-    void EatApple(Collider other)
+    void EatApple(GameObject go)
     {
-        Destroy(other.gameObject);
+        Destroy(go);
 
         // Start eating animation
         isEating = true;

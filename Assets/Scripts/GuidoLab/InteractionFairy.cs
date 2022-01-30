@@ -25,7 +25,7 @@ public class InteractionFairy : MonoBehaviour
         if (sender == myPlayer)
         {
             StopAllCoroutines();
-            StartCoroutine(PreparingInteraction(2));
+            StartCoroutine(PreparingInteraction(0.5f));
         }
     }
     void OnHandsForwardEndHandler(EventDict dict)
@@ -34,8 +34,16 @@ public class InteractionFairy : MonoBehaviour
         if (sender == myPlayer)
         {
             StopAllCoroutines();
+            foreach (var obj in objectsInsideTrigger)
+            {
+                if(obj == null) continue;
+                obj.BroadcastMessage("OnMouseUp");
+                obj.BroadcastMessage("OnFairyUp");
+            }
+
             GetComponent<Collider>().enabled = false;
             objectsInsideTrigger.Clear();
+            transform.localScale = new Vector3(0.5f, 0.5f, 0.5f);
         }
     }
 
@@ -49,6 +57,7 @@ public class InteractionFairy : MonoBehaviour
         }
         //Activate the collider
         GetComponent<Collider>().enabled = true;
+        transform.localScale = new Vector3(0.3f, 0.3f, 0.3f);
     }
 
     private void OnTriggerEnter(Collider other)
@@ -56,7 +65,8 @@ public class InteractionFairy : MonoBehaviour
         if (!objectsInsideTrigger.Contains(other.gameObject))
         {
             objectsInsideTrigger.Add(other.gameObject);
-            other.gameObject.SendMessage("OnMouseDown");
+            other.gameObject.SendMessage("OnMouseDown", SendMessageOptions.DontRequireReceiver);
+            other.gameObject.SendMessage("OnFairyDown", gameObject, SendMessageOptions.DontRequireReceiver);
         }
     }
 

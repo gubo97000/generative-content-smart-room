@@ -106,6 +106,7 @@ public class InventoryManager : MonoBehaviour
 
         if (inventory[player].Count > 0)
         {
+            //Very dangerous to remove the first item without knowing what it is
             GameObject sender = new List<GameObject>(inventory[player])[0];
             inventory[player].Remove(sender);
 

@@ -22,6 +22,13 @@ public class DragApple : MonoBehaviour
 
         // Change tag so that the beaver will recognize the apple only if dragging
         gameObject.tag = "Apple";
+        gameObject.GetComponent<Collider>().isTrigger = true;
+    }
+
+    void OnFairyDown(GameObject sender)
+    {
+        gameObject.GetComponent<ChaseWithRigidBody>().target = sender.transform;
+        
     }
 
     private Vector3 GetMouseAsWorldPoint()
@@ -46,16 +53,28 @@ public class DragApple : MonoBehaviour
     void OnMouseUp()
     {
         gameObject.tag = "Untagged";
-        if(staysAfloat)
+        gameObject.GetComponent<Collider>().isTrigger = false;
+        if (staysAfloat)
             GetComponent<Rigidbody>().isKinematic = true;
+
+    }
+
+    void OnFairyUp()
+    {
+        gameObject.GetComponent<ChaseWithRigidBody>().target = null;
+        
     }
 
     // This is to avoid colliding other apples while dragging one
     void OnCollisionEnter(Collision collision)
     {
-        if(collision.gameObject.tag == "Apple")
+        if (collision.gameObject.tag == "Apple")
         {
             GetComponent<Rigidbody>().isKinematic = true;
         }
+    }
+
+    private void OnTriggerEnter(Collider other) {
+        SendMessage("AppleCollision", gameObject, SendMessageOptions.DontRequireReceiver);
     }
 }
