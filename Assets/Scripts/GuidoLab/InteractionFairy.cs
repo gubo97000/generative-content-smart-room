@@ -12,6 +12,8 @@ public class InteractionFairy : MonoBehaviour
     {
         EventManager.StartListening("OnHandsForwardStart", OnHandsForwardStartHandler);
         EventManager.StartListening("OnHandsForwardEnd", OnHandsForwardEndHandler);
+        var color=GameStateManager.playersColor[myPlayer.GetComponent<PlayerInfo>().playerNumber];
+        GetComponent<Renderer>().material.color = color;
     }
     private void OnDestroy()
     {
