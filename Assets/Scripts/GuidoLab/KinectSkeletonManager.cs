@@ -35,7 +35,7 @@ public class KinectSkeletonManager : MonoBehaviour
 
     private void Start()
     {
-        if (MagicRoomManager.instance != null)
+        if (MagicRoomManager.instance.MagicRoomKinectV2Manager != null)
         {
             MagicRoomManager.instance.MagicRoomKinectV2Manager.Skeletons += ManageSkeleton;
             numActiveTracker++;
