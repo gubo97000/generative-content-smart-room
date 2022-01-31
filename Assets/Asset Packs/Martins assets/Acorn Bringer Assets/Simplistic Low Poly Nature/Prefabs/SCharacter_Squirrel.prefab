@@ -1244,6 +1244,8 @@ GameObject:
   - component: {fileID: 8318842680607418628}
   - component: {fileID: 3453727354018981195}
   - component: {fileID: 791810919280307550}
+  - component: {fileID: 442237193788871485}
+  - component: {fileID: -3997877787096040136}
   m_Layer: 0
   m_Name: SCharacter_Squirrel
   m_TagString: Beaver
@@ -1346,6 +1348,37 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   newPath: {fileID: 0}
   thisTag: Beaver
+--- !u!114 &442237193788871485
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1745488152287196}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 0
+  outlineColor: {r: 1, g: 1, b: 1, a: 1}
+  outlineWidth: 10
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
+--- !u!114 &-3997877787096040136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1745488152287196}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98abeaa9a7bbcc544b740d809ac06839, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _callerCount: 0
 --- !u!1 &1757227337845944
 GameObject:
   m_ObjectHideFlags: 0
