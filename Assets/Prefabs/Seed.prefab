@@ -131,7 +131,7 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 2
+  m_Radius: 3
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &5801755478925339125
 Rigidbody:
@@ -164,6 +164,7 @@ MonoBehaviour:
   target: {fileID: 0}
   speed: 2
   minDistance: 1
+  inertiaWhenInMinDistance: 1
 --- !u!114 &2004811810725170678
 MonoBehaviour:
   m_ObjectHideFlags: 0
