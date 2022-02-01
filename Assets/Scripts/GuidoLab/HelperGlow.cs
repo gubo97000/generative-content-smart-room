@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//Send a message (call OnHelperGlow__) to this component to listen/unlisten to help request
 [RequireComponent(typeof(Outline))]
 public class HelperGlow : MonoBehaviour
 {

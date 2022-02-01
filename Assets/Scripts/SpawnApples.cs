@@ -11,12 +11,22 @@ public class SpawnApples : Tree
     void Start()
     {
         EventManager.StartListening("ClearAppleTree", OnClearTree);
+        // EventManager.StartListening("ObjectDestroyed", OnObjectDestroyed);
     }
 
     void OnDestroy()
     {
         EventManager.StopListening("ClearAppleTree", OnClearTree);
+        // EventManager.StopListening("ObjectDestroyed", OnObjectDestroyed);
     }
+    // void OnObjectDestroyed(EventDict dict)
+    // {
+    //     Debug.Log(instances.Count);
+    //     if (instances.Count == 0)
+    //     {
+    //         BroadcastMessage("OnHelperGlowEnable", gameObject, SendMessageOptions.DontRequireReceiver);
+    //     }
+    // }
 
     void OnMouseDown()
     {
@@ -34,6 +44,7 @@ public class SpawnApples : Tree
                 GameObject instance = Instantiate(prefab, position, Quaternion.Euler(new Vector3(Random.Range(0, 360), Random.Range(0, 360), Random.Range(0, 360))));
                 instances.Add(instance);
             }
+            BroadcastMessage("OnHelperGlowDisable", gameObject);
             EventManager.TriggerEvent("SpawnBeavers", gameObject);
             Debug.Log("Apples fell from the apple tree");
         }
@@ -43,6 +54,7 @@ public class SpawnApples : Tree
     // TODO: do not show apples on tree until reset
     void OnClearTree(EventDict dict)
     {
+        BroadcastMessage("OnHelperGlowEnable", gameObject, SendMessageOptions.DontRequireReceiver);
         instances.Clear();
     }
 }

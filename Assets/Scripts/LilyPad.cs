@@ -16,6 +16,8 @@ public class LilyPad : MonoBehaviour
         EventManager.StartListening("OnCrouchStart", OnCrouchHandler);
         EventManager.StartListening("InventoryAddEvent", OnInventoryAddEvent);
         EventManager.StartListening("LilypadCleanUp", OnLilypadCleanUp);
+        EventManager.StartListening("OnState-Empty", (d) => { BroadcastMessage("OnHelperGlowDisable"); });
+        EventManager.StartListening("OnState-Full", (d) => { BroadcastMessage("OnHelperGlowEnable"); });
     }
 
     void OnDestroy()
@@ -23,6 +25,8 @@ public class LilyPad : MonoBehaviour
         EventManager.StopListening("OnCrouchStart", OnCrouchHandler);
         EventManager.StopListening("InventoryAddEvent", OnInventoryAddEvent);
         EventManager.StopListening("LilypadCleanUp", OnLilypadCleanUp);
+        EventManager.StopListening("OnState-Empty", (d) => { BroadcastMessage("OnHelperGlowDisable"); });
+        EventManager.StopListening("OnState-Full", (d) => { BroadcastMessage("OnHelperGlowEnable"); });
     }
 
     //Player Crouch in Lily Pad, we ask inventory to give us one butterfly
@@ -37,7 +41,7 @@ public class LilyPad : MonoBehaviour
             isEmpty = false;
             // EventManager.TriggerEvent("ItemUncollected", gameObject, new EventDict() { { "player", sender }, { "isRecollectable", false }, { "newTarget", gameObject } });
             EventManager.TriggerEvent("LilypadHasButterfly", gameObject);
-            
+
         }
     }
 

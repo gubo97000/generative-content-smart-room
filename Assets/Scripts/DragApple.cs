@@ -13,6 +13,11 @@ public class DragApple : MonoBehaviour
 
     public bool staysAfloat = false;
 
+    // private void OnDestroy()
+    // {
+    //     EventManager.TriggerEvent("ObjectDestroyed", gameObject);
+    // }
+
     void OnMouseDown()
     {
         mZCoord = Camera.main.WorldToScreenPoint(gameObject.transform.position).z;
@@ -28,7 +33,7 @@ public class DragApple : MonoBehaviour
     void OnFairyDown(GameObject sender)
     {
         gameObject.GetComponent<ChaseWithRigidBody>().target = sender.transform;
-        
+
     }
 
     private Vector3 GetMouseAsWorldPoint()
@@ -62,7 +67,7 @@ public class DragApple : MonoBehaviour
     void OnFairyUp()
     {
         gameObject.GetComponent<ChaseWithRigidBody>().target = null;
-        
+
     }
 
     // This is to avoid colliding other apples while dragging one
@@ -74,7 +79,8 @@ public class DragApple : MonoBehaviour
         }
     }
 
-    private void OnTriggerEnter(Collider other) {
+    private void OnTriggerEnter(Collider other)
+    {
         SendMessage("AppleCollision", gameObject, SendMessageOptions.DontRequireReceiver);
     }
 }
