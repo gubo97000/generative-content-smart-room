@@ -7,12 +7,14 @@ public class FairyTrigger : MonoBehaviour
 {
     void Start()
     {
-        EventManager.StartListening("SwitchNight", OnSwitchNight);
+        EventManager.StartListening("SwitchNight", DestroyFairy);
+        EventManager.StartListening("ActivateMushroom", DestroyFairy);
     }
 
     void OnDestroy()
     {
-        EventManager.StopListening("SwitchNight", OnSwitchNight);
+        EventManager.StopListening("SwitchNight", DestroyFairy);
+        EventManager.StopListening("ActivateMushroom", DestroyFairy);
     }
 
     void OnMouseDown()
@@ -21,7 +23,7 @@ public class FairyTrigger : MonoBehaviour
     }
 
     // When the night starts all over again, the fairy disappears, so you can replay the mushroom part
-    void OnSwitchNight(EventDict dict)
+    void DestroyFairy(EventDict dict)
     {
         Destroy(gameObject);
     }
