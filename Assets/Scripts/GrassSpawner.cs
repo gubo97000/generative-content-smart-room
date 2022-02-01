@@ -12,6 +12,9 @@ public class GrassSpawner : MonoBehaviour
         public GameObject prefab;
     }
 
+    public bool isWalk;
+    public bool isJump = true;
+
     public List<KeyValuePair> prefabsList;
     public bool cleanupInsects = true;
 
@@ -93,9 +96,14 @@ public class GrassSpawner : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "Player")
+        if (isWalk && other.gameObject.tag == "Player")
         {
             Debug.Log("Player has touched the grass");
+            SpawnInsect();
+        }
+        else if (isJump && other.gameObject.tag == "Jump" && other.gameObject.GetComponent<JumpCollider>().isInAir())
+        {
+            EventManager.TriggerEvent("OnJumpEnd", gameObject);
             SpawnInsect();
         }
     }
@@ -105,7 +113,7 @@ public class GrassSpawner : MonoBehaviour
         Vector3 position = gameObject.transform.position;
         position.y += 1;
 
-        int isSpawned = Random.Range(1, 50);
+        int isSpawned = isWalk ? Random.Range(1, 50) : 1;
         if (isSpawned <= 1)
             insects.Add(Instantiate(currentPrefab, position, Quaternion.identity));
     }
