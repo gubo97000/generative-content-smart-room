@@ -146,3 +146,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 0}
   toGuide: {fileID: 0}
+  killOnPointLost: 0
