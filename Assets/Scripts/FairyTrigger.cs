@@ -10,13 +10,13 @@ public class FairyTrigger : MonoBehaviour
     void Start()
     {
         EventManager.StartListening("SwitchNight", DestroyFairy);
-        EventManager.StartListening("ActivateMushroom", DestroyFairy);
+        EventManager.StartListening("MushroomCleanUp", DestroyFairy);
     }
 
     void OnDestroy()
     {
         EventManager.StopListening("SwitchNight", DestroyFairy);
-        EventManager.StopListening("ActivateMushroom", DestroyFairy);
+        EventManager.StopListening("MushroomCleanUp", DestroyFairy);
     }
 
     void OnMouseDown()
@@ -40,5 +40,7 @@ public class FairyTrigger : MonoBehaviour
         Destroy(gameObject);
 
         sp.GetComponent<ParticleSystem>().Stop();
+        yield return new WaitForSeconds(5f);
+        Destroy(sp);
     }
 }

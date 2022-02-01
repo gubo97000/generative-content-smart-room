@@ -40,5 +40,7 @@ public class SpawnFairy : MonoBehaviour
         Instantiate(prefab, position, Quaternion.identity);
 
         sp.GetComponent<ParticleSystem>().Stop();
+        yield return new WaitForSeconds(5f);
+        Destroy(sp);
     }
 }
