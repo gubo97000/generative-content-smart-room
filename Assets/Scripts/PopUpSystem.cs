@@ -11,6 +11,10 @@ public class PopUpSystem : MonoBehaviour
 
     private bool isHandRaiseEnabled;
 
+    // Zero if not timed
+    public float timer = 0f;
+    private float elapsed = 0;
+
     void Start()
     {
         animator = GetComponent<Animator>();
@@ -20,11 +24,23 @@ public class PopUpSystem : MonoBehaviour
 
     void Update()
     {
+        elapsed += Time.deltaTime;
+        if (timer > 0f && elapsed > timer)
+        {
+            if (animator.GetBool("check1") == false) {
+                animator.SetBool("check1", true);
+                elapsed = 0;
+            }
+            else
+                animator.SetBool("check2", true);
+        }
+
         if (animator.GetBool("check1") == true && animator.GetBool("check2") == true)
         {
             animator.SetTrigger("close");
             StartCoroutine(GetNextTutorial());
         }
+
     }
 
     public void PopUp(/*string text*/)
