@@ -1051,7 +1051,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!199 &524268427
 ParticleSystemRenderer:
   serializedVersion: 6
@@ -6938,11 +6938,15 @@ MonoBehaviour:
     - {fileID: 1288014809}
     - {fileID: 1875865674}
     - {fileID: 1473218935}
+    - {fileID: 524268426}
+    - {fileID: 1275715597}
   - name: Crouch
     scripts:
     - {fileID: 1379153131}
     - {fileID: 1516264940}
     - {fileID: 1176473616}
+    - {fileID: 524268426}
+    - {fileID: 1275715597}
   - name: Crouch Drag
     scripts:
     - {fileID: 1125591988}
@@ -6950,11 +6954,15 @@ MonoBehaviour:
     - {fileID: 1446560630}
     - {fileID: 819984838}
     - {fileID: 2116001000}
+    - {fileID: 524268426}
+    - {fileID: 1275715597}
   - name: Touch
     scripts:
     - {fileID: 1893814827}
     - {fileID: 1988724161}
     - {fileID: 147894436}
+    - {fileID: 524268426}
+    - {fileID: 1275715597}
   - name: Touch Drag
     scripts:
     - {fileID: 1610268869}
@@ -6962,11 +6970,15 @@ MonoBehaviour:
     - {fileID: 1990150867}
     - {fileID: 864196597}
     - {fileID: 2046654935}
+    - {fileID: 524268426}
+    - {fileID: 1275715597}
   - name: Raise Hand
     scripts:
     - {fileID: 1777124407}
     - {fileID: 1421974907}
     - {fileID: 1455216393}
+    - {fileID: 524268426}
+    - {fileID: 1275715597}
   - name: ReadyToPlay
     scripts:
     - {fileID: 1295036654}
@@ -7869,7 +7881,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!199 &1275715598
 ParticleSystemRenderer:
   serializedVersion: 6
