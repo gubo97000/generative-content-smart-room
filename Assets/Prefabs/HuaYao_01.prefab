@@ -2080,6 +2080,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0d6d02a2962c264bbb1189c33f5d364, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spawnParticles: {fileID: 8652079058922142898, guid: 51077dffd6161994bbff2df5464095f2, type: 3}
 --- !u!114 &6782665773730876235
 MonoBehaviour:
   m_ObjectHideFlags: 0

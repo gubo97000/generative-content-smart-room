@@ -6,6 +6,7 @@ public class SpawnFairy : MonoBehaviour
 {
     public GameObject[] mushrooms;
     public GameObject prefab;
+    public GameObject spawnParticles;
 
     // Start is called before the first frame update
     void Start()
@@ -22,17 +23,22 @@ public class SpawnFairy : MonoBehaviour
     {
         if (System.Array.TrueForAll(mushrooms, m => !m.GetComponent<TransferLight>().isEmpty))
         {
-            spawnFairy();
+            StartCoroutine(DoSpawn());
             EventManager.TriggerEvent("MushroomCleanUp");
         }
 
     }
 
-    void spawnFairy()
+    IEnumerator DoSpawn()
     {
         Vector3 position = transform.position;
         //position.y = 1;
 
+        GameObject sp = Instantiate(spawnParticles, position + new Vector3(0,0.5f,0), Quaternion.identity); 
+        sp.GetComponent<ParticleSystem>().Play();
+        yield return new WaitForSeconds(2.5f);
         Instantiate(prefab, position, Quaternion.identity);
+
+        sp.GetComponent<ParticleSystem>().Stop();
     }
 }
