@@ -61,7 +61,8 @@ public class TransferLight : MonoBehaviour
 
     void OnMushroomCleanUp(EventDict dict)
     {
-        EventManager.TriggerEvent("FlyAway", gameObject, new EventDict() { { "receiver", _slot } });
+        // EventManager.TriggerEvent("FlyAway", gameObject, new EventDict() { { "receiver", _slot } });
+        EventManager.TriggerEvent("ItemUncollected", gameObject, new EventDict() { { "player", gameObject }});
         isEmpty = true;
         _slot = null;
 
