@@ -49,8 +49,11 @@ public class FollowThePath : MonoBehaviour
         
         foreach (Transform waypoint in path.transform)
         {
-            waypoints[i] = waypoint;
-            i++;
+            if (waypoint.gameObject.active)
+            {
+                waypoints[i] = waypoint;
+                i++;
+            }
         }
 
         // Set position of object as position of the first waypoint
