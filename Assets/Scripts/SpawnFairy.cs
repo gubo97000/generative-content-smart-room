@@ -37,6 +37,7 @@ public class SpawnFairy : MonoBehaviour
         GameObject sp = Instantiate(spawnParticles, position + new Vector3(0,0.5f,0), Quaternion.identity); 
         sp.GetComponent<ParticleSystem>().Play();
         yield return new WaitForSeconds(2.5f);
+
         Instantiate(prefab, position, Quaternion.identity);
 
         sp.GetComponent<ParticleSystem>().Stop();

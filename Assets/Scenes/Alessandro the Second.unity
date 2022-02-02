@@ -580,7 +580,6 @@ GameObject:
   - component: {fileID: 18891894}
   - component: {fileID: 18891898}
   - component: {fileID: 18891897}
-  - component: {fileID: 18891896}
   - component: {fileID: 18891895}
   - component: {fileID: 18891899}
   m_Layer: 7
@@ -628,19 +627,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &18891896
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 18891893}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &18891897
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -696,7 +682,6 @@ GameObject:
   - component: {fileID: 19890011}
   - component: {fileID: 19890015}
   - component: {fileID: 19890014}
-  - component: {fileID: 19890013}
   - component: {fileID: 19890012}
   - component: {fileID: 19890016}
   m_Layer: 7
@@ -744,19 +729,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &19890013
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 19890010}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &19890014
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1235,6 +1207,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &33106321 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -2039,7 +2012,6 @@ GameObject:
   - component: {fileID: 48623123}
   - component: {fileID: 48623127}
   - component: {fileID: 48623126}
-  - component: {fileID: 48623125}
   - component: {fileID: 48623124}
   - component: {fileID: 48623128}
   m_Layer: 7
@@ -2087,19 +2059,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &48623125
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 48623122}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &48623126
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2637,7 +2596,6 @@ GameObject:
   - component: {fileID: 59477597}
   - component: {fileID: 59477601}
   - component: {fileID: 59477600}
-  - component: {fileID: 59477599}
   - component: {fileID: 59477598}
   - component: {fileID: 59477602}
   m_Layer: 7
@@ -2685,19 +2643,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &59477599
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 59477596}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &59477600
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2837,7 +2782,6 @@ GameObject:
   - component: {fileID: 60314376}
   - component: {fileID: 60314380}
   - component: {fileID: 60314379}
-  - component: {fileID: 60314378}
   - component: {fileID: 60314377}
   - component: {fileID: 60314381}
   m_Layer: 7
@@ -2885,19 +2829,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &60314378
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 60314375}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &60314379
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2953,7 +2884,6 @@ GameObject:
   - component: {fileID: 68955310}
   - component: {fileID: 68955314}
   - component: {fileID: 68955313}
-  - component: {fileID: 68955312}
   - component: {fileID: 68955311}
   - component: {fileID: 68955315}
   m_Layer: 7
@@ -3001,19 +2931,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &68955312
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 68955309}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &68955313
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3734,6 +3651,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &85095691 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -4099,7 +4017,6 @@ GameObject:
   - component: {fileID: 99251908}
   - component: {fileID: 99251912}
   - component: {fileID: 99251911}
-  - component: {fileID: 99251910}
   - component: {fileID: 99251909}
   - component: {fileID: 99251913}
   m_Layer: 7
@@ -4147,19 +4064,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &99251910
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 99251907}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &99251911
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4271,6 +4175,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &99382556 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -4515,7 +4420,6 @@ GameObject:
   - component: {fileID: 106568190}
   - component: {fileID: 106568194}
   - component: {fileID: 106568193}
-  - component: {fileID: 106568192}
   - component: {fileID: 106568191}
   - component: {fileID: 106568195}
   m_Layer: 7
@@ -4559,19 +4463,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &106568192
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 106568189}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &106568193
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4819,7 +4710,6 @@ GameObject:
   - component: {fileID: 115685303}
   - component: {fileID: 115685307}
   - component: {fileID: 115685306}
-  - component: {fileID: 115685305}
   - component: {fileID: 115685304}
   - component: {fileID: 115685308}
   m_Layer: 7
@@ -4867,19 +4757,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &115685305
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 115685302}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &115685306
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5151,7 +5028,6 @@ GameObject:
   - component: {fileID: 119154343}
   - component: {fileID: 119154347}
   - component: {fileID: 119154346}
-  - component: {fileID: 119154345}
   - component: {fileID: 119154344}
   - component: {fileID: 119154348}
   m_Layer: 7
@@ -5199,19 +5075,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &119154345
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 119154342}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &119154346
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5542,7 +5405,6 @@ GameObject:
   - component: {fileID: 123091916}
   - component: {fileID: 123091920}
   - component: {fileID: 123091919}
-  - component: {fileID: 123091918}
   - component: {fileID: 123091917}
   - component: {fileID: 123091921}
   m_Layer: 7
@@ -5590,19 +5452,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &123091918
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 123091915}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &123091919
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5741,7 +5590,6 @@ GameObject:
   - component: {fileID: 127278893}
   - component: {fileID: 127278897}
   - component: {fileID: 127278896}
-  - component: {fileID: 127278895}
   - component: {fileID: 127278894}
   - component: {fileID: 127278898}
   m_Layer: 7
@@ -5789,19 +5637,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &127278895
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 127278892}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &127278896
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5966,7 +5801,6 @@ GameObject:
   - component: {fileID: 129457550}
   - component: {fileID: 129457554}
   - component: {fileID: 129457553}
-  - component: {fileID: 129457552}
   - component: {fileID: 129457551}
   - component: {fileID: 129457555}
   m_Layer: 7
@@ -6014,19 +5848,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &129457552
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 129457549}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &129457553
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6138,6 +5959,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &131123073 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -6174,7 +5996,6 @@ GameObject:
   - component: {fileID: 135630657}
   - component: {fileID: 135630661}
   - component: {fileID: 135630660}
-  - component: {fileID: 135630659}
   - component: {fileID: 135630658}
   - component: {fileID: 135630662}
   m_Layer: 7
@@ -6222,19 +6043,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &135630659
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 135630656}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &135630660
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6707,7 +6515,6 @@ GameObject:
   - component: {fileID: 146230273}
   - component: {fileID: 146230277}
   - component: {fileID: 146230276}
-  - component: {fileID: 146230275}
   - component: {fileID: 146230274}
   - component: {fileID: 146230278}
   m_Layer: 7
@@ -6755,19 +6562,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &146230275
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 146230272}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &146230276
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7232,6 +7026,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &157650286 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -7486,6 +7281,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &164353230 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -7600,7 +7396,6 @@ GameObject:
   - component: {fileID: 171174944}
   - component: {fileID: 171174948}
   - component: {fileID: 171174947}
-  - component: {fileID: 171174946}
   - component: {fileID: 171174945}
   - component: {fileID: 171174949}
   m_Layer: 7
@@ -7644,19 +7439,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &171174946
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 171174943}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &171174947
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8522,6 +8304,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &185406898 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -9153,6 +8936,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &191578389 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -9827,6 +9611,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &214404618 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -10525,6 +10310,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &233301911 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -10612,6 +10398,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &236170675 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -11666,7 +11453,6 @@ GameObject:
   - component: {fileID: 264387038}
   - component: {fileID: 264387042}
   - component: {fileID: 264387041}
-  - component: {fileID: 264387040}
   - component: {fileID: 264387039}
   - component: {fileID: 264387043}
   m_Layer: 7
@@ -11714,19 +11500,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &264387040
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 264387037}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &264387041
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11975,7 +11748,6 @@ GameObject:
   - component: {fileID: 270105056}
   - component: {fileID: 270105060}
   - component: {fileID: 270105059}
-  - component: {fileID: 270105058}
   - component: {fileID: 270105057}
   - component: {fileID: 270105061}
   m_Layer: 7
@@ -12023,19 +11795,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &270105058
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 270105055}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &270105059
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12157,7 +11916,6 @@ GameObject:
   - component: {fileID: 274211589}
   - component: {fileID: 274211593}
   - component: {fileID: 274211592}
-  - component: {fileID: 274211591}
   - component: {fileID: 274211590}
   - component: {fileID: 274211594}
   m_Layer: 7
@@ -12205,19 +11963,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &274211591
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 274211588}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &274211592
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12502,7 +12247,6 @@ GameObject:
   - component: {fileID: 277120636}
   - component: {fileID: 277120640}
   - component: {fileID: 277120639}
-  - component: {fileID: 277120638}
   - component: {fileID: 277120637}
   - component: {fileID: 277120641}
   m_Layer: 7
@@ -12550,19 +12294,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &277120638
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 277120635}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &277120639
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12898,7 +12629,6 @@ GameObject:
   - component: {fileID: 282350351}
   - component: {fileID: 282350355}
   - component: {fileID: 282350354}
-  - component: {fileID: 282350353}
   - component: {fileID: 282350352}
   - component: {fileID: 282350356}
   m_Layer: 7
@@ -12946,19 +12676,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &282350353
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 282350350}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &282350354
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13489,6 +13206,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &299298806 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -13799,7 +13517,6 @@ GameObject:
   - component: {fileID: 304253215}
   - component: {fileID: 304253219}
   - component: {fileID: 304253218}
-  - component: {fileID: 304253217}
   - component: {fileID: 304253216}
   - component: {fileID: 304253220}
   m_Layer: 7
@@ -13847,19 +13564,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &304253217
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 304253214}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &304253218
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14746,6 +14450,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &317189616 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -16829,6 +16534,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &361086421 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -16916,6 +16622,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &362830520 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -18215,6 +17922,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &405032276 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -18361,7 +18069,6 @@ GameObject:
   - component: {fileID: 407991783}
   - component: {fileID: 407991787}
   - component: {fileID: 407991786}
-  - component: {fileID: 407991785}
   - component: {fileID: 407991784}
   - component: {fileID: 407991788}
   m_Layer: 7
@@ -18404,19 +18111,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &407991785
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 407991782}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &407991786
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19031,6 +18725,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &417968731 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -19067,7 +18762,6 @@ GameObject:
   - component: {fileID: 425073315}
   - component: {fileID: 425073319}
   - component: {fileID: 425073318}
-  - component: {fileID: 425073317}
   - component: {fileID: 425073316}
   - component: {fileID: 425073320}
   m_Layer: 7
@@ -19115,19 +18809,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &425073317
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 425073314}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &425073318
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19322,6 +19003,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &431403166 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -19518,6 +19200,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &433052479 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -19824,7 +19507,6 @@ GameObject:
   - component: {fileID: 442622697}
   - component: {fileID: 442622701}
   - component: {fileID: 442622700}
-  - component: {fileID: 442622699}
   - component: {fileID: 442622698}
   - component: {fileID: 442622702}
   m_Layer: 7
@@ -19872,19 +19554,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &442622699
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 442622696}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &442622700
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20398,7 +20067,6 @@ GameObject:
   - component: {fileID: 445681632}
   - component: {fileID: 445681636}
   - component: {fileID: 445681635}
-  - component: {fileID: 445681634}
   - component: {fileID: 445681633}
   - component: {fileID: 445681637}
   m_Layer: 7
@@ -20446,19 +20114,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &445681634
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 445681631}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &445681635
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20986,7 +20641,6 @@ GameObject:
   - component: {fileID: 465437591}
   - component: {fileID: 465437595}
   - component: {fileID: 465437594}
-  - component: {fileID: 465437593}
   - component: {fileID: 465437592}
   - component: {fileID: 465437596}
   m_Layer: 7
@@ -21034,19 +20688,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &465437593
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 465437590}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &465437594
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21158,6 +20799,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &467502046 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -21189,7 +20831,6 @@ GameObject:
   - component: {fileID: 468853709}
   - component: {fileID: 468853713}
   - component: {fileID: 468853712}
-  - component: {fileID: 468853711}
   - component: {fileID: 468853710}
   - component: {fileID: 468853714}
   m_Layer: 7
@@ -21237,19 +20878,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &468853711
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 468853708}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &468853712
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21855,7 +21483,6 @@ GameObject:
   - component: {fileID: 476786926}
   - component: {fileID: 476786930}
   - component: {fileID: 476786929}
-  - component: {fileID: 476786928}
   - component: {fileID: 476786927}
   - component: {fileID: 476786931}
   m_Layer: 7
@@ -21903,19 +21530,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &476786928
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 476786925}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &476786929
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22279,6 +21893,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &477957633 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -22496,7 +22111,6 @@ GameObject:
   - component: {fileID: 480437196}
   - component: {fileID: 480437200}
   - component: {fileID: 480437199}
-  - component: {fileID: 480437198}
   - component: {fileID: 480437197}
   - component: {fileID: 480437201}
   m_Layer: 7
@@ -22544,19 +22158,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &480437198
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 480437195}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &480437199
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22899,6 +22500,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &487015727 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -23096,7 +22698,6 @@ GameObject:
   - component: {fileID: 491826954}
   - component: {fileID: 491826958}
   - component: {fileID: 491826957}
-  - component: {fileID: 491826956}
   - component: {fileID: 491826955}
   - component: {fileID: 491826959}
   m_Layer: 7
@@ -23144,19 +22745,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &491826956
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 491826953}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &491826957
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23285,7 +22873,6 @@ GameObject:
   - component: {fileID: 496702791}
   - component: {fileID: 496702795}
   - component: {fileID: 496702794}
-  - component: {fileID: 496702793}
   - component: {fileID: 496702792}
   - component: {fileID: 496702796}
   m_Layer: 7
@@ -23333,19 +22920,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &496702793
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 496702790}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &496702794
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23457,6 +23031,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &497387628 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -24148,7 +23723,6 @@ GameObject:
   - component: {fileID: 512844158}
   - component: {fileID: 512844162}
   - component: {fileID: 512844161}
-  - component: {fileID: 512844160}
   - component: {fileID: 512844159}
   - component: {fileID: 512844163}
   m_Layer: 7
@@ -24196,19 +23770,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &512844160
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 512844157}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &512844161
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24575,7 +24136,6 @@ GameObject:
   - component: {fileID: 521241114}
   - component: {fileID: 521241118}
   - component: {fileID: 521241117}
-  - component: {fileID: 521241116}
   - component: {fileID: 521241115}
   - component: {fileID: 521241119}
   m_Layer: 7
@@ -24623,19 +24183,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &521241116
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 521241113}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &521241117
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24831,6 +24378,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &527378090 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -24897,7 +24445,6 @@ GameObject:
   - component: {fileID: 528429176}
   - component: {fileID: 528429180}
   - component: {fileID: 528429179}
-  - component: {fileID: 528429178}
   - component: {fileID: 528429177}
   - component: {fileID: 528429181}
   m_Layer: 7
@@ -24945,19 +24492,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &528429178
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 528429175}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &528429179
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25203,7 +24737,6 @@ GameObject:
   - component: {fileID: 533950592}
   - component: {fileID: 533950596}
   - component: {fileID: 533950595}
-  - component: {fileID: 533950594}
   - component: {fileID: 533950593}
   - component: {fileID: 533950597}
   m_Layer: 7
@@ -25251,19 +24784,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &533950594
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 533950591}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &533950595
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25836,6 +25356,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &541669547 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -25867,7 +25388,6 @@ GameObject:
   - component: {fileID: 543406207}
   - component: {fileID: 543406211}
   - component: {fileID: 543406210}
-  - component: {fileID: 543406209}
   - component: {fileID: 543406208}
   - component: {fileID: 543406212}
   m_Layer: 7
@@ -25915,19 +25435,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &543406209
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 543406206}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &543406210
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26589,6 +26096,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &551135819 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -26842,6 +26350,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &560266172 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -26929,6 +26438,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &566264613 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -27214,7 +26724,6 @@ GameObject:
   - component: {fileID: 577508653}
   - component: {fileID: 577508657}
   - component: {fileID: 577508656}
-  - component: {fileID: 577508655}
   - component: {fileID: 577508654}
   - component: {fileID: 577508658}
   m_Layer: 7
@@ -27262,19 +26771,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &577508655
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 577508652}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &577508656
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28348,7 +27844,6 @@ GameObject:
   - component: {fileID: 610035133}
   - component: {fileID: 610035137}
   - component: {fileID: 610035136}
-  - component: {fileID: 610035135}
   - component: {fileID: 610035134}
   - component: {fileID: 610035138}
   m_Layer: 7
@@ -28396,19 +27891,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &610035135
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 610035132}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &610035136
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28629,6 +28111,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &612070717 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -29199,7 +28682,6 @@ GameObject:
   - component: {fileID: 624116897}
   - component: {fileID: 624116901}
   - component: {fileID: 624116900}
-  - component: {fileID: 624116899}
   - component: {fileID: 624116898}
   - component: {fileID: 624116902}
   m_Layer: 7
@@ -29243,19 +28725,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &624116899
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 624116896}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &624116900
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -29481,6 +28950,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &627759952 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -30238,6 +29708,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &648787324 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -30688,6 +30159,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &654024027 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -31261,7 +30733,6 @@ GameObject:
   - component: {fileID: 668767878}
   - component: {fileID: 668767882}
   - component: {fileID: 668767881}
-  - component: {fileID: 668767880}
   - component: {fileID: 668767879}
   - component: {fileID: 668767883}
   m_Layer: 7
@@ -31309,19 +30780,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &668767880
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 668767877}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &668767881
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -31433,6 +30891,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &670723164 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -31686,6 +31145,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &680736633 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -32035,6 +31495,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &690546786 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -32510,7 +31971,6 @@ GameObject:
   - component: {fileID: 695856951}
   - component: {fileID: 695856955}
   - component: {fileID: 695856954}
-  - component: {fileID: 695856953}
   - component: {fileID: 695856952}
   - component: {fileID: 695856956}
   m_Layer: 7
@@ -32558,19 +32018,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &695856953
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 695856950}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &695856954
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -32828,7 +32275,6 @@ GameObject:
   - component: {fileID: 699941970}
   - component: {fileID: 699941974}
   - component: {fileID: 699941973}
-  - component: {fileID: 699941972}
   - component: {fileID: 699941971}
   - component: {fileID: 699941975}
   m_Layer: 7
@@ -32876,19 +32322,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &699941972
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 699941969}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &699941973
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -33136,7 +32569,6 @@ GameObject:
   - component: {fileID: 704651352}
   - component: {fileID: 704651356}
   - component: {fileID: 704651355}
-  - component: {fileID: 704651354}
   - component: {fileID: 704651353}
   - component: {fileID: 704651357}
   m_Layer: 7
@@ -33180,19 +32612,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &704651354
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 704651351}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &704651355
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -33689,7 +33108,6 @@ GameObject:
   - component: {fileID: 713312455}
   - component: {fileID: 713312459}
   - component: {fileID: 713312458}
-  - component: {fileID: 713312457}
   - component: {fileID: 713312456}
   - component: {fileID: 713312460}
   m_Layer: 7
@@ -33737,19 +33155,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &713312457
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 713312454}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &713312458
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -33805,7 +33210,6 @@ GameObject:
   - component: {fileID: 716640883}
   - component: {fileID: 716640887}
   - component: {fileID: 716640886}
-  - component: {fileID: 716640885}
   - component: {fileID: 716640884}
   - component: {fileID: 716640888}
   m_Layer: 7
@@ -33849,19 +33253,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &716640885
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 716640882}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &716640886
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -34270,6 +33661,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &726937878 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -34416,7 +33808,6 @@ GameObject:
   - component: {fileID: 737826722}
   - component: {fileID: 737826726}
   - component: {fileID: 737826725}
-  - component: {fileID: 737826724}
   - component: {fileID: 737826723}
   - component: {fileID: 737826727}
   m_Layer: 7
@@ -34464,19 +33855,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &737826724
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 737826721}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &737826725
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -34532,7 +33910,6 @@ GameObject:
   - component: {fileID: 737933003}
   - component: {fileID: 737933007}
   - component: {fileID: 737933006}
-  - component: {fileID: 737933005}
   - component: {fileID: 737933004}
   - component: {fileID: 737933008}
   m_Layer: 7
@@ -34575,19 +33952,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &737933005
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 737933002}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &737933006
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -34944,6 +34308,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &743495010 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -35030,7 +34395,6 @@ GameObject:
   - component: {fileID: 752562441}
   - component: {fileID: 752562445}
   - component: {fileID: 752562444}
-  - component: {fileID: 752562443}
   - component: {fileID: 752562442}
   - component: {fileID: 752562446}
   m_Layer: 7
@@ -35078,19 +34442,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &752562443
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 752562440}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &752562444
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -35357,7 +34708,6 @@ GameObject:
   - component: {fileID: 759037554}
   - component: {fileID: 759037558}
   - component: {fileID: 759037557}
-  - component: {fileID: 759037556}
   - component: {fileID: 759037555}
   - component: {fileID: 759037559}
   m_Layer: 7
@@ -35400,19 +34750,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &759037556
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 759037553}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &759037557
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -35468,7 +34805,6 @@ GameObject:
   - component: {fileID: 759458649}
   - component: {fileID: 759458653}
   - component: {fileID: 759458652}
-  - component: {fileID: 759458651}
   - component: {fileID: 759458650}
   - component: {fileID: 759458654}
   m_Layer: 7
@@ -35516,19 +34852,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &759458651
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 759458648}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &759458652
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -35754,6 +35077,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &766985424 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -35894,7 +35218,6 @@ GameObject:
   - component: {fileID: 768041885}
   - component: {fileID: 768041889}
   - component: {fileID: 768041888}
-  - component: {fileID: 768041887}
   - component: {fileID: 768041886}
   - component: {fileID: 768041890}
   m_Layer: 7
@@ -35938,19 +35261,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &768041887
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 768041884}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &768041888
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -36203,7 +35513,6 @@ GameObject:
   - component: {fileID: 779574744}
   - component: {fileID: 779574748}
   - component: {fileID: 779574747}
-  - component: {fileID: 779574746}
   - component: {fileID: 779574745}
   - component: {fileID: 779574749}
   m_Layer: 7
@@ -36251,19 +35560,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &779574746
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 779574743}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &779574747
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -36402,7 +35698,6 @@ GameObject:
   - component: {fileID: 782090660}
   - component: {fileID: 782090664}
   - component: {fileID: 782090663}
-  - component: {fileID: 782090662}
   - component: {fileID: 782090661}
   - component: {fileID: 782090665}
   m_Layer: 7
@@ -36450,19 +35745,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &782090662
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 782090659}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &782090663
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -36518,7 +35800,6 @@ GameObject:
   - component: {fileID: 783383606}
   - component: {fileID: 783383610}
   - component: {fileID: 783383609}
-  - component: {fileID: 783383608}
   - component: {fileID: 783383607}
   - component: {fileID: 783383611}
   m_Layer: 7
@@ -36566,19 +35847,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &783383608
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 783383605}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &783383609
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -36933,7 +36201,6 @@ GameObject:
   - component: {fileID: 793256847}
   - component: {fileID: 793256851}
   - component: {fileID: 793256850}
-  - component: {fileID: 793256849}
   - component: {fileID: 793256848}
   - component: {fileID: 793256852}
   m_Layer: 7
@@ -36976,19 +36243,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &793256849
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 793256846}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &793256850
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -37176,7 +36430,6 @@ GameObject:
   - component: {fileID: 797753464}
   - component: {fileID: 797753468}
   - component: {fileID: 797753467}
-  - component: {fileID: 797753466}
   - component: {fileID: 797753465}
   - component: {fileID: 797753469}
   m_Layer: 7
@@ -37220,19 +36473,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &797753466
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 797753463}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &797753467
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -37378,6 +36618,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &798335384 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -38233,6 +37474,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &825084193 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -38429,6 +37671,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &825863271 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -38962,6 +38205,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &841497141 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -39251,7 +38495,6 @@ GameObject:
   - component: {fileID: 856514716}
   - component: {fileID: 856514720}
   - component: {fileID: 856514719}
-  - component: {fileID: 856514718}
   - component: {fileID: 856514717}
   - component: {fileID: 856514721}
   m_Layer: 7
@@ -39299,19 +38542,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &856514718
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 856514715}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &856514719
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -39506,6 +38736,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &863992223 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -39868,6 +39099,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &870092839 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -40310,6 +39542,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &881754562 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -40397,6 +39630,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &888907134 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -40625,7 +39859,6 @@ GameObject:
   - component: {fileID: 895249105}
   - component: {fileID: 895249109}
   - component: {fileID: 895249108}
-  - component: {fileID: 895249107}
   - component: {fileID: 895249106}
   - component: {fileID: 895249110}
   m_Layer: 7
@@ -40673,19 +39906,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &895249107
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 895249104}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &895249108
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -41087,7 +40307,6 @@ GameObject:
   - component: {fileID: 897850952}
   - component: {fileID: 897850956}
   - component: {fileID: 897850955}
-  - component: {fileID: 897850954}
   - component: {fileID: 897850953}
   - component: {fileID: 897850957}
   m_Layer: 7
@@ -41135,19 +40354,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &897850954
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 897850951}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &897850955
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -41657,6 +40863,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &912921545 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -41862,6 +41069,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &917149287 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -42492,7 +41700,6 @@ GameObject:
   - component: {fileID: 934195009}
   - component: {fileID: 934195013}
   - component: {fileID: 934195012}
-  - component: {fileID: 934195011}
   - component: {fileID: 934195010}
   - component: {fileID: 934195014}
   m_Layer: 7
@@ -42540,19 +41747,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &934195011
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 934195008}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &934195012
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -42939,6 +42133,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &937705088 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -43026,6 +42221,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &939511109 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -43224,7 +42420,6 @@ GameObject:
   - component: {fileID: 941610923}
   - component: {fileID: 941610927}
   - component: {fileID: 941610926}
-  - component: {fileID: 941610925}
   - component: {fileID: 941610924}
   - component: {fileID: 941610928}
   m_Layer: 7
@@ -43272,19 +42467,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &941610925
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 941610922}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &941610926
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -43396,6 +42578,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &948672232 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -43427,7 +42610,6 @@ GameObject:
   - component: {fileID: 952345339}
   - component: {fileID: 952345343}
   - component: {fileID: 952345342}
-  - component: {fileID: 952345341}
   - component: {fileID: 952345340}
   - component: {fileID: 952345344}
   m_Layer: 7
@@ -43475,19 +42657,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &952345341
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 952345338}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &952345342
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -43849,7 +43018,6 @@ GameObject:
   - component: {fileID: 958356387}
   - component: {fileID: 958356391}
   - component: {fileID: 958356390}
-  - component: {fileID: 958356389}
   - component: {fileID: 958356388}
   - component: {fileID: 958356392}
   m_Layer: 7
@@ -43897,19 +43065,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &958356389
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 958356386}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &958356390
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -44131,7 +43286,6 @@ GameObject:
   - component: {fileID: 963130308}
   - component: {fileID: 963130312}
   - component: {fileID: 963130311}
-  - component: {fileID: 963130310}
   - component: {fileID: 963130309}
   - component: {fileID: 963130313}
   m_Layer: 7
@@ -44179,19 +43333,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &963130310
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 963130307}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &963130311
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -44303,6 +43444,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &965231541 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -44717,6 +43859,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &976667929 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -44887,6 +44030,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &977699416 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -44962,12 +44106,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 979878558}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timer: 10
+  timer: 5
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &979878560
 Transform:
   m_ObjectHideFlags: 0
@@ -45644,7 +44789,6 @@ GameObject:
   - component: {fileID: 1002861408}
   - component: {fileID: 1002861412}
   - component: {fileID: 1002861411}
-  - component: {fileID: 1002861410}
   - component: {fileID: 1002861409}
   - component: {fileID: 1002861413}
   m_Layer: 7
@@ -45692,19 +44836,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &1002861410
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1002861407}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &1002861411
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -46348,7 +45479,6 @@ GameObject:
   - component: {fileID: 1035268702}
   - component: {fileID: 1035268706}
   - component: {fileID: 1035268705}
-  - component: {fileID: 1035268704}
   - component: {fileID: 1035268703}
   - component: {fileID: 1035268707}
   m_Layer: 7
@@ -46396,19 +45526,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &1035268704
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1035268701}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &1035268705
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -46575,6 +45692,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &1037533192 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -46791,6 +45909,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &1038614943 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -46822,7 +45941,6 @@ GameObject:
   - component: {fileID: 1038882373}
   - component: {fileID: 1038882377}
   - component: {fileID: 1038882376}
-  - component: {fileID: 1038882375}
   - component: {fileID: 1038882374}
   - component: {fileID: 1038882378}
   m_Layer: 7
@@ -46870,19 +45988,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &1038882375
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1038882372}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &1038882376
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -47971,7 +47076,6 @@ GameObject:
   - component: {fileID: 1067086060}
   - component: {fileID: 1067086064}
   - component: {fileID: 1067086063}
-  - component: {fileID: 1067086062}
   - component: {fileID: 1067086061}
   - component: {fileID: 1067086065}
   m_Layer: 7
@@ -48019,19 +47123,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &1067086062
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1067086059}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &1067086063
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -49375,7 +48466,6 @@ GameObject:
   - component: {fileID: 1101198646}
   - component: {fileID: 1101198650}
   - component: {fileID: 1101198649}
-  - component: {fileID: 1101198648}
   - component: {fileID: 1101198647}
   - component: {fileID: 1101198651}
   m_Layer: 7
@@ -49423,19 +48513,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &1101198648
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1101198645}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &1101198649
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -50213,6 +49290,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &1122989814 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -50418,6 +49496,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &1130776122 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -50563,7 +49642,6 @@ GameObject:
   - component: {fileID: 1135042237}
   - component: {fileID: 1135042241}
   - component: {fileID: 1135042240}
-  - component: {fileID: 1135042239}
   - component: {fileID: 1135042238}
   - component: {fileID: 1135042242}
   m_Layer: 7
@@ -50611,19 +49689,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &1135042239
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1135042236}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &1135042240
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -50903,6 +49968,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &1146506517 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -51627,7 +50693,6 @@ GameObject:
   - component: {fileID: 1161968813}
   - component: {fileID: 1161968817}
   - component: {fileID: 1161968816}
-  - component: {fileID: 1161968815}
   - component: {fileID: 1161968814}
   - component: {fileID: 1161968818}
   m_Layer: 7
@@ -51675,19 +50740,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &1161968815
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1161968812}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &1161968816
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -53253,6 +52305,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &1186632043 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -54350,7 +53403,6 @@ GameObject:
   - component: {fileID: 1226386573}
   - component: {fileID: 1226386577}
   - component: {fileID: 1226386576}
-  - component: {fileID: 1226386575}
   - component: {fileID: 1226386574}
   - component: {fileID: 1226386578}
   m_Layer: 7
@@ -54398,19 +53450,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &1226386575
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1226386572}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &1226386576
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -54549,7 +53588,6 @@ GameObject:
   - component: {fileID: 1230226237}
   - component: {fileID: 1230226241}
   - component: {fileID: 1230226240}
-  - component: {fileID: 1230226239}
   - component: {fileID: 1230226238}
   - component: {fileID: 1230226242}
   m_Layer: 7
@@ -54592,19 +53630,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &1230226239
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1230226236}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &1230226240
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -54881,6 +53906,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &1236085621 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -55092,7 +54118,6 @@ GameObject:
   - component: {fileID: 1237341960}
   - component: {fileID: 1237341964}
   - component: {fileID: 1237341963}
-  - component: {fileID: 1237341962}
   - component: {fileID: 1237341961}
   - component: {fileID: 1237341965}
   m_Layer: 7
@@ -55140,19 +54165,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &1237341962
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1237341959}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &1237341963
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -56073,6 +55085,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &1258336357 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -56856,7 +55869,6 @@ GameObject:
   - component: {fileID: 1265958501}
   - component: {fileID: 1265958505}
   - component: {fileID: 1265958504}
-  - component: {fileID: 1265958503}
   - component: {fileID: 1265958502}
   - component: {fileID: 1265958506}
   m_Layer: 7
@@ -56904,19 +55916,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &1265958503
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1265958500}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &1265958504
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -57028,6 +56027,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &1266958404 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -63105,6 +62105,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &1300707634 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -63191,7 +62192,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88f2ce0580a1a9e44a04633ad5ca5740, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  flowers: {fileID: 0}
+  flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &1303913142 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -63223,7 +62225,6 @@ GameObject:
   - component: {fileID: 1305028072}
   - component: {fileID: 1305028076}
   - component: {fileID: 1305028075}
-  - component: {fileID: 1305028074}
   - component: {fileID: 1305028073}
   - component: {fileID: 1305028077}
   m_Layer: 7
@@ -63266,19 +62267,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &1305028074
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1305028071}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &1305028075
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -63940,7 +62928,6 @@ GameObject:
   - component: {fileID: 1321243167}
   - component: {fileID: 1321243171}
   - component: {fileID: 1321243170}
-  - component: {fileID: 1321243169}
   - component: {fileID: 1321243168}
   - component: {fileID: 1321243172}
   m_Layer: 7
@@ -63988,19 +62975,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &1321243169
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1321243166}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &1321243170
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -64423,6 +63397,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &1336037010 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -64454,7 +63429,6 @@ GameObject:
   - component: {fileID: 1336398426}
   - component: {fileID: 1336398430}
   - component: {fileID: 1336398429}
-  - component: {fileID: 1336398428}
   - component: {fileID: 1336398427}
   - component: {fileID: 1336398431}
   m_Layer: 7
@@ -64502,19 +63476,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &1336398428
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1336398425}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &1336398429
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -64925,6 +63886,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &1347239591 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -65722,7 +64684,6 @@ GameObject:
   - component: {fileID: 1354446515}
   - component: {fileID: 1354446519}
   - component: {fileID: 1354446518}
-  - component: {fileID: 1354446517}
   - component: {fileID: 1354446516}
   - component: {fileID: 1354446520}
   m_Layer: 7
@@ -65770,19 +64731,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &1354446517
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1354446514}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &1354446518
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -65973,7 +64921,6 @@ GameObject:
   - component: {fileID: 1360501904}
   - component: {fileID: 1360501908}
   - component: {fileID: 1360501907}
-  - component: {fileID: 1360501906}
   - component: {fileID: 1360501905}
   - component: {fileID: 1360501909}
   m_Layer: 7
@@ -66021,19 +64968,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &1360501906
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1360501903}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &1360501907
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -66145,6 +65079,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &1365649289 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -66176,7 +65111,6 @@ GameObject:
   - component: {fileID: 1366587880}
   - component: {fileID: 1366587884}
   - component: {fileID: 1366587883}
-  - component: {fileID: 1366587882}
   - component: {fileID: 1366587881}
   - component: {fileID: 1366587885}
   m_Layer: 7
@@ -66224,19 +65158,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &1366587882
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1366587879}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &1366587883
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -66292,7 +65213,6 @@ GameObject:
   - component: {fileID: 1366851655}
   - component: {fileID: 1366851659}
   - component: {fileID: 1366851658}
-  - component: {fileID: 1366851657}
   - component: {fileID: 1366851656}
   - component: {fileID: 1366851660}
   m_Layer: 7
@@ -66338,19 +65258,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &1366851657
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1366851654}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &1366851658
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -66630,7 +65537,6 @@ GameObject:
   - component: {fileID: 1375846114}
   - component: {fileID: 1375846118}
   - component: {fileID: 1375846117}
-  - component: {fileID: 1375846116}
   - component: {fileID: 1375846115}
   - component: {fileID: 1375846119}
   m_Layer: 7
@@ -66678,19 +65584,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &1375846116
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1375846113}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &1375846117
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -67846,6 +66739,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &1397799552 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -68231,7 +67125,6 @@ GameObject:
   - component: {fileID: 1407746645}
   - component: {fileID: 1407746649}
   - component: {fileID: 1407746648}
-  - component: {fileID: 1407746647}
   - component: {fileID: 1407746646}
   - component: {fileID: 1407746650}
   m_Layer: 7
@@ -68279,19 +67172,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &1407746647
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1407746644}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &1407746648
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -68575,6 +67455,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &1412214658 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -68715,7 +67596,6 @@ GameObject:
   - component: {fileID: 1414117083}
   - component: {fileID: 1414117087}
   - component: {fileID: 1414117086}
-  - component: {fileID: 1414117085}
   - component: {fileID: 1414117084}
   - component: {fileID: 1414117088}
   m_Layer: 7
@@ -68763,19 +67643,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &1414117085
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1414117082}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &1414117086
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -69307,6 +68174,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &1433704635 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -70488,7 +69356,6 @@ GameObject:
   - component: {fileID: 1460165319}
   - component: {fileID: 1460165323}
   - component: {fileID: 1460165322}
-  - component: {fileID: 1460165321}
   - component: {fileID: 1460165320}
   - component: {fileID: 1460165324}
   m_Layer: 7
@@ -70536,19 +69403,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &1460165321
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1460165318}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &1460165322
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -71429,6 +70283,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &1477454176 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -71543,7 +70398,6 @@ GameObject:
   - component: {fileID: 1480667330}
   - component: {fileID: 1480667334}
   - component: {fileID: 1480667333}
-  - component: {fileID: 1480667332}
   - component: {fileID: 1480667331}
   - component: {fileID: 1480667335}
   m_Layer: 7
@@ -71591,19 +70445,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &1480667332
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1480667329}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &1480667333
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -71715,6 +70556,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &1484137162 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -71860,7 +70702,6 @@ GameObject:
   - component: {fileID: 1490518840}
   - component: {fileID: 1490518844}
   - component: {fileID: 1490518843}
-  - component: {fileID: 1490518842}
   - component: {fileID: 1490518841}
   - component: {fileID: 1490518845}
   m_Layer: 7
@@ -71908,19 +70749,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &1490518842
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1490518839}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &1490518843
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -72032,6 +70860,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &1491845387 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -72063,7 +70892,6 @@ GameObject:
   - component: {fileID: 1494287125}
   - component: {fileID: 1494287129}
   - component: {fileID: 1494287128}
-  - component: {fileID: 1494287127}
   - component: {fileID: 1494287126}
   - component: {fileID: 1494287130}
   m_Layer: 7
@@ -72111,19 +70939,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &1494287127
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1494287124}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &1494287128
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -73029,7 +71844,6 @@ GameObject:
   - component: {fileID: 1517443361}
   - component: {fileID: 1517443365}
   - component: {fileID: 1517443364}
-  - component: {fileID: 1517443363}
   - component: {fileID: 1517443362}
   - component: {fileID: 1517443366}
   m_Layer: 7
@@ -73077,19 +71891,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &1517443363
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1517443360}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &1517443364
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -73201,6 +72002,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &1518318763 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -73591,7 +72393,6 @@ GameObject:
   - component: {fileID: 1530701481}
   - component: {fileID: 1530701485}
   - component: {fileID: 1530701484}
-  - component: {fileID: 1530701483}
   - component: {fileID: 1530701482}
   - component: {fileID: 1530701486}
   m_Layer: 7
@@ -73639,19 +72440,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &1530701483
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1530701480}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &1530701484
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -73707,7 +72495,6 @@ GameObject:
   - component: {fileID: 1532085168}
   - component: {fileID: 1532085172}
   - component: {fileID: 1532085171}
-  - component: {fileID: 1532085170}
   - component: {fileID: 1532085169}
   - component: {fileID: 1532085173}
   m_Layer: 7
@@ -73755,19 +72542,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &1532085170
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1532085167}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &1532085171
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -74237,6 +73011,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &1541891225 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -74351,7 +73126,6 @@ GameObject:
   - component: {fileID: 1548588859}
   - component: {fileID: 1548588863}
   - component: {fileID: 1548588862}
-  - component: {fileID: 1548588861}
   - component: {fileID: 1548588860}
   - component: {fileID: 1548588864}
   m_Layer: 7
@@ -74399,19 +73173,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &1548588861
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1548588858}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &1548588862
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -74933,6 +73694,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &1564161631 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -75104,6 +73866,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &1565635173 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -75497,6 +74260,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &1572261166 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -75861,7 +74625,6 @@ GameObject:
   - component: {fileID: 1578624292}
   - component: {fileID: 1578624296}
   - component: {fileID: 1578624295}
-  - component: {fileID: 1578624294}
   - component: {fileID: 1578624293}
   - component: {fileID: 1578624297}
   m_Layer: 7
@@ -75909,19 +74672,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &1578624294
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1578624291}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &1578624295
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -76122,6 +74872,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &1581764239 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -77077,6 +75828,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &1605567417 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -78004,7 +76756,6 @@ GameObject:
   - component: {fileID: 1624295004}
   - component: {fileID: 1624295008}
   - component: {fileID: 1624295007}
-  - component: {fileID: 1624295006}
   - component: {fileID: 1624295005}
   - component: {fileID: 1624295009}
   m_Layer: 7
@@ -78052,19 +76803,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &1624295006
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1624295003}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &1624295007
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -78176,6 +76914,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &1628535913 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -78207,7 +76946,6 @@ GameObject:
   - component: {fileID: 1631181242}
   - component: {fileID: 1631181246}
   - component: {fileID: 1631181245}
-  - component: {fileID: 1631181244}
   - component: {fileID: 1631181243}
   - component: {fileID: 1631181247}
   m_Layer: 7
@@ -78255,19 +76993,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &1631181244
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1631181241}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &1631181245
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -79158,6 +77883,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &1650962591 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -79359,6 +78085,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &1655804876 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -79446,6 +78173,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &1657177294 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -79753,7 +78481,6 @@ GameObject:
   - component: {fileID: 1665138686}
   - component: {fileID: 1665138690}
   - component: {fileID: 1665138689}
-  - component: {fileID: 1665138688}
   - component: {fileID: 1665138687}
   - component: {fileID: 1665138691}
   m_Layer: 7
@@ -79801,19 +78528,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &1665138688
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1665138685}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &1665138689
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -80224,6 +78938,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &1678183965 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -80369,7 +79084,6 @@ GameObject:
   - component: {fileID: 1683274709}
   - component: {fileID: 1683274713}
   - component: {fileID: 1683274712}
-  - component: {fileID: 1683274711}
   - component: {fileID: 1683274710}
   - component: {fileID: 1683274714}
   m_Layer: 7
@@ -80417,19 +79131,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &1683274711
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1683274708}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &1683274712
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -80568,7 +79269,6 @@ GameObject:
   - component: {fileID: 1686325479}
   - component: {fileID: 1686325483}
   - component: {fileID: 1686325482}
-  - component: {fileID: 1686325481}
   - component: {fileID: 1686325480}
   - component: {fileID: 1686325484}
   m_Layer: 7
@@ -80616,19 +79316,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &1686325481
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1686325478}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &1686325482
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -80793,7 +79480,6 @@ GameObject:
   - component: {fileID: 1690005836}
   - component: {fileID: 1690005840}
   - component: {fileID: 1690005839}
-  - component: {fileID: 1690005838}
   - component: {fileID: 1690005837}
   - component: {fileID: 1690005841}
   m_Layer: 7
@@ -80841,19 +79527,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &1690005838
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1690005835}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &1690005839
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -81048,6 +79721,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &1693200940 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -81661,7 +80335,6 @@ GameObject:
   - component: {fileID: 1707983820}
   - component: {fileID: 1707983824}
   - component: {fileID: 1707983823}
-  - component: {fileID: 1707983822}
   - component: {fileID: 1707983821}
   - component: {fileID: 1707983825}
   m_Layer: 7
@@ -81709,19 +80382,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &1707983822
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1707983819}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &1707983823
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -82147,7 +80807,6 @@ GameObject:
   - component: {fileID: 1721115805}
   - component: {fileID: 1721115809}
   - component: {fileID: 1721115808}
-  - component: {fileID: 1721115807}
   - component: {fileID: 1721115806}
   - component: {fileID: 1721115810}
   m_Layer: 7
@@ -82195,19 +80854,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &1721115807
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1721115804}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &1721115808
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -82346,7 +80992,6 @@ GameObject:
   - component: {fileID: 1731669043}
   - component: {fileID: 1731669047}
   - component: {fileID: 1731669046}
-  - component: {fileID: 1731669045}
   - component: {fileID: 1731669044}
   - component: {fileID: 1731669048}
   m_Layer: 7
@@ -82394,19 +81039,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &1731669045
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1731669042}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &1731669046
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -82462,7 +81094,6 @@ GameObject:
   - component: {fileID: 1732027389}
   - component: {fileID: 1732027393}
   - component: {fileID: 1732027392}
-  - component: {fileID: 1732027391}
   - component: {fileID: 1732027390}
   - component: {fileID: 1732027394}
   m_Layer: 7
@@ -82510,19 +81141,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &1732027391
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1732027388}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &1732027392
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -82614,6 +81232,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &1733546576 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -83704,6 +82323,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &1767134826 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -84662,7 +83282,6 @@ GameObject:
   - component: {fileID: 1780012704}
   - component: {fileID: 1780012708}
   - component: {fileID: 1780012707}
-  - component: {fileID: 1780012706}
   - component: {fileID: 1780012705}
   - component: {fileID: 1780012709}
   m_Layer: 7
@@ -84710,19 +83329,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &1780012706
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1780012703}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &1780012707
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -85166,6 +83772,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &1786616680 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -85197,7 +83804,6 @@ GameObject:
   - component: {fileID: 1788260945}
   - component: {fileID: 1788260949}
   - component: {fileID: 1788260948}
-  - component: {fileID: 1788260947}
   - component: {fileID: 1788260946}
   - component: {fileID: 1788260950}
   m_Layer: 7
@@ -85245,19 +83851,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &1788260947
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1788260944}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &1788260948
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -85952,6 +84545,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &1805883782 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -86127,6 +84721,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &1808187396 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -86496,6 +85091,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &1819235151 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -86610,7 +85206,6 @@ GameObject:
   - component: {fileID: 1821760477}
   - component: {fileID: 1821760481}
   - component: {fileID: 1821760480}
-  - component: {fileID: 1821760479}
   - component: {fileID: 1821760478}
   - component: {fileID: 1821760482}
   m_Layer: 7
@@ -86658,19 +85253,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &1821760479
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1821760476}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &1821760480
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -86980,6 +85562,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &1833724092 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -87823,6 +86406,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &1855361482 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -88201,7 +86785,6 @@ GameObject:
   - component: {fileID: 1862068214}
   - component: {fileID: 1862068218}
   - component: {fileID: 1862068217}
-  - component: {fileID: 1862068216}
   - component: {fileID: 1862068215}
   - component: {fileID: 1862068219}
   m_Layer: 7
@@ -88246,19 +86829,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &1862068216
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1862068213}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &1862068217
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -89092,7 +87662,6 @@ GameObject:
   - component: {fileID: 1885151809}
   - component: {fileID: 1885151813}
   - component: {fileID: 1885151812}
-  - component: {fileID: 1885151811}
   - component: {fileID: 1885151810}
   - component: {fileID: 1885151814}
   m_Layer: 7
@@ -89140,19 +87709,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &1885151811
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1885151808}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &1885151812
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -89432,6 +87988,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &1892207290 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -89607,6 +88164,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &1903413924 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -89638,7 +88196,6 @@ GameObject:
   - component: {fileID: 1904029271}
   - component: {fileID: 1904029275}
   - component: {fileID: 1904029274}
-  - component: {fileID: 1904029273}
   - component: {fileID: 1904029272}
   - component: {fileID: 1904029276}
   m_Layer: 7
@@ -89686,19 +88243,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &1904029273
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1904029270}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &1904029274
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -89965,7 +88509,6 @@ GameObject:
   - component: {fileID: 1909111682}
   - component: {fileID: 1909111686}
   - component: {fileID: 1909111685}
-  - component: {fileID: 1909111684}
   - component: {fileID: 1909111683}
   - component: {fileID: 1909111687}
   m_Layer: 7
@@ -90013,19 +88556,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &1909111684
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1909111681}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &1909111685
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -90081,7 +88611,6 @@ GameObject:
   - component: {fileID: 1915010784}
   - component: {fileID: 1915010788}
   - component: {fileID: 1915010787}
-  - component: {fileID: 1915010786}
   - component: {fileID: 1915010785}
   - component: {fileID: 1915010789}
   m_Layer: 7
@@ -90129,19 +88658,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &1915010786
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1915010783}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &1915010787
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -90280,7 +88796,6 @@ GameObject:
   - component: {fileID: 1919720274}
   - component: {fileID: 1919720278}
   - component: {fileID: 1919720277}
-  - component: {fileID: 1919720276}
   - component: {fileID: 1919720275}
   - component: {fileID: 1919720279}
   m_Layer: 7
@@ -90323,19 +88838,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &1919720276
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1919720273}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &1919720277
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -91038,7 +89540,6 @@ GameObject:
   - component: {fileID: 1929004688}
   - component: {fileID: 1929004692}
   - component: {fileID: 1929004691}
-  - component: {fileID: 1929004690}
   - component: {fileID: 1929004689}
   - component: {fileID: 1929004693}
   m_Layer: 7
@@ -91086,19 +89587,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &1929004690
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1929004687}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &1929004691
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -91271,6 +89759,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &1935139527 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -91302,7 +89791,6 @@ GameObject:
   - component: {fileID: 1938175564}
   - component: {fileID: 1938175568}
   - component: {fileID: 1938175567}
-  - component: {fileID: 1938175566}
   - component: {fileID: 1938175565}
   - component: {fileID: 1938175569}
   m_Layer: 7
@@ -91350,19 +89838,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &1938175566
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1938175563}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &1938175567
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -91418,7 +89893,6 @@ GameObject:
   - component: {fileID: 1939209591}
   - component: {fileID: 1939209595}
   - component: {fileID: 1939209594}
-  - component: {fileID: 1939209593}
   - component: {fileID: 1939209592}
   - component: {fileID: 1939209596}
   m_Layer: 7
@@ -91466,19 +89940,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &1939209593
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1939209590}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &1939209594
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -91694,7 +90155,6 @@ GameObject:
   - component: {fileID: 1947317928}
   - component: {fileID: 1947317932}
   - component: {fileID: 1947317931}
-  - component: {fileID: 1947317930}
   - component: {fileID: 1947317929}
   - component: {fileID: 1947317933}
   m_Layer: 7
@@ -91742,19 +90202,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &1947317930
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1947317927}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &1947317931
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -92123,7 +90570,6 @@ GameObject:
   - component: {fileID: 1954852902}
   - component: {fileID: 1954852906}
   - component: {fileID: 1954852905}
-  - component: {fileID: 1954852904}
   - component: {fileID: 1954852903}
   - component: {fileID: 1954852907}
   m_Layer: 7
@@ -92171,19 +90617,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &1954852904
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1954852901}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &1954852905
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -92893,6 +91326,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &1972817865 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -93007,7 +91441,6 @@ GameObject:
   - component: {fileID: 1979429276}
   - component: {fileID: 1979429280}
   - component: {fileID: 1979429279}
-  - component: {fileID: 1979429278}
   - component: {fileID: 1979429277}
   - component: {fileID: 1979429281}
   m_Layer: 7
@@ -93055,19 +91488,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &1979429278
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1979429275}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &1979429279
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -93123,7 +91543,6 @@ GameObject:
   - component: {fileID: 1979680042}
   - component: {fileID: 1979680046}
   - component: {fileID: 1979680045}
-  - component: {fileID: 1979680044}
   - component: {fileID: 1979680043}
   - component: {fileID: 1979680047}
   m_Layer: 7
@@ -93171,19 +91590,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &1979680044
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1979680041}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &1979680045
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -93378,6 +91784,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &1982243877 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -93465,6 +91872,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &1986171715 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -93666,6 +92074,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &1987878747 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -94479,6 +92888,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &2003380379 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -95540,7 +93950,6 @@ GameObject:
   - component: {fileID: 2023374119}
   - component: {fileID: 2023374123}
   - component: {fileID: 2023374122}
-  - component: {fileID: 2023374121}
   - component: {fileID: 2023374120}
   - component: {fileID: 2023374124}
   m_Layer: 7
@@ -95588,19 +93997,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &2023374121
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2023374118}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &2023374122
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -95739,7 +94135,6 @@ GameObject:
   - component: {fileID: 2025624807}
   - component: {fileID: 2025624811}
   - component: {fileID: 2025624810}
-  - component: {fileID: 2025624809}
   - component: {fileID: 2025624808}
   - component: {fileID: 2025624812}
   m_Layer: 7
@@ -95787,19 +94182,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &2025624809
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2025624806}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &2025624810
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -95911,6 +94293,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &2026079325 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -97585,6 +95968,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &2064176258 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -97950,7 +96334,6 @@ GameObject:
   - component: {fileID: 2077949432}
   - component: {fileID: 2077949436}
   - component: {fileID: 2077949435}
-  - component: {fileID: 2077949434}
   - component: {fileID: 2077949433}
   - component: {fileID: 2077949437}
   m_Layer: 7
@@ -97998,19 +96381,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &2077949434
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2077949431}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &2077949435
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -99221,6 +97591,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &2114985635 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -99584,6 +97955,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &2122564777 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -100126,7 +98498,6 @@ GameObject:
   - component: {fileID: 2137717223}
   - component: {fileID: 2137717227}
   - component: {fileID: 2137717226}
-  - component: {fileID: 2137717225}
   - component: {fileID: 2137717224}
   - component: {fileID: 2137717228}
   m_Layer: 7
@@ -100174,19 +98545,6 @@ MonoBehaviour:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
---- !u!114 &2137717225
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2137717222}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833b30da78857d94e83e423501d9d386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
 --- !u!65 &2137717226
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -100541,6 +98899,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowers: {fileID: 979878558}
+  spawnParticles: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
 --- !u!4 &2142406003 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8bfd94fb772878f49babd58cfa9e1e6f, type: 3}
@@ -100861,6 +99220,10 @@ PrefabInstance:
       propertyPath: flowers
       value: 
       objectReference: {fileID: 979878558}
+    - target: {fileID: 7676876689102703003, guid: a288361a9f1f6324f860b0385d17de67, type: 3}
+      propertyPath: spawnParticles
+      value: 
+      objectReference: {fileID: 3637613079319773603, guid: b1a04607290cc24459b32b9fe2272029, type: 3}
     - target: {fileID: 7676876689102703004, guid: a288361a9f1f6324f860b0385d17de67, type: 3}
       propertyPath: m_Center.y
       value: 0
