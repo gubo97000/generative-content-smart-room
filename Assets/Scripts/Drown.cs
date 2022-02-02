@@ -14,12 +14,14 @@ public class Drown : MonoBehaviour
     void Start()
     {
         EventManager.StartListening("WaterPond", OnSwitchPondState);
+        EventManager.StartListening("HoneyPond", OnSwitchPondState);
         EventManager.StartListening("EmptyPond", OnSwitchPondState);
     }
 
     void OnDestroy()
     {
         EventManager.StopListening("WaterPond", OnSwitchPondState);
+        EventManager.StopListening("HoneyPond", OnSwitchPondState);
         EventManager.StopListening("EmptyPond", OnSwitchPondState);
     }
 

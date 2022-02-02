@@ -19,6 +19,7 @@ TagManager:
   - Player2
   - Beehive
   - Beaver
+  - Honey
   layers:
   - Default
   - TransparentFX
