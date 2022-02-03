@@ -281,7 +281,7 @@ public class KinectSkeletonManager : MonoBehaviour
                 Vector3 FootLeft = skelPosition.FootLeft;
                 Vector3 FootRight = skelPosition.FootRight;
                 // if ((FootLeft.y > -0.92f && FootRight.y > -0.92f))
-                Debug.Log($"{FootLeft.y }  {FootRight.y}");
+                // Debug.Log($"{FootLeft.y }  {FootRight.y}");
                 if ((FootLeft.y > -0.85f && FootRight.y > -0.85f))
                 {
                     if (!_activeJump)
