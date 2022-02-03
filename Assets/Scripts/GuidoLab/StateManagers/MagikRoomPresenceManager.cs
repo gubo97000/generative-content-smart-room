@@ -18,7 +18,7 @@ public class MagikRoomPresenceManager : ObjectStateHandler
     protected override void Start()
     {
         base.Start();
-        if (MagicRoomManager.instance.MagicRoomKinectV2Manager != null)
+        if (MagicRoomManager.instance?.MagicRoomKinectV2Manager != null)
         {
             CurrentState = "InMagik";
         }

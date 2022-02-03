@@ -9,7 +9,7 @@ public class CrouchParticles : MonoBehaviour
     public int numberOfParticles = 20;
     ParticleSystem ps;
     private Color _color;
-    private MagicRoomLightManager? _lM = null;
+    private MagicRoomLightManager _lM = null;
     private void Start()
     {
         _color = GameStateManager.playersColor[this.GetComponentInParent<PlayerInfo>().playerNumber];
@@ -27,7 +27,7 @@ public class CrouchParticles : MonoBehaviour
         col.color = grad;
 
         //MagicRoomLight
-        if (MagicRoomManager.instance.MagicRoomLightManager != null)
+        if (MagicRoomManager.instance?.MagicRoomLightManager != null)
         {
             _lM = MagicRoomManager.instance.MagicRoomLightManager;
         }

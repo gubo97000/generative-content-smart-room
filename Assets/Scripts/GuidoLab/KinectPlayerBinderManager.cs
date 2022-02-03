@@ -18,7 +18,7 @@ public class KinectPlayerBinderManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if (MagicRoomManager.instance.MagicRoomKinectV2Manager != null)
+    if (MagicRoomManager.instance?.MagicRoomKinectV2Manager != null)
         {
             MagicRoomManager.instance.MagicRoomKinectV2Manager.Skeletons += ManageSkeleton;
 

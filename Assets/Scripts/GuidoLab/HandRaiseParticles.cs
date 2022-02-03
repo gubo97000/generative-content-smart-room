@@ -23,7 +23,7 @@ public class HandRaiseParticles : MonoBehaviour
 
     //Array of single particles for the countdown effect
     private ParticleSystem.Particle[] _particles;
-    private MagicRoomLightManager? _lM = null;
+    private MagicRoomLightManager _lM = null;
     private void Start()
     {
         _particles = new ParticleSystem.Particle[numberOfParticles];
@@ -47,10 +47,13 @@ public class HandRaiseParticles : MonoBehaviour
         psEmission.rateOverTime = (float)numberOfParticles / recoverTime;
         var psShape = recover_ps.shape;
         psShape.arcSpeed = (-0.02f * recoverTime) + 0.3f;
-        if (MagicRoomManager.instance.MagicRoomLightManager != null)
+
+        if (MagicRoomManager.instance?.MagicRoomLightManager != null)
         {
             _lM = MagicRoomManager.instance.MagicRoomLightManager;
         }
+
+
 
         EventManager.StartListening("OnHandRaiseStart", OnHandRaiseStartHandler);
         // EventManager.StartListening("OnHandRaiseEnd", OnHandRaiseEndHandler);
@@ -67,7 +70,6 @@ public class HandRaiseParticles : MonoBehaviour
     {
         // GameObject smartLight = GameObject.Find("SmartLightManager");
         // smartLight.GetComponent<MagicRoomLightManager>().SendColor("green");
-
         var sender = dict["sender"] as GameObject;
         if (sender == this.transform.parent.gameObject && !isRecovering)
         {
