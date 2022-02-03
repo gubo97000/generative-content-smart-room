@@ -312,6 +312,7 @@ public class KinectSkeletonManager : MonoBehaviour
 
     public void OnChangeKinectPlayerId(ulong id)
     {
+        Debug.Log($"{gameObject} {id} {(PlayerToFollow)id}");
         playerIdentifier = (PlayerToFollow)id;
     }
 
