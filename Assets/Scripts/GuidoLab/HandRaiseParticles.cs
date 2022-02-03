@@ -88,14 +88,13 @@ public class HandRaiseParticles : MonoBehaviour
 
             ps.SetParticles(_particles);
             Invoke("StartRecoverParticles", maxTime);
-
-            _lM?.SendColor($"#{ColorUtility.ToHtmlStringRGB(_color).ToLower()}", 100, $"Hue go {(GetComponentInParent<PlayerInfo>().playerNumber + 1)}");
         }
 
     }
 
     void StartRecoverParticles()
     {
+        _lM?.SendColor($"#{ColorUtility.ToHtmlStringRGB(_color).ToLower()}", 100, $"Hue go {(GetComponentInParent<PlayerInfo>().playerNumber + 1)}");
         ps.Clear();
         ps.Stop();
         EventManager.TriggerEvent("OnHelperGlowEnd", this.transform.parent.gameObject); //I don't like this
