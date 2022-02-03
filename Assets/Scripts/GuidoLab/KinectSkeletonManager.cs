@@ -276,9 +276,12 @@ public class KinectSkeletonManager : MonoBehaviour
                 // }
 
                 // Jump
-                Vector3 FootLeft = FixPosition(skelPosition.FootLeft);
-                Vector3 FootRight = FixPosition(skelPosition.FootRight);
+                //Vector3 FootLeft = FixPosition(skelPosition.FootLeft);
+                //Vector3 FootRight = FixPosition(skelPosition.FootRight);
+                Vector3 FootLeft = skelPosition.FootLeft;
+                Vector3 FootRight = skelPosition.FootRight;
                 // if ((FootLeft.y > -0.92f && FootRight.y > -0.92f))
+                Debug.Log($"{FootLeft.y }  {FootRight.y}");
                 if ((FootLeft.y > -0.85f && FootRight.y > -0.85f))
                 {
                     if (!_activeJump)
