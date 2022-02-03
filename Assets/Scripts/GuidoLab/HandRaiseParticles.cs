@@ -23,6 +23,7 @@ public class HandRaiseParticles : MonoBehaviour
 
     //Array of single particles for the countdown effect
     private ParticleSystem.Particle[] _particles;
+    private MagicRoomLightManager? _lM = null;
     private void Start()
     {
         _particles = new ParticleSystem.Particle[numberOfParticles];
@@ -46,6 +47,10 @@ public class HandRaiseParticles : MonoBehaviour
         psEmission.rateOverTime = (float)numberOfParticles / recoverTime;
         var psShape = recover_ps.shape;
         psShape.arcSpeed = (-0.02f * recoverTime) + 0.3f;
+        if (MagicRoomManager.instance.MagicRoomLightManager != null)
+        {
+            _lM = MagicRoomManager.instance.MagicRoomLightManager;
+        }
 
         EventManager.StartListening("OnHandRaiseStart", OnHandRaiseStartHandler);
         // EventManager.StartListening("OnHandRaiseEnd", OnHandRaiseEndHandler);
@@ -66,6 +71,7 @@ public class HandRaiseParticles : MonoBehaviour
         var sender = dict["sender"] as GameObject;
         if (sender == this.transform.parent.gameObject && !isRecovering)
         {
+            _lM?.SendColor($"#{ColorUtility.ToHtmlStringRGB(_color).ToLower()}", 255, $"Hue go {(GetComponentInParent<PlayerInfo>().playerNumber + 1)}");
             isRecovering = true;
             EventManager.TriggerEvent("OnHelperGlowStart", sender);
             // CancelInvoke("StopParticles");
@@ -82,6 +88,8 @@ public class HandRaiseParticles : MonoBehaviour
 
             ps.SetParticles(_particles);
             Invoke("StartRecoverParticles", maxTime);
+
+            _lM?.SendColor($"#{ColorUtility.ToHtmlStringRGB(_color).ToLower()}", 100, $"Hue go {(GetComponentInParent<PlayerInfo>().playerNumber + 1)}");
         }
 
     }
