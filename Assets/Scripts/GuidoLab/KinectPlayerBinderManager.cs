@@ -36,7 +36,7 @@ public class KinectPlayerBinderManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (queueForBinding.Count > 0)
+        while (queueForBinding.Count > 0)
         {
             var (playerId, indexOfToBind) = queueForBinding.Dequeue();
             foreach (var item in toBind[indexOfToBind].list)
