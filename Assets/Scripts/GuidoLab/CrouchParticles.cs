@@ -30,9 +30,8 @@ public class CrouchParticles : MonoBehaviour
         if (MagicRoomManager.instance.MagicRoomLightManager != null)
         {
             _lM = MagicRoomManager.instance.MagicRoomLightManager;
-            Debug.Log("MagicRoomLightManager Found");
         }
-        _lM?.SendColor(_color.ToString(""), 100, $"Hue go {(GetComponentInParent<PlayerInfo>().playerNumber + 1)}");
+        _lM?.SendColor($"#{ColorUtility.ToHtmlStringRGB(_color).ToLower()}", 100, $"Hue go {(GetComponentInParent<PlayerInfo>().playerNumber + 1)}");
 
         EventManager.StartListening("OnCrouchStart", OnCrouchStartHandler);
         EventManager.StartListening("OnCrouchEnd", OnCrouchEndHandler);
@@ -53,7 +52,7 @@ public class CrouchParticles : MonoBehaviour
             GetComponent<ParticleSystem>().Emit(numberOfParticles);
             GetComponent<ParticleSystemForceField>().gravity = 0;
 
-            _lM?.SendColor(_color.ToString(""), 20, $"Hue go {(GetComponentInParent<PlayerInfo>().playerNumber + 1)}");
+            _lM?.SendColor($"#{ColorUtility.ToHtmlStringRGB(_color).ToLower()}", 20, $"Hue go {(GetComponentInParent<PlayerInfo>().playerNumber + 1)}");
         }
 
     }
@@ -74,7 +73,7 @@ public class CrouchParticles : MonoBehaviour
     {
         this.GetComponent<ParticleSystem>().Clear();
 
-        _lM?.SendColor(_color.ToString(""), 100, $"Hue go {(GetComponentInParent<PlayerInfo>().playerNumber + 1)}");
+        _lM?.SendColor($"#{ColorUtility.ToHtmlStringRGB(_color).ToLower()}", 100, $"Hue go {(GetComponentInParent<PlayerInfo>().playerNumber + 1)}");
     }
 
 }
