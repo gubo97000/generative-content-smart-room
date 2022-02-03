@@ -13,6 +13,7 @@ public class KinectPlayerBinderManager : MonoBehaviour
     private ulong[] pastIDs = new ulong[6] { 1, 2, 3, 4, 5, 6 }; //This could cause bugs if toBind is grows during runtime
     private Vector3 standardizedFloorSize;
     private Vector3 sensorDisallinment;
+    Queue<Tuple<ulong, int>> queueForBinding = new Queue<Tuple<ulong, int>>();
 
     // Start is called before the first frame update
     void Start()
@@ -35,7 +36,14 @@ public class KinectPlayerBinderManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        if (queueForBinding.Count > 0)
+        {
+            var (playerId, indexOfToBind) = queueForBinding.Dequeue();
+            foreach (var item in toBind[indexOfToBind].list)
+            {
+                item.BroadcastMessage("OnChangeKinectPlayerId", playerId + 1);
+            }
+        }
     }
     private void ManageSkeleton(Dictionary<ulong, Skeleton> skel)
     {
@@ -70,9 +78,10 @@ public class KinectPlayerBinderManager : MonoBehaviour
     private void BindId(ulong id, int indexOfToBind)
     {
         pastIDs[indexOfToBind] = id;
-        foreach (var item in toBind[indexOfToBind].list)
-        {
-            item.BroadcastMessage("OnChangeKinectPlayerId", id);
-        }
+        queueForBinding.Enqueue(new Tuple<ulong, int>(id, indexOfToBind));
+        // foreach (var item in toBind[indexOfToBind].list)
+        // {
+        //     item.BroadcastMessage("OnChangeKinectPlayerId", id + 1);
+        // }
     }
 }
