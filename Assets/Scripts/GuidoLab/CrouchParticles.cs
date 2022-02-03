@@ -30,6 +30,7 @@ public class CrouchParticles : MonoBehaviour
         if (MagicRoomManager.instance.MagicRoomLightManager != null)
         {
             _lM = MagicRoomManager.instance.MagicRoomLightManager;
+            Debug.Log("MagicRoomLightManager Found");
         }
         _lM?.SendColor(_color.ToString(""), 100, $"Hue go {(GetComponentInParent<PlayerInfo>().playerNumber + 1)}");
 
