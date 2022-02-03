@@ -70,7 +70,7 @@ public class PlayerTrackerGUI : Editor
 }
 
 [CustomPropertyDrawer(typeof(Vector3Bool))]
-public class IngredientDrawerUIE : PropertyDrawer
+public class IngredientDrawerUIE2 : PropertyDrawer
 {
     public override void OnGUI(Rect position, SerializedProperty property, GUIContent label)
     {
@@ -108,7 +108,7 @@ public class IngredientDrawerUIE : PropertyDrawer
     }
 }
 
-public abstract class DictionaryDrawer<TK, TV> : PropertyDrawer
+public abstract class DictionaryDrawer2<TK, TV> : PropertyDrawer
 {
     protected SerializableDictionary<TK, TV> _Dictionary;
     private bool _Foldout;
@@ -285,10 +285,10 @@ public abstract class DictionaryDrawer<TK, TV> : PropertyDrawer
 }
 
 [CustomPropertyDrawer(typeof(PlayerPositiondDict))]
-public class PlayerPositiondDictDrawer1 : DictionaryDrawer<PartToTrack, Transform> { }
+public class PlayerPositiondDictDrawer12 : DictionaryDrawer2<PartToTrack, Transform> { }
 
 [CustomPropertyDrawer(typeof(BoxArea))]
-public class BoxAreaDrawer : PropertyDrawer
+public class BoxAreaDrawer2 : PropertyDrawer
 {
     public override void OnGUI(Rect position, SerializedProperty property, GUIContent label)
     {
