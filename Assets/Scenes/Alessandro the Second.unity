@@ -17463,7 +17463,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6815456535523397480, guid: 23f43c452507c714ba4e8ca419500b1b, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6815456535523397483, guid: 23f43c452507c714ba4e8ca419500b1b, type: 3}
       propertyPath: m_RootOrder
@@ -31905,7 +31905,7 @@ MonoBehaviour:
   keepStartingPosition: 0
   activeTrackAxis:
     X: 1
-    Y: 0
+    Y: 1
     Z: 1
   playerIdentifier: 0
   trackingSchema:
@@ -31922,7 +31922,7 @@ MonoBehaviour:
     - {fileID: 0}
     - {fileID: 0}
   interactiveArea:
-    center: {x: 0, y: 0.24, z: 0}
+    center: {x: 0, y: 1.9, z: 0}
     width: 16
     depth: 9
     height: 1
@@ -65737,7 +65737,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6815456535523397480, guid: 23f43c452507c714ba4e8ca419500b1b, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6815456535523397483, guid: 23f43c452507c714ba4e8ca419500b1b, type: 3}
       propertyPath: m_RootOrder
@@ -82900,7 +82900,7 @@ MonoBehaviour:
   keepStartingPosition: 0
   activeTrackAxis:
     X: 1
-    Y: 0
+    Y: 1
     Z: 1
   playerIdentifier: 0
   trackingSchema:
@@ -82917,7 +82917,7 @@ MonoBehaviour:
     - {fileID: 0}
     - {fileID: 0}
   interactiveArea:
-    center: {x: 0, y: 0.24, z: 0}
+    center: {x: 0, y: 1.9, z: 0}
     width: 16
     depth: 9
     height: 1
