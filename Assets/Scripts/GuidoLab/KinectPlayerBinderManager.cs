@@ -18,7 +18,7 @@ public class KinectPlayerBinderManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-    if (MagicRoomManager.instance?.MagicRoomKinectV2Manager != null)
+        if (MagicRoomManager.instance?.MagicRoomKinectV2Manager != null)
         {
             MagicRoomManager.instance.MagicRoomKinectV2Manager.Skeletons += ManageSkeleton;
 
@@ -45,6 +45,15 @@ public class KinectPlayerBinderManager : MonoBehaviour
             }
         }
     }
+    private void PrettyPront(Dictionary<ulong, float> d)
+    {
+        var r = "";
+        foreach (var item in d)
+        {
+            r += ($"{d.Count} {item.Key} {item.Value}\n");
+        }
+        Debug.Log(r);
+    }
     private void ManageSkeleton(Dictionary<ulong, Skeleton> skel)
     {
 
@@ -55,21 +64,25 @@ public class KinectPlayerBinderManager : MonoBehaviour
         {
             playersDistances.Add(id, skel[id].SpineBase.z);
         }
+
         // var sorted = (from pair in playersDistances orderby pair.Value ascending select pair);
         //Getting first N positions
-        var positionsConsidered = (from pair in playersDistances orderby pair.Value ascending select pair.Key).Take(toBind.Count);
+        // var positionsConsidered = (from pair in playersDistances orderby pair.Value ascending select pair.Key).Take(toBind.Count < skel.Count ? toBind.Count : skel.Count);
+        var newPositionsConsidered = (from pair in playersDistances orderby pair.Value ascending select pair.Key).Take(toBind.Count);
         var pastIDsConsidered = pastIDs.Take(toBind.Count).ToList<ulong>();
+        // Debug.Log(positionsConsidered.Count());
         //Find new IDs
-        foreach (var playerId in positionsConsidered)
+        foreach (var playerId in newPositionsConsidered)
         {
             if (!pastIDsConsidered.Contains(playerId))
             {
                 //Find first available spot
                 for (int i = 0; i < toBind.Count; i++)
                 {
-                    if (!positionsConsidered.Contains(pastIDsConsidered[i]))
+                    if (!newPositionsConsidered.Contains(pastIDsConsidered[i]))
                     {
                         BindId(playerId, i);
+                        break;
                     }
                 }
             }
