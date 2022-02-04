@@ -33,7 +33,11 @@ public class EvolveToDragon : MonoBehaviour
         sp.GetComponent<ParticleSystem>().Play();
         yield return new WaitForSeconds(3f);
 
-        Instantiate(prefab, transform.position, Quaternion.identity);
+        GameObject instance = Instantiate(prefab, transform.position, Quaternion.identity);
+
+        // Decrease number of fish in the pond (since all carps will evolve at once, counter eventually becomes 0)
+        EventManager.TriggerEvent("EatFish", gameObject);
+
         foreach (Renderer r in gameObject.GetComponentsInChildren<Renderer>()) { r.enabled = false; }
         gameObject.GetComponent<FollowThePath>().enabled = false;
 
