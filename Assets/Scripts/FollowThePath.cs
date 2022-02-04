@@ -16,6 +16,7 @@ public class FollowThePath : MonoBehaviour
     public bool startFromWaypoint = true;
 
     public bool loop;
+    public bool rotate = true;
 
     public string pathName;
     // Walk speed that can be set in Inspector
@@ -45,14 +46,17 @@ public class FollowThePath : MonoBehaviour
         if(!startFromWaypoint)
             waypoints[0] = this.transform;
 
-        Debug.Log(path);
-        
-        foreach (Transform waypoint in path.transform)
+        if (path != null)
         {
-            if (waypoint.gameObject.active)
+            Debug.Log(path);
+
+            foreach (Transform waypoint in path.transform)
             {
-                waypoints[i] = waypoint;
-                i++;
+                if (waypoint.gameObject.active)
+                {
+                    waypoints[i] = waypoint;
+                    i++;
+                }
             }
         }
 
@@ -90,7 +94,8 @@ public class FollowThePath : MonoBehaviour
                targetDirection,
                moveSpeed * Time.deltaTime * 10, 0.0f);
 
-            transform.rotation = Quaternion.LookRotation(newDirection);
+            if (rotate)
+                transform.rotation = Quaternion.LookRotation(newDirection);
 
             // If object reaches position of waypoint he walked towards
             // then waypointIndex is increased by 1

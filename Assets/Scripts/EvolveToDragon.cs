@@ -36,7 +36,7 @@ public class EvolveToDragon : MonoBehaviour
         GameObject instance = Instantiate(prefab, transform.position, Quaternion.identity);
 
         // Decrease number of fish in the pond (since all carps will evolve at once, counter eventually becomes 0)
-        EventManager.TriggerEvent("EatFish", gameObject);
+        EventManager.TriggerEvent("SpawnDragon", gameObject, new EventDict() { { "spawned", instance } });
 
         foreach (Renderer r in gameObject.GetComponentsInChildren<Renderer>()) { r.enabled = false; }
         gameObject.GetComponent<FollowThePath>().enabled = false;

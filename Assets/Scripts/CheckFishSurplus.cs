@@ -14,12 +14,14 @@ public class CheckFishSurplus : MonoBehaviour
     {
         EventManager.StartListening("SpawnFish", OnSpawnFish);
         EventManager.StartListening("EatFish", OnEatFish);
+        EventManager.StartListening("SpawnDragon", OnEatFish);
     }
 
     void OnDestroy()
     {
         EventManager.StopListening("SpawnFish", OnSpawnFish);
         EventManager.StopListening("EatFish", OnEatFish);
+        EventManager.StopListening("SpawnDragon", OnEatFish);
     }
 
     void OnSpawnFish(EventDict dict)
