@@ -53,7 +53,7 @@ public class TutorialFloorGesture : MonoBehaviour
             // If player1 (2) is inside, then enable raise hand
             foreach (Collider thing in thingsInBounds)
             {
-                if (thing.tag == (isPlayer1 ? "Player1" : "Player2"))
+                if (thing.tag.StartsWith("Player") && isPlayer1 == ((thing.GetComponent<PlayerInfo>().playerNumber + 1) == 1))
                 {
                     isHandRaiseEnabled = true;
                     break;
@@ -137,7 +137,7 @@ public class TutorialFloorGesture : MonoBehaviour
     void OnHandRaise(EventDict dict)
     {
         if (isHandRaiseEnabled)
-            animator.SetBool(((GameObject)dict["sender"]).tag == "Player1" ? "check1" : "check2", true);
+            animator.SetBool((((GameObject)dict["sender"]).GetComponent<PlayerInfo>().playerNumber + 1) == 1 ? "check1" : "check2", true);
     }
 
 }

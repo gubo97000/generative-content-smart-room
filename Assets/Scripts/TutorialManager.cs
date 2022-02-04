@@ -11,6 +11,8 @@ public class TutorialManager : ObjectStateHandler
 
     private static TutorialManager dayTimeManager;
 
+    public bool reload = false;
+
     public static TutorialManager instance
     {
         get
@@ -86,7 +88,7 @@ public class TutorialManager : ObjectStateHandler
 
         if (_index % states.Length == 0)
         {
-            SceneManager.LoadScene(sceneBuildIndex: 3);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + ((reload) ? 0 : 1));
         }
         else
         {
