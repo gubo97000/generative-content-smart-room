@@ -10,7 +10,10 @@ public class PopUpSystem : MonoBehaviour
     public TMP_Text popUpText;
 
     private bool isHandRaiseEnabled;
+    public bool isWinCanvas;
 
+    private MagicRoomAppliancesManager _aM = null;
+    
     // Zero if not timed
     public float timer = 0f;
     private float elapsed = 0;
@@ -18,6 +21,11 @@ public class PopUpSystem : MonoBehaviour
     void Start()
     {
         animator = GetComponent<Animator>();
+
+        if (isWinCanvas && MagicRoomManager.instance?.MagicRoomAppliancesManager != null)
+        {
+            _aM = MagicRoomManager.instance.MagicRoomAppliancesManager;
+        }
 
         PopUp();
     }
@@ -48,6 +56,11 @@ public class PopUpSystem : MonoBehaviour
         //popUpBox.SetActive(true);
         //popUpText.text = text;
         animator.SetTrigger("pop");
+        if (isWinCanvas)
+        {
+            _aM?.SendChangeCommand("Macchina delle Bolle", "ON", 3);
+            Debug.Log("Evviva le bolle!!!");
+        }
     }
 
     void OnHandRaise(EventDict dict)

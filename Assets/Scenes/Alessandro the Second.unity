@@ -24290,6 +24290,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   popUpBox: {fileID: 515373327}
   popUpText: {fileID: 12010308}
+  isWinCanvas: 1
   timer: 0
 --- !u!95 &515373329
 Animator:
