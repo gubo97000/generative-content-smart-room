@@ -260,7 +260,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8973343637297813087}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Branch
   m_TagString: Branch
   m_Icon: {fileID: 0}
@@ -337,7 +337,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 758825272133179623, guid: e706dfb890b1b8442b658b69fef85dfd, type: 3}
       propertyPath: m_Layer
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 758825272133179640, guid: e706dfb890b1b8442b658b69fef85dfd, type: 3}
       propertyPath: breakDistance
@@ -429,7 +429,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 758825272133179623, guid: e706dfb890b1b8442b658b69fef85dfd, type: 3}
       propertyPath: m_Layer
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 758825272133179640, guid: e706dfb890b1b8442b658b69fef85dfd, type: 3}
       propertyPath: breakDistance
@@ -513,7 +513,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1493958779012120596, guid: b9de24523a11d714db3851b5f0f9d527, type: 3}
       propertyPath: m_Layer
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1493958779012120596, guid: b9de24523a11d714db3851b5f0f9d527, type: 3}
       propertyPath: m_IsActive
