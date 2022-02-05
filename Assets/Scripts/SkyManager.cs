@@ -14,12 +14,16 @@ public class SkyManager : MonoBehaviour
     public Color dayColor;
     public Color nightColor;
 
+    public bool dawnOnStart;
+
     void Start()
     {
         EventManager.StartListening("OnState-Night", NightSwitch);
         EventManager.StartListening("OnState-Day", DaySwitch);
 
         RenderSettings.skybox.SetFloat("_CubemapTransition", 0f);
+        if (dawnOnStart)
+            SwitchToDay();
     }
 
     void OnDestroy()
