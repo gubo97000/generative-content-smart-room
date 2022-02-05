@@ -45,7 +45,7 @@ public class SpawnBranch : Tree
 
         StartCoroutine(Shake());
 
-        if (/*instance == null*/ true)
+        if (instance == null /* true*/)
         {
             instance = Instantiate(prefab, position, Quaternion.Euler(new Vector3(Random.Range(0, 360), Random.Range(0, 360), Random.Range(0, 360))));
             (instance.GetComponentsInChildren<Rigidbody>()[0]).AddForce(forceAdded);

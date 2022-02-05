@@ -22,7 +22,7 @@ public class ReplaceGrass : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "Seed")
+        if (other.gameObject.tag == "Seed" && other.gameObject.layer == 7)
         {
             Debug.Log("Seed has touched the grass");
             StartCoroutine(GrowFlowers());
