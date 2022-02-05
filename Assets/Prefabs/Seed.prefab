@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 2007220519528169190}
   - component: {fileID: 5902136310340328403}
   - component: {fileID: 8027204266959103789}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: Seed
   m_TagString: Seed
   m_Icon: {fileID: 0}
@@ -148,7 +148,7 @@ GameObject:
   - component: {fileID: 6154816378717584088}
   - component: {fileID: 3027645592319559774}
   - component: {fileID: 1245792653887582191}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: SeedChild
   m_TagString: Seed
   m_Icon: {fileID: 0}
