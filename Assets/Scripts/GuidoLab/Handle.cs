@@ -50,6 +50,8 @@ public class Handle : MonoBehaviour
     //Make the handle Grabbed
     void Grab(GameObject sender)
     {
+        SetLayerRecursively(transform.parent.gameObject, LayerMask.NameToLayer("Floor"));
+
         Debug.Log(gameObject + " grabbed");
         EventManager.TriggerEvent("HandleGrabbed", gameObject, new EventDict() { ["player"] = sender, ["parent"] = transform.parent });
         _grabbedBy = sender;
@@ -199,4 +201,15 @@ public class Handle : MonoBehaviour
             }
         }
     }
+
+    void SetLayerRecursively(GameObject obj, int newLayer)
+    {
+        obj.layer = newLayer;
+
+        foreach (Transform child in obj.transform)
+        {
+            SetLayerRecursively(child.gameObject, newLayer);
+        }
+    }
+
 }

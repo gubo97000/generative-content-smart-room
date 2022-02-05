@@ -10,6 +10,8 @@ public class SpawnBranch : Tree
     public float yOffsetMin = 3f, yOffsetMax = 3f;
     public float zOffsetMin = 1f, zOffsetMax = 2f;
 
+    public Vector3 forceAdded;
+
     //Branch Instance
     private GameObject instance = null;
 
@@ -43,9 +45,11 @@ public class SpawnBranch : Tree
 
         StartCoroutine(Shake());
 
-        if (instance == null)
+        if (/*instance == null*/ true)
         {
             instance = Instantiate(prefab, position, Quaternion.Euler(new Vector3(Random.Range(0, 360), Random.Range(0, 360), Random.Range(0, 360))));
+            (instance.GetComponentsInChildren<Rigidbody>()[0]).AddForce(forceAdded);
+
             BroadcastMessage("OnHelperGlowDisable", gameObject, SendMessageOptions.DontRequireReceiver);
         }
     }
