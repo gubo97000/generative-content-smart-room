@@ -13,26 +13,44 @@ public class Drown : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        EventManager.StartListening("WaterPond", OnSwitchPondState);
-        EventManager.StartListening("HoneyPond", OnSwitchPondState);
-        EventManager.StartListening("EmptyPond", OnSwitchPondState);
+        EventManager.StartListening("WaterPond", WaterPond);
+        EventManager.StartListening("HoneyPond", HoneyPond);
+        EventManager.StartListening("EmptyPond", EmptyPond);
     }
 
     void OnDestroy()
     {
-        EventManager.StopListening("WaterPond", OnSwitchPondState);
-        EventManager.StopListening("HoneyPond", OnSwitchPondState);
-        EventManager.StopListening("EmptyPond", OnSwitchPondState);
+        EventManager.StopListening("WaterPond", WaterPond);
+        EventManager.StopListening("HoneyPond", HoneyPond);
+        EventManager.StopListening("EmptyPond", EmptyPond);
     }
 
-    void OnSwitchPondState(EventDict dict)
+    void WaterPond(EventDict dict)
     {
-        GetComponent<FollowThePath>().triggerEnabled();
+        OnSwitchPondState(false);
+    }
+    
+    void HoneyPond(EventDict dict)
+    {
+        OnSwitchPondState(false);
+    }
+    
+    void EmptyPond(EventDict dict)
+    {
+        OnSwitchPondState(true);
+    }
+    
+    void OnSwitchPondState(bool drown)
+    {
+        if (isFlipped != drown)
+        {
+            GetComponent<FollowThePath>().triggerEnabled();
 
-        Rotate();
-        Sink();
-        
-        isFlipped = !isFlipped;
+            Rotate();
+            Sink();
+
+            isFlipped = drown;
+        }
     }
 
     void Sink()
