@@ -4,14 +4,20 @@ using UnityEngine;
 
 public class TransferLight : MonoBehaviour
 {
+    public bool onJump = true;
+    public bool onCrouch = false;
     public bool isEmpty = true;
     public GameObject _slot = null;
+    private HashSet<GameObject> playerInsideTrigger = new HashSet<GameObject>();
+
 
     void Start()
     {
         EventManager.StartListening("ActivateMushroom", ActivateMushroomHandler);
         EventManager.StartListening("InventoryAddEvent", OnInventoryAddEvent);
         EventManager.StartListening("MushroomCleanUp", OnMushroomCleanUp);
+        if (onCrouch) EventManager.StartListening("OnCrouchStart", ActionHandler);
+        if (onJump) EventManager.StartListening("OnJumpStart", ActionHandler);
     }
 
     void OnDestroy()
@@ -19,14 +25,40 @@ public class TransferLight : MonoBehaviour
         EventManager.StopListening("ActivateMushroom", ActivateMushroomHandler);
         EventManager.StopListening("InventoryAddEvent", OnInventoryAddEvent);
         EventManager.StopListening("MushroomCleanUp", OnMushroomCleanUp);
+        if (onCrouch) EventManager.StopListening("OnCrouchStart", ActionHandler);
+        if (onJump) EventManager.StopListening("OnJumpStart", ActionHandler);
     }
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "Jump" && other.gameObject.GetComponent<JumpCollider>().isInAir())
+        // if (other.gameObject.tag == "Jump" && other.gameObject.GetComponent<JumpCollider>().isInAir())
+        //     EventManager.TriggerEvent("ActivateMushroom", gameObject, new EventDict() {
+        //         { "activator", other.gameObject.transform.parent.gameObject /* i.e. the player object */ }
+        //     });
+
+        if (other.gameObject.tag == "Player")
+        {
+            playerInsideTrigger.Add(other.gameObject);
+        }
+    }
+    void OnTriggerExit(Collider other)
+    {
+        if (other.gameObject.tag == "Player")
+        {
+            playerInsideTrigger.Remove(other.gameObject);
+        }
+    }
+
+    void ActionHandler(EventDict dict)
+    {
+        GameObject sender = (GameObject)dict["sender"];
+        if (playerInsideTrigger.Contains(sender))
+        {
             EventManager.TriggerEvent("ActivateMushroom", gameObject, new EventDict() {
-                { "activator", other.gameObject.transform.parent.gameObject /* i.e. the player object */ }
+                { "activator", sender /* i.e. the player object */ }
             });
+        }
+
     }
 
     void ActivateMushroomHandler(EventDict dict)
@@ -62,7 +94,7 @@ public class TransferLight : MonoBehaviour
     void OnMushroomCleanUp(EventDict dict)
     {
         // EventManager.TriggerEvent("FlyAway", gameObject, new EventDict() { { "receiver", _slot } });
-        EventManager.TriggerEvent("ItemUncollected", gameObject, new EventDict() { { "player", gameObject }});
+        EventManager.TriggerEvent("ItemUncollected", gameObject, new EventDict() { { "player", gameObject } });
         isEmpty = true;
         _slot = null;
 
