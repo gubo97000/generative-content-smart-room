@@ -72315,10 +72315,6 @@ PrefabInstance:
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4338559668764090804, guid: 67161c2a218cc4a479648d192ee3fad9, type: 3}
-      propertyPath: terrain
-      value: 
-      objectReference: {fileID: 1882999373}
-    - target: {fileID: 4338559668764090804, guid: 67161c2a218cc4a479648d192ee3fad9, type: 3}
       propertyPath: states.Array.data[0].name
       value: Collecting
       objectReference: {fileID: 0}
@@ -86739,7 +86735,7 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 0.26379493, g: 0.40115762, b: 0.9811321, a: 1}
-  m_Intensity: 0.12968968
+  m_Intensity: 0.020932246
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -93885,7 +93881,7 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 1, g: 0.5917582, b: 0.21226418, a: 1}
-  m_Intensity: 1.3378879
+  m_Intensity: 1.4738348
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
