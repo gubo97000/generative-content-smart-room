@@ -46,9 +46,9 @@ public class Campfire : ObjectStateHandler
             DelayedActivation(delay);
             _afterDelay = false;
             EventManager.TriggerEvent("SwitchNight");
-            FindObjectOfType<AudioManager>().Add(gameObject,"Campfire");
-            FindObjectOfType<AudioManager>().Remove(terrain);
-            FindObjectOfType<AudioManager>().Add(terrain,"Cricket");
+            //FindObjectOfType<AudioManager>().Add(gameObject,"Campfire");
+            //FindObjectOfType<AudioManager>().Remove(terrain);
+            //FindObjectOfType<AudioManager>().Add(terrain,"Cricket");
 
         }
         else if (CurrentState == "Lit" && _afterDelay)
@@ -56,9 +56,9 @@ public class Campfire : ObjectStateHandler
             CurrentState = "Collecting";
             EventManager.TriggerEvent("SwitchDay");
             _afterDelay = false;
-            FindObjectOfType<AudioManager>().Remove(gameObject);
-            FindObjectOfType<AudioManager>().Remove(terrain);
-            FindObjectOfType<AudioManager>().Add(terrain,"Main");
+            //FindObjectOfType<AudioManager>().Remove(gameObject);
+            //FindObjectOfType<AudioManager>().Remove(terrain);
+            //FindObjectOfType<AudioManager>().Add(terrain,"Main");
         }
     }
     async void DelayedActivation(float delay)

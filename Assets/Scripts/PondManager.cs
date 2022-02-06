@@ -37,7 +37,7 @@ public class PondManager : ObjectStateHandler
         EventManager.StopListening("WaterPond", WaterPond);
         EventManager.StopListening("HoneyPond", HoneyPond);
         
-        Destroy(pond.GetComponent<AudioSource>());
+        //Destroy(pond.GetComponent<AudioSource>());
 
         // Restores pond level
         if (CurrentState != "Full")
@@ -57,7 +57,7 @@ public class PondManager : ObjectStateHandler
 
         CurrentState = "Empty";
         
-        FindObjectOfType<AudioManager>().Remove(pond);
+        //FindObjectOfType<AudioManager>().Remove(pond);
     }
     
     void WaterPond(EventDict dict)
@@ -71,7 +71,7 @@ public class PondManager : ObjectStateHandler
 
         CurrentState = "Full";
         
-        FindObjectOfType<AudioManager>().Add(pond,"Water");
+        //FindObjectOfType<AudioManager>().Add(pond,"Water");
 
     }
 
@@ -83,6 +83,8 @@ public class PondManager : ObjectStateHandler
 
             CurrentState = "Honey";
         }
+
+        //FindObjectOfType<AudioManager>().Add(pond, "Water");
     }
 
     void MoveWaterLevel(float seconds)

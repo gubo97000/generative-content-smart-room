@@ -11,9 +11,9 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Menu Scene.unity
     guid: 7678b2754f61a3c45b9557f7817e7587
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Tutorial.unity
-    guid: eaebde0a78b3e444e8a9765b25cb6a21
+    guid: 6f4631bf12a39734ea1e0c181ec344fd
   - enabled: 1
     path: Assets/Scenes/Alessandro the Second.unity
     guid: c0a38ab83e5bd5d42a7b24cd4e2a9c47
