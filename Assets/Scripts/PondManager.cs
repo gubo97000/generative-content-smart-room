@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Security.Cryptography;
 using UnityEngine;
 
 [ExecuteAlways]
@@ -35,6 +36,8 @@ public class PondManager : ObjectStateHandler
         EventManager.StopListening("EmptyPond", EmptyPond);
         EventManager.StopListening("WaterPond", WaterPond);
         EventManager.StopListening("HoneyPond", HoneyPond);
+        
+        Destroy(pond.GetComponent<AudioSource>());
 
         // Restores pond level
         if (CurrentState != "Full")
@@ -53,6 +56,8 @@ public class PondManager : ObjectStateHandler
         MoveWaterLevel(secondsToMoveWater);
 
         CurrentState = "Empty";
+        
+        FindObjectOfType<AudioManager>().Remove(pond);
     }
     
     void WaterPond(EventDict dict)
@@ -65,6 +70,9 @@ public class PondManager : ObjectStateHandler
         MoveWaterLevel(secondsToMoveWater);
 
         CurrentState = "Full";
+        
+        FindObjectOfType<AudioManager>().Add(pond,"Water");
+
     }
 
     void HoneyPond(EventDict dict)

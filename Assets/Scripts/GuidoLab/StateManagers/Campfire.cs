@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 [RequireComponent(typeof(Collector))]
 public class Campfire : ObjectStateHandler
 {
+    public GameObject terrain; //Put here the object where the background music is played
     private bool _afterDelay = true;
     public float delay = 5f;
     //Set the states here, with the scripts attached for each state.
@@ -45,12 +46,19 @@ public class Campfire : ObjectStateHandler
             DelayedActivation(delay);
             _afterDelay = false;
             EventManager.TriggerEvent("SwitchNight");
+            FindObjectOfType<AudioManager>().Add(gameObject,"Campfire");
+            FindObjectOfType<AudioManager>().Remove(terrain);
+            FindObjectOfType<AudioManager>().Add(terrain,"Cricket");
+
         }
         else if (CurrentState == "Lit" && _afterDelay)
         {
             CurrentState = "Collecting";
             EventManager.TriggerEvent("SwitchDay");
             _afterDelay = false;
+            FindObjectOfType<AudioManager>().Remove(gameObject);
+            FindObjectOfType<AudioManager>().Remove(terrain);
+            FindObjectOfType<AudioManager>().Add(terrain,"Main");
         }
     }
     async void DelayedActivation(float delay)

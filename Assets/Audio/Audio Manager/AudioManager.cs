@@ -36,7 +36,7 @@ public class AudioManager : MonoBehaviour
 		*/
 	}
 
-	public void Play(GameObject target, string sound)
+	public void Add(GameObject target, string sound)
 	{
 		Sound s = Array.Find(sounds, item => item.name == sound);
 		var audioSource = target.AddComponent<AudioSource>();
@@ -54,6 +54,32 @@ public class AudioManager : MonoBehaviour
 		audioSource.pitch = s.pitch * (1f + UnityEngine.Random.Range(-s.pitchVariance / 2f, s.pitchVariance / 2f));
 
 		audioSource.Play();
+	}
+	
+	public void Pause(GameObject target)
+	{
+		
+		var audioSource = target.GetComponent<AudioSource>();
+		
+		audioSource.Pause();
+	}
+	
+	public void Play(GameObject target)
+	{
+		
+		var audioSource = target.GetComponent<AudioSource>();
+		
+		audioSource.Play();
+	}
+	
+	public void Remove(GameObject target)
+	{
+		
+		var audioSource = target.GetComponent<AudioSource>();
+		
+		audioSource.Pause();
+		
+		Destroy(audioSource);
 	}
 
 }
