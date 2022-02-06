@@ -136,7 +136,7 @@ public class TutorialFloorGesture : MonoBehaviour
 
     void OnHandRaise(EventDict dict)
     {
-        if (isHandRaiseEnabled)
+        if (isHandRaiseEnabled && !onCrouch && !onJump)
             animator.SetBool((((GameObject)dict["sender"]).GetComponent<PlayerInfo>().playerNumber + 1) == 1 ? "check1" : "check2", true);
     }
 

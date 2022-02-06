@@ -67,6 +67,7 @@ public class DropBeehive : Tree
     {
         if(((GameObject)dict["activator"]).tag == "Bee")
         {
+            Destroy((GameObject)dict["activator"]); 
             if (gameObject.active)
                 EventManager.TriggerEvent("BeeEnteredHoneyTree", gameObject);
         }

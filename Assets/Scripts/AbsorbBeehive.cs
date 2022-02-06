@@ -10,6 +10,7 @@ public class AbsorbBeehive : MonoBehaviour
         {
             EventManager.TriggerEvent("HoneyPond", gameObject);
             EventManager.TriggerEvent("ResetBeehive", gameObject);
+            GetComponent<AudioSource>().Play(0);
             Destroy(other.gameObject);
         }
     }

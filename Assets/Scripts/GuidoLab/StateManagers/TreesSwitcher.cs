@@ -44,6 +44,8 @@ public class TreesSwitcher : ObjectStateHandler
 
         GameObject sp = Instantiate(spawnParticles, /*position +*/ new Vector3(1.71f, 7.07f, -2.27f), Quaternion.identity);
         sp.GetComponent<ParticleSystem>().Play();
+        GetComponent<AudioSource>().Play(0); 
+        
         yield return new WaitForSeconds(2.5f);
 
         _index++;

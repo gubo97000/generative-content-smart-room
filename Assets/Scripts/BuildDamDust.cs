@@ -23,6 +23,7 @@ public class BuildDamDust : MonoBehaviour
     void PlayDust(EventDict dict)
     {
         GetComponent<ParticleSystem>().Play();
+        GetComponent<AudioSource>()?.Play();
     }
 
     void StopDust(EventDict dict)

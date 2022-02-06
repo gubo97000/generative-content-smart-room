@@ -31,6 +31,8 @@ public class EvolveToDragon : MonoBehaviour
 
         sp = Instantiate(spawnParticles, position + new Vector3(0, 0.5f, 0), Quaternion.identity);
         sp.GetComponent<ParticleSystem>().Play();
+        GetComponent<AudioSource>()?.Play();
+
         yield return new WaitForSeconds(3f);
 
         GameObject instance = Instantiate(prefab, transform.position, Quaternion.identity);

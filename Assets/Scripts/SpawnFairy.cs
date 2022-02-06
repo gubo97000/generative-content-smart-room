@@ -36,6 +36,8 @@ public class SpawnFairy : MonoBehaviour
 
         GameObject sp = Instantiate(spawnParticles, position + new Vector3(0,0.5f,0), Quaternion.identity); 
         sp.GetComponent<ParticleSystem>().Play();
+        GetComponent<AudioSource>().Play(0);
+        
         yield return new WaitForSeconds(2.5f);
 
         Instantiate(prefab, position, Quaternion.identity);

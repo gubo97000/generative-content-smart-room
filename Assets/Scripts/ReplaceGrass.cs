@@ -11,6 +11,8 @@ public class ReplaceGrass : MonoBehaviour
     {
         GameObject sp = Instantiate(spawnParticles, new Vector3(5.52f, -1f, 1.89f), Quaternion.identity);
         sp.GetComponent<ParticleSystem>().Play();
+        sp.GetComponent<AudioSource>()?.Play();
+
         yield return new WaitForSeconds(2f);
 
         flowers.SetActive(true);

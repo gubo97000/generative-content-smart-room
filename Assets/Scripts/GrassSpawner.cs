@@ -96,6 +96,9 @@ public class GrassSpawner : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
+        if(other.gameObject.tag == "Jump")
+            GetComponent<AudioSource>()?.Play();
+
         if (isWalk && other.gameObject.tag == "Player")
         {
             Debug.Log("Player has touched the grass");

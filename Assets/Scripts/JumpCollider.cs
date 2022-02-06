@@ -21,6 +21,7 @@ public class JumpCollider : MonoBehaviour
     void OnJumpStartHandler(EventDict dict)
     {
         inAir = true;
+        GetComponent<AudioSource>()?.Play();
     }
 
     void OnJumpEndHandler(EventDict dict)
