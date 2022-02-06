@@ -87,6 +87,7 @@ public class TransferLight : MonoBehaviour
             //transform.parent.GetComponent<Renderer>().material.EnableKeyword("_EMISSION");
             transform.parent.transform.Find("Light").Find("Directional Light (2)").gameObject.SetActive(true);
 
+            GetComponent<AudioSource>().Play();
             Debug.Log("FollowMe");
         }
     }

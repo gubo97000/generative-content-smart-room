@@ -13,6 +13,8 @@ public class Tree : MonoBehaviour
         float ShakeTime = 0.8f;
         float speed = 20f;
 
+        GetComponent<AudioSource>().Play(0);
+
         while (true)
         {
             counter += Time.deltaTime;

@@ -12,6 +12,8 @@ public class DestroyDam : MonoBehaviour
     IEnumerator DoDestroyDam()
     {
         EventManager.TriggerEvent("TriggerDust", gameObject);
+        transform.parent.GetComponent<AudioSource>().Play(0); 
+        
         yield return new WaitForSeconds(1f);
         EventManager.TriggerEvent("WaterPond", gameObject);
     }

@@ -34,6 +34,8 @@ public class ReturnToGrass : MonoBehaviour
             executedOnce = true;
             GameObject sp = Instantiate(spawnParticles, new Vector3(5.52f, -1.47f, 1.89f), Quaternion.identity);
             sp.GetComponent<ParticleSystem>().Play();
+            sp.GetComponent<AudioSource>()?.Play();
+            
             yield return new WaitForSeconds(3.5f);
 
             foreach (Renderer r in gameObject.GetComponentsInChildren<Renderer>()) { r.enabled = false; }

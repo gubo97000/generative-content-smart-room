@@ -54,6 +54,8 @@ public class LilyPad : MonoBehaviour
         {
             _slot = item;
             EventManager.TriggerEvent("FollowMe", gameObject, new EventDict() { { "receiver", item } });
+            GetComponent<AudioSource>().Play();
+
         }
     }
 
