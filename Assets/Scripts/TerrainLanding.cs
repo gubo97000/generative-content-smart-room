@@ -4,10 +4,6 @@ using UnityEngine;
 
 public class TerrainLanding : MonoBehaviour
 {
-    
-    void Start(){
-        FindObjectOfType<AudioManager>().Add(gameObject,"Main");
-    } 
     void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Jump")

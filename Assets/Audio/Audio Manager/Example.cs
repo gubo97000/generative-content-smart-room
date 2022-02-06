@@ -27,6 +27,6 @@ public class Example : MonoBehaviour
     
     void Start(){
         Debug.Log("Wind starts to play");
-        FindObjectOfType<AudioManager>().Add(gameObject,"Wind");
+        FindObjectOfType<AudioManager>().Play(gameObject,"Wind");
     }  
 }
