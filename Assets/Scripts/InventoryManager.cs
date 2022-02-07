@@ -30,7 +30,7 @@ public class InventoryManager : MonoBehaviour
     //Create a dictionary 
     public static DefaultDictionary<GameObject, HashSet<GameObject>> inventory = new DefaultDictionary<GameObject, HashSet<GameObject>>(() => new HashSet<GameObject>());
     public int maxSize = 3;
-    
+
     private static InventoryManager inventoryManager;
 
     public static InventoryManager instance
@@ -67,6 +67,8 @@ public class InventoryManager : MonoBehaviour
         EventManager.StartListening("ItemCollected", AddItem);
         EventManager.StartListening("ItemUncollected", RemoveItem);
         EventManager.StartListening("ItemReceived", PassItem);
+        EventManager.StartListening("ResetInventory", ResetInventoryHandler);
+        // EventManager.StartListening("CleanInventory", CleanInventoryHandler);
     }
 
     void OnDestroy()
@@ -74,6 +76,9 @@ public class InventoryManager : MonoBehaviour
         EventManager.StopListening("ItemCollected", AddItem);
         EventManager.StopListening("ItemUncollected", RemoveItem);
         EventManager.StopListening("ItemReceived", PassItem);
+        EventManager.StopListening("ItemReceived", PassItem);
+        EventManager.StopListening("ResetInventory", ResetInventoryHandler);
+        // EventManager.StopListening("CleanInventory", PasCleanInventoryHandlersItem);
     }
 
     //All the functions that subscribe to an event have this mandatory argument
@@ -131,7 +136,7 @@ public class InventoryManager : MonoBehaviour
         GameObject item = (GameObject)dict["item"];
         inventory[giver].Remove(item);
         inventory[receiver].Add(item);
-Debug.Log(prettyPrintToString(inventory));
+        Debug.Log(prettyPrintToString(inventory));
         print("Item " + item.name + " passed from " + giver.name + " to " + receiver.name);
         // EventManager.TriggerEvent("InventoryPassEvent", gameObject, new EventDict() { { "item", item }, { "giver", giver }, { "receiver", receiver } });
         // EventManager.TriggerEvent("InventoryRemoveEvent", gameObject, new EventDict() { { "item", sender }, { "receiver", player }, { "newTarget", dict["newTarget"] } });
@@ -186,6 +191,10 @@ Debug.Log(prettyPrintToString(inventory));
             result += "\n";
         }
         return result;
+    }
+    public static void ResetInventoryHandler(EventDict dict)
+    {
+        inventory = new DefaultDictionary<GameObject, HashSet<GameObject>>(() => new HashSet<GameObject>());
     }
 
 }

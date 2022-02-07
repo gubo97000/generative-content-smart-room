@@ -88,6 +88,7 @@ public class TutorialManager : ObjectStateHandler
 
         if (_index % states.Length == 0)
         {
+            EventManager.TriggerEvent("ResetInventory");
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + ((reload) ? 0 : 1));
         }
         else
