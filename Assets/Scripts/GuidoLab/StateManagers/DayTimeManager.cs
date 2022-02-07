@@ -91,7 +91,7 @@ public class DayTimeManager : ObjectStateHandler
     void ResetInventories()
     {
         GameObject[] players = GameObject.FindGameObjectsWithTag("Player");
-        foreach (var p in players)
+        foreach (var p in InventoryManager.inventory.Keys)
         {
             for (int i = 0; i < InventoryManager.instance.maxSize; i++)
             {
