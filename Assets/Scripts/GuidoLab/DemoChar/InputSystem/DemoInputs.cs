@@ -73,6 +73,7 @@ public class DemoInputs : MonoBehaviour
     public void OnPanicButton(InputValue value)
     {
         Debug.Log("Reload Scene Pressed");
+        EventManager.TriggerEvent("ResetInventory");
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 #else
