@@ -431,7 +431,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!54 &178088761
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -538,7 +538,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57c285eacaf0fad4fbfac954229274f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  staysAfloat: 1
 --- !u!114 &178088767
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1377,7 +1376,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!199 &524268427
 ParticleSystemRenderer:
   serializedVersion: 6
@@ -7176,7 +7175,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &864196598
 Transform:
   m_ObjectHideFlags: 0
@@ -7599,15 +7598,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   states:
-  - name: Touch Drag
-    scripts:
-    - {fileID: 1610268869}
-    - {fileID: 178088760}
-    - {fileID: 1990150867}
-    - {fileID: 864196597}
-    - {fileID: 2046654935}
-    - {fileID: 524268426}
-    - {fileID: 1275715597}
   - name: Welcome
     scripts:
     - {fileID: 1015104724}
@@ -7639,6 +7629,15 @@ MonoBehaviour:
     - {fileID: 1893814827}
     - {fileID: 1988724161}
     - {fileID: 147894436}
+    - {fileID: 524268426}
+    - {fileID: 1275715597}
+  - name: Touch Drag
+    scripts:
+    - {fileID: 1610268869}
+    - {fileID: 178088760}
+    - {fileID: 1990150867}
+    - {fileID: 864196597}
+    - {fileID: 2046654935}
     - {fileID: 524268426}
     - {fileID: 1275715597}
   - name: Raise Hand
@@ -7896,7 +7895,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1015104725
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8892,7 +8891,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!199 &1275715598
 ParticleSystemRenderer:
   serializedVersion: 6
@@ -15889,7 +15888,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!54 &1610268870
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -15996,7 +15995,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57c285eacaf0fad4fbfac954229274f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  staysAfloat: 1
 --- !u!114 &1610268876
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21859,7 +21857,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1990150868
 RectTransform:
   m_ObjectHideFlags: 0
@@ -22041,7 +22039,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!199 &2046654936
 ParticleSystemRenderer:
   serializedVersion: 6

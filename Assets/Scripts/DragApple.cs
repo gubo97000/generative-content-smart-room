@@ -11,7 +11,7 @@ public class DragApple : MonoBehaviour
 
     private float mZCoord;
 
-    public bool staysAfloat = false;
+    //public bool staysAfloat = false;
 
     // private void OnDestroy()
     // {
@@ -59,8 +59,8 @@ public class DragApple : MonoBehaviour
     {
         gameObject.tag = "Untagged";
         gameObject.GetComponent<Collider>().isTrigger = false;
-        if (staysAfloat)
-            GetComponent<Rigidbody>().isKinematic = true;
+        //if (staysAfloat)
+        //    GetComponent<Rigidbody>().isKinematic = true;
 
     }
 

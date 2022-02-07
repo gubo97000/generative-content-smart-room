@@ -98655,7 +98655,7 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 0.26379493, g: 0.40115762, b: 0.9811321, a: 1}
-  m_Intensity: 0.055323318
+  m_Intensity: 0.19114774
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -106997,7 +106997,7 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 1, g: 0.5917582, b: 0.21226418, a: 1}
-  m_Intensity: 1.4308459
+  m_Intensity: 1.2610654
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -117889,7 +117889,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3561536310154227527, guid: 2c29f7d6171cc714286641e74e0030da, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 4622585188300669980, guid: 2c29f7d6171cc714286641e74e0030da, type: 3}
