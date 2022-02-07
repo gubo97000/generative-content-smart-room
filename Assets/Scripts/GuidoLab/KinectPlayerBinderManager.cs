@@ -41,7 +41,7 @@ public class KinectPlayerBinderManager : MonoBehaviour
             var (playerId, indexOfToBind) = queueForBinding.Dequeue();
             foreach (var item in toBind[indexOfToBind].list)
             {
-                item.BroadcastMessage("OnChangeKinectPlayerId", playerId == 0 ? 6 : playerId);
+                item.BroadcastMessage("OnChangeKinectPlayerId", playerId);
             }
         }
     }

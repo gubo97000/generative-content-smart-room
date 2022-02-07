@@ -202,7 +202,7 @@ public class TrackerPlayerPosition : MonoBehaviour
 
 public enum PlayerToFollow
 {
-    Closest_player, Player1, Player2, Player3, Player4, Player5, Player6
+    Player1, Player2, Player3, Player4, Player5, Player6, Closest_player,
 }
 
 public enum PartToTrack
