@@ -12,7 +12,7 @@ public class InteractionFairy : MonoBehaviour
     {
         EventManager.StartListening("OnHandsForwardStart", OnHandsForwardStartHandler);
         EventManager.StartListening("OnHandsForwardEnd", OnHandsForwardEndHandler);
-        var color=GameStateManager.playersColor[myPlayer.GetComponent<PlayerInfo>().playerNumber];
+        var color = GameStateManager.playersColor[myPlayer.GetComponent<PlayerInfo>().playerNumber];
         GetComponent<Renderer>().material.color = color;
     }
     private void OnDestroy()
@@ -27,7 +27,7 @@ public class InteractionFairy : MonoBehaviour
         if (sender == myPlayer)
         {
             StopAllCoroutines();
-            StartCoroutine(PreparingInteraction(0.5f));
+            StartCoroutine(PreparingInteraction(0.4f));
         }
     }
     void OnHandsForwardEndHandler(EventDict dict)
@@ -38,9 +38,9 @@ public class InteractionFairy : MonoBehaviour
             StopAllCoroutines();
             foreach (var obj in objectsInsideTrigger)
             {
-                if(obj == null) continue;
-                obj.BroadcastMessage("OnMouseUp");
-                obj.BroadcastMessage("OnFairyUp");
+                if (obj == null) continue;
+                obj.BroadcastMessage("OnMouseUp", SendMessageOptions.DontRequireReceiver);
+                obj.BroadcastMessage("OnFairyUp", SendMessageOptions.DontRequireReceiver);
             }
 
             GetComponent<Collider>().enabled = false;
