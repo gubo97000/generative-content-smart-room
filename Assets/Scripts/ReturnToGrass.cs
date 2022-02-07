@@ -45,6 +45,11 @@ public class ReturnToGrass : MonoBehaviour
             Destroy(sp);
 
             gameObject.SetActive(false);
+            GameObject g = GameObject.Find("--GRASS--");
+            foreach (Transform child in g.transform)
+            {
+                child.gameObject.GetComponent<BoxCollider>().enabled = true;
+            }
         }
 
     }

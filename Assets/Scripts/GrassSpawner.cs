@@ -96,8 +96,11 @@ public class GrassSpawner : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        if(other.gameObject.tag == "Jump")
-            GetComponent<AudioSource>()?.Play();
+        if (other.gameObject.tag == "Jump")
+        {
+            AudioSource a = GetComponent<AudioSource>();
+            if (a != null) a.Play();
+        }
 
         if (isWalk && other.gameObject.tag == "Player")
         {

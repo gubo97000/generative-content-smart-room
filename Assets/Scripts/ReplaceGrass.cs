@@ -16,6 +16,11 @@ public class ReplaceGrass : MonoBehaviour
         yield return new WaitForSeconds(2f);
 
         flowers.SetActive(true);
+        GameObject g = GameObject.Find("--GRASS--");
+        foreach (Transform child in g.transform)
+        {
+            child.gameObject.GetComponent<BoxCollider>().enabled = false;
+        }
 
         sp.GetComponent<ParticleSystem>().Stop();
         yield return new WaitForSeconds(3f);
