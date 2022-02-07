@@ -8,6 +8,7 @@ public class TransferLight : MonoBehaviour
     public bool onCrouch = false;
     public bool isEmpty = true;
     public GameObject _slot = null;
+    [SerializeField]
     private HashSet<GameObject> playerInsideTrigger = new HashSet<GameObject>();
 
 
@@ -39,6 +40,7 @@ public class TransferLight : MonoBehaviour
         if (other.gameObject.tag == "Player")
         {
             playerInsideTrigger.Add(other.gameObject);
+            Debug.Log("Player entered trigger" + playerInsideTrigger);
         }
     }
     void OnTriggerExit(Collider other)
@@ -46,6 +48,7 @@ public class TransferLight : MonoBehaviour
         if (other.gameObject.tag == "Player")
         {
             playerInsideTrigger.Remove(other.gameObject);
+            Debug.Log("Player exited trigger" + playerInsideTrigger);
         }
     }
 
@@ -54,6 +57,7 @@ public class TransferLight : MonoBehaviour
         GameObject sender = (GameObject)dict["sender"];
         if (playerInsideTrigger.Contains(sender))
         {
+            Debug.Log("Player activated trigger");
             EventManager.TriggerEvent("ActivateMushroom", gameObject, new EventDict() {
                 { "activator", sender /* i.e. the player object */ }
             });

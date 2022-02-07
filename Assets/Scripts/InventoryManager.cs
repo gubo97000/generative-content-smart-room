@@ -112,7 +112,7 @@ public class InventoryManager : MonoBehaviour
 
             print("Item " + sender.name + " removed from " + player.name + " inventory");
             Debug.Log(prettyPrintToString(inventory));
-            //EventManager.TriggerEvent("InventoryRemoveEvent", gameObject, new EventDict() { { "item", sender }, { "owner", player }, { "newTarget", dict["newTarget"] } });
+            EventManager.TriggerEvent("InventoryRemoveEvent", gameObject, new EventDict() { { "item", sender }, { "owner", player } });
 
             EventManager.TriggerEvent("FlyAway", gameObject, new EventDict() { { "receiver", sender } });
 
