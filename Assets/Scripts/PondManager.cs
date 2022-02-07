@@ -99,7 +99,7 @@ public class PondManager : ObjectStateHandler
         {
             finalPosition.y += offset;
         }
-        StartCoroutine(MoveOverSeconds(pond, startPosition, finalPosition, seconds));
+        if(gameObject.activeInHierarchy) StartCoroutine(MoveOverSeconds(pond, startPosition, finalPosition, seconds));
     }
 
     void MoveHoneyLevel(float seconds)
@@ -114,7 +114,7 @@ public class PondManager : ObjectStateHandler
         {
             finalPosition.y += offset / 2;
         }
-        StartCoroutine(MoveOverSeconds(honeyPond, startPosition, finalPosition, seconds));
+        if (gameObject.activeInHierarchy) StartCoroutine(MoveOverSeconds(honeyPond, startPosition, finalPosition, seconds));
     }
 
     public IEnumerator MoveOverSeconds(GameObject objectToMove, Vector3 start, Vector3 end, float seconds)
