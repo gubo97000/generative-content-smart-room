@@ -41,7 +41,7 @@ public class ChaseWithEvent : MonoBehaviour
     async void DelayedKill(float delay)
     {
         await Task.Delay(((int)(delay * 1000)));
-        Destroy(gameObject);
+        if(gameObject!=null) Destroy(gameObject);
     }
     async void DelayedKill(float delay, GameObject go)
     {
