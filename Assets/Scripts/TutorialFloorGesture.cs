@@ -109,7 +109,7 @@ public class TutorialFloorGesture : MonoBehaviour
     {
         // Jump tutorial
 
-        if (other.gameObject.tag == "Player")
+        if (other.gameObject.tag == (isPlayer1 ? "Player1":"Player2"))
         {
             playerInsideTrigger.Add(other.gameObject);
             Debug.Log("Player entered trigger" + playerInsideTrigger);
@@ -135,7 +135,7 @@ public class TutorialFloorGesture : MonoBehaviour
     }
     void OnTriggerExit(Collider other)
     {
-        if (other.gameObject.tag == "Player")
+        if (other.gameObject.tag == (isPlayer1 ? "Player1" : "Player2"))
         {
             playerInsideTrigger.Remove(other.gameObject);
             Debug.Log("Player exited trigger" + playerInsideTrigger);
