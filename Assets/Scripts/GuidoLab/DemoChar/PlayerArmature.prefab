@@ -16175,6 +16175,7 @@ GameObject:
   - component: {fileID: 5686649720973184009}
   - component: {fileID: 4416926081852918493}
   - component: {fileID: 3721178729680214327}
+  - component: {fileID: 8705294724480838047}
   m_Layer: 8
   m_Name: PlayerArmature
   m_TagString: Player
@@ -16426,6 +16427,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerNumber: 0
   target: {fileID: 948794712961552965}
+--- !u!114 &8705294724480838047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4416926081852918481}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8a906b8b96727e4b9674b9921789b5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4523139366846529165
 GameObject:
   m_ObjectHideFlags: 0
@@ -16662,6 +16675,7 @@ MonoBehaviour:
   - name: InMagik
     scripts:
     - {fileID: 2097785103789459260}
+    - {fileID: 8705294724480838047}
 --- !u!1 &5184213599934359185
 GameObject:
   m_ObjectHideFlags: 0
