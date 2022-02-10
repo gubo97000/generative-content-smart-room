@@ -116,7 +116,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 6815456535146081211}
-  speed: 2
+  speed: 3
   minDistance: 0.1
   inertiaWhenInMinDistance: 0
 --- !u!136 &6815456535123525417
