@@ -33,6 +33,8 @@ public class KinectSkeletonManager : MonoBehaviour
     private bool _activeJump = false;
     private bool _activeHandsForward = false;
 
+    ConstantValue<string> _currentGesture = new ConstantValue<string>("RIGHTHAND_OPEN", 0.5f);
+
     private void Start()
     {
         if (MagicRoomManager.instance?.MagicRoomKinectV2Manager != null)
@@ -82,7 +84,17 @@ public class KinectSkeletonManager : MonoBehaviour
     }
     private void RightHandHandler(string state)
     {
-        Debug.Log("Right Hand: " + state);
+        if (state == "RIGHTHAND_CLOSE")
+        {
+            _currentGesture.ForceVal(state);
+        }
+        else
+        {
+            _currentGesture.UpdateVal(state);
+        }
+        // _currentGesture.UpdateVal(state);
+        Debug.Log($"{gameObject} - RHand: new {state}, const {_currentGesture.Value}");
+        state = _currentGesture.Value;
         if (state == "RIGHTHAND_OPEN")
         {
             if (_activeHandsForward)
@@ -94,7 +106,7 @@ public class KinectSkeletonManager : MonoBehaviour
         }
         else if (state == "RIGHTHAND_CLOSE")
         {
-            Debug.Log("Right Hand Close");
+            // Debug.Log("Right Hand Close");
             if (!_activeHandsForward)
             {
                 EventManager.TriggerEvent("OnHandsForwardStart", gameObject);
@@ -172,20 +184,20 @@ public class KinectSkeletonManager : MonoBehaviour
 
                         HandStateLeft?.Invoke("LEFTHAND_CLOSE");
                     }
-                    if (skelPosition.IsRightHandClosed() && !rightHandState)
-                    {
-                        //hand.Add(PartToTrack.RightHand, true);
-                        rightHandState = true;
-                        HandStateRight?.Invoke("RIGHTHAND_OPEN");
-                        //haschangehappened = true;
-                    }
-                    if (!skelPosition.IsRightHandClosed() && rightHandState)
-                    {
-                        //hand.Add(PartToTrack.RightHand, false);
-                        HandStateRight?.Invoke("RIGHTHAND_CLOSE");
-                        rightHandState = true;
-                        //haschangehappened = true;
-                    }
+                    // if (skelPosition.IsRightHandClosed() && !rightHandState)
+                    // {
+                    //     //hand.Add(PartToTrack.RightHand, true);
+                    //     rightHandState = true;
+                    //     HandStateRight?.Invoke("RIGHTHAND_OPEN");
+                    //     //haschangehappened = true;
+                    // }
+                    // if (!skelPosition.IsRightHandClosed() && rightHandState)
+                    // {
+                    //     //hand.Add(PartToTrack.RightHand, false);
+                    //     HandStateRight?.Invoke("RIGHTHAND_CLOSE");
+                    //     rightHandState = true;
+                    //     //haschangehappened = true;
+                    // }
                     if (!skelPosition.IsRightHandClosed())
                     {
                         //hand.Add(PartToTrack.RightHand, true);
@@ -365,4 +377,56 @@ public class KinectSkeletonManager : MonoBehaviour
         }
     }
 
+}
+
+
+//A class that changes the value of the variable only if it receives constant values for a certain amount of time
+public class ConstantValue<T>
+{
+    private T _val;
+    private T _possibleNewVal; //The value that is currently being tested
+    private float _timeToChange;
+    private float _timer;
+
+    public ConstantValue(T val, float timeToChange)
+    {
+        _val = val;
+        _possibleNewVal = val;
+        _timeToChange = timeToChange;
+        _timer = 0;
+    }
+
+    public T Value
+    {
+        get
+        {
+            return _val;
+        }
+    }
+    public void UpdateVal(T newVal)
+    {
+        _timer += Time.deltaTime;
+        if (EqualityComparer<T>.Default.Equals(newVal, _val)) return;
+        if (EqualityComparer<T>.Default.Equals(_possibleNewVal, newVal))
+        {
+            if (_timer >= _timeToChange)
+            {
+                Debug.Log($"{_val} -> {newVal}");
+                _val = newVal;
+                _timer = 0;
+            }
+        }
+        else
+        {
+            _possibleNewVal = newVal;
+            _timer = 0;
+        }
+    }
+
+    public void ForceVal(T newVal)
+    {
+        _val = newVal;
+        _timer = 0;
+        Debug.Log($"{_val} -|> {newVal}");
+    }
 }
