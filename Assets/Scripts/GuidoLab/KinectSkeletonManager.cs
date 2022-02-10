@@ -222,11 +222,11 @@ public class KinectSkeletonManager : MonoBehaviour
             {
 
                 // Crouch
-                Vector3 SpineBase = FixPosition(skelPosition.SpineBase);
-                Vector3 KneeLeft = FixPosition(skelPosition.KneeLeft);
-                Vector3 KneeRight = FixPosition(skelPosition.KneeRight);
-                Vector3 HandLeft = FixPosition(skelPosition.HandLeft);
-                Vector3 HandRight = FixPosition(skelPosition.HandRight);
+                Vector3 SpineBase = skelPosition.SpineBase;
+                Vector3 KneeLeft = skelPosition.KneeLeft;
+                Vector3 KneeRight = skelPosition.KneeRight;
+                Vector3 HandLeft = skelPosition.HandLeft;
+                Vector3 HandRight = skelPosition.HandRight;
                 if ((HandLeft.y < KneeLeft.y || HandRight.y < KneeRight.y))
                 {
                     // EventManager.TriggerEvent("OnCrouch", gameObject); // Deprecated, Is called on key press and on key release
@@ -246,7 +246,7 @@ public class KinectSkeletonManager : MonoBehaviour
                 }
 
                 // HandRaise
-                Vector3 Head = FixPosition(skelPosition.Head);
+                Vector3 Head = skelPosition.Head;
                 if ((Head.y < HandLeft.y && Head.y < HandRight.y))
                 {
                     if (!_activeHandRaise)
