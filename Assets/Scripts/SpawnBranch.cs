@@ -47,7 +47,7 @@ public class SpawnBranch : Tree
 
         if (instance == null /* true*/)
         {
-            instance = Instantiate(prefab, position, Quaternion.Euler(new Vector3(Random.Range(0, 360), Random.Range(0, 360), Random.Range(0, 360))));
+            instance = Instantiate(prefab, position, Quaternion.Euler(new Vector3(Random.Range(0, 0), Random.Range(60, 60), Random.Range(0, 0))));
             (instance.GetComponentsInChildren<Rigidbody>()[0]).AddForce(forceAdded);
 
             BroadcastMessage("OnHelperGlowDisable", gameObject, SendMessageOptions.DontRequireReceiver);
