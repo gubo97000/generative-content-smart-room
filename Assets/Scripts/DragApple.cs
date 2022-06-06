@@ -57,10 +57,15 @@ public class DragApple : MonoBehaviour
 
     void OnMouseUp()
     {
-        gameObject.tag = "Untagged";
+        gameObject.tag = "AppleUndragged";
         gameObject.GetComponent<Collider>().isTrigger = false;
-        //if (staysAfloat)
-        //    GetComponent<Rigidbody>().isKinematic = true;
+        
+        if (gameObject.transform.position.y < 0)
+           gameObject.transform.position = new Vector3(gameObject.transform.position.x, 1.5f, gameObject.transform.position.z);
+        if (gameObject.transform.position.x < -7.5f)
+           gameObject.transform.position = new Vector3(-7.0f, gameObject.transform.position.y, gameObject.transform.position.z);
+        else if (gameObject.transform.position.x > 7.5f)
+           gameObject.transform.position = new Vector3(7.0f, gameObject.transform.position.y, gameObject.transform.position.z);
 
     }
 
