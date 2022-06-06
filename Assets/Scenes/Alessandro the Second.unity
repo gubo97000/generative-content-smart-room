@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.22074765, g: 0.18264785, b: 0.31696522, a: 1}
+  m_IndirectSpecularColor: {r: 0.2982054, g: 0.63629407, b: 0.9975813, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -767,6 +767,8 @@ MonoBehaviour:
   prefabsList:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &18891897
 BoxCollider:
@@ -868,6 +870,8 @@ MonoBehaviour:
   isJump: 1
   prefabsList:
   - state: Day
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &19890014
@@ -2295,6 +2299,8 @@ MonoBehaviour:
   prefabsList:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &48623126
 BoxCollider:
@@ -2879,6 +2885,8 @@ MonoBehaviour:
   prefabsList:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &59477600
 BoxCollider:
@@ -3065,6 +3073,8 @@ MonoBehaviour:
   prefabsList:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &60314379
 BoxCollider:
@@ -3166,6 +3176,8 @@ MonoBehaviour:
   isJump: 1
   prefabsList:
   - state: Day
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &68955313
@@ -4396,6 +4408,8 @@ MonoBehaviour:
   prefabsList:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &99251911
 BoxCollider:
@@ -4891,6 +4905,8 @@ MonoBehaviour:
   prefabsList:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &106568193
 BoxCollider:
@@ -5185,6 +5201,8 @@ MonoBehaviour:
   isJump: 1
   prefabsList:
   - state: Day
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &115685306
@@ -5730,6 +5748,8 @@ MonoBehaviour:
   prefabsList:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &119154346
 BoxCollider:
@@ -6107,6 +6127,8 @@ MonoBehaviour:
   prefabsList:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &123091919
 BoxCollider:
@@ -6292,6 +6314,8 @@ MonoBehaviour:
   isJump: 1
   prefabsList:
   - state: Day
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &127278896
@@ -6600,6 +6624,8 @@ MonoBehaviour:
   prefabsList:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &129457553
 BoxCollider:
@@ -6890,6 +6916,8 @@ MonoBehaviour:
   isJump: 1
   prefabsList:
   - state: Day
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &135630660
@@ -7409,6 +7437,8 @@ MonoBehaviour:
   isJump: 1
   prefabsList:
   - state: Day
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &146230276
@@ -8560,6 +8590,8 @@ MonoBehaviour:
   isJump: 1
   prefabsList:
   - state: Day
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &171174947
@@ -13242,6 +13274,8 @@ MonoBehaviour:
   prefabsList:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &264387041
 BoxCollider:
@@ -13633,6 +13667,8 @@ MonoBehaviour:
   prefabsList:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &270105059
 BoxCollider:
@@ -13800,6 +13836,8 @@ MonoBehaviour:
   isJump: 1
   prefabsList:
   - state: Day
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &274211592
@@ -14131,6 +14169,8 @@ MonoBehaviour:
   isJump: 1
   prefabsList:
   - state: Day
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &277120639
@@ -14513,6 +14553,8 @@ MonoBehaviour:
   isJump: 1
   prefabsList:
   - state: Day
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &282350354
@@ -15497,6 +15539,8 @@ MonoBehaviour:
   isJump: 1
   prefabsList:
   - state: Day
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &304253218
@@ -20570,6 +20614,8 @@ MonoBehaviour:
   prefabsList:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &407991786
 BoxCollider:
@@ -21363,6 +21409,8 @@ MonoBehaviour:
   isJump: 1
   prefabsList:
   - state: Day
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &425073318
@@ -22301,6 +22349,8 @@ MonoBehaviour:
   prefabsList:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &442622700
 BoxCollider:
@@ -22860,6 +22910,8 @@ MonoBehaviour:
   isJump: 1
   prefabsList:
   - state: Day
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &445681635
@@ -23435,6 +23487,8 @@ MonoBehaviour:
   prefabsList:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &465437594
 BoxCollider:
@@ -23720,6 +23774,8 @@ MonoBehaviour:
   isJump: 1
   prefabsList:
   - state: Day
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &468853712
@@ -24372,6 +24428,8 @@ MonoBehaviour:
   isJump: 1
   prefabsList:
   - state: Day
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &476786929
@@ -25096,6 +25154,8 @@ MonoBehaviour:
   isJump: 1
   prefabsList:
   - state: Day
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &480437199
@@ -25908,6 +25968,8 @@ MonoBehaviour:
   prefabsList:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &491826957
 BoxCollider:
@@ -26082,6 +26144,8 @@ MonoBehaviour:
   isJump: 1
   prefabsList:
   - state: Day
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &496702794
@@ -27073,6 +27137,8 @@ MonoBehaviour:
   prefabsList:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &512844161
 BoxCollider:
@@ -27765,6 +27831,8 @@ MonoBehaviour:
   prefabsList:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &521241117
 BoxCollider:
@@ -28171,6 +28239,8 @@ MonoBehaviour:
   prefabsList:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &528429179
 BoxCollider:
@@ -28559,6 +28629,8 @@ MonoBehaviour:
   isJump: 1
   prefabsList:
   - state: Day
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &533950595
@@ -29358,6 +29430,8 @@ MonoBehaviour:
   isJump: 1
   prefabsList:
   - state: Day
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &543406210
@@ -31306,6 +31380,8 @@ MonoBehaviour:
   prefabsList:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &577508656
 BoxCollider:
@@ -32553,6 +32629,8 @@ MonoBehaviour:
   prefabsList:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &610035136
 BoxCollider:
@@ -33482,6 +33560,8 @@ MonoBehaviour:
   isJump: 1
   prefabsList:
   - state: Day
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &624116900
@@ -35832,6 +35912,8 @@ MonoBehaviour:
   prefabsList:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &668767881
 BoxCollider:
@@ -37399,6 +37481,8 @@ MonoBehaviour:
   prefabsList:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &695856954
 BoxCollider:
@@ -37703,6 +37787,8 @@ MonoBehaviour:
   isJump: 1
   prefabsList:
   - state: Day
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &699941973
@@ -38089,6 +38175,8 @@ MonoBehaviour:
   isJump: 1
   prefabsList:
   - state: Day
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &704651355
@@ -38633,6 +38721,8 @@ MonoBehaviour:
   prefabsList:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &713312458
 BoxCollider:
@@ -38730,6 +38820,8 @@ MonoBehaviour:
   isJump: 1
   prefabsList:
   - state: Day
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &716640886
@@ -39429,6 +39521,8 @@ MonoBehaviour:
   prefabsList:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &737826725
 BoxCollider:
@@ -39525,6 +39619,8 @@ MonoBehaviour:
   isJump: 1
   prefabsList:
   - state: Day
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &737933006
@@ -40112,6 +40208,8 @@ MonoBehaviour:
   prefabsList:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &752562444
 BoxCollider:
@@ -40420,6 +40518,8 @@ MonoBehaviour:
   prefabsList:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &759037557
 BoxCollider:
@@ -40522,6 +40622,8 @@ MonoBehaviour:
   isJump: 1
   prefabsList:
   - state: Day
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &759458652
@@ -41124,6 +41226,8 @@ MonoBehaviour:
   prefabsList:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &768041888
 BoxCollider:
@@ -41454,6 +41558,8 @@ MonoBehaviour:
   prefabsList:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &779574747
 BoxCollider:
@@ -41639,6 +41745,8 @@ MonoBehaviour:
   prefabsList:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &782090663
 BoxCollider:
@@ -41740,6 +41848,8 @@ MonoBehaviour:
   isJump: 1
   prefabsList:
   - state: Day
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &783383609
@@ -42137,6 +42247,8 @@ MonoBehaviour:
   prefabsList:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &793256850
 BoxCollider:
@@ -42366,6 +42478,8 @@ MonoBehaviour:
   isJump: 1
   prefabsList:
   - state: Day
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &797753467
@@ -44988,6 +45102,8 @@ MonoBehaviour:
   prefabsList:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &856514719
 BoxCollider:
@@ -46774,6 +46890,8 @@ MonoBehaviour:
   prefabsList:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &895249108
 BoxCollider:
@@ -47221,6 +47339,8 @@ MonoBehaviour:
   isJump: 1
   prefabsList:
   - state: Day
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &897850955
@@ -48950,6 +49070,8 @@ MonoBehaviour:
   prefabsList:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &934195012
 BoxCollider:
@@ -49862,6 +49984,8 @@ MonoBehaviour:
   prefabsList:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &941610926
 BoxCollider:
@@ -50147,6 +50271,8 @@ MonoBehaviour:
   isJump: 1
   prefabsList:
   - state: Day
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &952345342
@@ -50557,6 +50683,8 @@ MonoBehaviour:
   prefabsList:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &958356390
 BoxCollider:
@@ -50921,6 +51049,8 @@ MonoBehaviour:
   isJump: 1
   prefabsList:
   - state: Day
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &963130311
@@ -53038,6 +53168,8 @@ MonoBehaviour:
   prefabsList:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &1002861411
 BoxCollider:
@@ -53728,6 +53860,8 @@ MonoBehaviour:
   prefabsList:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &1035268705
 BoxCollider:
@@ -54382,6 +54516,8 @@ MonoBehaviour:
   isJump: 1
   prefabsList:
   - state: Day
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &1038882376
@@ -55865,6 +56001,8 @@ MonoBehaviour:
   prefabsList:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &1067086063
 BoxCollider:
@@ -57290,6 +57428,8 @@ MonoBehaviour:
   isJump: 1
   prefabsList:
   - state: Day
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &1101198649
@@ -58755,6 +58895,8 @@ MonoBehaviour:
   prefabsList:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &1135042240
 BoxCollider:
@@ -59901,6 +60043,8 @@ MonoBehaviour:
   isJump: 1
   prefabsList:
   - state: Day
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &1161968816
@@ -62805,6 +62949,8 @@ MonoBehaviour:
   prefabsList:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &1226386576
 BoxCollider:
@@ -62984,6 +63130,8 @@ MonoBehaviour:
   isJump: 1
   prefabsList:
   - state: Day
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &1230226240
@@ -63615,6 +63763,8 @@ MonoBehaviour:
   isJump: 1
   prefabsList:
   - state: Day
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &1237341963
@@ -65484,6 +65634,8 @@ MonoBehaviour:
   isJump: 1
   prefabsList:
   - state: Day
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &1265958504
@@ -72221,6 +72373,8 @@ MonoBehaviour:
   prefabsList:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &1305028075
 BoxCollider:
@@ -72928,6 +73082,8 @@ MonoBehaviour:
   isJump: 1
   prefabsList:
   - state: Day
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &1321243170
@@ -73652,6 +73808,8 @@ MonoBehaviour:
   isJump: 1
   prefabsList:
   - state: Day
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &1336398429
@@ -75004,6 +75162,8 @@ MonoBehaviour:
   prefabsList:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &1354446518
 BoxCollider:
@@ -75081,7 +75241,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mushrooms:
   - {fileID: 1954925484}
-  - {fileID: 0}
   - {fileID: 1561949065}
   - {fileID: 980141099}
   - {fileID: 699801109}
@@ -75095,7 +75254,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1358905018}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.22, y: 1, z: -3.45}
+  m_LocalPosition: {x: -5.95, y: 2.65, z: -3.45}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -75337,6 +75496,8 @@ MonoBehaviour:
   isJump: 1
   prefabsList:
   - state: Day
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &1360501907
@@ -75625,6 +75786,8 @@ MonoBehaviour:
   prefabsList:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &1366587883
 BoxCollider:
@@ -75820,6 +75983,8 @@ MonoBehaviour:
   isJump: 1
   prefabsList:
   - state: Day
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &1366851658
@@ -76147,6 +76312,8 @@ MonoBehaviour:
   isJump: 1
   prefabsList:
   - state: Day
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &1375846117
@@ -77938,6 +78105,8 @@ MonoBehaviour:
   prefabsList:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &1407746648
 BoxCollider:
@@ -78600,6 +78769,8 @@ MonoBehaviour:
   isJump: 1
   prefabsList:
   - state: Day
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &1414117086
@@ -80590,6 +80761,8 @@ MonoBehaviour:
   prefabsList:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &1460165322
 BoxCollider:
@@ -81819,6 +81992,8 @@ MonoBehaviour:
   prefabsList:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &1480667333
 BoxCollider:
@@ -82219,6 +82394,8 @@ MonoBehaviour:
   prefabsList:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &1490518843
 BoxCollider:
@@ -82505,6 +82682,8 @@ MonoBehaviour:
   prefabsList:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &1494287128
 BoxCollider:
@@ -82666,6 +82845,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -8072944317838512920, guid: 67161c2a218cc4a479648d192ee3fad9, type: 3}
+      propertyPath: m_Radius
+      value: 1.74
+      objectReference: {fileID: 0}
+    - target: {fileID: -8072944317838512920, guid: 67161c2a218cc4a479648d192ee3fad9, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 286585573322334918, guid: 67161c2a218cc4a479648d192ee3fad9, type: 3}
       propertyPath: m_Layer
       value: 7
@@ -82685,6 +82872,34 @@ PrefabInstance:
     - target: {fileID: 570745970975689299, guid: 67161c2a218cc4a479648d192ee3fad9, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 624852318042756765, guid: 67161c2a218cc4a479648d192ee3fad9, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 624852318042756765, guid: 67161c2a218cc4a479648d192ee3fad9, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 624852318042756765, guid: 67161c2a218cc4a479648d192ee3fad9, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 624852318042756765, guid: 67161c2a218cc4a479648d192ee3fad9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.19
+      objectReference: {fileID: 0}
+    - target: {fileID: 624852318042756765, guid: 67161c2a218cc4a479648d192ee3fad9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.143
+      objectReference: {fileID: 0}
+    - target: {fileID: 624852318042756765, guid: 67161c2a218cc4a479648d192ee3fad9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 624852318042756765, guid: 67161c2a218cc4a479648d192ee3fad9, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1865475588714569495, guid: 67161c2a218cc4a479648d192ee3fad9, type: 3}
       propertyPath: m_RootOrder
@@ -82845,6 +83060,10 @@ PrefabInstance:
     - target: {fileID: 9063695621638397399, guid: 67161c2a218cc4a479648d192ee3fad9, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 9106672727785509282, guid: 67161c2a218cc4a479648d192ee3fad9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 67161c2a218cc4a479648d192ee3fad9, type: 3}
@@ -83495,6 +83714,8 @@ MonoBehaviour:
   isJump: 1
   prefabsList:
   - state: Day
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &1517443364
@@ -89063,6 +89284,8 @@ MonoBehaviour:
   prefabsList:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &1530701484
 BoxCollider:
@@ -89164,6 +89387,8 @@ MonoBehaviour:
   isJump: 1
   prefabsList:
   - state: Day
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &1532085171
@@ -89891,6 +90116,8 @@ MonoBehaviour:
   isJump: 1
   prefabsList:
   - state: Day
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &1548588862
@@ -91807,6 +92034,8 @@ MonoBehaviour:
   isJump: 1
   prefabsList:
   - state: Day
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &1578624295
@@ -94126,6 +94355,8 @@ MonoBehaviour:
   prefabsList:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &1624295007
 BoxCollider:
@@ -94503,6 +94734,8 @@ MonoBehaviour:
   isJump: 1
   prefabsList:
   - state: Day
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &1631181245
@@ -96327,6 +96560,8 @@ MonoBehaviour:
   prefabsList:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &1665138689
 BoxCollider:
@@ -97026,6 +97261,8 @@ MonoBehaviour:
   prefabsList:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &1683274712
 BoxCollider:
@@ -97210,6 +97447,8 @@ MonoBehaviour:
   isJump: 1
   prefabsList:
   - state: Day
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &1686325482
@@ -97421,6 +97660,8 @@ MonoBehaviour:
   isJump: 1
   prefabsList:
   - state: Day
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &1690005839
@@ -98374,6 +98615,8 @@ MonoBehaviour:
   prefabsList:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &1707983823
 BoxCollider:
@@ -98649,7 +98892,7 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 0.26379493, g: 0.40115762, b: 0.9811321, a: 1}
-  m_Intensity: 1.2
+  m_Intensity: 0.17852119
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -99019,6 +99262,8 @@ MonoBehaviour:
   prefabsList:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &1721115808
 BoxCollider:
@@ -99204,6 +99449,8 @@ MonoBehaviour:
   prefabsList:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &1731669046
 BoxCollider:
@@ -99306,6 +99553,8 @@ MonoBehaviour:
   isJump: 1
   prefabsList:
   - state: Day
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &1732027392
@@ -101919,6 +102168,8 @@ MonoBehaviour:
   prefabsList:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &1780012707
 BoxCollider:
@@ -102536,6 +102787,8 @@ MonoBehaviour:
   isJump: 1
   prefabsList:
   - state: Day
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &1788260948
@@ -104226,6 +104479,8 @@ MonoBehaviour:
   isJump: 1
   prefabsList:
   - state: Day
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &1821760480
@@ -106402,6 +106657,8 @@ MonoBehaviour:
   prefabsList:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &1862068217
 BoxCollider:
@@ -106991,7 +107248,7 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 1, g: 0.5917582, b: 0.21226418, a: 1}
-  m_Intensity: 0
+  m_Intensity: 1.2768486
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -107286,6 +107543,8 @@ MonoBehaviour:
   isJump: 1
   prefabsList:
   - state: Day
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &1885151812
@@ -108066,6 +108325,8 @@ MonoBehaviour:
   prefabsList:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &1904029274
 BoxCollider:
@@ -108379,6 +108640,8 @@ MonoBehaviour:
   prefabsList:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &1909111685
 BoxCollider:
@@ -108480,6 +108743,8 @@ MonoBehaviour:
   isJump: 1
   prefabsList:
   - state: Day
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &1915010787
@@ -108660,6 +108925,8 @@ MonoBehaviour:
   isJump: 1
   prefabsList:
   - state: Day
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &1919720277
@@ -109474,6 +109741,8 @@ MonoBehaviour:
   prefabsList:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &1929004691
 BoxCollider:
@@ -109821,6 +110090,8 @@ MonoBehaviour:
   prefabsList:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &1938175567
 BoxCollider:
@@ -109922,6 +110193,8 @@ MonoBehaviour:
   isJump: 1
   prefabsList:
   - state: Day
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &1939209594
@@ -110185,6 +110458,8 @@ MonoBehaviour:
   isJump: 1
   prefabsList:
   - state: Day
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &1947317931
@@ -110794,6 +111069,8 @@ MonoBehaviour:
   isJump: 1
   prefabsList:
   - state: Day
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &1954852905
@@ -111762,6 +112039,8 @@ MonoBehaviour:
   prefabsList:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &1979429279
 BoxCollider:
@@ -111863,6 +112142,8 @@ MonoBehaviour:
   isJump: 1
   prefabsList:
   - state: Day
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &1979680045
@@ -114853,6 +115134,8 @@ MonoBehaviour:
   prefabsList:
   - state: Day
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &2023374122
 BoxCollider:
@@ -115037,6 +115320,8 @@ MonoBehaviour:
   isJump: 1
   prefabsList:
   - state: Day
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &2025624810
@@ -117505,6 +117790,8 @@ MonoBehaviour:
   isJump: 1
   prefabsList:
   - state: Day
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &2077949435
@@ -119981,6 +120268,8 @@ MonoBehaviour:
   isJump: 1
   prefabsList:
   - state: Day
+    prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
+  - state: Night
     prefab: {fileID: 81400454243362304, guid: cf68d02d8620d18428466cdd2cb37d4a, type: 3}
   cleanupInsects: 0
 --- !u!65 &2137717226
