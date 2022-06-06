@@ -25,6 +25,10 @@ public class TwoPlayerTrigger : MonoBehaviour
         {
             playerInsideTrigger.Add(other.gameObject);
         }
+        if (enabled && other.gameObject.tag == "Branch")
+        {
+            GameObject.Destroy(other.gameObject);
+        }
     }
     void OnTriggerStay(Collider other)
     {
