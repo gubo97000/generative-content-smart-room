@@ -45998,7 +45998,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   states:
-    - {fileID: 627759946}
   - name: Night
     scripts:
     - {fileID: 2088669769}
