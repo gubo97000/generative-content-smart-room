@@ -13,6 +13,7 @@ public class ReturnToGrass : MonoBehaviour
     void OnEnable()
     {
         startTime = Time.time;
+        executedOnce = false;
 
     }
     void OnDisable()
@@ -50,6 +51,7 @@ public class ReturnToGrass : MonoBehaviour
             {
                 child.gameObject.GetComponent<BoxCollider>().enabled = true;
             }
+            
         }
 
     }
