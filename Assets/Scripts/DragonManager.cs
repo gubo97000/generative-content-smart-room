@@ -40,7 +40,7 @@ public class DragonManager : MonoBehaviour
 
     void CheckWin(EventDict dict)
     {
-        if (index == requiredToWin)
+        if (index >= requiredToWin)
         {
             EventManager.TriggerEvent("NextTutorial", gameObject);
             Debug.Log("WIN!!");
