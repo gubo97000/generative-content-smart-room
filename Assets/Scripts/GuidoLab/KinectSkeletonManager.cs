@@ -292,9 +292,11 @@ public class KinectSkeletonManager : MonoBehaviour
                 //Vector3 FootRight = FixPosition(skelPosition.FootRight);
                 Vector3 FootLeft = skelPosition.FootLeft;
                 Vector3 FootRight = skelPosition.FootRight;
+                //Vector3 KneeLeft = skelPosition.KneeLeft;
                 // if ((FootLeft.y > -0.92f && FootRight.y > -0.92f))
                 // Debug.Log($"{FootLeft.y }  {FootRight.y}");
-                if ((FootLeft.y > -0.85f && FootRight.y > -0.85f))
+                // if ((FootLeft.y > -0.85f && FootRight.y > -0.85f))
+                if ((Math.Abs(KneeLeft.y - FootLeft.y) < 0.3f))
                 {
                     if (!_activeJump)
                     {

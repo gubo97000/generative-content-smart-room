@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.1875351, g: 0.17764527, b: 0.31016532, a: 1}
+  m_IndirectSpecularColor: {r: 0.18714854, g: 0.17716965, b: 0.30987528, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1376,7 +1376,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!199 &524268427
 ParticleSystemRenderer:
   serializedVersion: 6
@@ -6428,7 +6428,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4324833118264115227, guid: fac4f6d8bfd16494cbcfb36748ac8f64, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4803440042458735194, guid: fac4f6d8bfd16494cbcfb36748ac8f64, type: 3}
       propertyPath: m_RootOrder
@@ -6911,7 +6911,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4324833118264115227, guid: fac4f6d8bfd16494cbcfb36748ac8f64, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4803440042458735194, guid: fac4f6d8bfd16494cbcfb36748ac8f64, type: 3}
       propertyPath: m_RootOrder
@@ -7598,18 +7598,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   states:
-  - name: Crouch Drag
-    scripts:
-    - {fileID: 1125591988}
-    - {fileID: 1989376831}
-    - {fileID: 1446560630}
-    - {fileID: 819984838}
-    - {fileID: 2116001000}
-    - {fileID: 524268426}
-    - {fileID: 1275715597}
-    - {fileID: 1907483856}
-    - {fileID: 1923296857}
-    - {fileID: 1343128106}
   - name: Welcome
     scripts:
     - {fileID: 1015104724}
@@ -7627,6 +7615,18 @@ MonoBehaviour:
     - {fileID: 1176473616}
     - {fileID: 524268426}
     - {fileID: 1275715597}
+  - name: Crouch Drag
+    scripts:
+    - {fileID: 1125591988}
+    - {fileID: 1989376831}
+    - {fileID: 1446560630}
+    - {fileID: 819984838}
+    - {fileID: 2116001000}
+    - {fileID: 524268426}
+    - {fileID: 1275715597}
+    - {fileID: 1907483856}
+    - {fileID: 1923296857}
+    - {fileID: 1343128106}
   - name: Touch
     scripts:
     - {fileID: 1893814827}
@@ -7898,7 +7898,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1015104725
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8218,7 +8218,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1125591989
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8894,7 +8894,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!199 &1275715598
 ParticleSystemRenderer:
   serializedVersion: 6
@@ -14192,7 +14192,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!64 &1343128107
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14604,7 +14604,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1446560631
 Transform:
   m_ObjectHideFlags: 0
@@ -21697,7 +21697,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!64 &1907483857
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -21795,7 +21795,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!64 &1923296858
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -22025,7 +22025,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1989376832
 Transform:
   m_ObjectHideFlags: 0
